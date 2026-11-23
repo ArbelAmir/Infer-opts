@@ -76,3 +76,6 @@ quant-Q5_K_M-norepack      Qwen3.5-2B-Q5_K_M.gguf             t=4 tg n=  128 med
 quant-Q4_K_M               Qwen3.5-2B-Q4_K_M.gguf             t=4 pp n=  512 median   184.94 t/s  [181.93..187.44]  rp=True ub=512
 quant-Q4_K_M               Qwen3.5-2B-Q4_K_M.gguf             t=4 tg n=  128 median    12.80 t/s  [12.36..12.90]  rp=True ub=512
 # quant-Q4_K_M took 48s
+quant-Q4_K_M-norepack      Qwen3.5-2B-Q4_K_M.gguf             t=4 pp n=  512 median   186.30 t/s  [177.58..202.44]  rp=False ub=512
+quant-Q4_K_M-norepack      Qwen3.5-2B-Q4_K_M.gguf             t=4 tg n=  128 median    13.79 t/s  [13.33..13.87]  rp=False ub=512
+# quant-Q4_K_M-norepack took 40s
