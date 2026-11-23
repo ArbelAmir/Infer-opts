@@ -157,3 +157,15 @@ qual-2b-q4km-uns: 45/50 correct  {'arith': [10, 10], 'code': [6, 8], 'fact': [10
   arith4    OK  got='12'                           want='12'       124tok 8.3s
   arith5    OK  got='36'                           want='36'       158tok 10.9s
   arith6    OK  got='2048'                         want='2048'     241tok 16.3s
+  arith7    BAD got='no_answer_line'               want='1517'     512tok 35.0s
+  arith8    OK  got='6'                            want='6'        331tok 21.8s
+  arith9    OK  got='0.375'                        want='0.375'    212tok 14.1s
+  arith10   OK  got='2000'                         want='2000'     233tok 15.2s
+  reason1   BAD got='4'                            want='12'       187tok 12.4s
+  reason2   OK  got='215'                          want='215'      373tok 24.3s
+  reason3   OK  got='12'                           want='12'       220tok 14.5s
+  reason4   OK  got='126'                          want='126'      382tok 24.4s
+  reason5   BAD got='72'                           want='66'       314tok 20.5s
+  reason6   OK  got='2'                            want='2'        412tok 27.0s
+  reason7   OK  got='Ben'                          want='Ben'      210tok 13.6s
+  reason8   OK  got='42'                           want='42'       360tok 23.1s
