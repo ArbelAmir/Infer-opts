@@ -21,12 +21,13 @@ def main():
     p.add_argument("--model", required=True)
     p.add_argument("--args", default="-p 512 -n 128 -r 5")
     p.add_argument("--prefix", default="")
+    p.add_argument("--ofmt", default="jsonl", help="llama-bench output format: jsonl (stock) or json (ik_llama.cpp)")
     p.add_argument("--env", action="append", default=[])
     p.add_argument("--out", default=os.path.join(common.RESULTS, "llama_bench.jsonl"))
     a = p.parse_args()
     build_dir = os.path.join(common.ENGINES, a.engine, f"build-{a.build}")
     model = common.model_path(a.model)
-    cmd = shlex.split(a.prefix) + [os.path.join(build_dir, "bin", "llama-bench"), "-m", model, "-o", "jsonl"] + shlex.split(a.args)
+    cmd = shlex.split(a.prefix) + [os.path.join(build_dir, "bin", "llama-bench"), "-m", model, "-o", a.ofmt] + shlex.split(a.args)
     env = dict(os.environ, **dict(kv.split("=", 1) for kv in a.env))
     log_dir = os.path.join(common.LOGS, "lbench")
     os.makedirs(log_dir, exist_ok=True)
@@ -44,10 +45,12 @@ def main():
         print(r.stderr[-2000:], file=sys.stderr)
         sys.exit(f"llama-bench failed ({r.returncode}); see {log_path}")
     binfo = common.build_info(build_dir)
-    for line in r.stdout.splitlines():
-        if not line.startswith("{"):
-            continue
-        d = json.loads(line)
+    if a.ofmt == "json":
+        txt = r.stdout[r.stdout.index("["):r.stdout.rindex("]") + 1]
+        recs = json.loads(txt)
+    else:
+        recs = [json.loads(l) for l in r.stdout.splitlines() if l.startswith("{")]
+    for d in recs:
         row = {
             "ts": time.strftime("%FT%T"), "name": a.name, "lever": a.lever, "engine": a.engine, "build": a.build,
             "engine_commit": binfo.get("commit"), "build_cmake_args": binfo.get("cmake_args"), "cc": binfo.get("cc_version"),
@@ -56,7 +59,7 @@ def main():
             "kind": "pp" if d.get("n_gen", 0) == 0 else ("tg" if d.get("n_prompt", 0) == 0 else "pg"),
             "n_prompt": d.get("n_prompt"), "n_gen": d.get("n_gen"), "n_threads": d.get("n_threads"),
             "n_batch": d.get("n_batch"), "n_ubatch": d.get("n_ubatch"), "n_depth": d.get("n_depth"),
-            "repack": d.get("repack"), "load_mode": d.get("load_mode"), "poll": d.get("poll"),
+            "repack": d.get("repack", d.get("run_time_repack", d.get("rtr"))), "load_mode": d.get("load_mode"), "poll": d.get("poll"),
             "cpu_mask": d.get("cpu_mask"), "cpu_strict": d.get("cpu_strict"), "type_k": d.get("type_k"),
             "avg_ts": d.get("avg_ts"), "stddev_ts": d.get("stddev_ts"), "samples_ts": d.get("samples_ts"),
             "busy_before": round(busy, 3), "raw_log": os.path.relpath(log_path, common.ROOT),

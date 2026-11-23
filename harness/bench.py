@@ -141,38 +141,64 @@ def run_config(a):
     extra = json.loads(a.body) if a.body else {}
     env = dict(kv.split("=", 1) for kv in a.env)
     rows = []
+    def make_body(wn):
+        w = wl_all[wn]
+        body = {"messages": w["messages"], "max_tokens": w["max_tokens"], "stream": True,
+                "temperature": 0, "seed": 42, "cache_prompt": False,
+                "chat_template_kwargs": {"enable_thinking": a.think == "on"}}
+        body.update(extra)
+        return body
+
+    def show(wn, i, r):
+        t = r["timings"]
+        print(f"  {a.name:28s} {wn:12s} rep{i} pp {t.get('prompt_n')}tok {t.get('prompt_per_second') or 0:8.1f} t/s | "
+              f"gen {t.get('predicted_n')}tok {t.get('predicted_per_second') or 0:7.2f} t/s | ttft {r['ttft_s'] or -1:6.2f}s "
+              f"total {r['total_s']:6.2f}s{'  (warmup)' if r['warmup'] else ''}", flush=True)
+
+    per_wl, props, mem, mem_after_load = {}, {}, {}, {}
     with common.bench_lock(a.name) as waited:
         busy = common.wait_idle()
         if a.drop_caches:
             subprocess.run("sync; echo 3 > /proc/sys/vm/drop_caches", shell=True)
         srv = Server(binary, model, a.server_args, a.port, os.path.join(log_dir, "server.log"), a.prefix, env)
-        load_s = srv.start()
-        try:
-            _, props = http_json(a.port, "/props")
-            props = json.loads(props)
-        except Exception:
-            props = {}
-        mem_after_load = vm_hwm_kb(srv.proc.pid)
-        per_wl = {}
-        try:
+        if a.isolate:
+            # Fresh server per measured request: required for drafting/caching features that keep state
+            # across requests (n-gram pools, prompt cache), so a repeat can't feed on its own earlier output.
+            tiny = {"messages": [{"role": "user", "content": "Say hello."}], "max_tokens": 8, "stream": True,
+                    "temperature": 0, "chat_template_kwargs": {"enable_thinking": False}}
             for wn in names:
-                w = wl_all[wn]
-                body = {"messages": w["messages"], "max_tokens": w["max_tokens"], "stream": True,
-                        "temperature": 0, "seed": 42, "cache_prompt": False,
-                        "chat_template_kwargs": {"enable_thinking": a.think == "on"}}
-                body.update(extra)
-                reps = []
-                for i in range(a.warmup + a.reps):
-                    r = chat_stream(a.port, body)
-                    r["warmup"] = i < a.warmup
-                    reps.append(r)
-                    t = r["timings"]
-                    print(f"  {a.name:28s} {wn:12s} rep{i} pp {t.get('prompt_n')}tok {t.get('prompt_per_second') or 0:8.1f} t/s | "
-                          f"gen {t.get('predicted_n')}tok {t.get('predicted_per_second') or 0:7.2f} t/s | ttft {r['ttft_s'] or -1:6.2f}s "
-                          f"total {r['total_s']:6.2f}s{'  (warmup)' if r['warmup'] else ''}", flush=True)
-                per_wl[wn] = reps
-        finally:
-            mem = srv.stop()
+                per_wl[wn] = []
+                for i in range(a.reps):
+                    load_s = srv.start()
+                    try:
+                        chat_stream(a.port, tiny)
+                        r = chat_stream(a.port, make_body(wn))
+                    finally:
+                        m = srv.stop()
+                    mem = m if (m.get("VmHWM") or 0) > (mem.get("VmHWM") or 0) else mem
+                    r["warmup"] = False
+                    per_wl[wn].append(r)
+                    show(wn, i, r)
+        else:
+            load_s = srv.start()
+            try:
+                _, props = http_json(a.port, "/props")
+                props = json.loads(props)
+            except Exception:
+                props = {}
+            mem_after_load = vm_hwm_kb(srv.proc.pid)
+            try:
+                for wn in names:
+                    body = make_body(wn)
+                    reps = []
+                    for i in range(a.warmup + a.reps):
+                        r = chat_stream(a.port, body)
+                        r["warmup"] = i < a.warmup
+                        reps.append(r)
+                        show(wn, i, r)
+                    per_wl[wn] = reps
+            finally:
+                mem = srv.stop()
     binfo = common.build_info(build_dir)
     for wn, reps in per_wl.items():
         meas = [r for r in reps if not r["warmup"]]
@@ -186,7 +212,7 @@ def run_config(a):
             "model": os.path.basename(model), "model_sha256": common.sha256_of(model),
             "model_bytes": os.path.getsize(model),
             "cmd": " ".join(shlex.quote(c) for c in srv.cmd), "env": env, "request_extra": extra, "think": a.think,
-            "reps": len(meas), "warmup": a.warmup,
+            "reps": len(meas), "warmup": a.warmup, "isolate": a.isolate,
             "prompt_n": med(g("prompt_n")), "predicted_n": med(g("predicted_n")),
             "pp_tps": med(g("prompt_per_second")), "pp_tps_range": spread(g("prompt_per_second")),
             "gen_tps": med(g("predicted_per_second")), "gen_tps_range": spread(g("predicted_per_second")),
@@ -225,6 +251,7 @@ def main():
     p.add_argument("--reps", type=int, default=3)
     p.add_argument("--warmup", type=int, default=1)
     p.add_argument("--port", type=int, default=18080)
+    p.add_argument("--isolate", action="store_true", help="fresh server per measured request (stateful features)")
     p.add_argument("--drop-caches", action="store_true", help="drop page cache first (cold load time)")
     p.add_argument("--out", default=os.path.join(common.RESULTS, "results.jsonl"))
     a = p.parse_args()

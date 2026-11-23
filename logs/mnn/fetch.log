@@ -1,0 +1,43 @@
++ cd /home/user/Infer-opts/engines
++ '[' '!' -d MNN/.git ']'
++ mkdir MNN
++ cd MNN
++ git init -q
++ git remote add origin https://github.com/alibaba/MNN.git
++ git fetch --depth 1 origin b0239771b07b317a258fbc384683bbd540741406
+From https://github.com/alibaba/MNN
+ * branch            b0239771b07b317a258fbc384683bbd540741406 -> FETCH_HEAD
++ git checkout -q FETCH_HEAD
++ cd ..
++ git -C MNN log -1 --oneline
+b023977 [CPU:Bugfix] Preserve flat semantics in packed FP16 RMSNorm (#4988)
++ cd /home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN
++ B=https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main
++ for f in llm.mnn llm.mnn.json llm.mnn.weight tokenizer.mtok config.json llm_config.json
++ '[' -s llm.mnn ']'
++ curl -fsSL -o llm.mnn https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main/llm.mnn
++ for f in llm.mnn llm.mnn.json llm.mnn.weight tokenizer.mtok config.json llm_config.json
++ '[' -s llm.mnn.json ']'
++ curl -fsSL -o llm.mnn.json https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main/llm.mnn.json
++ for f in llm.mnn llm.mnn.json llm.mnn.weight tokenizer.mtok config.json llm_config.json
++ '[' -s llm.mnn.weight ']'
++ curl -fsSL -o llm.mnn.weight https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main/llm.mnn.weight
++ for f in llm.mnn llm.mnn.json llm.mnn.weight tokenizer.mtok config.json llm_config.json
++ '[' -s tokenizer.mtok ']'
++ curl -fsSL -o tokenizer.mtok https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main/tokenizer.mtok
++ for f in llm.mnn llm.mnn.json llm.mnn.weight tokenizer.mtok config.json llm_config.json
++ '[' -s config.json ']'
++ curl -fsSL -o config.json https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main/config.json
++ for f in llm.mnn llm.mnn.json llm.mnn.weight tokenizer.mtok config.json llm_config.json
++ '[' -s llm_config.json ']'
++ curl -fsSL -o llm_config.json https://huggingface.co/taobao-mnn/Qwen3.5-2B-MNN/resolve/main/llm_config.json
++ ls -la
+total 1050336
+drwxr-xr-x 2 root root       4096 Nov 23 18:20 .
+drwxr-xr-x 3 root root       4096 Nov 23 18:10 ..
+-rw-r--r-- 1 root root        706 Nov 23 18:20 config.json
+-rw-r--r-- 1 root root    2603920 Nov 23 18:19 llm.mnn
+-rw-r--r-- 1 root root    6519943 Nov 23 18:19 llm.mnn.json
+-rw-r--r-- 1 root root 1059043482 Nov 23 18:20 llm.mnn.weight
+-rw-r--r-- 1 root root       9385 Nov 23 18:20 llm_config.json
+-rw-r--r-- 1 root root    7342238 Nov 23 18:20 tokenizer.mtok

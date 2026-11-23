@@ -1,0 +1,5 @@
+{"engine": "llama.cpp", "variant": "nonative", "commit": "239242322dc24e8c15a458b1beae5064e3358cf8", "cmake_args": ["-DGGML_NATIVE=OFF"], "build_seconds": 223}
+{"engine": "llama.cpp", "variant": "clang", "commit": "239242322dc24e8c15a458b1beae5064e3358cf8", "cmake_args": ["-DCMAKE_C_COMPILER=clang", "-DCMAKE_CXX_COMPILER=clang++"], "build_seconds": 201}
+{"engine": "llama.cpp", "variant": "lto", "commit": "239242322dc24e8c15a458b1beae5064e3358cf8", "cmake_args": ["-DGGML_LTO=ON"], "build_seconds": 224}
+{"engine": "llama.cpp", "variant": "noomp", "commit": "239242322dc24e8c15a458b1beae5064e3358cf8", "cmake_args": ["-DGGML_OPENMP=OFF"], "build_seconds": 230}
+{"engine": "ik_llama.cpp", "variant": "native", "commit": "a28f79a5ac4b8db54eddf3907dc4e607ccca460c", "cmake_args": ["-DGGML_NATIVE=ON"], "build_seconds": 516}

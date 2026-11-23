@@ -1,0 +1,16 @@
+The device supports: i8sdot:0, fp16:0, i8mm: 0, sve2: 0, sme2: 0, perfCores: 0
+Can't open file:/home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+Error for open /home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+| model                          |  modelSize | backend    | threads | precision  | test          | speed(tok/s) |
+| ------------------------------ | ---------: | ---------- | ----: | ---------- | ------------- | ------------ |
+| Qwen3.5-2B-MNN                 | 1009.98 MiB | CPU        |     4 | Low        | pp512         | 164.99 ± 8.40 |
+Can't open file:/home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+Error for open /home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+| Qwen3.5-2B-MNN                 | 1009.98 MiB | CPU        |     4 | Low        | tg128         | 20.63 ± 2.83 |
+Can't open file:/home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+Error for open /home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+| Qwen3.5-2B-MNN                 | 1009.98 MiB | CPU        |     4 | Low        | pp512+tg128   | 167.18 ± 12.05<br>22.44 ± 0.33 |
+decode wall speed (incl. sampling): 22.24 ± 0.32 tok/s
+
+
+WRAP wall_s=83.910 maxrss_kb=1977200 rc=0

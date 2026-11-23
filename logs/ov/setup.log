@@ -1,0 +1,5 @@
+2.0G	/home/user/Infer-opts/models/ov/Qwen3.5-2B-int4-ov
+openvino            2026.4.1   22982
+openvino-genai      2026.4.1.0 2636
+openvino-telemetry  2025.2.0
+openvino-tokenizers 2026.4.1.0
