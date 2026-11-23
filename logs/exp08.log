@@ -62,3 +62,56 @@ qual-2b-bf16: 43/50 correct  {'arith': [7, 10], 'code': [6, 8], 'fact': [10, 10]
   reason1   OK  got='12'                           want='12'       168tok 8.9s
   reason2   OK  got='215'                          want='215'      377tok 20.2s
   reason3   OK  got='12'                           want='12'       256tok 13.8s
+  reason4   OK  got='126'                          want='126'      252tok 13.7s
+  reason5   OK  got='66'                           want='66'       353tok 18.5s
+  reason6   OK  got='2'                            want='2'        310tok 16.3s
+  reason7   OK  got='Ben'                          want='Ben'      185tok 9.9s
+  reason8   OK  got='42'                           want='42'       310tok 16.5s
+  reason9   OK  got='100'                          want='100'      476tok 25.3s
+  reason10  BAD got='no_answer_line'               want='20'       512tok 27.1s
+  reason11  OK  got='Friday'                       want='Friday'   173tok 9.4s
+  reason12  OK  got='60'                           want='60'       375tok 20.1s
+  reason13  OK  got='5'                            want='5'        198tok 10.8s
+  reason14  OK  got='3'                            want='3'        78tok 4.2s
+  fact1     OK  got='Au'                           want='Au'       24tok 1.7s
+  fact2     OK  got='Canberra'                     want='Canberra' 46tok 2.8s
+  fact3     OK  got='1945'                         want='1945'     21tok 1.4s
+  fact4     OK  got='Jupiter'                      want='Jupiter'  49tok 2.9s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 21tok 1.6s
+  fact6     OK  got='6'                            want='6'        44tok 2.6s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  40tok 2.4s
+  fact8     OK  got='6'                            want='6'        44tok 2.5s
+  fact9     OK  got='212'                          want='212'      24tok 1.6s
+  fact10    OK  got='Sodium'                       want='Sodium'   40tok 2.4s
+  read1     OK  got='1801'                         want='1801'     39tok 3.0s
+  read2     OK  got='17'                           want='17'       24tok 2.3s
+  read3     OK  got='Rudge'                        want='Rudge'    73tok 4.8s
+  read4     OK  got='47500'                        want='47500'    88tok 5.4s
+  read5     OK  got='75'                           want='75'       111tok 6.7s
+  read6     OK  got='limestone'                    want='limestone' 28tok 2.5s
+  read7     OK  got='14'                           want='14'       90tok 5.6s
+  read8     OK  got='Abbotsley'                    want='Abbotsley' 36tok 2.8s
+  code1     OK  got='19'                           want='19'       207tok 11.3s
+  code2     BAD got='eha'                          want='amh'      159tok 8.6s
+  code3     OK  got='32'                           want='32'       177tok 9.8s
+  code4     OK  got='55'                           want='55'       372tok 19.6s
+  code5     OK  got='12'                           want='12'       387tok 21.5s
+  code6     OK  got='8'                            want='8'        287tok 15.1s
+  code7     OK  got='302'                          want='302'      177tok 9.3s
+  code8     OK  got='BAN'                          want='BAN'      137tok 7.0s
+qual-2b-q8: 45/50 correct  {'arith': [7, 10], 'code': [7, 8], 'fact': [10, 10], 'read': [8, 8], 'reason': [13, 14]}  tokens 9332  wall 512s  truncated 3
+  arith1    OK  got='1081'                         want='1081'     237tok 17.1s
+  arith2    OK  got='6912'                         want='6912'     214tok 14.6s
+  arith3    OK  got='5543'                         want='5543'     224tok 15.7s
+  arith4    OK  got='12'                           want='12'       159tok 11.3s
+  arith5    OK  got='36'                           want='36'       144tok 10.2s
+  arith6    OK  got='2048'                         want='2048'     267tok 18.7s
+  arith7    OK  got='1517'                         want='1517'     312tok 21.9s
+  arith8    OK  got='6'                            want='6'        238tok 16.4s
+  arith9    OK  got='0.375'                        want='0.375'    129tok 9.0s
+  arith10   OK  got='2000'                         want='2000'     186tok 12.8s
+  reason1   OK  got='12'                           want='12'       177tok 12.3s
+  reason2   BAD got='3 hours 35 minutes'           want='215'      311tok 21.5s
+  reason3   OK  got='12'                           want='12'       209tok 14.5s
+  reason4   OK  got='126'                          want='126'      243tok 18.0s
+  reason5   BAD got='72'                           want='66'       220tok 15.6s
