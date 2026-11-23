@@ -1,0 +1,42 @@
+[
+ {
+  "ttft_s": 0.5781864370001131,
+  "total_s": 30.651783420000356,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 560.962,
+   "prompt_per_token_ms": 10.999254901960784,
+   "prompt_per_second": 90.91524916126225,
+   "predicted_n": 400,
+   "predicted_ms": 30073.335,
+   "predicted_per_token_ms": 75.37176691729323,
+   "predicted_per_second": 13.26756743141391
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type of metal letters, the screw press, and the use of a durable metal typeface. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. He introduced a system of proofreading, where a master copy was printed, then a second copy was made to check for errors, and finally, a third copy was printed to ensure accuracy. This rigorous quality control ensured that the first printed books were of high quality, a necessity for the burgeoning literacy rates in Europe.\n\nThe immediate impact of Gutenberg's press was the explosion of literacy. Before the press, books were expensive, hand-copied manuscripts that took months to produce. A single copy could cost a family's annual income. The press drastically reduced the cost of books, making them affordable for the middle class. This accessibility sparked a cultural revolution. The printing of the Bible, the *New Testament*, and the *New Geneva Bible* in the 1530s and 1540s allowed the common person to read scripture directly, fostering a new religious consciousness and challenging the authority of the Catholic Church. Simultaneously, the press became the primary vehicle for",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5544723290004185,
+  "total_s": 30.639712283000335,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 537.606,
+   "prompt_per_token_ms": 10.541294117647059,
+   "prompt_per_second": 94.86501266726934,
+   "predicted_n": 400,
+   "predicted_ms": 30085.126,
+   "predicted_per_token_ms": 75.40131829573934,
+   "predicted_per_second": 13.262367589884782
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type of metal letters, the screw press, and the use of a durable metal typeface. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. He introduced a system of proofreading, where a master copy was printed, then a second copy was made to check for errors, and finally, a third copy was printed to ensure accuracy. This rigorous quality control ensured that the first printed books were of high quality, a necessity for the burgeoning literacy rates in Europe.\n\nThe immediate impact of Gutenberg's press was the explosion of literacy. Before the press, books were expensive, hand-copied manuscripts that took months to produce. A single copy could cost a family's annual income. The press drastically reduced the cost of books, making them affordable for the middle class. This accessibility sparked a cultural revolution. The printing of the Bible, the *New Testament*, and the *New Geneva Bible* in the 1530s and 1540s allowed the common person to read scripture directly, fostering a new religious consciousness and challenging the authority of the Catholic Church. Simultaneously, the press became the primary vehicle for",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

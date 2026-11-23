@@ -25,3 +25,6 @@ ik-IQ4_XS-rtr              Qwen3.5-2B-IQ4_XS.gguf             t=4 tg n=  128 med
 ik-Q6_K                    Qwen3.5-2B-Q6_K.gguf               t=4 pp n=  512 median   265.16 t/s  [260.44..268.07]  rp=False ub=512
 ik-Q6_K                    Qwen3.5-2B-Q6_K.gguf               t=4 tg n=  128 median    14.29 t/s  [13.15..14.77]  rp=False ub=512
 # ik-Q6_K took 40s
+ik-Q6_K-rtr                Qwen3.5-2B-Q6_K.gguf               t=4 pp n=  512 median   389.05 t/s  [376.30..406.98]  rp=True ub=512
+ik-Q6_K-rtr                Qwen3.5-2B-Q6_K.gguf               t=4 tg n=  128 median    13.84 t/s  [13.18..14.81]  rp=True ub=512
+# ik-Q6_K-rtr took 33s

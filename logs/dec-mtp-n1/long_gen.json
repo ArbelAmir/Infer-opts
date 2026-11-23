@@ -1,0 +1,46 @@
+[
+ {
+  "ttft_s": 0.5429260019991489,
+  "total_s": 35.1526289630001,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 524.756,
+   "prompt_per_token_ms": 10.289333333333333,
+   "prompt_per_second": 97.1880264351432,
+   "predicted_n": 400,
+   "predicted_ms": 34613.24,
+   "predicted_per_token_ms": 86.74997493734335,
+   "predicted_per_second": 11.52738085195145,
+   "draft_n": 237,
+   "draft_n_accepted": 161
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the limitations of manual craftsmanship, ushering in an era of unprecedented information dissemination. This shift did not merely increase the volume of texts; it fundamentally altered the nature of knowledge, power, and society itself.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars, yet it was the German monk Johannes Gutenberg who synthesized these ancient ideas with new metallurgical techniques. By the mid-1400s, Gutenberg's press utilized a combination of movable metal type, a screw press, and a type of ink that allowed for durable, readable text. This technology was revolutionary because it allowed for the rapid, cheap, and accurate reproduction of texts. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a book could take weeks to produce, and errors were common. Gutenberg's press democratized access to knowledge, turning books from the exclusive domain of the clergy and scholars into a commodity available to the common person.\n\nThe immediate impact of this technological leap was the explosion of literacy and the rise of the printing industry. The ability to produce books at a fraction of the cost of hand-copying led to a surge in literacy rates. As the cost of books dropped, they became accessible to the middle class, not just the aristocracy. This shift was particularly profound in the Catholic Church, where the Inquisition was initially used to suppress the printing of the Bible. However, the press eventually became a tool for religious reform. Martin Luther's 95 Theses, printed in 1517, sparked the Protestant Reformation, demonstrating how the press could mobilize political and religious",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5558271709996916,
+  "total_s": 36.55351954700018,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 542.843,
+   "prompt_per_token_ms": 10.643980392156863,
+   "prompt_per_second": 93.94981606099738,
+   "predicted_n": 400,
+   "predicted_ms": 35997.332,
+   "predicted_per_token_ms": 90.21887719298246,
+   "predicted_per_second": 11.084154792360723,
+   "draft_n": 237,
+   "draft_n_accepted": 161
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the limitations of manual craftsmanship, ushering in an era of unprecedented information dissemination. This shift did not merely increase the volume of texts; it fundamentally altered the nature of knowledge, power, and society itself.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars, yet it was the German monk Johannes Gutenberg who synthesized these ancient ideas with new metallurgical techniques. By the mid-1400s, Gutenberg's press utilized a combination of movable metal type, a screw press, and a type of ink that allowed for durable, readable text. This technology was revolutionary because it allowed for the rapid, cheap, and accurate reproduction of texts. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a book could take weeks to produce, and errors were common. Gutenberg's press democratized access to knowledge, turning books from the exclusive domain of the clergy and scholars into a commodity available to the common person.\n\nThe immediate impact of this technological leap was the explosion of literacy and the rise of the printing industry. The ability to produce books at a fraction of the cost of hand-copying led to a surge in literacy rates. As the cost of books dropped, they became accessible to the middle class, not just the aristocracy. This shift was particularly profound in the Catholic Church, where the Inquisition was initially used to suppress the printing of the Bible. However, the press eventually became a tool for religious reform. Martin Luther's 95 Theses, printed in 1517, sparked the Protestant Reformation, demonstrating how the press could mobilize political and religious",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

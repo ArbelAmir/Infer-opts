@@ -1,0 +1,46 @@
+[
+ {
+  "ttft_s": 0.5376755649995175,
+  "total_s": 7.999945311999909,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 520.567,
+   "prompt_per_token_ms": 12.106209302325581,
+   "prompt_per_second": 82.6022394811811,
+   "predicted_n": 88,
+   "predicted_ms": 7465.216,
+   "predicted_per_token_ms": 85.80708045977012,
+   "predicted_per_second": 11.654049929700626,
+   "draft_n": 80,
+   "draft_n_accepted": 47
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a relatively thin layer of the atmosphere, causing most of its shorter blue wavelengths to scatter in all directions while the longer red wavelengths pass through more easily. As the sun approaches the horizon, it travels through a much thicker layer of atmosphere, which scatters the blue light away even more effectively. Consequently, the remaining direct sunlight is dominated by the longer red wavelengths, giving the sky a deep red hue.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4573008520001167,
+  "total_s": 7.818419205999817,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 443.21,
+   "prompt_per_token_ms": 10.307209302325582,
+   "prompt_per_second": 97.0194715823199,
+   "predicted_n": 88,
+   "predicted_ms": 7360.862,
+   "predicted_per_token_ms": 84.6076091954023,
+   "predicted_per_second": 11.819267906394659,
+   "draft_n": 80,
+   "draft_n_accepted": 47
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a relatively thin layer of the atmosphere, causing most of its shorter blue wavelengths to scatter in all directions while the longer red wavelengths pass through more easily. As the sun approaches the horizon, it travels through a much thicker layer of atmosphere, which scatters the blue light away even more effectively. Consequently, the remaining direct sunlight is dominated by the longer red wavelengths, giving the sky a deep red hue.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

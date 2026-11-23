@@ -1,0 +1,42 @@
+[
+ {
+  "ttft_s": 0.5157905220003158,
+  "total_s": 30.165861819001293,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 493.735,
+   "prompt_per_token_ms": 9.68107843137255,
+   "prompt_per_second": 103.29427729450008,
+   "predicted_n": 400,
+   "predicted_ms": 29657.308,
+   "predicted_per_token_ms": 74.32909273182958,
+   "predicted_per_second": 13.453682309938582
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the limitations of manual copying, ushering in an era of unprecedented information dissemination. This shift did not merely increase the speed of knowledge; it fundamentally reshaped political structures, religious landscapes, and the very nature of individual identity.\n\nThe origins of the press lie in the limitations of the medieval manuscript. Before Gutenberg, books were painstakingly crafted by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that the same book could be read differently by different readers. This scarcity of information created a rigid social hierarchy where knowledge was the exclusive domain of the clergy and the elite. The printing press, utilizing movable type, allowed for the rapid production of identical copies. This democratization of information meant that ideas could travel across borders in days rather than years, challenging the authority of established institutions.\n\nThe immediate impact of this technology was most profound in the realm of religion. The Catholic Church had long relied on the monopoly of the Bible to maintain its spiritual authority. However, the invention of the press enabled Martin Luther to translate the Bible into German and distribute it to the masses, sparking the Protestant Reformation. The press turned the Bible from a sacred text reserved for the priesthood into a public scripture accessible to all believers. This shift fractured the monolithic authority of the Church, leading to centuries of religious conflict and the eventual establishment of a pluralistic society.\n\nSimultaneously, the press fueled the rise of the nation-state. In the 17th and 18th centuries, the printing of newspapers and pamphlets allowed political leaders to communicate directly with the populace. The French Revolution, for instance, was fueled by the rapid circulation of radical",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5867913629990653,
+  "total_s": 31.185947781999857,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 571.613,
+   "prompt_per_token_ms": 11.208098039215688,
+   "prompt_per_second": 89.22120385645532,
+   "predicted_n": 400,
+   "predicted_ms": 30599.062,
+   "predicted_per_token_ms": 76.6893784461153,
+   "predicted_per_second": 13.039615397360873
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the limitations of manual copying, ushering in an era of unprecedented information dissemination. This shift did not merely increase the speed of knowledge; it fundamentally reshaped political structures, religious landscapes, and the very nature of individual identity.\n\nThe origins of the press lie in the limitations of the medieval manuscript. Before Gutenberg, books were painstakingly crafted by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that the same book could be read differently by different readers. This scarcity of information created a rigid social hierarchy where knowledge was the exclusive domain of the clergy and the elite. The printing press, utilizing movable type, allowed for the rapid production of identical copies. This democratization of information meant that ideas could travel across borders in days rather than years, challenging the authority of established institutions.\n\nThe immediate impact of this technology was most profound in the realm of religion. The Catholic Church had long relied on the monopoly of the Bible to maintain its spiritual authority. However, the invention of the press enabled Martin Luther to translate the Bible into German and distribute it to the masses, sparking the Protestant Reformation. The press turned the Bible from a sacred text reserved for the priesthood into a public scripture accessible to all believers. This shift fractured the monolithic authority of the Church, leading to centuries of religious conflict and the eventual establishment of a pluralistic society.\n\nSimultaneously, the press fueled the rise of the nation-state. In the 17th and 18th centuries, the printing of newspapers and pamphlets allowed political leaders to communicate directly with the populace. The French Revolution, for instance, was fueled by the rapid circulation of radical",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

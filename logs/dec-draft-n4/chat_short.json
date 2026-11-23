@@ -1,0 +1,46 @@
+[
+ {
+  "ttft_s": 0.7242968460013799,
+  "total_s": 12.962114399000711,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 694.493,
+   "prompt_per_token_ms": 16.151,
+   "prompt_per_second": 61.91567085629373,
+   "predicted_n": 80,
+   "predicted_ms": 12240.155,
+   "predicted_per_token_ms": 154.93867088607595,
+   "predicted_per_second": 6.454166634327751,
+   "draft_n": 96,
+   "draft_n_accepted": 37
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a relatively thin layer of the atmosphere, allowing most of its blue wavelengths to scatter in all directions. However, as the sun sets, the light must pass through a much thicker layer of air to reach your eyes. This increased path length causes the shorter blue wavelengths to scatter away completely, while the longer red wavelengths are able to penetrate deeper and reach your vision.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.6318915169995307,
+  "total_s": 12.188580006000848,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 607.003,
+   "prompt_per_token_ms": 14.116348837209303,
+   "prompt_per_second": 70.83984757900703,
+   "predicted_n": 80,
+   "predicted_ms": 11556.523,
+   "predicted_per_token_ms": 146.2851012658228,
+   "predicted_per_second": 6.835966146565018,
+   "draft_n": 96,
+   "draft_n_accepted": 37
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a relatively thin layer of the atmosphere, allowing most of its blue wavelengths to scatter in all directions. However, as the sun sets, the light must pass through a much thicker layer of air to reach your eyes. This increased path length causes the shorter blue wavelengths to scatter away completely, while the longer red wavelengths are able to penetrate deeper and reach your vision.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]
