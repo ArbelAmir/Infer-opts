@@ -1,0 +1,7 @@
+lock waited s: None openvino 2026.4.1-22982-e213a147257-releases/2026/4 genai 2026.4.1.0-3408-ab01d1771e4
+idle busy fraction: 0.007499999999999951
+load_s 3.1692596620000586
+== chat_short prompt tail: 'four sentences why the sky is blue during the day but red at sunset.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 11.07218573099999, "ttft_s": 3.194814453125, "tpot_ms": 97.23822784423828, "thr_tps": 10.284021377563477, "prompt_n": 43, "predicted_n": 82, "pp_tps": 13.45931058936448, "gen_tps": 10.28402123495974}
+TEXT: During the day, sunlight travels through the atmosphere, where shorter blue wavelengths scatter more easily than longer red wavelengths, making the sky appear blue. As the sun approaches the horizon, it travels through a much thicker layer of air, causing the blue light to scatter away from the observer. Consequently, the remaining direct sunlight carrying the red wavelengths becomes red, while the scattered blue light is hidden from view.
+

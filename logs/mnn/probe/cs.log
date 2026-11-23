@@ -1,0 +1,6 @@
+The device supports: i8sdot:0, fp16:0, i8mm: 0, sve2: 0, sme2: 0, perfCores: 0
+Can't open file:/home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+Error for open /home/user/Infer-opts/models/mnn/Qwen3.5-2B-MNN/visual.mnn
+load failed
+
+WRAP wall_s=2.245 maxrss_kb=1955232 rc=2

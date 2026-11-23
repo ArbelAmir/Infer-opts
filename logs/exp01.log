@@ -59,3 +59,6 @@ build-lto                  Qwen3.5-2B-Q4_K_M.unsloth.gguf     t=4 tg n=  128 med
 build-noomp                Qwen3.5-2B-Q4_K_M.unsloth.gguf     t=4 pp n=  512 median   195.44 t/s  [175.11..210.72]  rp=True ub=512
 build-noomp                Qwen3.5-2B-Q4_K_M.unsloth.gguf     t=4 tg n=  128 median    12.62 t/s  [12.15..12.72]  rp=True ub=512
 # build-noomp took 68s
+build-default-norepack     Qwen3.5-2B-Q4_K_M.unsloth.gguf     t=4 pp n=  512 median   193.51 t/s  [186.70..199.85]  rp=False ub=512
+build-default-norepack     Qwen3.5-2B-Q4_K_M.unsloth.gguf     t=4 tg n=  128 median    13.08 t/s  [12.74..13.19]  rp=False ub=512
+# build-default-norepack took 66s
