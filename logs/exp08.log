@@ -61,3 +61,4 @@ qual-2b-bf16: 43/50 correct  {'arith': [7, 10], 'code': [6, 8], 'fact': [10, 10]
   arith10   OK  got='2000'                         want='2000'     255tok 14.4s
   reason1   OK  got='12'                           want='12'       168tok 8.9s
   reason2   OK  got='215'                          want='215'      377tok 20.2s
+  reason3   OK  got='12'                           want='12'       256tok 13.8s
