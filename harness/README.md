@@ -7,7 +7,7 @@ OpenVINO GenAI and MNN). Python 3 standard library only.
 
 ```bash
 ./run_all.sh            # from the repo root: build engines, fetch models, run the core matrix
-QUICK=1 ./run_all.sh    # baseline + recommended config only (~15 min on a 4-core machine)
+QUICK=1 ./run_all.sh    # baseline + recommended configuration only
 ```
 
 `run_all.sh` needs outbound access to `github.com` (engine source) and `huggingface.co` plus its
@@ -26,6 +26,12 @@ download CDN (`us.aws.cdn.hf.co` at the time of writing) for weights.
 | `harness/lbench.py` | `llama-bench` wrapper for wide synthetic sweeps → `results/llama_bench.jsonl` |
 | `harness/quality.py`, `quality_items.py` | 50 checkable task items → `results/quality.jsonl` |
 | `harness/kld.sh` | perplexity / KL divergence vs. a reference model → `results/kld.jsonl` |
+| `harness/cache_bench.py` | shared-prefix prompt caching on/off → `results/cache.jsonl` |
+| `harness/prompt_prune.py` | prompt pruning (BM25 / head truncation) with accuracy → `results/prompt_prune.jsonl` |
+| `harness/throughput.py` | concurrent requests on parallel slots → `results/throughput.jsonl` |
+| `harness/prune_layers.py` | write a GGUF with transformer blocks removed (depth pruning) |
+| `harness/ov_*.py`, `harness/mnn*` | OpenVINO GenAI and MNN adapters → `results/engines.jsonl` |
+| `harness/engine_quality.py` | the same 50 task items on OpenVINO GenAI / MNN |
 | `harness/summarize.py` | turn the JSONL files into ratio-vs-baseline tables |
 | `experiments/*.sh` | the experiment matrices that produced the report, in order |
 | `results/` | machine-readable results (JSONL, one row per measurement) |
@@ -77,3 +83,7 @@ API get a small adapter script that writes the same row schema (see `harness/ov_
 ```bash
 harness/summarize.py                # tables with ratios against the `baseline` rows
 ```
+
+`harness/summarize.py --baseline NAME` picks another reference row (use a baseline measured in the same
+session: this host drifted by up to 20% between sessions). ik_llama.cpp needs `--jinja` in `--server-args`,
+otherwise it ignores the request's `enable_thinking` flag and the model thinks.
