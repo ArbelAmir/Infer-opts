@@ -22,7 +22,7 @@ SYNTH = [("t4-plow-mlow", 4, 2, 2), ("t3-plow-mlow", 3, 2, 2), ("t2-plow-mlow", 
          ("t4-pnormal-mlow", 4, 0, 2), ("t4-phigh-mlow", 4, 1, 2), ("t4-plow-mnormal", 4, 2, 0)]
 PREC = {0: "normal", 1: "high", 2: "low"}; MEM = {0: "normal", 2: "low"}
 WL_CONFIGS = [("t4-plow-mlow", 4, "low", "low")]  # extended by --wl-configs
-WL = ["chat_short", "long_prompt", "long_gen"]
+WL = ["chat_short", "long_prompt", "long_gen", "code_edit", "extract"]
 
 def run_locked(log, cmd):
     out = subprocess.run([LOCK, "python3", WRAP, log] + cmd, capture_output=True, text=True).stdout

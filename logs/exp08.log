@@ -55,3 +55,8 @@ qual-2b-bf16: 43/50 correct  {'arith': [7, 10], 'code': [6, 8], 'fact': [10, 10]
   arith4    OK  got='12'                           want='12'       105tok 6.2s
   arith5    OK  got='36'                           want='36'       156tok 8.2s
   arith6    OK  got='2048'                         want='2048'     236tok 12.6s
+  arith7    BAD got='no_answer_line'               want='1517'     512tok 27.5s
+  arith8    BAD got='no_answer_line'               want='6'        512tok 27.3s
+  arith9    OK  got='0.375'                        want='0.375'    118tok 7.1s
+  arith10   OK  got='2000'                         want='2000'     255tok 14.4s
+  reason1   OK  got='12'                           want='12'       168tok 8.9s

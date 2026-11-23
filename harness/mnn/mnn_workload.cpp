@@ -13,7 +13,9 @@ int main(int argc, char** argv) {
     std::string cfg = argv[1];
     int maxTok = atoi(argv[4]), reps = atoi(argv[5]);
     std::string prefix = argv[6];
-    ChatMessages msgs = {{"system", slurp(argv[2])}, {"user", slurp(argv[3])}};
+    ChatMessages msgs;
+    { std::string sys = slurp(argv[2]); if (!sys.empty()) msgs.push_back({"system", sys}); }  // empty system.txt = no system turn
+    msgs.push_back({"user", slurp(argv[3])});
     std::unique_ptr<Llm> llm(Llm::createLLM(cfg));
     llm->set_config("{\"tmp_path\":\"/tmp/mnn_tmp_qwen35\"}");
     if (argc > 7) llm->set_config(argv[7]);
