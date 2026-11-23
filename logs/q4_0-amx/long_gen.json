@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.45036181600153213,
+  "total_s": 19.54284390200337,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 414.12,
+   "prompt_per_token_ms": 8.12,
+   "prompt_per_second": 123.15270935960591,
+   "predicted_n": 400,
+   "predicted_ms": 19092.248,
+   "predicted_per_token_ms": 47.85024561403509,
+   "predicted_per_second": 20.89853431612663
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping the course of history, and establishing the foundation for the modern world. Its impact extends far beyond the mere reproduction of text; it redefined how societies function, how they think, and how they interact with one another.\n\nThe origins of the printing press trace back to the 12th century, with the German monk Gottfried Wilhelm von Kempelen developing the movable type mechanism. However, it was Johannes Gutenberg, a German goldsmith and printer, who refined this technology in the mid-1450s. By combining the movable type with a press powered by a water wheel, he created the first practical printing press. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Before Gutenberg, books were rare, expensive, and often handwritten, limiting literacy to the elite. Gutenberg's press made knowledge accessible to the common person, sparking a wave of literacy and intellectual awakening across Europe.\n\nThe immediate impact of the printing press was the dissemination of the **Reformation**. Martin Luther, a German monk, used the printing press to translate the Bible into German and to publish his 95 Theses, which sparked the Protestant Reformation. This movement did not merely change religious practices; it challenged the authority of the Catholic Church and contributed to the rise of Protestantism in Europe. Furthermore, the press facilitated the spread of the **Enlightenment** ideas of the 18th century. Philosophers like John Locke and Voltaire used printing to argue for individual rights, social contract theory, and the separation of church and state. These ideas laid",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.4585751419981534,
+  "total_s": 19.31278326499887,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 437.071,
+   "prompt_per_token_ms": 8.570019607843138,
+   "prompt_per_second": 116.68584737948753,
+   "predicted_n": 400,
+   "predicted_ms": 18853.857,
+   "predicted_per_token_ms": 47.25277443609023,
+   "predicted_per_second": 21.162778523248583
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping the course of history, and establishing the foundation for the modern world. Its impact extends far beyond the mere reproduction of text; it redefined how societies function, how they think, and how they interact with one another.\n\nThe origins of the printing press trace back to the 12th century, with the German monk Gottfried Wilhelm von Kempelen developing the movable type mechanism. However, it was Johannes Gutenberg, a German goldsmith and printer, who refined this technology in the mid-1450s. By combining the movable type with a press powered by a water wheel, he created the first practical printing press. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Before Gutenberg, books were rare, expensive, and often handwritten, limiting literacy to the elite. Gutenberg's press made knowledge accessible to the common person, sparking a wave of literacy and intellectual awakening across Europe.\n\nThe immediate impact of the printing press was the dissemination of the **Reformation**. Martin Luther, a German monk, used the printing press to translate the Bible into German and to publish his 95 Theses, which sparked the Protestant Reformation. This movement did not merely change religious practices; it challenged the authority of the Catholic Church and contributed to the rise of Protestantism in Europe. Furthermore, the press facilitated the spread of the **Enlightenment** ideas of the 18th century. Philosophers like John Locke and Voltaire used printing to argue for individual rights, social contract theory, and the separation of church and state. These ideas laid",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.424033840001357,
+  "total_s": 19.509129229998507,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 421.583,
+   "prompt_per_token_ms": 8.266333333333334,
+   "prompt_per_second": 120.97261986370418,
+   "predicted_n": 400,
+   "predicted_ms": 19084.827,
+   "predicted_per_token_ms": 47.831646616541356,
+   "predicted_per_second": 20.906660563388915
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping the course of history, and establishing the foundation for the modern world. Its impact extends far beyond the mere reproduction of text; it redefined how societies function, how they think, and how they interact with one another.\n\nThe origins of the printing press trace back to the 12th century, with the German monk Gottfried Wilhelm von Kempelen developing the movable type mechanism. However, it was Johannes Gutenberg, a German goldsmith and printer, who refined this technology in the mid-1450s. By combining the movable type with a press powered by a water wheel, he created the first practical printing press. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Before Gutenberg, books were rare, expensive, and often handwritten, limiting literacy to the elite. Gutenberg's press made knowledge accessible to the common person, sparking a wave of literacy and intellectual awakening across Europe.\n\nThe immediate impact of the printing press was the dissemination of the **Reformation**. Martin Luther, a German monk, used the printing press to translate the Bible into German and to publish his 95 Theses, which sparked the Protestant Reformation. This movement did not merely change religious practices; it challenged the authority of the Catholic Church and contributed to the rise of Protestantism in Europe. Furthermore, the press facilitated the spread of the **Enlightenment** ideas of the 18th century. Philosophers like John Locke and Voltaire used printing to argue for individual rights, social contract theory, and the separation of church and state. These ideas laid",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.40994390199921327,
+  "total_s": 19.551792759997625,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 407.608,
+   "prompt_per_token_ms": 7.992313725490196,
+   "prompt_per_second": 125.12021353849777,
+   "predicted_n": 400,
+   "predicted_ms": 19141.717,
+   "predicted_per_token_ms": 47.97422807017544,
+   "predicted_per_second": 20.84452507578082
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping the course of history, and establishing the foundation for the modern world. Its impact extends far beyond the mere reproduction of text; it redefined how societies function, how they think, and how they interact with one another.\n\nThe origins of the printing press trace back to the 12th century, with the German monk Gottfried Wilhelm von Kempelen developing the movable type mechanism. However, it was Johannes Gutenberg, a German goldsmith and printer, who refined this technology in the mid-1450s. By combining the movable type with a press powered by a water wheel, he created the first practical printing press. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Before Gutenberg, books were rare, expensive, and often handwritten, limiting literacy to the elite. Gutenberg's press made knowledge accessible to the common person, sparking a wave of literacy and intellectual awakening across Europe.\n\nThe immediate impact of the printing press was the dissemination of the **Reformation**. Martin Luther, a German monk, used the printing press to translate the Bible into German and to publish his 95 Theses, which sparked the Protestant Reformation. This movement did not merely change religious practices; it challenged the authority of the Catholic Church and contributed to the rise of Protestantism in Europe. Furthermore, the press facilitated the spread of the **Enlightenment** ideas of the 18th century. Philosophers like John Locke and Voltaire used printing to argue for individual rights, social contract theory, and the separation of church and state. These ideas laid",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

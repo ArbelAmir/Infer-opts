@@ -1,0 +1,27 @@
+big-5-9B-Q4_K_M-stock      Qwen3.5-9B-Q4_K_M.gguf             t=4 pp n=  512 median    45.89 t/s  [45.24..45.89]  rp=True ub=512
+big-5-9B-Q4_K_M-stock      Qwen3.5-9B-Q4_K_M.gguf             t=4 tg n=   64 median     4.22 t/s  [4.19..4.22]  rp=True ub=512
+# big-5-9B-Q4_K_M-stock took 93s
+big-5-9B-Q4_K_M-ik         Qwen3.5-9B-Q4_K_M.gguf             t=4 pp n=  512 median    63.07 t/s  [60.77..63.07]  rp=False ub=512
+big-5-9B-Q4_K_M-ik         Qwen3.5-9B-Q4_K_M.gguf             t=4 tg n=   64 median     3.61 t/s  [3.56..3.61]  rp=False ub=512
+# big-5-9B-Q4_K_M-ik took 54s
+big-5-9B-Q4_K_M-ik-rtr     Qwen3.5-9B-Q4_K_M.gguf             t=4 pp n=  512 median    98.59 t/s  [97.20..98.59]  rp=True ub=512
+big-5-9B-Q4_K_M-ik-rtr     Qwen3.5-9B-Q4_K_M.gguf             t=4 tg n=   64 median     5.38 t/s  [5.38..5.38]  rp=True ub=512
+# big-5-9B-Q4_K_M-ik-rtr took 38s
+big-6-35B-A3B-UD-Q2_K_XL-stock Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf    t=4 pp n=  512 median    67.93 t/s  [62.95..67.93]  rp=True ub=512
+big-6-35B-A3B-UD-Q2_K_XL-stock Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf    t=4 tg n=   64 median     7.94 t/s  [7.87..7.94]  rp=True ub=512
+# big-6-35B-A3B-UD-Q2_K_XL-stock took 95s
+big-6-35B-A3B-UD-Q2_K_XL-ik Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf    t=4 pp n=  512 median   115.76 t/s  [115.06..115.76]  rp=False ub=512
+big-6-35B-A3B-UD-Q2_K_XL-ik Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf    t=4 tg n=   64 median     7.73 t/s  [7.73..7.73]  rp=False ub=512
+# big-6-35B-A3B-UD-Q2_K_XL-ik took 30s
+big-6-35B-A3B-UD-Q2_K_XL-ik-rtr Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf    t=4 pp n=  512 median   136.81 t/s  [128.77..136.81]  rp=True ub=512
+big-6-35B-A3B-UD-Q2_K_XL-ik-rtr Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf    t=4 tg n=   64 median    12.07 t/s  [11.66..12.07]  rp=True ub=512
+# big-6-35B-A3B-UD-Q2_K_XL-ik-rtr took 29s
+big-6-35B-A3B-UD-IQ3_XXS-stock Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf    t=4 pp n=  512 median    56.48 t/s  [51.64..56.48]  rp=True ub=512
+big-6-35B-A3B-UD-IQ3_XXS-stock Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf    t=4 tg n=   64 median     6.74 t/s  [6.53..6.74]  rp=True ub=512
+# big-6-35B-A3B-UD-IQ3_XXS-stock took 126s
+big-6-35B-A3B-UD-IQ3_XXS-ik Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf    t=4 pp n=  512 median    88.01 t/s  [35.32..88.01]  rp=False ub=512
+big-6-35B-A3B-UD-IQ3_XXS-ik Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf    t=4 tg n=   64 median     8.12 t/s  [8.02..8.12]  rp=False ub=512
+# big-6-35B-A3B-UD-IQ3_XXS-ik took 48s
+big-6-35B-A3B-UD-IQ3_XXS-ik-rtr Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf    t=4 pp n=  512 median   144.99 t/s  [143.62..144.99]  rp=True ub=512
+big-6-35B-A3B-UD-IQ3_XXS-ik-rtr Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf    t=4 tg n=   64 median    11.00 t/s  [10.67..11.00]  rp=True ub=512
+# big-6-35B-A3B-UD-IQ3_XXS-ik-rtr took 32s

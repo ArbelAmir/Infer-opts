@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.5760891810004978,
+  "total_s": 29.02121549399999,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 507.777,
+   "prompt_per_token_ms": 9.956411764705882,
+   "prompt_per_second": 100.43779060493091,
+   "predicted_n": 400,
+   "predicted_ms": 28453.055,
+   "predicted_per_token_ms": 71.31091478696742,
+   "predicted_per_second": 14.023098749853046
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type of metal letters, the screw press, and the use of a durable metal typeface. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. He introduced a system of proofreading, where a master copy was printed, then a second copy was made to check for errors, and finally, a third copy was printed to ensure accuracy. This rigorous quality control ensured that the first printed books were of high literary and scientific quality, setting a standard that would endure for centuries.\n\nThe immediate impact of Gutenberg's press was the explosion of literacy and the spread of literacy. Before the press, books were expensive, hand-copied manuscripts that took months to produce. A single copy could cost a family a year. The press drastically reduced the cost of books, making them affordable for the burgeoning middle class. This accessibility was the catalyst for the Renaissance. Writers like Erasmus and Martin Luther utilized the press to disseminate ideas that challenged established religious and social norms. Luther's *95 Theses*, printed in 1517, sparked the Protestant Reformation, demonstrating how the press could mobilize public opinion and reshape political landscapes.\n\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.5391441110004962,
+  "total_s": 28.21919795100075,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 512.863,
+   "prompt_per_token_ms": 10.056137254901962,
+   "prompt_per_second": 99.44176125008042,
+   "predicted_n": 400,
+   "predicted_ms": 27679.667,
+   "predicted_per_token_ms": 69.37259899749374,
+   "predicted_per_second": 14.414913300799462
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type of metal letters, the screw press, and the use of a durable metal typeface. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. He introduced a system of proofreading, where a master copy was printed, then a second copy was made to check for errors, and finally, a third copy was printed to ensure accuracy. This rigorous quality control ensured that the first printed books were of high literary and scientific quality, setting a standard that would endure for centuries.\n\nThe immediate impact of Gutenberg's press was the explosion of literacy and the spread of literacy. Before the press, books were expensive, hand-copied manuscripts that took months to produce. A single copy could cost a family a year. The press drastically reduced the cost of books, making them affordable for the burgeoning middle class. This accessibility was the catalyst for the Renaissance. Writers like Erasmus and Martin Luther utilized the press to disseminate ideas that challenged established religious and social norms. Luther's *95 Theses*, printed in 1517, sparked the Protestant Reformation, demonstrating how the press could mobilize public opinion and reshape political landscapes.\n\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5195524570008274,
+  "total_s": 29.00986673800071,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 514.074,
+   "prompt_per_token_ms": 10.079882352941176,
+   "prompt_per_second": 99.2075070904189,
+   "predicted_n": 400,
+   "predicted_ms": 28492.428,
+   "predicted_per_token_ms": 71.4095939849624,
+   "predicted_per_second": 14.003720567443393
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type of metal letters, the screw press, and the use of a durable metal typeface. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. He introduced a system of proofreading, where a master copy was printed, then a second copy was made to check for errors, and finally, a third copy was printed to ensure accuracy. This rigorous quality control ensured that the first printed books were of high literary and scientific quality, setting a standard that would endure for centuries.\n\nThe immediate impact of Gutenberg's press was the explosion of literacy and the spread of literacy. Before the press, books were expensive, hand-copied manuscripts that took months to produce. A single copy could cost a family a year. The press drastically reduced the cost of books, making them affordable for the burgeoning middle class. This accessibility was the catalyst for the Renaissance. Writers like Erasmus and Martin Luther utilized the press to disseminate ideas that challenged established religious and social norms. Luther's *95 Theses*, printed in 1517, sparked the Protestant Reformation, demonstrating how the press could mobilize public opinion and reshape political landscapes.\n\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5133117199984554,
+  "total_s": 28.485893450999356,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 507.449,
+   "prompt_per_token_ms": 9.949980392156863,
+   "prompt_per_second": 100.5027106172246,
+   "predicted_n": 400,
+   "predicted_ms": 27975.471,
+   "predicted_per_token_ms": 70.11396240601503,
+   "predicted_per_second": 14.262494454516958
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type of metal letters, the screw press, and the use of a durable metal typeface. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. He introduced a system of proofreading, where a master copy was printed, then a second copy was made to check for errors, and finally, a third copy was printed to ensure accuracy. This rigorous quality control ensured that the first printed books were of high literary and scientific quality, setting a standard that would endure for centuries.\n\nThe immediate impact of Gutenberg's press was the explosion of literacy and the spread of literacy. Before the press, books were expensive, hand-copied manuscripts that took months to produce. A single copy could cost a family a year. The press drastically reduced the cost of books, making them affordable for the burgeoning middle class. This accessibility was the catalyst for the Renaissance. Writers like Erasmus and Martin Luther utilized the press to disseminate ideas that challenged established religious and social norms. Luther's *95 Theses*, printed in 1517, sparked the Protestant Reformation, demonstrating how the press could mobilize public opinion and reshape political landscapes.\n\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

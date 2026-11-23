@@ -1,0 +1,250 @@
+  baseline-r2                  chat_short   rep0 pp 43tok    106.5 t/s | gen 80tok   14.17 t/s | ttft   0.41s total   5.99s  (warmup)
+  baseline-r2                  chat_short   rep1 pp 43tok    119.4 t/s | gen 80tok   14.33 t/s | ttft   0.38s total   5.89s
+  baseline-r2                  chat_short   rep2 pp 43tok    119.4 t/s | gen 80tok   14.32 t/s | ttft   0.37s total   5.88s
+  baseline-r2                  chat_short   rep3 pp 43tok    116.5 t/s | gen 80tok   14.28 t/s | ttft   0.38s total   5.90s
+  baseline-r2                  long_prompt  rep0 pp 3527tok    197.7 t/s | gen 36tok   12.93 t/s | ttft  17.85s total  20.56s  (warmup)
+  baseline-r2                  long_prompt  rep1 pp 3527tok    195.7 t/s | gen 36tok   13.06 t/s | ttft  18.03s total  20.71s
+  baseline-r2                  long_prompt  rep2 pp 3527tok    195.1 t/s | gen 36tok   12.85 t/s | ttft  18.09s total  20.81s
+  baseline-r2                  long_prompt  rep3 pp 3527tok    198.3 t/s | gen 36tok   12.81 t/s | ttft  17.80s total  20.53s
+  baseline-r2                  long_gen     rep0 pp 51tok    100.4 t/s | gen 400tok   14.02 t/s | ttft   0.58s total  29.02s  (warmup)
+  baseline-r2                  long_gen     rep1 pp 51tok     99.4 t/s | gen 400tok   14.41 t/s | ttft   0.54s total  28.22s
+  baseline-r2                  long_gen     rep2 pp 51tok     99.2 t/s | gen 400tok   14.00 t/s | ttft   0.52s total  29.01s
+  baseline-r2                  long_gen     rep3 pp 51tok    100.5 t/s | gen 400tok   14.26 t/s | ttft   0.51s total  28.49s
+  baseline-r2                  code_edit    rep0 pp 455tok    202.9 t/s | gen 464tok   13.96 t/s | ttft   2.25s total  35.41s  (warmup)
+  baseline-r2                  code_edit    rep1 pp 455tok    204.9 t/s | gen 464tok   14.25 t/s | ttft   2.25s total  34.73s
+  baseline-r2                  code_edit    rep2 pp 455tok    217.1 t/s | gen 464tok   14.17 t/s | ttft   2.10s total  34.78s
+  baseline-r2                  code_edit    rep3 pp 455tok    205.0 t/s | gen 464tok   14.36 t/s | ttft   2.23s total  34.46s
+  baseline-r2                  extract      rep0 pp 333tok    207.8 t/s | gen 448tok   14.21 t/s | ttft   1.61s total  33.07s  (warmup)
+  baseline-r2                  extract      rep1 pp 333tok    199.8 t/s | gen 448tok   14.47 t/s | ttft   1.69s total  32.58s
+  baseline-r2                  extract      rep2 pp 333tok    208.9 t/s | gen 448tok   14.63 t/s | ttft   1.60s total  32.14s
+  baseline-r2                  extract      rep3 pp 333tok    226.2 t/s | gen 448tok   14.28 t/s | ttft   1.48s total  32.77s
+baseline-r2                  chat_short   pp    119.4 t/s  gen   14.32 t/s  ttft   0.38s  total    5.89s  rss  6.01G  load 10.0s
+baseline-r2                  long_prompt  pp    195.7 t/s  gen   12.85 t/s  ttft  18.03s  total   20.71s  rss  6.01G  load 10.0s
+baseline-r2                  long_gen     pp     99.4 t/s  gen   14.26 t/s  ttft   0.52s  total   28.49s  rss  6.01G  load 10.0s
+baseline-r2                  code_edit    pp    205.0 t/s  gen   14.25 t/s  ttft   2.23s  total   34.73s  rss  6.01G  load 10.0s
+baseline-r2                  extract      pp    208.9 t/s  gen   14.47 t/s  ttft   1.60s  total   32.58s  rss  6.01G  load 10.0s
+  ctx8k                        chat_short   rep0 pp 43tok    118.4 t/s | gen 80tok   14.12 t/s | ttft   0.37s total   5.96s  (warmup)
+  ctx8k                        chat_short   rep1 pp 43tok    118.7 t/s | gen 80tok   14.34 t/s | ttft   0.38s total   5.89s
+  ctx8k                        chat_short   rep2 pp 43tok    116.9 t/s | gen 80tok   13.73 t/s | ttft   0.37s total   6.12s
+  ctx8k                        chat_short   rep3 pp 43tok    114.6 t/s | gen 80tok   13.54 t/s | ttft   0.38s total   6.21s
+  ctx8k                        long_prompt  rep0 pp 3527tok    192.0 t/s | gen 36tok   12.68 t/s | ttft  18.38s total  21.14s  (warmup)
+  ctx8k                        long_prompt  rep1 pp 3527tok    201.0 t/s | gen 36tok   13.12 t/s | ttft  17.55s total  20.22s
+  ctx8k                        long_prompt  rep2 pp 3527tok    198.7 t/s | gen 36tok   12.37 t/s | ttft  17.76s total  20.59s
+  ctx8k                        long_prompt  rep3 pp 3527tok    193.4 t/s | gen 36tok   13.32 t/s | ttft  18.24s total  20.87s
+  ctx8k                        long_gen     rep0 pp 51tok    117.8 t/s | gen 400tok   14.15 t/s | ttft   0.48s total  28.68s  (warmup)
+  ctx8k                        long_gen     rep1 pp 51tok    109.4 t/s | gen 400tok   14.00 t/s | ttft   0.48s total  28.98s
+  ctx8k                        long_gen     rep2 pp 51tok    109.7 t/s | gen 400tok   14.44 t/s | ttft   0.47s total  28.11s
+  ctx8k                        long_gen     rep3 pp 51tok    102.8 t/s | gen 400tok   14.09 t/s | ttft   0.50s total  28.82s
+  ctx8k                        code_edit    rep0 pp 455tok    205.8 t/s | gen 464tok   14.03 t/s | ttft   2.21s total  35.20s  (warmup)
+  ctx8k                        code_edit    rep1 pp 455tok    202.8 t/s | gen 464tok   14.07 t/s | ttft   2.27s total  35.18s
+  ctx8k                        code_edit    rep2 pp 455tok    202.0 t/s | gen 464tok   14.07 t/s | ttft   2.26s total  35.17s
+  ctx8k                        code_edit    rep3 pp 455tok    202.2 t/s | gen 464tok   14.03 t/s | ttft   2.25s total  35.26s
+  ctx8k                        extract      rep0 pp 333tok    203.3 t/s | gen 448tok   13.82 t/s | ttft   1.65s total  34.00s  (warmup)
+  ctx8k                        extract      rep1 pp 333tok    208.8 t/s | gen 448tok   14.05 t/s | ttft   1.62s total  33.43s
+  ctx8k                        extract      rep2 pp 333tok    216.0 t/s | gen 448tok   13.96 t/s | ttft   1.55s total  33.56s
+  ctx8k                        extract      rep3 pp 333tok    207.9 t/s | gen 448tok   14.23 t/s | ttft   1.61s total  33.01s
+ctx8k                        chat_short   pp    116.9 t/s  gen   13.73 t/s  ttft   0.38s  total    6.12s  rss  3.07G  load 1.6s
+ctx8k                        long_prompt  pp    198.7 t/s  gen   13.12 t/s  ttft  17.76s  total   20.59s  rss  3.07G  load 1.6s
+ctx8k                        long_gen     pp    109.4 t/s  gen   14.09 t/s  ttft   0.48s  total   28.82s  rss  3.07G  load 1.6s
+ctx8k                        code_edit    pp    202.2 t/s  gen   14.07 t/s  ttft   2.26s  total   35.18s  rss  3.07G  load 1.6s
+ctx8k                        extract      pp    208.8 t/s  gen   14.05 t/s  ttft   1.61s  total   33.43s  rss  3.07G  load 1.6s
+  ctx8k-clang                  chat_short   rep0 pp 43tok    134.3 t/s | gen 89tok   15.10 t/s | ttft   0.32s total   6.15s  (warmup)
+  ctx8k-clang                  chat_short   rep1 pp 43tok    151.1 t/s | gen 89tok   15.32 t/s | ttft   0.30s total   6.05s
+  ctx8k-clang                  chat_short   rep2 pp 43tok    131.0 t/s | gen 89tok   15.29 t/s | ttft   0.33s total   6.09s
+  ctx8k-clang                  chat_short   rep3 pp 43tok    140.2 t/s | gen 89tok   15.90 t/s | ttft   0.31s total   5.84s
+  ctx8k-clang                  long_prompt  rep0 pp 3527tok    231.0 t/s | gen 36tok   14.50 t/s | ttft  15.28s total  17.70s  (warmup)
+  ctx8k-clang                  long_prompt  rep1 pp 3527tok    238.0 t/s | gen 36tok   14.54 t/s | ttft  14.83s total  17.24s
+  ctx8k-clang                  long_prompt  rep2 pp 3527tok    232.9 t/s | gen 36tok   14.47 t/s | ttft  15.15s total  17.57s
+  ctx8k-clang                  long_prompt  rep3 pp 3527tok    242.0 t/s | gen 36tok   14.66 t/s | ttft  14.58s total  16.97s
+  ctx8k-clang                  long_gen     rep0 pp 51tok    122.9 t/s | gen 400tok   15.91 t/s | ttft   0.46s total  25.54s  (warmup)
+  ctx8k-clang                  long_gen     rep1 pp 51tok    116.8 t/s | gen 400tok   15.04 t/s | ttft   0.46s total  26.98s
+  ctx8k-clang                  long_gen     rep2 pp 51tok    116.3 t/s | gen 400tok   15.45 t/s | ttft   0.44s total  26.26s
+  ctx8k-clang                  long_gen     rep3 pp 51tok    120.3 t/s | gen 400tok   15.78 t/s | ttft   0.43s total  25.71s
+  ctx8k-clang                  code_edit    rep0 pp 455tok    241.6 t/s | gen 464tok   15.49 t/s | ttft   1.89s total  31.77s  (warmup)
+  ctx8k-clang                  code_edit    rep1 pp 455tok    235.4 t/s | gen 464tok   15.53 t/s | ttft   1.96s total  31.76s
+  ctx8k-clang                  code_edit    rep2 pp 455tok    237.7 t/s | gen 464tok   15.57 t/s | ttft   1.92s total  31.66s
+  ctx8k-clang                  code_edit    rep3 pp 455tok    234.2 t/s | gen 464tok   15.89 t/s | ttft   1.95s total  31.09s
+  ctx8k-clang                  extract      rep0 pp 333tok    229.4 t/s | gen 448tok   15.75 t/s | ttft   1.46s total  29.83s  (warmup)
+  ctx8k-clang                  extract      rep1 pp 333tok    236.2 t/s | gen 448tok   15.74 t/s | ttft   1.43s total  29.83s
+  ctx8k-clang                  extract      rep2 pp 333tok    236.7 t/s | gen 448tok   15.87 t/s | ttft   1.41s total  29.57s
+  ctx8k-clang                  extract      rep3 pp 333tok    228.3 t/s | gen 448tok   15.88 t/s | ttft   1.46s total  29.61s
+ctx8k-clang                  chat_short   pp    140.2 t/s  gen   15.32 t/s  ttft   0.31s  total    6.05s  rss  3.07G  load 1.7s
+ctx8k-clang                  long_prompt  pp    238.0 t/s  gen   14.54 t/s  ttft  14.83s  total   17.24s  rss  3.07G  load 1.7s
+ctx8k-clang                  long_gen     pp    116.8 t/s  gen   15.45 t/s  ttft   0.44s  total   26.26s  rss  3.07G  load 1.7s
+ctx8k-clang                  code_edit    pp    235.4 t/s  gen   15.57 t/s  ttft   1.95s  total   31.66s  rss  3.07G  load 1.7s
+ctx8k-clang                  extract      pp    236.2 t/s  gen   15.87 t/s  ttft   1.43s  total   29.61s  rss  3.07G  load 1.7s
+  ctx8k-norepack               chat_short   rep0 pp 43tok     86.4 t/s | gen 82tok   13.93 t/s | ttft   0.50s total   6.31s  (warmup)
+  ctx8k-norepack               chat_short   rep1 pp 43tok     83.7 t/s | gen 82tok   13.98 t/s | ttft   0.53s total   6.33s
+  ctx8k-norepack               chat_short   rep2 pp 43tok     91.7 t/s | gen 82tok   14.32 t/s | ttft   0.47s total   6.13s
+  ctx8k-norepack               chat_short   rep3 pp 43tok     89.0 t/s | gen 82tok   14.30 t/s | ttft   0.49s total   6.15s
+  ctx8k-norepack               long_prompt  rep0 pp 3527tok    206.2 t/s | gen 36tok   12.58 t/s | ttft  17.12s total  19.90s  (warmup)
+  ctx8k-norepack               long_prompt  rep1 pp 3527tok    209.5 t/s | gen 36tok   12.70 t/s | ttft  16.84s total  19.60s
+  ctx8k-norepack               long_prompt  rep2 pp 3527tok    209.8 t/s | gen 36tok   12.86 t/s | ttft  16.82s total  19.55s
+  ctx8k-norepack               long_prompt  rep3 pp 3527tok    205.7 t/s | gen 36tok   12.75 t/s | ttft  17.16s total  19.90s
+  ctx8k-norepack               long_gen     rep0 pp 51tok     92.2 t/s | gen 400tok   14.02 t/s | ttft   0.60s total  29.06s  (warmup)
+  ctx8k-norepack               long_gen     rep1 pp 51tok     97.7 t/s | gen 400tok   13.94 t/s | ttft   0.54s total  29.16s
+  ctx8k-norepack               long_gen     rep2 pp 51tok     92.2 t/s | gen 400tok   14.15 t/s | ttft   0.56s total  28.76s
+  ctx8k-norepack               long_gen     rep3 pp 51tok     96.2 t/s | gen 400tok   14.05 t/s | ttft   0.53s total  28.94s
+  ctx8k-norepack               code_edit    rep0 pp 455tok    198.0 t/s | gen 458tok   13.86 t/s | ttft   2.30s total  35.27s  (warmup)
+  ctx8k-norepack               code_edit    rep1 pp 455tok    206.1 t/s | gen 458tok   13.99 t/s | ttft   2.23s total  34.91s
+  ctx8k-norepack               code_edit    rep2 pp 455tok    200.8 t/s | gen 458tok   13.89 t/s | ttft   2.27s total  35.17s
+  ctx8k-norepack               code_edit    rep3 pp 455tok    208.8 t/s | gen 458tok   13.95 t/s | ttft   2.18s total  34.94s
+  ctx8k-norepack               extract      rep0 pp 333tok    203.6 t/s | gen 448tok   13.95 t/s | ttft   1.64s total  33.68s  (warmup)
+  ctx8k-norepack               extract      rep1 pp 333tok    200.4 t/s | gen 448tok   13.87 t/s | ttft   1.69s total  33.91s
+  ctx8k-norepack               extract      rep2 pp 333tok    207.9 t/s | gen 448tok   13.99 t/s | ttft   1.60s total  33.57s
+  ctx8k-norepack               extract      rep3 pp 333tok    195.6 t/s | gen 448tok   13.88 t/s | ttft   1.71s total  33.92s
+ctx8k-norepack               chat_short   pp     89.0 t/s  gen   14.30 t/s  ttft   0.49s  total    6.15s  rss  1.87G  load 1.5s
+ctx8k-norepack               long_prompt  pp    209.5 t/s  gen   12.75 t/s  ttft  16.84s  total   19.60s  rss  1.87G  load 1.5s
+ctx8k-norepack               long_gen     pp     96.2 t/s  gen   14.05 t/s  ttft   0.54s  total   28.94s  rss  1.87G  load 1.5s
+ctx8k-norepack               code_edit    pp    206.1 t/s  gen   13.95 t/s  ttft   2.23s  total   34.94s  rss  1.87G  load 1.5s
+ctx8k-norepack               extract      pp    200.4 t/s  gen   13.88 t/s  ttft   1.69s  total   33.91s  rss  1.87G  load 1.5s
+  q8-amx                       chat_short   rep0 pp 43tok    129.8 t/s | gen 86tok   19.69 t/s | ttft   0.33s total   4.65s  (warmup)
+  q8-amx                       chat_short   rep1 pp 43tok    132.9 t/s | gen 86tok   20.82 t/s | ttft   0.35s total   4.43s
+  q8-amx                       chat_short   rep2 pp 43tok    137.9 t/s | gen 86tok   21.32 t/s | ttft   0.31s total   4.30s
+  q8-amx                       chat_short   rep3 pp 43tok    141.5 t/s | gen 86tok   21.29 t/s | ttft   0.31s total   4.30s
+  q8-amx                       long_prompt  rep0 pp 3527tok    207.6 t/s | gen 34tok   17.93 t/s | ttft  17.00s total  18.85s  (warmup)
+  q8-amx                       long_prompt  rep1 pp 3527tok    209.0 t/s | gen 34tok   17.82 t/s | ttft  16.89s total  18.74s
+  q8-amx                       long_prompt  rep2 pp 3527tok    208.6 t/s | gen 34tok   17.72 t/s | ttft  16.92s total  18.78s
+  q8-amx                       long_prompt  rep3 pp 3527tok    208.1 t/s | gen 34tok   17.66 t/s | ttft  16.97s total  18.83s
+  q8-amx                       long_gen     rep0 pp 51tok    122.2 t/s | gen 400tok   19.58 t/s | ttft   0.49s total  20.86s  (warmup)
+  q8-amx                       long_gen     rep1 pp 51tok    119.3 t/s | gen 400tok   19.59 t/s | ttft   0.45s total  20.82s
+  q8-amx                       long_gen     rep2 pp 51tok    124.3 t/s | gen 400tok   19.59 t/s | ttft   0.41s total  20.78s
+  q8-amx                       long_gen     rep3 pp 51tok    146.4 t/s | gen 400tok   19.93 t/s | ttft   0.35s total  20.37s
+  q8-amx                       code_edit    rep0 pp 455tok    224.7 t/s | gen 457tok   19.59 t/s | ttft   2.03s total  25.30s  (warmup)
+  q8-amx                       code_edit    rep1 pp 455tok    225.6 t/s | gen 457tok   19.44 t/s | ttft   2.05s total  25.50s
+  q8-amx                       code_edit    rep2 pp 455tok    224.0 t/s | gen 457tok   19.45 t/s | ttft   2.04s total  25.48s
+  q8-amx                       code_edit    rep3 pp 455tok    218.3 t/s | gen 457tok   19.40 t/s | ttft   2.09s total  25.60s
+  q8-amx                       extract      rep0 pp 333tok    203.7 t/s | gen 448tok   19.08 t/s | ttft   1.64s total  25.06s  (warmup)
+  q8-amx                       extract      rep1 pp 333tok    225.1 t/s | gen 448tok   19.20 t/s | ttft   1.50s total  24.78s
+  q8-amx                       extract      rep2 pp 333tok    217.9 t/s | gen 448tok   19.39 t/s | ttft   1.53s total  24.59s
+  q8-amx                       extract      rep3 pp 333tok    239.5 t/s | gen 448tok   19.43 t/s | ttft   1.39s total  24.40s
+q8-amx                       chat_short   pp    137.9 t/s  gen   21.29 t/s  ttft   0.31s  total    4.30s  rss  4.63G  load 7.3s
+q8-amx                       long_prompt  pp    208.6 t/s  gen   17.72 t/s  ttft  16.92s  total   18.78s  rss  4.63G  load 7.3s
+q8-amx                       long_gen     pp    124.3 t/s  gen   19.59 t/s  ttft   0.41s  total   20.78s  rss  4.63G  load 7.3s
+q8-amx                       code_edit    pp    224.0 t/s  gen   19.44 t/s  ttft   2.05s  total   25.50s  rss  4.63G  load 7.3s
+q8-amx                       extract      pp    225.1 t/s  gen   19.39 t/s  ttft   1.50s  total   24.59s  rss  4.63G  load 7.3s
+  q4_0-amx                     chat_short   rep0 pp 43tok    128.5 t/s | gen 98tok   19.90 t/s | ttft   0.34s total   5.21s  (warmup)
+  q4_0-amx                     chat_short   rep1 pp 43tok    133.3 t/s | gen 98tok   19.63 t/s | ttft   0.34s total   5.28s
+  q4_0-amx                     chat_short   rep2 pp 43tok    129.8 t/s | gen 98tok   19.77 t/s | ttft   0.33s total   5.24s
+  q4_0-amx                     chat_short   rep3 pp 43tok    117.3 t/s | gen 98tok   21.21 t/s | ttft   0.37s total   4.94s
+  q4_0-amx                     long_prompt  rep0 pp 3527tok    191.1 t/s | gen 27tok   17.75 t/s | ttft  18.46s total  19.93s  (warmup)
+  q4_0-amx                     long_prompt  rep1 pp 3527tok    191.1 t/s | gen 27tok   17.41 t/s | ttft  18.47s total  19.96s
+  q4_0-amx                     long_prompt  rep2 pp 3527tok    196.0 t/s | gen 27tok   18.45 t/s | ttft  18.01s total  19.42s
+  q4_0-amx                     long_prompt  rep3 pp 3527tok    196.8 t/s | gen 27tok   18.89 t/s | ttft  17.93s total  19.31s
+  q4_0-amx                     long_gen     rep0 pp 51tok    123.2 t/s | gen 400tok   20.90 t/s | ttft   0.45s total  19.54s  (warmup)
+  q4_0-amx                     long_gen     rep1 pp 51tok    116.7 t/s | gen 400tok   21.16 t/s | ttft   0.46s total  19.31s
+  q4_0-amx                     long_gen     rep2 pp 51tok    121.0 t/s | gen 400tok   20.91 t/s | ttft   0.42s total  19.51s
+  q4_0-amx                     long_gen     rep3 pp 51tok    125.1 t/s | gen 400tok   20.84 t/s | ttft   0.41s total  19.55s
+  q4_0-amx                     code_edit    rep0 pp 455tok    210.2 t/s | gen 555tok   20.26 t/s | ttft   2.17s total  29.51s  (warmup)
+  q4_0-amx                     code_edit    rep1 pp 455tok    208.4 t/s | gen 555tok   20.46 t/s | ttft   2.21s total  29.28s
+  q4_0-amx                     code_edit    rep2 pp 455tok    206.3 t/s | gen 555tok   20.83 t/s | ttft   2.21s total  28.80s
+  q4_0-amx                     code_edit    rep3 pp 455tok    207.1 t/s | gen 555tok   20.66 t/s | ttft   2.20s total  29.02s
+  q4_0-amx                     extract      rep0 pp 333tok    211.5 t/s | gen 448tok   20.52 t/s | ttft   1.58s total  23.36s  (warmup)
+  q4_0-amx                     extract      rep1 pp 333tok    208.5 t/s | gen 448tok   20.74 t/s | ttft   1.62s total  23.18s
+  q4_0-amx                     extract      rep2 pp 333tok    194.6 t/s | gen 448tok   20.91 t/s | ttft   1.72s total  23.10s
+  q4_0-amx                     extract      rep3 pp 333tok    221.3 t/s | gen 448tok   20.96 t/s | ttft   1.51s total  22.84s
+q4_0-amx                     chat_short   pp    129.8 t/s  gen   19.77 t/s  ttft   0.34s  total    5.24s  rss  2.90G  load 8.4s
+q4_0-amx                     long_prompt  pp    196.0 t/s  gen   18.45 t/s  ttft  18.01s  total   19.42s  rss  2.90G  load 8.4s
+q4_0-amx                     long_gen     pp    121.0 t/s  gen   20.91 t/s  ttft   0.42s  total   19.51s  rss  2.90G  load 8.4s
+q4_0-amx                     code_edit    pp    207.1 t/s  gen   20.66 t/s  ttft   2.21s  total   29.02s  rss  2.90G  load 8.4s
+q4_0-amx                     extract      pp    208.5 t/s  gen   20.91 t/s  ttft   1.62s  total   23.10s  rss  2.90G  load 8.4s
+  ik-q4km                      chat_short   rep0 pp 39tok    126.8 t/s | gen 128tok   12.87 t/s | ttft   0.32s total  10.26s  (warmup)
+  ik-q4km                      chat_short   rep1 pp 39tok    109.5 t/s | gen 128tok   12.84 t/s | ttft   0.40s total  10.37s
+  ik-q4km                      chat_short   rep2 pp 39tok    113.6 t/s | gen 128tok   12.85 t/s | ttft   0.37s total  10.32s
+  ik-q4km                      chat_short   rep3 pp 39tok    112.4 t/s | gen 128tok   13.10 t/s | ttft   0.36s total  10.13s
+  ik-q4km                      long_prompt  rep0 pp 3523tok    269.1 t/s | gen 64tok   12.95 t/s | ttft  13.11s total  18.05s  (warmup)
+  ik-q4km                      long_prompt  rep1 pp 3523tok    274.1 t/s | gen 64tok   12.83 t/s | ttft  12.87s total  17.86s
+  ik-q4km                      long_prompt  rep2 pp 3523tok    268.9 t/s | gen 64tok   12.93 t/s | ttft  13.11s total  18.06s
+  ik-q4km                      long_prompt  rep3 pp 3523tok    266.2 t/s | gen 64tok   12.48 t/s | ttft  13.25s total  18.38s
+  ik-q4km                      long_gen     rep0 pp 47tok    146.0 t/s | gen 400tok   12.76 t/s | ttft   0.41s total  31.78s  (warmup)
+  ik-q4km                      long_gen     rep1 pp 47tok    147.2 t/s | gen 400tok   12.67 t/s | ttft   0.34s total  31.91s
+  ik-q4km                      long_gen     rep2 pp 47tok    124.9 t/s | gen 400tok   12.66 t/s | ttft   0.39s total  31.97s
+  ik-q4km                      long_gen     rep3 pp 47tok    143.8 t/s | gen 400tok   12.71 t/s | ttft   0.34s total  31.80s
+  ik-q4km                      code_edit    rep0 pp 451tok    277.5 t/s | gen 468tok   12.61 t/s | ttft   1.64s total  38.74s  (warmup)
+  ik-q4km                      code_edit    rep1 pp 451tok    270.0 t/s | gen 468tok   12.65 t/s | ttft   1.73s total  38.74s
+  ik-q4km                      code_edit    rep2 pp 451tok    287.6 t/s | gen 468tok   12.71 t/s | ttft   1.58s total  38.39s
+  ik-q4km                      code_edit    rep3 pp 451tok    274.1 t/s | gen 468tok   12.79 t/s | ttft   1.65s total  38.24s
+  ik-q4km                      extract      rep0 pp 329tok    258.9 t/s | gen 448tok   12.91 t/s | ttft   1.28s total  36.00s  (warmup)
+  ik-q4km                      extract      rep1 pp 329tok    264.5 t/s | gen 448tok   12.85 t/s | ttft   1.29s total  36.15s
+  ik-q4km                      extract      rep2 pp 329tok    277.4 t/s | gen 448tok   12.75 t/s | ttft   1.19s total  36.34s
+  ik-q4km                      extract      rep3 pp 329tok    276.8 t/s | gen 448tok   13.11 t/s | ttft   1.20s total  35.37s
+ik-q4km                      chat_short   pp    112.4 t/s  gen   12.85 t/s  ttft   0.37s  total   10.32s  rss  1.84G  load 1.3s
+ik-q4km                      long_prompt  pp    268.9 t/s  gen   12.83 t/s  ttft  13.11s  total   18.06s  rss  1.84G  load 1.3s
+ik-q4km                      long_gen     pp    143.8 t/s  gen   12.67 t/s  ttft   0.34s  total   31.91s  rss  1.84G  load 1.3s
+ik-q4km                      code_edit    pp    274.1 t/s  gen   12.71 t/s  ttft   1.65s  total   38.39s  rss  1.84G  load 1.3s
+ik-q4km                      extract      pp    276.8 t/s  gen   12.85 t/s  ttft   1.20s  total   36.15s  rss  1.84G  load 1.3s
+  ik-q4km-rtr                  chat_short   rep0 pp 39tok    119.7 t/s | gen 128tok   20.27 t/s | ttft   0.33s total   6.64s  (warmup)
+  ik-q4km-rtr                  chat_short   rep1 pp 39tok    118.1 t/s | gen 128tok   20.92 t/s | ttft   0.38s total   6.50s
+  ik-q4km-rtr                  chat_short   rep2 pp 39tok    122.7 t/s | gen 128tok   20.55 t/s | ttft   0.33s total   6.56s
+  ik-q4km-rtr                  chat_short   rep3 pp 39tok    111.1 t/s | gen 128tok   20.52 t/s | ttft   0.36s total   6.60s
+  ik-q4km-rtr                  long_prompt  rep0 pp 3523tok    387.7 t/s | gen 64tok   19.44 t/s | ttft   9.11s total  12.40s  (warmup)
+  ik-q4km-rtr                  long_prompt  rep1 pp 3523tok    379.3 t/s | gen 64tok   20.07 t/s | ttft   9.31s total  12.49s
+  ik-q4km-rtr                  long_prompt  rep2 pp 3523tok    390.3 t/s | gen 64tok   20.29 t/s | ttft   9.04s total  12.20s
+  ik-q4km-rtr                  long_prompt  rep3 pp 3523tok    413.3 t/s | gen 64tok   20.48 t/s | ttft   8.54s total  11.66s
+  ik-q4km-rtr                  long_gen     rep0 pp 47tok    140.6 t/s | gen 400tok   20.62 t/s | ttft   0.46s total  19.85s  (warmup)
+  ik-q4km-rtr                  long_gen     rep1 pp 47tok    137.8 t/s | gen 400tok   20.65 t/s | ttft   0.38s total  19.74s
+  ik-q4km-rtr                  long_gen     rep2 pp 47tok    137.5 t/s | gen 400tok   20.41 t/s | ttft   0.35s total  19.95s
+  ik-q4km-rtr                  long_gen     rep3 pp 47tok    130.7 t/s | gen 400tok   20.34 t/s | ttft   0.37s total  20.03s
+  ik-q4km-rtr                  code_edit    rep0 pp 451tok    401.5 t/s | gen 459tok   20.41 t/s | ttft   1.13s total  23.62s  (warmup)
+  ik-q4km-rtr                  code_edit    rep1 pp 451tok    404.7 t/s | gen 459tok   20.07 t/s | ttft   1.19s total  24.06s
+  ik-q4km-rtr                  code_edit    rep2 pp 451tok    408.5 t/s | gen 459tok   19.97 t/s | ttft   1.11s total  24.10s
+  ik-q4km-rtr                  code_edit    rep3 pp 451tok    408.1 t/s | gen 459tok   20.38 t/s | ttft   1.11s total  23.64s
+  ik-q4km-rtr                  extract      rep0 pp 329tok    324.5 t/s | gen 448tok   20.06 t/s | ttft   1.02s total  23.36s  (warmup)
+  ik-q4km-rtr                  extract      rep1 pp 329tok    342.6 t/s | gen 448tok   20.37 t/s | ttft   1.02s total  23.02s
+  ik-q4km-rtr                  extract      rep2 pp 329tok    375.5 t/s | gen 448tok   20.18 t/s | ttft   0.89s total  23.09s
+  ik-q4km-rtr                  extract      rep3 pp 329tok    340.0 t/s | gen 448tok   20.21 t/s | ttft   0.97s total  23.14s
+ik-q4km-rtr                  chat_short   pp    118.1 t/s  gen   20.55 t/s  ttft   0.36s  total    6.56s  rss  1.84G  load 1.4s
+ik-q4km-rtr                  long_prompt  pp    390.3 t/s  gen   20.29 t/s  ttft   9.04s  total   12.20s  rss  1.84G  load 1.4s
+ik-q4km-rtr                  long_gen     pp    137.5 t/s  gen   20.41 t/s  ttft   0.37s  total   19.95s  rss  1.84G  load 1.4s
+ik-q4km-rtr                  code_edit    pp    408.1 t/s  gen   20.07 t/s  ttft   1.11s  total   24.06s  rss  1.84G  load 1.4s
+ik-q4km-rtr                  extract      pp    342.6 t/s  gen   20.21 t/s  ttft   0.97s  total   23.09s  rss  1.84G  load 1.4s
+  ik-q4_0-rtr                  chat_short   rep0 pp 39tok    182.9 t/s | gen 128tok   19.97 t/s | ttft   0.22s total   6.63s  (warmup)
+  ik-q4_0-rtr                  chat_short   rep1 pp 39tok    149.7 t/s | gen 128tok   19.95 t/s | ttft   0.31s total   6.72s
+  ik-q4_0-rtr                  chat_short   rep2 pp 39tok    200.5 t/s | gen 128tok   20.14 t/s | ttft   0.21s total   6.56s
+  ik-q4_0-rtr                  chat_short   rep3 pp 39tok    186.8 t/s | gen 128tok   21.07 t/s | ttft   0.22s total   6.29s
+  ik-q4_0-rtr                  long_prompt  rep0 pp 3523tok    333.0 t/s | gen 64tok   20.45 t/s | ttft  10.60s total  13.73s  (warmup)
+  ik-q4_0-rtr                  long_prompt  rep1 pp 3523tok    333.6 t/s | gen 64tok   19.70 t/s | ttft  10.57s total  13.82s
+  ik-q4_0-rtr                  long_prompt  rep2 pp 3523tok    333.0 t/s | gen 64tok   20.39 t/s | ttft  10.60s total  13.73s
+  ik-q4_0-rtr                  long_prompt  rep3 pp 3523tok    339.0 t/s | gen 64tok   20.04 t/s | ttft  10.41s total  13.60s
+  ik-q4_0-rtr                  long_gen     rep0 pp 47tok    216.7 t/s | gen 400tok   20.98 t/s | ttft   0.32s total  19.39s  (warmup)
+  ik-q4_0-rtr                  long_gen     rep1 pp 47tok    218.0 t/s | gen 400tok   20.85 t/s | ttft   0.24s total  19.43s
+  ik-q4_0-rtr                  long_gen     rep2 pp 47tok    201.2 t/s | gen 400tok   20.65 t/s | ttft   0.24s total  19.61s
+  ik-q4_0-rtr                  long_gen     rep3 pp 47tok    207.3 t/s | gen 400tok   20.78 t/s | ttft   0.23s total  19.48s
+  ik-q4_0-rtr                  code_edit    rep0 pp 451tok    369.2 t/s | gen 640tok   20.52 t/s | ttft   1.23s total  32.41s  (warmup)
+  ik-q4_0-rtr                  code_edit    rep1 pp 451tok    355.1 t/s | gen 640tok   20.65 t/s | ttft   1.35s total  32.35s
+  ik-q4_0-rtr                  code_edit    rep2 pp 451tok    368.6 t/s | gen 640tok   20.63 t/s | ttft   1.23s total  32.26s
+  ik-q4_0-rtr                  code_edit    rep3 pp 451tok    371.7 t/s | gen 640tok   20.44 t/s | ttft   1.23s total  32.54s
+  ik-q4_0-rtr                  extract      rep0 pp 329tok    321.2 t/s | gen 448tok   20.56 t/s | ttft   1.03s total  22.82s  (warmup)
+  ik-q4_0-rtr                  extract      rep1 pp 329tok    356.2 t/s | gen 448tok   20.54 t/s | ttft   0.96s total  22.78s
+  ik-q4_0-rtr                  extract      rep2 pp 329tok    326.3 t/s | gen 448tok   21.10 t/s | ttft   1.02s total  22.25s
+  ik-q4_0-rtr                  extract      rep3 pp 329tok    331.8 t/s | gen 448tok   20.81 t/s | ttft   1.00s total  22.53s
+ik-q4_0-rtr                  chat_short   pp    186.8 t/s  gen   20.14 t/s  ttft   0.22s  total    6.56s  rss  1.79G  load 1.5s
+ik-q4_0-rtr                  long_prompt  pp    333.6 t/s  gen   20.04 t/s  ttft  10.57s  total   13.73s  rss  1.79G  load 1.5s
+ik-q4_0-rtr                  long_gen     pp    207.3 t/s  gen   20.78 t/s  ttft   0.24s  total   19.48s  rss  1.79G  load 1.5s
+ik-q4_0-rtr                  code_edit    pp    368.6 t/s  gen   20.63 t/s  ttft   1.23s  total   32.35s  rss  1.79G  load 1.5s
+ik-q4_0-rtr                  extract      pp    331.8 t/s  gen   20.81 t/s  ttft   1.00s  total   22.53s  rss  1.79G  load 1.5s
+  baseline-r3                  chat_short   rep0 pp 43tok    113.4 t/s | gen 80tok   14.40 t/s | ttft   0.38s total   5.87s  (warmup)
+  baseline-r3                  chat_short   rep1 pp 43tok    114.8 t/s | gen 80tok   14.25 t/s | ttft   0.41s total   5.95s
+  baseline-r3                  chat_short   rep2 pp 43tok    112.6 t/s | gen 80tok   14.16 t/s | ttft   0.38s total   5.96s
+  baseline-r3                  chat_short   rep3 pp 43tok    123.0 t/s | gen 80tok   14.62 t/s | ttft   0.35s total   5.75s
+  baseline-r3                  long_prompt  rep0 pp 3527tok    205.2 t/s | gen 36tok   13.37 t/s | ttft  17.21s total  19.82s  (warmup)
+  baseline-r3                  long_prompt  rep1 pp 3527tok    203.3 t/s | gen 36tok   13.05 t/s | ttft  17.36s total  20.04s
+  baseline-r3                  long_prompt  rep2 pp 3527tok    201.6 t/s | gen 36tok   13.18 t/s | ttft  17.50s total  20.16s
+  baseline-r3                  long_prompt  rep3 pp 3527tok    205.8 t/s | gen 36tok   13.28 t/s | ttft  17.15s total  19.79s
+  baseline-r3                  long_gen     rep0 pp 51tok    101.9 t/s | gen 400tok   14.34 t/s | ttft   0.58s total  28.40s  (warmup)
+  baseline-r3                  long_gen     rep1 pp 51tok     98.5 t/s | gen 400tok   14.16 t/s | ttft   0.54s total  28.72s
+  baseline-r3                  long_gen     rep2 pp 51tok     95.4 t/s | gen 400tok   14.08 t/s | ttft   0.54s total  28.88s
+  baseline-r3                  long_gen     rep3 pp 51tok    104.5 t/s | gen 400tok   14.48 t/s | ttft   0.49s total  28.04s
+  baseline-r3                  code_edit    rep0 pp 455tok    206.2 t/s | gen 464tok   14.12 t/s | ttft   2.21s total  34.99s  (warmup)
+  baseline-r3                  code_edit    rep1 pp 455tok    218.9 t/s | gen 464tok   14.01 t/s | ttft   2.12s total  35.17s
+  baseline-r3                  code_edit    rep2 pp 455tok    201.1 t/s | gen 464tok   13.60 t/s | ttft   2.27s total  36.31s
+  baseline-r3                  code_edit    rep3 pp 455tok    206.7 t/s | gen 464tok   14.17 t/s | ttft   2.21s total  34.89s
+  baseline-r3                  extract      rep0 pp 333tok    203.0 t/s | gen 448tok   13.75 t/s | ttft   1.65s total  34.17s  (warmup)
+  baseline-r3                  extract      rep1 pp 333tok    199.5 t/s | gen 448tok   13.78 t/s | ttft   1.70s total  34.14s
+  baseline-r3                  extract      rep2 pp 333tok    198.1 t/s | gen 448tok   13.75 t/s | ttft   1.68s total  34.20s
+  baseline-r3                  extract      rep3 pp 333tok    198.7 t/s | gen 448tok   13.91 t/s | ttft   1.68s total  33.81s
+baseline-r3                  chat_short   pp    114.8 t/s  gen   14.25 t/s  ttft   0.38s  total    5.95s  rss  6.06G  load 5.8s
+baseline-r3                  long_prompt  pp    203.3 t/s  gen   13.18 t/s  ttft  17.36s  total   20.04s  rss  6.06G  load 5.8s
+baseline-r3                  long_gen     pp     98.5 t/s  gen   14.16 t/s  ttft   0.54s  total   28.72s  rss  6.06G  load 5.8s
+baseline-r3                  code_edit    pp    206.7 t/s  gen   14.01 t/s  ttft   2.21s  total   35.17s  rss  6.06G  load 5.8s
+baseline-r3                  extract      pp    198.7 t/s  gen   13.78 t/s  ttft   1.68s  total   34.14s  rss  6.06G  load 5.8s

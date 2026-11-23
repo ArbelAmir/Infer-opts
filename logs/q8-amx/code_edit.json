@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 2.0284852599997976,
+  "total_s": 25.30396956000004,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 455,
+   "prompt_ms": 2025.118,
+   "prompt_per_token_ms": 4.450808791208791,
+   "prompt_per_second": 224.67826566155654,
+   "predicted_n": 457,
+   "predicted_ms": 23275.295,
+   "predicted_per_token_ms": 51.042313596491226,
+   "predicted_per_second": 19.59158842025418
+  },
+  "usage": null,
+  "content": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file and return a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f):\n            rows.append(row)\n    return rows\n\n\ndef total_by_customer(rows):\n    \"\"\"Calculate total amount for each customer.\"\"\"\n    totals = {}\n    for row in rows:\n        name = row[\"customer\"]\n        amount = float(row[\"amount\"])\n        if name not in totals:\n            totals[name] = 0.0\n        totals[name] += amount\n    return totals\n\n\ndef top_customers(totals, n):\n    \"\"\"Return the top n customers by total amount.\"\"\"\n    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)\n    return items[:n]\n\n\ndef filter_by_status(rows, status):\n    \"\"\"Filter rows by a specific status.\"\"\"\n    out = []\n    for row in rows:\n        if row[\"status\"] == status:\n            out.append(row)\n    return out\n\n\ndef average_order_value(rows):\n    \"\"\"Calculate the average order value.\"\"\"\n    if not rows:\n        return 0.0\n    total = 0.0\n    for row in rows:\n        total += float(row[\"amount\"])\n    return total / len(rows)\n\n\ndef save_report(path, totals, top):\n    \"\"\"Save the totals and top customers to a JSON file.\"\"\"\n    report = {\"totals\": totals, \"top\": top}\n    with open(path, \"w\") as f:\n        json.dump(report, f, indent=2)\n\n\ndef main():\n    rows = load_orders(\"orders.csv\")\n    paid = filter_by_status(rows, \"paid\")\n    totals = total_by_customer(paid)\n    top = top_customers(totals, 5)\n    print(\"average order value:\", average_order_value(paid))\n    save_report(\"report.json\", totals, top)\n\n\nif __name__ == \"__main__\":\n    main()\n```",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 2.0537168430000747,
+  "total_s": 25.498165064000204,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 455,
+   "prompt_ms": 2016.406,
+   "prompt_per_token_ms": 4.4316615384615385,
+   "prompt_per_second": 225.64900124280527,
+   "predicted_n": 457,
+   "predicted_ms": 23453.013,
+   "predicted_per_token_ms": 51.43204605263158,
+   "predicted_per_second": 19.443130825024486
+  },
+  "usage": null,
+  "content": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file and return a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f):\n            rows.append(row)\n    return rows\n\n\ndef total_by_customer(rows):\n    \"\"\"Calculate total amount for each customer.\"\"\"\n    totals = {}\n    for row in rows:\n        name = row[\"customer\"]\n        amount = float(row[\"amount\"])\n        if name not in totals:\n            totals[name] = 0.0\n        totals[name] += amount\n    return totals\n\n\ndef top_customers(totals, n):\n    \"\"\"Return the top n customers by total amount.\"\"\"\n    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)\n    return items[:n]\n\n\ndef filter_by_status(rows, status):\n    \"\"\"Filter rows by a specific status.\"\"\"\n    out = []\n    for row in rows:\n        if row[\"status\"] == status:\n            out.append(row)\n    return out\n\n\ndef average_order_value(rows):\n    \"\"\"Calculate the average order value.\"\"\"\n    if not rows:\n        return 0.0\n    total = 0.0\n    for row in rows:\n        total += float(row[\"amount\"])\n    return total / len(rows)\n\n\ndef save_report(path, totals, top):\n    \"\"\"Save the totals and top customers to a JSON file.\"\"\"\n    report = {\"totals\": totals, \"top\": top}\n    with open(path, \"w\") as f:\n        json.dump(report, f, indent=2)\n\n\ndef main():\n    rows = load_orders(\"orders.csv\")\n    paid = filter_by_status(rows, \"paid\")\n    totals = total_by_customer(paid)\n    top = top_customers(totals, 5)\n    print(\"average order value:\", average_order_value(paid))\n    save_report(\"report.json\", totals, top)\n\n\nif __name__ == \"__main__\":\n    main()\n```",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 2.0355756110002403,
+  "total_s": 25.476455092000833,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 455,
+   "prompt_ms": 2031.309,
+   "prompt_per_token_ms": 4.464415384615385,
+   "prompt_per_second": 223.9934938505171,
+   "predicted_n": 457,
+   "predicted_ms": 23441.628,
+   "predicted_per_token_ms": 51.407078947368426,
+   "predicted_per_second": 19.4525738570717
+  },
+  "usage": null,
+  "content": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file and return a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f):\n            rows.append(row)\n    return rows\n\n\ndef total_by_customer(rows):\n    \"\"\"Calculate total amount for each customer.\"\"\"\n    totals = {}\n    for row in rows:\n        name = row[\"customer\"]\n        amount = float(row[\"amount\"])\n        if name not in totals:\n            totals[name] = 0.0\n        totals[name] += amount\n    return totals\n\n\ndef top_customers(totals, n):\n    \"\"\"Return the top n customers by total amount.\"\"\"\n    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)\n    return items[:n]\n\n\ndef filter_by_status(rows, status):\n    \"\"\"Filter rows by a specific status.\"\"\"\n    out = []\n    for row in rows:\n        if row[\"status\"] == status:\n            out.append(row)\n    return out\n\n\ndef average_order_value(rows):\n    \"\"\"Calculate the average order value.\"\"\"\n    if not rows:\n        return 0.0\n    total = 0.0\n    for row in rows:\n        total += float(row[\"amount\"])\n    return total / len(rows)\n\n\ndef save_report(path, totals, top):\n    \"\"\"Save the totals and top customers to a JSON file.\"\"\"\n    report = {\"totals\": totals, \"top\": top}\n    with open(path, \"w\") as f:\n        json.dump(report, f, indent=2)\n\n\ndef main():\n    rows = load_orders(\"orders.csv\")\n    paid = filter_by_status(rows, \"paid\")\n    totals = total_by_customer(paid)\n    top = top_customers(totals, 5)\n    print(\"average order value:\", average_order_value(paid))\n    save_report(\"report.json\", totals, top)\n\n\nif __name__ == \"__main__\":\n    main()\n```",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 2.088593934999153,
+  "total_s": 25.5952706019998,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 455,
+   "prompt_ms": 2084.107,
+   "prompt_per_token_ms": 4.580454945054945,
+   "prompt_per_second": 218.31892508398082,
+   "predicted_n": 457,
+   "predicted_ms": 23507.263,
+   "predicted_per_token_ms": 51.551015350877194,
+   "predicted_per_second": 19.398260018616376
+  },
+  "usage": null,
+  "content": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file and return a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f):\n            rows.append(row)\n    return rows\n\n\ndef total_by_customer(rows):\n    \"\"\"Calculate total amount for each customer.\"\"\"\n    totals = {}\n    for row in rows:\n        name = row[\"customer\"]\n        amount = float(row[\"amount\"])\n        if name not in totals:\n            totals[name] = 0.0\n        totals[name] += amount\n    return totals\n\n\ndef top_customers(totals, n):\n    \"\"\"Return the top n customers by total amount.\"\"\"\n    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)\n    return items[:n]\n\n\ndef filter_by_status(rows, status):\n    \"\"\"Filter rows by a specific status.\"\"\"\n    out = []\n    for row in rows:\n        if row[\"status\"] == status:\n            out.append(row)\n    return out\n\n\ndef average_order_value(rows):\n    \"\"\"Calculate the average order value.\"\"\"\n    if not rows:\n        return 0.0\n    total = 0.0\n    for row in rows:\n        total += float(row[\"amount\"])\n    return total / len(rows)\n\n\ndef save_report(path, totals, top):\n    \"\"\"Save the totals and top customers to a JSON file.\"\"\"\n    report = {\"totals\": totals, \"top\": top}\n    with open(path, \"w\") as f:\n        json.dump(report, f, indent=2)\n\n\ndef main():\n    rows = load_orders(\"orders.csv\")\n    paid = filter_by_status(rows, \"paid\")\n    totals = total_by_customer(paid)\n    top = top_customers(totals, 5)\n    print(\"average order value:\", average_order_value(paid))\n    save_report(\"report.json\", totals, top)\n\n\nif __name__ == \"__main__\":\n    main()\n```",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

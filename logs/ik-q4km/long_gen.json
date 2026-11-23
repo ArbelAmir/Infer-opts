@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.4137490239991166,
+  "total_s": 31.778444486997614,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 321.997,
+   "prompt_per_token_ms": 6.851,
+   "prompt_per_second": 145.96409283316302,
+   "predicted_n": 400,
+   "predicted_ms": 31359.557,
+   "predicted_per_token_ms": 78.3988925,
+   "predicted_per_second": 12.755282225447253,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical application of movable type by Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monks, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely increase the speed of information; it democratized learning, fueled the Reformation, ignited the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press lie in the limitations of the manuscript. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that a text could be read differently by different readers. This scarcity of information created a rigid social hierarchy; only the elite, the clergy, and the wealthy could access the written word. The printing press introduced the concept of the \"copy,\" where a single master type could be multiplied into thousands of identical copies. This efficiency allowed ideas to spread rapidly across borders, transcending the geographical and linguistic barriers that previously isolated cultures.\n\nThe immediate impact of this innovation was most profound during the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. Unlike the slow, expensive process of producing a new edition of the Bible, Luther could print thousands of copies of his arguments in weeks. This accessibility allowed his ideas to spread across Europe, sparking a religious revolution that reshaped the political and social landscape of the continent. The press became a tool for dissent, allowing individuals to question established authorities and fostering a culture of critical thinking.\n\nSimultaneously, the printing press accelerated the Renaissance. With the ability to reproduce classical texts, scholars could study the works of",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.34330404800130054,
+  "total_s": 31.91317251000146,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 319.315,
+   "prompt_per_token_ms": 6.793936170212766,
+   "prompt_per_second": 147.19007876235065,
+   "predicted_n": 400,
+   "predicted_ms": 31569.83,
+   "predicted_per_token_ms": 78.924575,
+   "predicted_per_second": 12.670324800608682,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical application of movable type by Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monks, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely increase the speed of information; it democratized learning, fueled the Reformation, ignited the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press lie in the limitations of the manuscript. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that a text could be read differently by different readers. This scarcity of information created a rigid social hierarchy; only the elite, the clergy, and the wealthy could access the written word. The printing press introduced the concept of the \"copy,\" where a single master type could be multiplied into thousands of identical copies. This efficiency allowed ideas to spread rapidly across borders, transcending the geographical and linguistic barriers that previously isolated cultures.\n\nThe immediate impact of this innovation was most profound during the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. Unlike the slow, expensive process of producing a new edition of the Bible, Luther could print thousands of copies of his arguments in weeks. This accessibility allowed his ideas to spread across Europe, sparking a religious revolution that reshaped the political and social landscape of the continent. The press became a tool for dissent, allowing individuals to question established authorities and fostering a culture of critical thinking.\n\nSimultaneously, the printing press accelerated the Renaissance. With the ability to reproduce classical texts, scholars could study the works of",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.3867126000004646,
+  "total_s": 31.97279493300084,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 376.217,
+   "prompt_per_token_ms": 8.004617021276596,
+   "prompt_per_second": 124.92790065308054,
+   "predicted_n": 400,
+   "predicted_ms": 31589.353,
+   "predicted_per_token_ms": 78.9733825,
+   "predicted_per_second": 12.662494227089741,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical application of movable type by Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monks, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely increase the speed of information; it democratized learning, fueled the Reformation, ignited the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press lie in the limitations of the manuscript. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that a text could be read differently by different readers. This scarcity of information created a rigid social hierarchy; only the elite, the clergy, and the wealthy could access the written word. The printing press introduced the concept of the \"copy,\" where a single master type could be multiplied into thousands of identical copies. This efficiency allowed ideas to spread rapidly across borders, transcending the geographical and linguistic barriers that previously isolated cultures.\n\nThe immediate impact of this innovation was most profound during the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. Unlike the slow, expensive process of producing a new edition of the Bible, Luther could print thousands of copies of his arguments in weeks. This accessibility allowed his ideas to spread across Europe, sparking a religious revolution that reshaped the political and social landscape of the continent. The press became a tool for dissent, allowing individuals to question established authorities and fostering a culture of critical thinking.\n\nSimultaneously, the printing press accelerated the Renaissance. With the ability to reproduce classical texts, scholars could study the works of",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.3376268970023375,
+  "total_s": 31.795122126000933,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 326.932,
+   "prompt_per_token_ms": 6.956,
+   "prompt_per_second": 143.7607820586544,
+   "predicted_n": 400,
+   "predicted_ms": 31460.652,
+   "predicted_per_token_ms": 78.65163,
+   "predicted_per_second": 12.714294668781816,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical application of movable type by Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monks, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely increase the speed of information; it democratized learning, fueled the Reformation, ignited the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press lie in the limitations of the manuscript. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that a text could be read differently by different readers. This scarcity of information created a rigid social hierarchy; only the elite, the clergy, and the wealthy could access the written word. The printing press introduced the concept of the \"copy,\" where a single master type could be multiplied into thousands of identical copies. This efficiency allowed ideas to spread rapidly across borders, transcending the geographical and linguistic barriers that previously isolated cultures.\n\nThe immediate impact of this innovation was most profound during the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. Unlike the slow, expensive process of producing a new edition of the Bible, Luther could print thousands of copies of his arguments in weeks. This accessibility allowed his ideas to spread across Europe, sparking a religious revolution that reshaped the political and social landscape of the continent. The press became a tool for dissent, allowing individuals to question established authorities and fostering a culture of critical thinking.\n\nSimultaneously, the printing press accelerated the Renaissance. With the ability to reproduce classical texts, scholars could study the works of",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

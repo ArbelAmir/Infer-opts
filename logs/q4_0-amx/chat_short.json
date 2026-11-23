@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.3393717409999226,
+  "total_s": 5.212724314002116,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 334.696,
+   "prompt_per_token_ms": 7.7836279069767444,
+   "prompt_per_second": 128.47479503788512,
+   "predicted_n": 98,
+   "predicted_ms": 4874.432,
+   "predicted_per_token_ms": 50.251876288659794,
+   "predicted_per_second": 19.89975447395717
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter away from your line of sight, while the longer red and orange wavelengths pass through more easily. However, at sunset, the sun is lower in the sky, so its light must travel through a much thicker layer of atmosphere to reach your eyes. This increased path length allows even the red wavelengths to scatter away, leaving only the red and orange hues to reach your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.34270942299917806,
+  "total_s": 5.2846440770008485,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 322.462,
+   "prompt_per_token_ms": 7.499116279069767,
+   "prompt_per_second": 133.34904577903754,
+   "predicted_n": 98,
+   "predicted_ms": 4941.758,
+   "predicted_per_token_ms": 50.9459587628866,
+   "predicted_per_second": 19.628642276695864
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter away from your line of sight, while the longer red and orange wavelengths pass through more easily. However, at sunset, the sun is lower in the sky, so its light must travel through a much thicker layer of atmosphere to reach your eyes. This increased path length allows even the red wavelengths to scatter away, leaving only the red and orange hues to reach your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.33388539099905756,
+  "total_s": 5.240254076001293,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 331.383,
+   "prompt_per_token_ms": 7.706581395348837,
+   "prompt_per_second": 129.7592212032603,
+   "predicted_n": 98,
+   "predicted_ms": 4906.262,
+   "predicted_per_token_ms": 50.580020618556695,
+   "predicted_per_second": 19.770652280697607
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter away from your line of sight, while the longer red and orange wavelengths pass through more easily. However, at sunset, the sun is lower in the sky, so its light must travel through a much thicker layer of atmosphere to reach your eyes. This increased path length allows even the red wavelengths to scatter away, leaving only the red and orange hues to reach your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.36888376400020206,
+  "total_s": 4.942358254000283,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 366.61,
+   "prompt_per_token_ms": 8.525813953488372,
+   "prompt_per_second": 117.29085404107907,
+   "predicted_n": 98,
+   "predicted_ms": 4573.179,
+   "predicted_per_token_ms": 47.14617525773196,
+   "predicted_per_second": 21.210628317850666
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter away from your line of sight, while the longer red and orange wavelengths pass through more easily. However, at sunset, the sun is lower in the sky, so its light must travel through a much thicker layer of atmosphere to reach your eyes. This increased path length allows even the red wavelengths to scatter away, leaving only the red and orange hues to reach your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

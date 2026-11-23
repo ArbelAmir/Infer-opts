@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.5981058849993133,
+  "total_s": 29.06303395299983,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 553.407,
+   "prompt_per_token_ms": 10.851117647058825,
+   "prompt_per_second": 92.15640568333974,
+   "predicted_n": 400,
+   "predicted_ms": 28464.745,
+   "predicted_per_token_ms": 71.34021303258145,
+   "predicted_per_second": 14.017339695121107
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the use of a flexible printing ink. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken a scribe to copy it by hand. This efficiency was revolutionary, as it allowed for the rapid production of religious texts, legal documents, and scientific treatises.\n\nThe immediate impact of Gutenberg's press was the dissemination of the Bible. Before his invention, the Bible was a labor-intensive task, often taking months to produce a single copy. With the press, the Bible could be printed in a matter of weeks, making it accessible to a wider audience. This accessibility sparked a religious renaissance in Europe, leading to the Protestant Reformation. Martin Luther's 95 Theses, which challenged the Catholic Church, were printed and circulated rapidly, sparking a theological and political revolution that reshaped the European landscape.\n\nBeyond religion, the press became the engine of the Renaissance. Humanism, a philosophical movement emphasizing the potential and achievements of humans, flourished because books",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.5436604290007381,
+  "total_s": 29.163428832000136,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 522.193,
+   "prompt_per_token_ms": 10.23907843137255,
+   "prompt_per_second": 97.66503955434102,
+   "predicted_n": 400,
+   "predicted_ms": 28622.803,
+   "predicted_per_token_ms": 71.73634837092732,
+   "predicted_per_second": 13.939934534014714
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the use of a flexible printing ink. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken a scribe to copy it by hand. This efficiency was revolutionary, as it allowed for the rapid production of religious texts, legal documents, and scientific treatises.\n\nThe immediate impact of Gutenberg's press was the dissemination of the Bible. Before his invention, the Bible was a labor-intensive task, often taking months to produce a single copy. With the press, the Bible could be printed in a matter of weeks, making it accessible to a wider audience. This accessibility sparked a religious renaissance in Europe, leading to the Protestant Reformation. Martin Luther's 95 Theses, which challenged the Catholic Church, were printed and circulated rapidly, sparking a theological and political revolution that reshaped the European landscape.\n\nBeyond religion, the press became the engine of the Renaissance. Humanism, a philosophical movement emphasizing the potential and achievements of humans, flourished because books",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5554529419987375,
+  "total_s": 28.76169581999966,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 553.262,
+   "prompt_per_token_ms": 10.84827450980392,
+   "prompt_per_second": 92.18055821654117,
+   "predicted_n": 400,
+   "predicted_ms": 28206.023,
+   "predicted_per_token_ms": 70.69178696741855,
+   "predicted_per_second": 14.145914863644547
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the use of a flexible printing ink. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken a scribe to copy it by hand. This efficiency was revolutionary, as it allowed for the rapid production of religious texts, legal documents, and scientific treatises.\n\nThe immediate impact of Gutenberg's press was the dissemination of the Bible. Before his invention, the Bible was a labor-intensive task, often taking months to produce a single copy. With the press, the Bible could be printed in a matter of weeks, making it accessible to a wider audience. This accessibility sparked a religious renaissance in Europe, leading to the Protestant Reformation. Martin Luther's 95 Theses, which challenged the Catholic Church, were printed and circulated rapidly, sparking a theological and political revolution that reshaped the European landscape.\n\nBeyond religion, the press became the engine of the Renaissance. Humanism, a philosophical movement emphasizing the potential and achievements of humans, flourished because books",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5322470539995265,
+  "total_s": 28.939617639998687,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 530.168,
+   "prompt_per_token_ms": 10.395450980392157,
+   "prompt_per_second": 96.19592280182886,
+   "predicted_n": 400,
+   "predicted_ms": 28407.16,
+   "predicted_per_token_ms": 71.19588972431077,
+   "predicted_per_second": 14.045754661852857
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the use of a flexible printing ink. By the mid-1450s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *process* of printing. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken a scribe to copy it by hand. This efficiency was revolutionary, as it allowed for the rapid production of religious texts, legal documents, and scientific treatises.\n\nThe immediate impact of Gutenberg's press was the dissemination of the Bible. Before his invention, the Bible was a labor-intensive task, often taking months to produce a single copy. With the press, the Bible could be printed in a matter of weeks, making it accessible to a wider audience. This accessibility sparked a religious renaissance in Europe, leading to the Protestant Reformation. Martin Luther's 95 Theses, which challenged the Catholic Church, were printed and circulated rapidly, sparking a theological and political revolution that reshaped the European landscape.\n\nBeyond religion, the press became the engine of the Renaissance. Humanism, a philosophical movement emphasizing the potential and achievements of humans, flourished because books",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

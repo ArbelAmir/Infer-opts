@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 13.105820106997271,
+  "total_s": 18.046675768997375,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 13091.383,
+   "prompt_per_token_ms": 3.7159758728356516,
+   "prompt_per_second": 269.1083134608467,
+   "predicted_n": 64,
+   "predicted_ms": 4940.79,
+   "predicted_per_token_ms": 77.19984375,
+   "predicted_per_second": 12.9533940928475,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two articles (\"Homarus gammarus\" and \"M @-@ 82 ( Michigan highway)\").\n    *   Task: Answer two specific questions based *only* on the provided articles.\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 12.866565876000095,
+  "total_s": 17.856382702997507,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 12851.632,
+   "prompt_per_token_ms": 3.6479227930740845,
+   "prompt_per_second": 274.1286087245573,
+   "predicted_n": 64,
+   "predicted_ms": 4990.009,
+   "predicted_per_token_ms": 77.968890625,
+   "predicted_per_second": 12.825628170209713,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two articles (\"Homarus gammarus\" and \"M @-@ 82 ( Michigan highway)\").\n    *   Task: Answer two specific questions based *only* on the provided articles.\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 13.112105822998274,
+  "total_s": 18.061460094999347,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 13099.373,
+   "prompt_per_token_ms": 3.7182438262844166,
+   "prompt_per_second": 268.94417007592654,
+   "predicted_n": 64,
+   "predicted_ms": 4949.505,
+   "predicted_per_token_ms": 77.336015625,
+   "predicted_per_second": 12.930585987891718,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two articles (\"Homarus gammarus\" and \"M @-@ 82 ( Michigan highway)\").\n    *   Task: Answer two specific questions based *only* on the provided articles.\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 13.247092102999886,
+  "total_s": 18.3772947619982,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 13232.909,
+   "prompt_per_token_ms": 3.756147885325007,
+   "prompt_per_second": 266.2301992706215,
+   "predicted_n": 64,
+   "predicted_ms": 5130.173,
+   "predicted_per_token_ms": 80.158953125,
+   "predicted_per_second": 12.475212824206903,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two articles (\"Homarus gammarus\" and \"M @-@ 82 ( Michigan highway)\").\n    *   Task: Answer two specific questions based *only* on the provided articles.\n",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

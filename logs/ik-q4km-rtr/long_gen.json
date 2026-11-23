@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.4578836910004611,
+  "total_s": 19.848970798000664,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 334.174,
+   "prompt_per_token_ms": 7.110085106382979,
+   "prompt_per_second": 140.6452925721331,
+   "predicted_n": 400,
+   "predicted_ms": 19396.285,
+   "predicted_per_token_ms": 48.4907125,
+   "predicted_per_second": 20.622505804590933,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the printing of metal type. By the mid-1400s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *mechanism* of printing. He used a screw press to apply pressure to metal type, which was set in a mold. This allowed for the rapid, precise reproduction of text, a feat impossible with hand-copied manuscripts. The first printed book, the *42-line Bible*, was published in 1455. This event marked the beginning of the \"Age of Print,\" a period where the cost of books dropped dramatically, making literacy accessible to the burgeoning middle class rather than just the clergy.\n\nThe immediate impact of this shift was profound. The dissemination of knowledge accelerated the Scientific Revolution. Figures like Galileo and Newton relied on the rapid publication of their findings, which previously took years to verify or refute. The printing press facilitated the spread of ideas, allowing for the rapid correction of errors and the cross-pollination of intellectual thought across borders. It also played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, printed in 1517, spread",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.37666058800095925,
+  "total_s": 19.741779843003314,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 340.968,
+   "prompt_per_token_ms": 7.254638297872341,
+   "prompt_per_second": 137.84284742263202,
+   "predicted_n": 400,
+   "predicted_ms": 19367.895,
+   "predicted_per_token_ms": 48.419737500000004,
+   "predicted_per_second": 20.65273484805654,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the printing of metal type. By the mid-1400s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *mechanism* of printing. He used a screw press to apply pressure to metal type, which was set in a mold. This allowed for the rapid, precise reproduction of text, a feat impossible with hand-copied manuscripts. The first printed book, the *42-line Bible*, was published in 1455. This event marked the beginning of the \"Age of Print,\" a period where the cost of books dropped dramatically, making literacy accessible to the burgeoning middle class rather than just the clergy.\n\nThe immediate impact of this shift was profound. The dissemination of knowledge accelerated the Scientific Revolution. Figures like Galileo and Newton relied on the rapid publication of their findings, which previously took years to verify or refute. The printing press facilitated the spread of ideas, allowing for the rapid correction of errors and the cross-pollination of intellectual thought across borders. It also played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, printed in 1517, spread",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.35499179199905484,
+  "total_s": 19.946421624998038,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 341.803,
+   "prompt_per_token_ms": 7.272404255319149,
+   "prompt_per_second": 137.5061073191283,
+   "predicted_n": 400,
+   "predicted_ms": 19597.417,
+   "predicted_per_token_ms": 48.993542500000004,
+   "predicted_per_second": 20.41085312416427,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the printing of metal type. By the mid-1400s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *mechanism* of printing. He used a screw press to apply pressure to metal type, which was set in a mold. This allowed for the rapid, precise reproduction of text, a feat impossible with hand-copied manuscripts. The first printed book, the *42-line Bible*, was published in 1455. This event marked the beginning of the \"Age of Print,\" a period where the cost of books dropped dramatically, making literacy accessible to the burgeoning middle class rather than just the clergy.\n\nThe immediate impact of this shift was profound. The dissemination of knowledge accelerated the Scientific Revolution. Figures like Galileo and Newton relied on the rapid publication of their findings, which previously took years to verify or refute. The printing press facilitated the spread of ideas, allowing for the rapid correction of errors and the cross-pollination of intellectual thought across borders. It also played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, printed in 1517, spread",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.3666569380002329,
+  "total_s": 20.027588692999416,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 359.472,
+   "prompt_per_token_ms": 7.648340425531915,
+   "prompt_per_second": 130.74731828904618,
+   "predicted_n": 400,
+   "predicted_ms": 19661.079,
+   "predicted_per_token_ms": 49.1526975,
+   "predicted_per_second": 20.34476337743213,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass reproduction existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of scribes and scholars, ushering in an era of unprecedented knowledge dissemination. This technological leap did not merely speed up the production of books; it democratized information, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe origins of the press trace back to the 11th century, with the introduction of movable type by Chinese scholars. However, it was the German monk Johannes Gutenberg who synthesized these earlier concepts with the invention of the movable type metal type, the press, and the printing of metal type. By the mid-1400s, Gutenberg's press was operational in Mainz, Germany. His innovation was not just about printing, but about the *mechanism* of printing. He used a screw press to apply pressure to metal type, which was set in a mold. This allowed for the rapid, precise reproduction of text, a feat impossible with hand-copied manuscripts. The first printed book, the *42-line Bible*, was published in 1455. This event marked the beginning of the \"Age of Print,\" a period where the cost of books dropped dramatically, making literacy accessible to the burgeoning middle class rather than just the clergy.\n\nThe immediate impact of this shift was profound. The dissemination of knowledge accelerated the Scientific Revolution. Figures like Galileo and Newton relied on the rapid publication of their findings, which previously took years to verify or refute. The printing press facilitated the spread of ideas, allowing for the rapid correction of errors and the cross-pollination of intellectual thought across borders. It also played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, printed in 1517, spread",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.33494981699914206,
+  "total_s": 6.643757428999379,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 325.692,
+   "prompt_per_token_ms": 8.351076923076922,
+   "prompt_per_second": 119.74503518661803,
+   "predicted_n": 128,
+   "predicted_ms": 6314.835,
+   "predicted_per_token_ms": 49.3346484375,
+   "predicted_per_second": 20.269729929602278,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Sky color (blue during day, red at sunset).\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Sunlight composition (white light, spectrum).\n    *   Rayleigh scattering (scattering of light by particles in the atmosphere).\n    *   Blue light scattering more than red light (shorter wavelengths scatter more).\n    *   Sun position (low angle during",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.37818117599817924,
+  "total_s": 6.496179578996816,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 330.162,
+   "prompt_per_token_ms": 8.465692307692308,
+   "prompt_per_second": 118.1238301197594,
+   "predicted_n": 128,
+   "predicted_ms": 6118.348,
+   "predicted_per_token_ms": 47.79959375,
+   "predicted_per_second": 20.920679895945767,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Sky color (blue during day, red at sunset).\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Sunlight composition (white light, spectrum).\n    *   Rayleigh scattering (scattering of light by particles in the atmosphere).\n    *   Blue light scattering more than red light (shorter wavelengths scatter more).\n    *   Sun position (low angle during",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.33470730900080525,
+  "total_s": 6.56246667600135,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 317.744,
+   "prompt_per_token_ms": 8.147282051282051,
+   "prompt_per_second": 122.74031925071755,
+   "predicted_n": 128,
+   "predicted_ms": 6228.182,
+   "predicted_per_token_ms": 48.657671875,
+   "predicted_per_second": 20.55174367094603,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Sky color (blue during day, red at sunset).\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Sunlight composition (white light, spectrum).\n    *   Rayleigh scattering (scattering of light by particles in the atmosphere).\n    *   Blue light scattering more than red light (shorter wavelengths scatter more).\n    *   Sun position (low angle during",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.36378436800077907,
+  "total_s": 6.596162546000414,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 351.07,
+   "prompt_per_token_ms": 9.001794871794871,
+   "prompt_per_second": 111.08895661833822,
+   "predicted_n": 128,
+   "predicted_ms": 6239.277,
+   "predicted_per_token_ms": 48.7443515625,
+   "predicted_per_second": 20.51519751407094,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Sky color (blue during day, red at sunset).\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Sunlight composition (white light, spectrum).\n    *   Rayleigh scattering (scattering of light by particles in the atmosphere).\n    *   Blue light scattering more than red light (shorter wavelengths scatter more).\n    *   Sun position (low angle during",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

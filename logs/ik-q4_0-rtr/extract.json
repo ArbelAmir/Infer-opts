@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 1.0302799419987423,
+  "total_s": 22.82244420799907,
+  "timings": {
+   "prompt_n": 329,
+   "prompt_ms": 1024.29,
+   "prompt_per_token_ms": 3.1133434650455927,
+   "prompt_per_second": 321.19809819484715,
+   "predicted_n": 448,
+   "predicted_ms": 21792.376,
+   "predicted_per_token_ms": 48.64369642857143,
+   "predicted_per_second": 20.557648234410053,
+   "n_ctx": 8192,
+   "n_past": 776
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A text containing shipment notes.\n    *   Task: Extract every shipment from the notes.\n    *   Output Format: JSON array.\n    *   Required Keys: \"date\" (YYYY-MM-DD), \"carrier\", \"depot\", \"quantity\" (integer), \"unit\", \"goods\", \"invoice_eur\" (number), \"receiver\".\n    *   Constraint: Output only the JSON.\n\n2.  **Analyze the Input Text:**\n    *   \"Shipment notes, week 14.\" (Header)\n    *   \"On Monday 3 April, Halvorsen Freight delivered 240 crates of ceramic tiles to the Rotterdam depot; the invoice came to 18,450.00 EUR and was signed for by M. de Vries.\"\n    *   \"Two days later, on 5 April, Brightline Logistics brought 75 pallets of copper wire to Antwerp. Invoice total: 62,300.50 EUR. Receiver: A. Peeters.\"\n    *   \"Kestrel Cargo arrived at the Hamburg depot on 6 April with 1,200 boxes of LED fixtures, invoiced at 27,980.00 EUR and received by J. Brandt.\"\n    *   \"On Friday 7 April, Halvorsen Freight returned to Rotterdam with 60 drums of industrial solvent (invoice 9,120.75 EUR), again signed by M. de Vries.\"\n    *   \"Finally, Nordsee Transport delivered 430 sacks of cement to Bremen on 8 April for 5,675.00 EUR; S. K\u00f6hler signed.\"\n\n3.  **Map Information to Required Keys:**\n\n    *   **Shipment 1:**\n        *   Date: Monday 3 April -> 2023-04-03 (Year 2023 required).\n        *   Carrier: Halvorsen Freight\n       ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.9640809570009878,
+  "total_s": 22.77953938200153,
+  "timings": {
+   "prompt_n": 329,
+   "prompt_ms": 923.582,
+   "prompt_per_token_ms": 2.807240121580547,
+   "prompt_per_second": 356.221753996938,
+   "predicted_n": 448,
+   "predicted_ms": 21815.429,
+   "predicted_per_token_ms": 48.69515401785714,
+   "predicted_per_second": 20.535924368024116,
+   "n_ctx": 8192,
+   "n_past": 776
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A text containing shipment notes.\n    *   Task: Extract every shipment from the notes.\n    *   Output Format: JSON array.\n    *   Required Keys: \"date\" (YYYY-MM-DD), \"carrier\", \"depot\", \"quantity\" (integer), \"unit\", \"goods\", \"invoice_eur\" (number), \"receiver\".\n    *   Constraint: Output only the JSON.\n\n2.  **Analyze the Input Text:**\n    *   \"Shipment notes, week 14.\" (Header)\n    *   \"On Monday 3 April, Halvorsen Freight delivered 240 crates of ceramic tiles to the Rotterdam depot; the invoice came to 18,450.00 EUR and was signed for by M. de Vries.\"\n    *   \"Two days later, on 5 April, Brightline Logistics brought 75 pallets of copper wire to Antwerp. Invoice total: 62,300.50 EUR. Receiver: A. Peeters.\"\n    *   \"Kestrel Cargo arrived at the Hamburg depot on 6 April with 1,200 boxes of LED fixtures, invoiced at 27,980.00 EUR and received by J. Brandt.\"\n    *   \"On Friday 7 April, Halvorsen Freight returned to Rotterdam with 60 drums of industrial solvent (invoice 9,120.75 EUR), again signed by M. de Vries.\"\n    *   \"Finally, Nordsee Transport delivered 430 sacks of cement to Bremen on 8 April for 5,675.00 EUR; S. K\u00f6hler signed.\"\n\n3.  **Map Information to Required Keys:**\n\n    *   **Shipment 1:**\n        *   Date: Monday 3 April -> 2023-04-03 (Year 2023 required).\n        *   Carrier: Halvorsen Freight\n       ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.0166303259975393,
+  "total_s": 22.249003010998422,
+  "timings": {
+   "prompt_n": 329,
+   "prompt_ms": 1008.254,
+   "prompt_per_token_ms": 3.0646018237082067,
+   "prompt_per_second": 326.30666478883296,
+   "predicted_n": 448,
+   "predicted_ms": 21232.444,
+   "predicted_per_token_ms": 47.39384821428571,
+   "predicted_per_second": 21.099784838711926,
+   "n_ctx": 8192,
+   "n_past": 776
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A text containing shipment notes.\n    *   Task: Extract every shipment from the notes.\n    *   Output Format: JSON array.\n    *   Required Keys: \"date\" (YYYY-MM-DD), \"carrier\", \"depot\", \"quantity\" (integer), \"unit\", \"goods\", \"invoice_eur\" (number), \"receiver\".\n    *   Constraint: Output only the JSON.\n\n2.  **Analyze the Input Text:**\n    *   \"Shipment notes, week 14.\" (Header)\n    *   \"On Monday 3 April, Halvorsen Freight delivered 240 crates of ceramic tiles to the Rotterdam depot; the invoice came to 18,450.00 EUR and was signed for by M. de Vries.\"\n    *   \"Two days later, on 5 April, Brightline Logistics brought 75 pallets of copper wire to Antwerp. Invoice total: 62,300.50 EUR. Receiver: A. Peeters.\"\n    *   \"Kestrel Cargo arrived at the Hamburg depot on 6 April with 1,200 boxes of LED fixtures, invoiced at 27,980.00 EUR and received by J. Brandt.\"\n    *   \"On Friday 7 April, Halvorsen Freight returned to Rotterdam with 60 drums of industrial solvent (invoice 9,120.75 EUR), again signed by M. de Vries.\"\n    *   \"Finally, Nordsee Transport delivered 430 sacks of cement to Bremen on 8 April for 5,675.00 EUR; S. K\u00f6hler signed.\"\n\n3.  **Map Information to Required Keys:**\n\n    *   **Shipment 1:**\n        *   Date: Monday 3 April -> 2023-04-03 (Year 2023 required).\n        *   Carrier: Halvorsen Freight\n       ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.0001589370003785,
+  "total_s": 22.528598623001017,
+  "timings": {
+   "prompt_n": 329,
+   "prompt_ms": 991.448,
+   "prompt_per_token_ms": 3.013519756838906,
+   "prompt_per_second": 331.8378775286248,
+   "predicted_n": 448,
+   "predicted_ms": 21528.646,
+   "predicted_per_token_ms": 48.05501339285714,
+   "predicted_per_second": 20.809483327469827,
+   "n_ctx": 8192,
+   "n_past": 776
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A text containing shipment notes.\n    *   Task: Extract every shipment from the notes.\n    *   Output Format: JSON array.\n    *   Required Keys: \"date\" (YYYY-MM-DD), \"carrier\", \"depot\", \"quantity\" (integer), \"unit\", \"goods\", \"invoice_eur\" (number), \"receiver\".\n    *   Constraint: Output only the JSON.\n\n2.  **Analyze the Input Text:**\n    *   \"Shipment notes, week 14.\" (Header)\n    *   \"On Monday 3 April, Halvorsen Freight delivered 240 crates of ceramic tiles to the Rotterdam depot; the invoice came to 18,450.00 EUR and was signed for by M. de Vries.\"\n    *   \"Two days later, on 5 April, Brightline Logistics brought 75 pallets of copper wire to Antwerp. Invoice total: 62,300.50 EUR. Receiver: A. Peeters.\"\n    *   \"Kestrel Cargo arrived at the Hamburg depot on 6 April with 1,200 boxes of LED fixtures, invoiced at 27,980.00 EUR and received by J. Brandt.\"\n    *   \"On Friday 7 April, Halvorsen Freight returned to Rotterdam with 60 drums of industrial solvent (invoice 9,120.75 EUR), again signed by M. de Vries.\"\n    *   \"Finally, Nordsee Transport delivered 430 sacks of cement to Bremen on 8 April for 5,675.00 EUR; S. K\u00f6hler signed.\"\n\n3.  **Map Information to Required Keys:**\n\n    *   **Shipment 1:**\n        *   Date: Monday 3 April -> 2023-04-03 (Year 2023 required).\n        *   Carrier: Halvorsen Freight\n       ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

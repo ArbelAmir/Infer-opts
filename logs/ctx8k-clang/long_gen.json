@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.46005049099949247,
+  "total_s": 25.540099186999214,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 414.842,
+   "prompt_per_token_ms": 8.134156862745098,
+   "prompt_per_second": 122.93837171742496,
+   "predicted_n": 400,
+   "predicted_ms": 25079.768,
+   "predicted_per_token_ms": 62.85656140350877,
+   "predicted_per_second": 15.909238075886508
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass-producing text dates back to ancient China and India, the mechanical printing press, perfected by Johannes Gutenberg in the mid-15th century, ignited a revolution that reshaped language, religion, science, and politics. Its impact extends far beyond the era of its invention, continuing to influence the modern world through digital technologies and the very concept of information access.\n\nThe origins of the press lie in the limitations of the manuscript tradition. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that the same book could be read differently by different people. This scarcity of information created a monopoly on knowledge held by the clergy and the aristocracy. Gutenberg's innovation, however, was not merely the addition of a printing press to a workshop, but the integration of three critical technologies: movable type, a flexible metal plate, and a printing press. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken to hand-copy it. This democratization of information allowed ideas to spread rapidly, bypassing the gatekeepers of the church and the nobility.\n\nThe immediate and most profound impact of the press was the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. The rapid dissemination of his writings across Europe led to a religious upheaval that reshaped the spiritual landscape of the continent. It also facilitated the spread of new religious movements, such as the Anabaptists and the Quakers, and eventually paved the way for the rise of secularism and individualism. Furthermore, the press became a tool for political",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.4565645439997752,
+  "total_s": 26.984162696999192,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 436.705,
+   "prompt_per_token_ms": 8.562843137254902,
+   "prompt_per_second": 116.78364113074043,
+   "predicted_n": 400,
+   "predicted_ms": 26527.194,
+   "predicted_per_token_ms": 66.48419548872181,
+   "predicted_per_second": 15.041168696545892
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass-producing text dates back to ancient China and India, the mechanical printing press, perfected by Johannes Gutenberg in the mid-15th century, ignited a revolution that reshaped language, religion, science, and politics. Its impact extends far beyond the era of its invention, continuing to influence the modern world through digital technologies and the very concept of information access.\n\nThe origins of the press lie in the limitations of the manuscript tradition. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that the same book could be read differently by different people. This scarcity of information created a monopoly on knowledge held by the clergy and the aristocracy. Gutenberg's innovation, however, was not merely the addition of a printing press to a workshop, but the integration of three critical technologies: movable type, a flexible metal plate, and a printing press. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken to hand-copy it. This democratization of information allowed ideas to spread rapidly, bypassing the gatekeepers of the church and the nobility.\n\nThe immediate and most profound impact of the press was the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. The rapid dissemination of his writings across Europe led to a religious upheaval that reshaped the spiritual landscape of the continent. It also facilitated the spread of new religious movements, such as the Anabaptists and the Quakers, and eventually paved the way for the rise of secularism and individualism. Furthermore, the press became a tool for political",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4406921079989843,
+  "total_s": 26.26278125099998,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 438.61,
+   "prompt_per_token_ms": 8.600196078431372,
+   "prompt_per_second": 116.27641868630445,
+   "predicted_n": 400,
+   "predicted_ms": 25817.891,
+   "predicted_per_token_ms": 64.70649373433584,
+   "predicted_per_second": 15.454399431773881
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass-producing text dates back to ancient China and India, the mechanical printing press, perfected by Johannes Gutenberg in the mid-15th century, ignited a revolution that reshaped language, religion, science, and politics. Its impact extends far beyond the era of its invention, continuing to influence the modern world through digital technologies and the very concept of information access.\n\nThe origins of the press lie in the limitations of the manuscript tradition. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that the same book could be read differently by different people. This scarcity of information created a monopoly on knowledge held by the clergy and the aristocracy. Gutenberg's innovation, however, was not merely the addition of a printing press to a workshop, but the integration of three critical technologies: movable type, a flexible metal plate, and a printing press. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken to hand-copy it. This democratization of information allowed ideas to spread rapidly, bypassing the gatekeepers of the church and the nobility.\n\nThe immediate and most profound impact of the press was the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. The rapid dissemination of his writings across Europe led to a religious upheaval that reshaped the spiritual landscape of the continent. It also facilitated the spread of new religious movements, such as the Anabaptists and the Quakers, and eventually paved the way for the rise of secularism and individualism. Furthermore, the press became a tool for political",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4257670909992157,
+  "total_s": 25.709103930999845,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 423.849,
+   "prompt_per_token_ms": 8.310764705882352,
+   "prompt_per_second": 120.32587077001479,
+   "predicted_n": 400,
+   "predicted_ms": 25283.129,
+   "predicted_per_token_ms": 63.366238095238096,
+   "predicted_per_second": 15.781274540821274
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass-producing text dates back to ancient China and India, the mechanical printing press, perfected by Johannes Gutenberg in the mid-15th century, ignited a revolution that reshaped language, religion, science, and politics. Its impact extends far beyond the era of its invention, continuing to influence the modern world through digital technologies and the very concept of information access.\n\nThe origins of the press lie in the limitations of the manuscript tradition. Before Gutenberg, books were hand-copied by scribes, a process that was slow, expensive, and prone to error. A single copy of a text could take months to produce, and variations in handwriting meant that the same book could be read differently by different people. This scarcity of information created a monopoly on knowledge held by the clergy and the aristocracy. Gutenberg's innovation, however, was not merely the addition of a printing press to a workshop, but the integration of three critical technologies: movable type, a flexible metal plate, and a printing press. By using a movable type system, he could produce thousands of identical copies of a text in a fraction of the time it would have taken to hand-copy it. This democratization of information allowed ideas to spread rapidly, bypassing the gatekeepers of the church and the nobility.\n\nThe immediate and most profound impact of the press was the Protestant Reformation. Martin Luther, a German monk, utilized the printing press to distribute his 95 Theses, which challenged the authority of the Catholic Church. The rapid dissemination of his writings across Europe led to a religious upheaval that reshaped the spiritual landscape of the continent. It also facilitated the spread of new religious movements, such as the Anabaptists and the Quakers, and eventually paved the way for the rise of secularism and individualism. Furthermore, the press became a tool for political",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

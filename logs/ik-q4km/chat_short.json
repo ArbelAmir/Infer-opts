@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.3151348319988756,
+  "total_s": 10.257273371997144,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 307.536,
+   "prompt_per_token_ms": 7.885538461538461,
+   "prompt_per_second": 126.81442172623693,
+   "predicted_n": 128,
+   "predicted_ms": 9945.71,
+   "predicted_per_token_ms": 77.700859375,
+   "predicted_per_second": 12.869870527091582,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Why the sky is blue during the day vs. red at sunset.\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Rayleigh scattering (scattering of light by particles).\n    *   Sunlight composition (white light, all colors).\n    *   Blue light has shorter wavelengths.\n    *   Red light has longer wavelengths.\n    *   Daytime:",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.39768417600134853,
+  "total_s": 10.367154752002534,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 356.327,
+   "prompt_per_token_ms": 9.136589743589743,
+   "prompt_per_second": 109.450027643148,
+   "predicted_n": 128,
+   "predicted_ms": 9969.611,
+   "predicted_per_token_ms": 77.8875859375,
+   "predicted_per_second": 12.83901648720296,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Why the sky is blue during the day vs. red at sunset.\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Rayleigh scattering (scattering of light by particles).\n    *   Sunlight composition (white light, all colors).\n    *   Blue light has shorter wavelengths.\n    *   Red light has longer wavelengths.\n    *   Daytime:",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.36783203500090167,
+  "total_s": 10.318435062003118,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 343.321,
+   "prompt_per_token_ms": 8.803102564102565,
+   "prompt_per_second": 113.59631365398562,
+   "predicted_n": 128,
+   "predicted_ms": 9960.471,
+   "predicted_per_token_ms": 77.8161796875,
+   "predicted_per_second": 12.850797919094388,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Why the sky is blue during the day vs. red at sunset.\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Rayleigh scattering (scattering of light by particles).\n    *   Sunlight composition (white light, all colors).\n    *   Blue light has shorter wavelengths.\n    *   Red light has longer wavelengths.\n    *   Daytime:",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.36125168800208485,
+  "total_s": 10.125299808001728,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 346.92,
+   "prompt_per_token_ms": 8.895384615384616,
+   "prompt_per_second": 112.41784849533033,
+   "predicted_n": 128,
+   "predicted_ms": 9770.948,
+   "predicted_per_token_ms": 76.33553125,
+   "predicted_per_second": 13.100059482457587,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Topic: Why the sky is blue during the day vs. red at sunset.\n    *   Constraint: Explain in three or four sentences.\n    *   Goal: Provide a clear, concise scientific explanation.\n\n2.  **Identify Key Concepts:**\n    *   Rayleigh scattering (scattering of light by particles).\n    *   Sunlight composition (white light, all colors).\n    *   Blue light has shorter wavelengths.\n    *   Red light has longer wavelengths.\n    *   Daytime:",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

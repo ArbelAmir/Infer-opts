@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 10.598279366997303,
+  "total_s": 13.729601350998564,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 10579.717,
+   "prompt_per_token_ms": 3.003042009650866,
+   "prompt_per_second": 332.99567464800805,
+   "predicted_n": 64,
+   "predicted_ms": 3129.191,
+   "predicted_per_token_ms": 48.893609375,
+   "predicted_per_second": 20.45257064845195,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two provided articles (one about *Homarus gammarus*, the other about M-82).\n    *   Task: Answer two specific questions based *only* on the provided articles.\n   ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 10.574056392000784,
+  "total_s": 13.823275852999359,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 10561.554,
+   "prompt_per_token_ms": 2.9978864604030657,
+   "prompt_per_second": 333.5683366292498,
+   "predicted_n": 64,
+   "predicted_ms": 3249.304,
+   "predicted_per_token_ms": 50.770375,
+   "predicted_per_second": 19.696525779059147,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two provided articles (one about *Homarus gammarus*, the other about M-82).\n    *   Task: Answer two specific questions based *only* on the provided articles.\n   ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 10.595422186001088,
+  "total_s": 13.733439382998768,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 10578.354,
+   "prompt_per_token_ms": 3.0026551234743115,
+   "prompt_per_second": 333.03858048237,
+   "predicted_n": 64,
+   "predicted_ms": 3138.129,
+   "predicted_per_token_ms": 49.033265625,
+   "predicted_per_second": 20.39431776067842,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two provided articles (one about *Homarus gammarus*, the other about M-82).\n    *   Task: Answer two specific questions based *only* on the provided articles.\n   ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 10.409435251000104,
+  "total_s": 13.60268396399988,
+  "timings": {
+   "prompt_n": 3523,
+   "prompt_ms": 10393.326,
+   "prompt_per_token_ms": 2.9501351121203516,
+   "prompt_per_second": 338.9675258911344,
+   "predicted_n": 64,
+   "predicted_ms": 3193.494,
+   "predicted_per_token_ms": 49.89834375,
+   "predicted_per_second": 20.04074534037014,
+   "n_ctx": 8192,
+   "n_past": 3586
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Source material: Two provided articles (one about *Homarus gammarus*, the other about M-82).\n    *   Task: Answer two specific questions based *only* on the provided articles.\n   ",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

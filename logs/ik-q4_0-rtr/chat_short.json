@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.2178564620007819,
+  "total_s": 6.626765310000337,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 213.266,
+   "prompt_per_token_ms": 5.468358974358974,
+   "prompt_per_second": 182.87021841268648,
+   "predicted_n": 128,
+   "predicted_ms": 6409.934,
+   "predicted_per_token_ms": 50.077609375,
+   "predicted_per_second": 19.969004361043343,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Explain why the sky is blue during the day but red at sunset.\n    *   Constraint: The explanation must be in three or four sentences.\n\n2.  **Identify the Core Scientific Concepts:**\n    *   Why is the sky blue? Rayleigh scattering. Shorter wavelengths (blue) scatter more than longer wavelengths (red).\n    *   Why is the sunset red? The sun is lower on the horizon, so the light travels through more of the atmosphere. More scattering occurs, leaving mostly red/orange",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.30579591100104153,
+  "total_s": 6.721889709999232,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 260.525,
+   "prompt_per_token_ms": 6.680128205128205,
+   "prompt_per_second": 149.69772574608965,
+   "predicted_n": 128,
+   "predicted_ms": 6417.461,
+   "predicted_per_token_ms": 50.1364140625,
+   "predicted_per_second": 19.945582840316444,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Explain why the sky is blue during the day but red at sunset.\n    *   Constraint: The explanation must be in three or four sentences.\n\n2.  **Identify the Core Scientific Concepts:**\n    *   Why is the sky blue? Rayleigh scattering. Shorter wavelengths (blue) scatter more than longer wavelengths (red).\n    *   Why is the sunset red? The sun is lower on the horizon, so the light travels through more of the atmosphere. More scattering occurs, leaving mostly red/orange",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.2091812350008695,
+  "total_s": 6.561021244000585,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 194.538,
+   "prompt_per_token_ms": 4.988153846153846,
+   "prompt_per_second": 200.47497147086943,
+   "predicted_n": 128,
+   "predicted_ms": 6356.299,
+   "predicted_per_token_ms": 49.6585859375,
+   "predicted_per_second": 20.137504544704395,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Explain why the sky is blue during the day but red at sunset.\n    *   Constraint: The explanation must be in three or four sentences.\n\n2.  **Identify the Core Scientific Concepts:**\n    *   Why is the sky blue? Rayleigh scattering. Shorter wavelengths (blue) scatter more than longer wavelengths (red).\n    *   Why is the sunset red? The sun is lower on the horizon, so the light travels through more of the atmosphere. More scattering occurs, leaving mostly red/orange",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.2242338549986016,
+  "total_s": 6.292545200998575,
+  "timings": {
+   "prompt_n": 39,
+   "prompt_ms": 208.823,
+   "prompt_per_token_ms": 5.354435897435898,
+   "prompt_per_second": 186.76103685896666,
+   "predicted_n": 128,
+   "predicted_ms": 6074.512,
+   "predicted_per_token_ms": 47.457125,
+   "predicted_per_second": 21.071651517027213,
+   "n_ctx": 8192,
+   "n_past": 166
+  },
+  "usage": null,
+  "content": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Explain why the sky is blue during the day but red at sunset.\n    *   Constraint: The explanation must be in three or four sentences.\n\n2.  **Identify the Core Scientific Concepts:**\n    *   Why is the sky blue? Rayleigh scattering. Shorter wavelengths (blue) scatter more than longer wavelengths (red).\n    *   Why is the sunset red? The sun is lower on the horizon, so the light travels through more of the atmosphere. More scattering occurs, leaving mostly red/orange",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

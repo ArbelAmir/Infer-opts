@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 18.382393616999252,
+  "total_s": 21.143238324999402,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 18372.099,
+   "prompt_per_token_ms": 5.208987524808618,
+   "prompt_per_second": 191.97588691417351,
+   "predicted_n": 36,
+   "predicted_ms": 2760.387,
+   "predicted_per_token_ms": 78.8682,
+   "predicted_per_second": 12.679381550485493
+  },
+  "usage": null,
+  "content": "(1) European lobsters are blue in life, turning red only after cooking.\n(2) M-82 travels between Fremont and Howard City in Michigan.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 17.553234581000652,
+  "total_s": 20.221033129000716,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 17543.023,
+   "prompt_per_token_ms": 4.9739220300538705,
+   "prompt_per_second": 201.04858780610388,
+   "predicted_n": 36,
+   "predicted_ms": 2667.427,
+   "predicted_per_token_ms": 76.21220000000001,
+   "predicted_per_second": 13.12125880108434
+  },
+  "usage": null,
+  "content": "(1) European lobsters are blue in life, turning red only after cooking.\n(2) M-82 travels between Fremont and Howard City in Michigan.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 17.758755738999753,
+  "total_s": 20.588533627000288,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 17748.688,
+   "prompt_per_token_ms": 5.032233626311312,
+   "prompt_per_second": 198.7189137585832,
+   "predicted_n": 36,
+   "predicted_ms": 2829.568,
+   "predicted_per_token_ms": 80.8448,
+   "predicted_per_second": 12.369379354021532
+  },
+  "usage": null,
+  "content": "(1) European lobsters are blue in life, turning red only after cooking.\n(2) M-82 travels between Fremont and Howard City in Michigan.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 18.24276533199918,
+  "total_s": 20.871529176998592,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 18232.536,
+   "prompt_per_token_ms": 5.169417635384179,
+   "prompt_per_second": 193.44538795919559,
+   "predicted_n": 36,
+   "predicted_ms": 2628.424,
+   "predicted_per_token_ms": 75.09782857142856,
+   "predicted_per_second": 13.315964243211901
+  },
+  "usage": null,
+  "content": "(1) European lobsters are blue in life, turning red only after cooking.\n(2) M-82 travels between Fremont and Howard City in Michigan.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

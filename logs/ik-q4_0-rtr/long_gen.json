@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.31630727800074965,
+  "total_s": 19.38587583000117,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 216.848,
+   "prompt_per_token_ms": 4.613787234042554,
+   "prompt_per_second": 216.74168080867702,
+   "predicted_n": 400,
+   "predicted_ms": 19069.831,
+   "predicted_per_token_ms": 47.6745775,
+   "predicted_per_second": 20.97553984615805,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\n**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often described as the \"Great Equalizer,\" this mechanical device fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a high-quality metal typeface. Prior to Gutenberg, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. A single copy of a book could take months to produce, and variations in handwriting meant that the same text could be read differently by different readers. Gutenberg's innovation allowed for the mass production of identical copies, drastically reducing the cost of books and making literacy accessible to a wider segment of the population.\n\nThe immediate impact of the printing press was the democratization of knowledge. Before the press, the Church held a monopoly on information, controlling the narrative through the Bible and other religious texts. Gutenberg's technology allowed for the rapid dissemination of the Bible in vernacular languages, such as German, French, and English, rather than Latin. This shift empowered individuals to read scripture and begin to understand the world around them, fostering a sense of individualism and critical thinking. Furthermore, the ability to mass-produce books led to the creation of a standardized language. As scribes copied texts, they began to use common words and consistent spelling, laying the groundwork for the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.2434718510012317,
+  "total_s": 19.42551759699927,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 215.627,
+   "prompt_per_token_ms": 4.587808510638298,
+   "prompt_per_second": 217.96899275137156,
+   "predicted_n": 400,
+   "predicted_ms": 19184.944,
+   "predicted_per_token_ms": 47.96236,
+   "predicted_per_second": 20.849682959720912,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\n**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often described as the \"Great Equalizer,\" this mechanical device fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a high-quality metal typeface. Prior to Gutenberg, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. A single copy of a book could take months to produce, and variations in handwriting meant that the same text could be read differently by different readers. Gutenberg's innovation allowed for the mass production of identical copies, drastically reducing the cost of books and making literacy accessible to a wider segment of the population.\n\nThe immediate impact of the printing press was the democratization of knowledge. Before the press, the Church held a monopoly on information, controlling the narrative through the Bible and other religious texts. Gutenberg's technology allowed for the rapid dissemination of the Bible in vernacular languages, such as German, French, and English, rather than Latin. This shift empowered individuals to read scripture and begin to understand the world around them, fostering a sense of individualism and critical thinking. Furthermore, the ability to mass-produce books led to the creation of a standardized language. As scribes copied texts, they began to use common words and consistent spelling, laying the groundwork for the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.24178180300077656,
+  "total_s": 19.612392312999873,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 233.591,
+   "prompt_per_token_ms": 4.9700212765957446,
+   "prompt_per_second": 201.20638209520058,
+   "predicted_n": 400,
+   "predicted_ms": 19370.803,
+   "predicted_per_token_ms": 48.4270075,
+   "predicted_per_second": 20.649634400804135,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\n**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often described as the \"Great Equalizer,\" this mechanical device fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a high-quality metal typeface. Prior to Gutenberg, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. A single copy of a book could take months to produce, and variations in handwriting meant that the same text could be read differently by different readers. Gutenberg's innovation allowed for the mass production of identical copies, drastically reducing the cost of books and making literacy accessible to a wider segment of the population.\n\nThe immediate impact of the printing press was the democratization of knowledge. Before the press, the Church held a monopoly on information, controlling the narrative through the Bible and other religious texts. Gutenberg's technology allowed for the rapid dissemination of the Bible in vernacular languages, such as German, French, and English, rather than Latin. This shift empowered individuals to read scripture and begin to understand the world around them, fostering a sense of individualism and critical thinking. Furthermore, the ability to mass-produce books led to the creation of a standardized language. As scribes copied texts, they began to use common words and consistent spelling, laying the groundwork for the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.23434217300018645,
+  "total_s": 19.48483394000141,
+  "timings": {
+   "prompt_n": 47,
+   "prompt_ms": 226.719,
+   "prompt_per_token_ms": 4.8238085106382975,
+   "prompt_per_second": 207.30507809226398,
+   "predicted_n": 400,
+   "predicted_ms": 19250.63,
+   "predicted_per_token_ms": 48.126575,
+   "predicted_per_second": 20.77854075425064,
+   "n_ctx": 8192,
+   "n_past": 446
+  },
+  "usage": null,
+  "content": "<think>\n\n</think>\n\n**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often described as the \"Great Equalizer,\" this mechanical device fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a high-quality metal typeface. Prior to Gutenberg, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. A single copy of a book could take months to produce, and variations in handwriting meant that the same text could be read differently by different readers. Gutenberg's innovation allowed for the mass production of identical copies, drastically reducing the cost of books and making literacy accessible to a wider segment of the population.\n\nThe immediate impact of the printing press was the democratization of knowledge. Before the press, the Church held a monopoly on information, controlling the narrative through the Bible and other religious texts. Gutenberg's technology allowed for the rapid dissemination of the Bible in vernacular languages, such as German, French, and English, rather than Latin. This shift empowered individuals to read scripture and begin to understand the world around them, fostering a sense of individualism and critical thinking. Furthermore, the ability to mass-produce books led to the creation of a standardized language. As scribes copied texts, they began to use common words and consistent spelling, laying the groundwork for the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]
