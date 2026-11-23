@@ -1,0 +1,10 @@
+The device supports: i8sdot:0, fp16:0, i8mm: 0, sve2: 0, sme2: 0, perfCores: 0
+| model                          |  modelSize | backend    | threads | precision  | test          | speed(tok/s) |
+| ------------------------------ | ---------: | ---------- | ----: | ---------- | ------------- | ------------ |
+| Qwen3.5-2B-MNN                 | 1009.98 MiB | CPU        |     2 | Low        | pp512         | 96.95 ± 4.10 |
+| Qwen3.5-2B-MNN                 | 1009.98 MiB | CPU        |     2 | Low        | tg128         | 13.27 ± 0.11 |
+| Qwen3.5-2B-MNN                 | 1009.98 MiB | CPU        |     2 | Low        | pp512+tg128   | 101.76 ± 2.88<br>13.12 ± 0.16 |
+decode wall speed (incl. sampling): 13.05 ± 0.16 tok/s
+
+
+WRAP wall_s=130.032 maxrss_kb=2014948 rc=0

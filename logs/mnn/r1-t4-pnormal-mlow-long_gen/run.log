@@ -1,0 +1,7 @@
+The device supports: i8sdot:0, fp16:0, i8mm: 0, sve2: 0, sme2: 0, perfCores: 0
+RESULT run=0 warmup=1 load_s=2.169 prompt_n=51 gen_n=400 prefill_s=0.4255 decode_s=18.4537 pp_tps=119.870 gen_tps=21.622 total_s=19.029
+RESULT run=1 warmup=0 load_s=2.169 prompt_n=51 gen_n=400 prefill_s=0.4935 decode_s=18.5385 pp_tps=103.344 gen_tps=21.523 total_s=19.185
+RESULT run=2 warmup=0 load_s=2.169 prompt_n=51 gen_n=400 prefill_s=0.4436 decode_s=18.4625 pp_tps=114.979 gen_tps=21.611 total_s=19.058
+RESULT run=3 warmup=0 load_s=2.169 prompt_n=51 gen_n=400 prefill_s=0.4755 decode_s=17.9692 pp_tps=107.248 gen_tps=22.205 total_s=18.605
+
+WRAP wall_s=78.140 maxrss_kb=1955180 rc=0

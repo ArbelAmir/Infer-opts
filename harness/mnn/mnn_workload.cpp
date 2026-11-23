@@ -17,10 +17,10 @@ int main(int argc, char** argv) {
     std::unique_ptr<Llm> llm(Llm::createLLM(cfg));
     llm->set_config("{\"tmp_path\":\"/tmp/mnn_tmp_qwen35\"}");
     if (argc > 7) llm->set_config(argv[7]);
+    llm->set_config("{\"sampler_type\":\"greedy\",\"async\":false,\"jinja\":{\"context\":{\"enable_thinking\":false}}}");
     auto t0 = std::chrono::steady_clock::now();
     if (!llm->load()) { std::cerr << "load failed\n"; return 2; }
     double load_s = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();
-    llm->set_config("{\"sampler_type\":\"greedy\",\"async\":false,\"jinja\":{\"context\":{\"enable_thinking\":false}}}");
     auto ctx = llm->getContext();
     for (int r = 0; r <= reps; r++) {  // r==0 is warm-up
         llm->reset();
