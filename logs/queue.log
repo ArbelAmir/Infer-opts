@@ -1184,3 +1184,10 @@ baseline-r9                  extract      pp    194.3 t/s  gen   13.16 t/s  ttft
   read6     OK  got='limestone'                    want='limestone' 17tok 9.6s
   read7     OK  got='14'                           want='14'       167tok 33.8s
   read8     OK  got='Abbotsley'                    want='Abbotsley' 51tok 15.3s
+  code1     OK  got='19'                           want='19'       468tok 81.8s
+  code2     OK  got='amh'                          want='amh'      368tok 62.2s
+  code3     BAD got='no_answer_line'               want='32'       512tok 88.9s
+  code4     OK  got='55'                           want='55'       401tok 71.4s
+  code5     OK  got='12'                           want='12'       485tok 90.2s
+  code6     OK  got='8'                            want='8'        491tok 95.8s
+  code7     OK  got='302'                          want='302'      278tok 61.0s

@@ -2175,3 +2175,430 @@ INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" ti
 INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501602 id_slot=0 id_task=8128 p0=81
 slot create_check: id  0 | task 8128 | created context checkpoint 1 of 32 (pos_min = 80, pos_max = 80, n_tokens = 81, size = 62.815 MiB, took 58.34 ms)
 INFO [      log_server_request] request | tid="140672126736064" timestamp=1795501602 remote_addr="127.0.0.1" remote_port=56682 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 8128 | 
+prompt eval time =    4757.78 ms /    86 tokens (   55.32 ms per token,    18.08 tokens per second)
+       eval time =   76779.82 ms /   468 tokens (  164.06 ms per token,     6.10 tokens per second)
+      total time =   81537.60 ms /   554 tokens
+slot create_check: id  0 | task 8128 | created context checkpoint 2 of 32 (pos_min = 552, pos_max = 552, n_tokens = 553, size = 62.819 MiB, took 70.48 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795501679 id_slot=0 id_task=8128 n_ctx=8192 n_past=553 n_system_tokens=0 n_cache_tokens=553 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795501679
+======== Prompt cache: cache size: 553, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.03, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 553, total state size = 73.620 MiB
+prompt cache save took 209.49 ms
+ - looking for better prompt, base f_keep = 0.025, sim = 0.046, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 37 prompts, 5035.074 MiB (limits: 8192.000 MiB, 0 tokens, 16509 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+prompt cache load took 1.05 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795501679 id_slot=0 id_task=8598
+slot apply_checkp: id  0 | task 8598 | dropping invalidated context checkpoint (pos_min = 80, pos_max = 80)
+slot apply_checkp: id  0 | task 8598 | dropping invalidated context checkpoint (pos_min = 552, pos_max = 552)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501679 id_slot=0 id_task=8598 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501682 id_slot=0 id_task=8598 p0=53
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795501683 remote_addr="127.0.0.1" remote_port=52126 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 8598 | 
+prompt eval time =    3296.26 ms /    58 tokens (   56.83 ms per token,    17.60 tokens per second)
+       eval time =   58642.03 ms /   368 tokens (  159.35 ms per token,     6.28 tokens per second)
+      total time =   61938.29 ms /   426 tokens
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795501741 id_slot=0 id_task=8598 n_ctx=8192 n_past=425 n_system_tokens=0 n_cache_tokens=425 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795501741
+slot create_check: id  0 | task 8598 | created context checkpoint 1 of 32 (pos_min = 424, pos_max = 424, n_tokens = 425, size = 62.818 MiB, took 73.83 ms)
+======== Prompt cache: cache size: 425, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.03, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 425, total state size = 71.119 MiB
+prompt cache save took 126.95 ms
+ - looking for better prompt, base f_keep = 0.033, sim = 0.055, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 38 prompts, 5169.011 MiB (limits: 8192.000 MiB, 0 tokens, 16754 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+   - prompt 0x7ff0b4029b30:     425 tokens,       0 discarded, checkpoints:  1,   133.937 MiB
+prompt cache load took 1.07 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795501742 id_slot=0 id_task=8968
+slot apply_checkp: id  0 | task 8968 | dropping invalidated context checkpoint (pos_min = 424, pos_max = 424)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501742 id_slot=0 id_task=8968 p0=0
+slot create_check: id  0 | task 8968 | created context checkpoint 1 of 32 (pos_min = 87, pos_max = 87, n_tokens = 88, size = 62.815 MiB, took 53.75 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501745 id_slot=0 id_task=8968 p0=88
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795501746 remote_addr="127.0.0.1" remote_port=50712 status=200 method="POST" path="/v1/chat/completions" params={}
+slot create_check: id  0 | task 8968 | created context checkpoint 2 of 32 (pos_min = 599, pos_max = 599, n_tokens = 600, size = 62.819 MiB, took 69.85 ms)
+slot print_timing: id  0 | task 8968 | 
+prompt eval time =    4364.16 ms /    93 tokens (   46.93 ms per token,    21.31 tokens per second)
+       eval time =   84290.05 ms /   512 tokens (  164.63 ms per token,     6.07 tokens per second)
+      total time =   88654.21 ms /   605 tokens
+slot create_check: id  0 | task 8968 | created context checkpoint 3 of 32 (pos_min = 603, pos_max = 603, n_tokens = 604, size = 62.819 MiB, took 77.82 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795501830 id_slot=0 id_task=8968 n_ctx=8192 n_past=604 n_system_tokens=0 n_cache_tokens=604 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795501830
+======== Prompt cache: cache size: 604, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.02, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 604, total state size = 74.616 MiB
+prompt cache save took 291.77 ms
+ - looking for better prompt, base f_keep = 0.023, sim = 0.041, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 39 prompts, 5432.081 MiB (limits: 8192.000 MiB, 0 tokens, 16854 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+   - prompt 0x7ff0b4029b30:     425 tokens,       0 discarded, checkpoints:  1,   133.937 MiB
+   - prompt 0x558b8f92aeb0:     604 tokens,       0 discarded, checkpoints:  3,   263.070 MiB
+prompt cache load took 1.40 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795501831 id_slot=0 id_task=9482
+slot apply_checkp: id  0 | task 9482 | dropping invalidated context checkpoint (pos_min = 87, pos_max = 87)
+slot apply_checkp: id  0 | task 9482 | dropping invalidated context checkpoint (pos_min = 599, pos_max = 599)
+slot apply_checkp: id  0 | task 9482 | dropping invalidated context checkpoint (pos_min = 603, pos_max = 603)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501831 id_slot=0 id_task=9482 p0=0
+slot create_check: id  0 | task 9482 | created context checkpoint 1 of 32 (pos_min = 71, pos_max = 71, n_tokens = 72, size = 62.815 MiB, took 59.19 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501835 id_slot=0 id_task=9482 p0=72
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795501835 remote_addr="127.0.0.1" remote_port=52114 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 9482 | 
+prompt eval time =    4526.95 ms /    77 tokens (   58.79 ms per token,    17.01 tokens per second)
+       eval time =   66535.15 ms /   401 tokens (  165.92 ms per token,     6.03 tokens per second)
+      total time =   71062.10 ms /   478 tokens
+slot create_check: id  0 | task 9482 | created context checkpoint 2 of 32 (pos_min = 476, pos_max = 476, n_tokens = 477, size = 62.818 MiB, took 71.99 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795501902 id_slot=0 id_task=9482 n_ctx=8192 n_past=477 n_system_tokens=0 n_cache_tokens=477 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795501902
+======== Prompt cache: cache size: 477, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.03, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 477, total state size = 72.135 MiB
+prompt cache save took 166.11 ms
+ - looking for better prompt, base f_keep = 0.030, sim = 0.052, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 40 prompts, 5629.849 MiB (limits: 8192.000 MiB, 0 tokens, 16956 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+   - prompt 0x7ff0b4029b30:     425 tokens,       0 discarded, checkpoints:  1,   133.937 MiB
+   - prompt 0x558b8f92aeb0:     604 tokens,       0 discarded, checkpoints:  3,   263.070 MiB
+   - prompt 0x7ff0b4020930:     477 tokens,       0 discarded, checkpoints:  2,   197.768 MiB
+prompt cache load took 1.18 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795501902 id_slot=0 id_task=9885
+slot apply_checkp: id  0 | task 9885 | dropping invalidated context checkpoint (pos_min = 71, pos_max = 71)
+slot apply_checkp: id  0 | task 9885 | dropping invalidated context checkpoint (pos_min = 476, pos_max = 476)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501902 id_slot=0 id_task=9885 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501905 id_slot=0 id_task=9885 p0=62
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795501906 remote_addr="127.0.0.1" remote_port=44378 status=200 method="POST" path="/v1/chat/completions" params={}
+slot create_check: id  0 | task 9885 | created context checkpoint 1 of 32 (pos_min = 511, pos_max = 511, n_tokens = 512, size = 62.819 MiB, took 61.97 ms)
+slot print_timing: id  0 | task 9885 | 
+prompt eval time =    4340.95 ms /    67 tokens (   64.79 ms per token,    15.43 tokens per second)
+       eval time =   85622.85 ms /   485 tokens (  176.54 ms per token,     5.66 tokens per second)
+      total time =   89963.80 ms /   552 tokens
+slot create_check: id  0 | task 9885 | created context checkpoint 2 of 32 (pos_min = 550, pos_max = 550, n_tokens = 551, size = 62.819 MiB, took 77.99 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795501992 id_slot=0 id_task=9885 n_ctx=8192 n_past=551 n_system_tokens=0 n_cache_tokens=551 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795501992
+======== Prompt cache: cache size: 551, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.03, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 551, total state size = 73.581 MiB
+prompt cache save took 173.50 ms
+ - looking for better prompt, base f_keep = 0.026, sim = 0.044, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 41 prompts, 5829.067 MiB (limits: 8192.000 MiB, 0 tokens, 17151 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+   - prompt 0x7ff0b4029b30:     425 tokens,       0 discarded, checkpoints:  1,   133.937 MiB
+   - prompt 0x558b8f92aeb0:     604 tokens,       0 discarded, checkpoints:  3,   263.070 MiB
+   - prompt 0x7ff0b4020930:     477 tokens,       0 discarded, checkpoints:  2,   197.768 MiB
+   - prompt 0x558b8f91e7b0:     551 tokens,       0 discarded, checkpoints:  2,   199.218 MiB
+prompt cache load took 1.22 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795501992 id_slot=0 id_task=10372
+slot apply_checkp: id  0 | task 10372 | dropping invalidated context checkpoint (pos_min = 511, pos_max = 511)
+slot apply_checkp: id  0 | task 10372 | dropping invalidated context checkpoint (pos_min = 550, pos_max = 550)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501992 id_slot=0 id_task=10372 p0=0
+slot create_check: id  0 | task 10372 | created context checkpoint 1 of 32 (pos_min = 82, pos_max = 82, n_tokens = 83, size = 62.815 MiB, took 63.76 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795501997 id_slot=0 id_task=10372 p0=83
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795501997 remote_addr="127.0.0.1" remote_port=42954 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 10372 | 
+prompt eval time =    4922.75 ms /    88 tokens (   55.94 ms per token,    17.88 tokens per second)
+       eval time =   90603.72 ms /   491 tokens (  184.53 ms per token,     5.42 tokens per second)
+      total time =   95526.47 ms /   579 tokens
+slot create_check: id  0 | task 10372 | created context checkpoint 2 of 32 (pos_min = 577, pos_max = 577, n_tokens = 578, size = 62.819 MiB, took 78.82 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795502088 id_slot=0 id_task=10372 n_ctx=8192 n_past=578 n_system_tokens=0 n_cache_tokens=578 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795502088
+======== Prompt cache: cache size: 578, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.02, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 578, total state size = 74.108 MiB
+prompt cache save took 197.05 ms
+ - looking for better prompt, base f_keep = 0.024, sim = 0.043, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 42 prompts, 6028.810 MiB (limits: 8192.000 MiB, 0 tokens, 17368 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+   - prompt 0x7ff0b4029b30:     425 tokens,       0 discarded, checkpoints:  1,   133.937 MiB
+   - prompt 0x558b8f92aeb0:     604 tokens,       0 discarded, checkpoints:  3,   263.070 MiB
+   - prompt 0x7ff0b4020930:     477 tokens,       0 discarded, checkpoints:  2,   197.768 MiB
+   - prompt 0x558b8f91e7b0:     551 tokens,       0 discarded, checkpoints:  2,   199.218 MiB
+   - prompt 0x558b8eb83160:     578 tokens,       0 discarded, checkpoints:  2,   199.742 MiB
+prompt cache load took 1.24 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795502088 id_slot=0 id_task=10865
+slot apply_checkp: id  0 | task 10865 | dropping invalidated context checkpoint (pos_min = 82, pos_max = 82)
+slot apply_checkp: id  0 | task 10865 | dropping invalidated context checkpoint (pos_min = 577, pos_max = 577)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795502088 id_slot=0 id_task=10865 p0=0
+slot create_check: id  0 | task 10865 | created context checkpoint 1 of 32 (pos_min = 67, pos_max = 67, n_tokens = 68, size = 62.815 MiB, took 56.28 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795502092 id_slot=0 id_task=10865 p0=68
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795502093 remote_addr="127.0.0.1" remote_port=36404 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 10865 | 
+prompt eval time =    4931.71 ms /    73 tokens (   67.56 ms per token,    14.80 tokens per second)
+       eval time =   55794.17 ms /   278 tokens (  200.70 ms per token,     4.98 tokens per second)
+      total time =   60725.88 ms /   351 tokens
+slot create_check: id  0 | task 10865 | created context checkpoint 2 of 32 (pos_min = 349, pos_max = 349, n_tokens = 350, size = 62.817 MiB, took 69.24 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795502149 id_slot=0 id_task=10865 n_ctx=8192 n_past=350 n_system_tokens=0 n_cache_tokens=350 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795502149
+======== Prompt cache: cache size: 350, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.04, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 350, total state size = 69.653 MiB
+prompt cache save took 191.07 ms
+ - looking for better prompt, base f_keep = 0.040, sim = 0.067, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 43 prompts, 6224.095 MiB (limits: 8192.000 MiB, 0 tokens, 17284 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+   - prompt 0x558b8ea4c3c0:     231 tokens,       0 discarded, checkpoints:  1,   130.145 MiB
+   - prompt 0x558b8e9b4ab0:     282 tokens,       0 discarded, checkpoints:  1,   131.141 MiB
+   - prompt 0x558b8e9a6ee0:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8ead13d0:     390 tokens,       0 discarded, checkpoints:  1,   133.252 MiB
+   - prompt 0x558b8e9fb0c0:     314 tokens,       0 discarded, checkpoints:  1,   131.767 MiB
+   - prompt 0x558b8e9fb5b0:     292 tokens,       0 discarded, checkpoints:  1,   131.337 MiB
+   - prompt 0x558b8e997120:     276 tokens,       0 discarded, checkpoints:  1,   131.024 MiB
+   - prompt 0x558b8ea15610:     366 tokens,       0 discarded, checkpoints:  1,   132.783 MiB
+   - prompt 0x7ff0a40194e0:     420 tokens,       0 discarded, checkpoints:  1,   133.839 MiB
+   - prompt 0x558b8e99e820:     430 tokens,       0 discarded, checkpoints:  1,   134.034 MiB
+   - prompt 0x558b8ea15280:     347 tokens,       0 discarded, checkpoints:  1,   132.412 MiB
+   - prompt 0x558b8f9678b0:     506 tokens,       0 discarded, checkpoints:  1,   135.520 MiB
+   - prompt 0x558b8e9c3a50:     287 tokens,       0 discarded, checkpoints:  1,   131.239 MiB
+   - prompt 0x558b8e8fb3d0:     438 tokens,       0 discarded, checkpoints:  1,   134.191 MiB
+   - prompt 0x7ff0a401c5a0:     224 tokens,       0 discarded, checkpoints:  1,   130.008 MiB
+   - prompt 0x7ff0b4030fa0:     556 tokens,       0 discarded, checkpoints:  2,   199.316 MiB
+   - prompt 0x7ff0b0016470:     300 tokens,       0 discarded, checkpoints:  1,   131.493 MiB
+   - prompt 0x558b8eb5d9a0:     429 tokens,       0 discarded, checkpoints:  2,   196.830 MiB
+   - prompt 0x558b8eb6b620:     316 tokens,       0 discarded, checkpoints:  1,   131.806 MiB
+   - prompt 0x558b8eb8db00:     161 tokens,       0 discarded, checkpoints:  1,   128.776 MiB
+   - prompt 0x558b8e9d0360:      63 tokens,       0 discarded, checkpoints:  0,    64.046 MiB
+   - prompt 0x558b8eb81eb0:     109 tokens,       0 discarded, checkpoints:  1,   127.760 MiB
+   - prompt 0x558b8eb7b370:      96 tokens,       0 discarded, checkpoints:  1,   127.506 MiB
+   - prompt 0x558b8eb84db0:     112 tokens,       0 discarded, checkpoints:  1,   127.819 MiB
+   - prompt 0x558b8eb84040:      55 tokens,       0 discarded, checkpoints:  0,    63.889 MiB
+   - prompt 0x558b8f909be0:     104 tokens,       0 discarded, checkpoints:  1,   127.662 MiB
+   - prompt 0x558b8f9075e0:     119 tokens,       0 discarded, checkpoints:  1,   127.955 MiB
+   - prompt 0x558b8f9057b0:      89 tokens,       0 discarded, checkpoints:  1,   127.369 MiB
+   - prompt 0x558b8f90f540:     168 tokens,       0 discarded, checkpoints:  1,   128.913 MiB
+   - prompt 0x558b8f909a70:      69 tokens,       0 discarded, checkpoints:  1,   126.978 MiB
+   - prompt 0x558b8e9ba680:     400 tokens,       0 discarded, checkpoints:  2,   196.264 MiB
+   - prompt 0x558b8f9138b0:     274 tokens,       0 discarded, checkpoints:  2,   193.801 MiB
+   - prompt 0x558b8f934510:     553 tokens,       0 discarded, checkpoints:  2,   199.254 MiB
+   - prompt 0x7ff0b4029b30:     425 tokens,       0 discarded, checkpoints:  1,   133.937 MiB
+   - prompt 0x558b8f92aeb0:     604 tokens,       0 discarded, checkpoints:  3,   263.070 MiB
+   - prompt 0x7ff0b4020930:     477 tokens,       0 discarded, checkpoints:  2,   197.768 MiB
+   - prompt 0x558b8f91e7b0:     551 tokens,       0 discarded, checkpoints:  2,   199.218 MiB
+   - prompt 0x558b8eb83160:     578 tokens,       0 discarded, checkpoints:  2,   199.742 MiB
+   - prompt 0x558b8f391440:     350 tokens,       0 discarded, checkpoints:  2,   195.286 MiB
+prompt cache load took 1.29 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795502149 id_slot=0 id_task=11145
+slot apply_checkp: id  0 | task 11145 | dropping invalidated context checkpoint (pos_min = 67, pos_max = 67)
+slot apply_checkp: id  0 | task 11145 | dropping invalidated context checkpoint (pos_min = 349, pos_max = 349)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795502149 id_slot=0 id_task=11145 p0=0
+slot create_check: id  0 | task 11145 | created context checkpoint 1 of 32 (pos_min = 65, pos_max = 65, n_tokens = 66, size = 62.815 MiB, took 63.70 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795502153 id_slot=0 id_task=11145 p0=66
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795502154 remote_addr="127.0.0.1" remote_port=43330 status=200 method="POST" path="/v1/chat/completions" params={}
