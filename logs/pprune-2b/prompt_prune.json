@@ -1,0 +1,296 @@
+{
+ "full": [
+  {
+   "q": "To what maximum length, in centimetres, may Homarus gammarus grow?",
+   "ok": true,
+   "answer": "60 centimetres",
+   "prompt_n": 3509,
+   "total_s": 18.526106451000487,
+   "ttft_s": 18.148862854000072
+  },
+  {
+   "q": "What colour are European lobsters in life?",
+   "ok": true,
+   "answer": "Blue",
+   "prompt_n": 3500,
+   "total_s": 18.014092440999775,
+   "ttft_s": 17.941944512999726
+  },
+  {
+   "q": "For up to how long do female European lobsters carry their eggs before hatching?",
+   "ok": true,
+   "answer": "Up to a year",
+   "prompt_n": 3508,
+   "total_s": 18.6306602020004,
+   "ttft_s": 18.33233931399991
+  },
+  {
+   "q": "Which species is Homarus gammarus closely related to?",
+   "ok": true,
+   "answer": "The American lobster, H. americanus.",
+   "prompt_n": 3503,
+   "total_s": 18.555019459000505,
+   "ttft_s": 17.87684984400039
+  },
+  {
+   "q": "What is the name of the moulting process by which lobsters shed their exoskeleton?",
+   "ok": true,
+   "answer": "ecdysis (moulting)",
+   "prompt_n": 3511,
+   "total_s": 18.107382325999424,
+   "ttft_s": 17.59439632199974
+  },
+  {
+   "q": "What is the eastern end point city of M-82?",
+   "ok": true,
+   "answer": "Howard City",
+   "prompt_n": 3504,
+   "total_s": 18.12860187499973,
+   "ttft_s": 17.990039305999744
+  },
+  {
+   "q": "In 2009, what was the peak daily traffic volume measured on M-82 west of Fremont?",
+   "ok": true,
+   "answer": "16,532 vehicles daily",
+   "prompt_n": 3516,
+   "total_s": 18.204430446000515,
+   "ttft_s": 17.557771265000156
+  },
+  {
+   "q": "In 2009, what was the lowest daily traffic volume (the traffic nadir) on M-82?",
+   "ok": true,
+   "answer": "4,018 vehicles",
+   "prompt_n": 3517,
+   "total_s": 17.897632471999714,
+   "ttft_s": 17.468164299999444
+  },
+  {
+   "q": "By which year had the first usage of the M-82 designation appeared in the Upper Peninsula?",
+   "ok": true,
+   "answer": "1919",
+   "prompt_n": 3511,
+   "total_s": 18.280454255000222,
+   "ttft_s": 17.970218767000006
+  },
+  {
+   "q": "With which highway does M-82 run concurrently over the Muskegon River in Newaygo?",
+   "ok": true,
+   "answer": "M-37",
+   "prompt_n": 3512,
+   "total_s": 18.315613226000096,
+   "ttft_s": 18.005597125999884
+  },
+  {
+   "q": "At which exit number on US 131 is the east end of M-82?",
+   "ok": true,
+   "answer": "Exit 118",
+   "prompt_n": 3511,
+   "total_s": 17.94309852099923,
+   "ttft_s": 17.515642663999643
+  },
+  {
+   "q": "Which national forest does M-82 run along the southern edge of?",
+   "ok": true,
+   "answer": "Manistee National Forest",
+   "prompt_n": 3506,
+   "total_s": 18.71834831600063,
+   "ttft_s": 18.338453983000363
+  }
+ ],
+ "bm25": [
+  {
+   "q": "To what maximum length, in centimetres, may Homarus gammarus grow?",
+   "ok": true,
+   "answer": "60 centimetres",
+   "prompt_n": 927,
+   "total_s": 4.976804287999585,
+   "ttft_s": 4.553752728999825
+  },
+  {
+   "q": "What colour are European lobsters in life?",
+   "ok": true,
+   "answer": "Blue",
+   "prompt_n": 865,
+   "total_s": 4.341366358999949,
+   "ttft_s": 4.2539938929994605
+  },
+  {
+   "q": "For up to how long do female European lobsters carry their eggs before hatching?",
+   "ok": true,
+   "answer": "Up to a year",
+   "prompt_n": 887,
+   "total_s": 4.455988118999812,
+   "ttft_s": 4.153777169000023
+  },
+  {
+   "q": "Which species is Homarus gammarus closely related to?",
+   "ok": true,
+   "answer": "The American lobster, H. americanus.",
+   "prompt_n": 807,
+   "total_s": 4.747174547999748,
+   "ttft_s": 4.094040003000373
+  },
+  {
+   "q": "What is the name of the moulting process by which lobsters shed their exoskeleton?",
+   "ok": true,
+   "answer": "ecdysis (moulting)",
+   "prompt_n": 903,
+   "total_s": 4.643362449000051,
+   "ttft_s": 4.156273212999622
+  },
+  {
+   "q": "What is the eastern end point city of M-82?",
+   "ok": true,
+   "answer": "Howard City",
+   "prompt_n": 1048,
+   "total_s": 5.001307867999458,
+   "ttft_s": 4.872977050999907
+  },
+  {
+   "q": "In 2009, what was the peak daily traffic volume measured on M-82 west of Fremont?",
+   "ok": true,
+   "answer": "16,532 vehicles daily",
+   "prompt_n": 980,
+   "total_s": 4.998026156999913,
+   "ttft_s": 4.47846726699936
+  },
+  {
+   "q": "In 2009, what was the lowest daily traffic volume (the traffic nadir) on M-82?",
+   "ok": true,
+   "answer": "4 @,@ 018 vehicles",
+   "prompt_n": 1004,
+   "total_s": 4.993511558000137,
+   "ttft_s": 4.471318196000539
+  },
+  {
+   "q": "By which year had the first usage of the M-82 designation appeared in the Upper Peninsula?",
+   "ok": true,
+   "answer": "1919",
+   "prompt_n": 998,
+   "total_s": 4.7673190659998,
+   "ttft_s": 4.496792730999914
+  },
+  {
+   "q": "With which highway does M-82 run concurrently over the Muskegon River in Newaygo?",
+   "ok": true,
+   "answer": "M-37",
+   "prompt_n": 1060,
+   "total_s": 5.283297014000709,
+   "ttft_s": 5.009887971000353
+  },
+  {
+   "q": "At which exit number on US 131 is the east end of M-82?",
+   "ok": true,
+   "answer": "118",
+   "prompt_n": 1059,
+   "total_s": 4.916617388000304,
+   "ttft_s": 4.723080087999733
+  },
+  {
+   "q": "Which national forest does M-82 run along the southern edge of?",
+   "ok": true,
+   "answer": "Manistee National Forest",
+   "prompt_n": 970,
+   "total_s": 4.5850068790005025,
+   "ttft_s": 4.251511621000645
+  }
+ ],
+ "head": [
+  {
+   "q": "To what maximum length, in centimetres, may Homarus gammarus grow?",
+   "ok": true,
+   "answer": "60 centimetres",
+   "prompt_n": 893,
+   "total_s": 4.380503295999915,
+   "ttft_s": 4.009263830999771
+  },
+  {
+   "q": "What colour are European lobsters in life?",
+   "ok": true,
+   "answer": "Blue",
+   "prompt_n": 884,
+   "total_s": 4.059795196000778,
+   "ttft_s": 3.98459249500047
+  },
+  {
+   "q": "For up to how long do female European lobsters carry their eggs before hatching?",
+   "ok": true,
+   "answer": "Up to a year",
+   "prompt_n": 892,
+   "total_s": 4.374392543000795,
+   "ttft_s": 4.120588933999898
+  },
+  {
+   "q": "Which species is Homarus gammarus closely related to?",
+   "ok": true,
+   "answer": "Homarus americanus",
+   "prompt_n": 887,
+   "total_s": 4.3050607229997695,
+   "ttft_s": 4.050203191000037
+  },
+  {
+   "q": "What is the name of the moulting process by which lobsters shed their exoskeleton?",
+   "ok": true,
+   "answer": "ecdysis",
+   "prompt_n": 895,
+   "total_s": 4.18126369500078,
+   "ttft_s": 4.048763016000521
+  },
+  {
+   "q": "What is the eastern end point city of M-82?",
+   "ok": false,
+   "answer": "The provided text does not contain information about M-82 or its eastern end point city.",
+   "prompt_n": 888,
+   "total_s": 5.500645922999865,
+   "ttft_s": 4.175318472000072
+  },
+  {
+   "q": "In 2009, what was the peak daily traffic volume measured on M-82 west of Fremont?",
+   "ok": false,
+   "answer": "The provided text does not contain information about M-82 west of Fremont or traffic volume data from 2009.",
+   "prompt_n": 900,
+   "total_s": 6.051313531000233,
+   "ttft_s": 4.138492904000486
+  },
+  {
+   "q": "In 2009, what was the lowest daily traffic volume (the traffic nadir) on M-82?",
+   "ok": false,
+   "answer": "The provided text does not contain information about M-82 traffic volume or the year 2009.",
+   "prompt_n": 901,
+   "total_s": 5.770230845000697,
+   "ttft_s": 4.186977409000065
+  },
+  {
+   "q": "By which year had the first usage of the M-82 designation appeared in the Upper Peninsula?",
+   "ok": false,
+   "answer": "The provided text does not contain information about the M-82 designation or its usage in the Upper Peninsula.",
+   "prompt_n": 895,
+   "total_s": 6.055141714999991,
+   "ttft_s": 4.3768224999994345
+  },
+  {
+   "q": "With which highway does M-82 run concurrently over the Muskegon River in Newaygo?",
+   "ok": false,
+   "answer": "M-82 does not run concurrently with M-82 over the Muskegon River in Newaygo; the question contains a factual error.",
+   "prompt_n": 896,
+   "total_s": 6.777476805999868,
+   "ttft_s": 4.429247686000053
+  },
+  {
+   "q": "At which exit number on US 131 is the east end of M-82?",
+   "ok": false,
+   "answer": "The provided text does not contain information about US 131 or M-82 exits.",
+   "prompt_n": 895,
+   "total_s": 5.648174232000201,
+   "ttft_s": 4.317905498000073
+  },
+  {
+   "q": "Which national forest does M-82 run along the southern edge of?",
+   "ok": false,
+   "answer": "The provided text does not contain information about M-82 or any national forests.",
+   "prompt_n": 890,
+   "total_s": 5.465952190999815,
+   "ttft_s": 4.175329134000094
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "cache_off": [
+  {
+   "q": "Between which two places does M-82 travel? One short sentence.",
+   "ttft_s": 17.54612608499974,
+   "total_s": 18.628741030999663,
+   "prompt_n": 3503,
+   "cache_n": 0,
+   "answer": "M-82 travels between Fremont and Howard City in Michigan."
+  },
+  {
+   "q": "How long can Homarus gammarus grow, in centimetres? One short sentence.",
+   "ttft_s": 17.553183193000223,
+   "total_s": 18.811917944000015,
+   "prompt_n": 3507,
+   "cache_n": 0,
+   "answer": "Homarus gammarus can grow to a length of 60 centimetres."
+  },
+  {
+   "q": "Which national forest does M-82 run along? One short sentence.",
+   "ttft_s": 17.632533719000094,
+   "total_s": 18.82403652499943,
+   "prompt_n": 3503,
+   "cache_n": 0,
+   "answer": "M-82 runs along the southern edge of Manistee National Forest."
+  }
+ ],
+ "cache_on": [
+  {
+   "q": "Between which two places does M-82 travel? One short sentence.",
+   "ttft_s": 3.075682603000132,
+   "total_s": 4.252722686999732,
+   "prompt_n": 516,
+   "cache_n": 2987,
+   "answer": "M-82 travels between Fremont and Howard City in Michigan."
+  },
+  {
+   "q": "How long can Homarus gammarus grow, in centimetres? One short sentence.",
+   "ttft_s": 3.2126262350002435,
+   "total_s": 4.550696666000476,
+   "prompt_n": 520,
+   "cache_n": 2987,
+   "answer": "Homarus gammarus can grow to a length of 60 centimetres."
+  },
+  {
+   "q": "Which national forest does M-82 run along? One short sentence.",
+   "ttft_s": 2.9177344970003105,
+   "total_s": 4.025155489000099,
+   "prompt_n": 512,
+   "cache_n": 2991,
+   "answer": "M-82 runs along the southern edge of Manistee National Forest."
+  }
+ ]
+}

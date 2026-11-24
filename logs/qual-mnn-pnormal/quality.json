@@ -1,0 +1,502 @@
+[
+ {
+  "id": "arith1",
+  "category": "arith",
+  "ok": true,
+  "got": "1081",
+  "want": "1081",
+  "total_s": 4.283,
+  "predicted_n": 99,
+  "content": "To find the product of 47 and 23, we can break it down using the distributive property:\n\n$47 \\times 23 = (40 + 7) \\times 23$\n$= (40 \\times 23) + (7 \\times 23)$\n$= 920 + 161$\n$= 1081$\n\nAnswer: 1081\n"
+ },
+ {
+  "id": "arith2",
+  "category": "arith",
+  "ok": true,
+  "got": "6912",
+  "want": "6912",
+  "total_s": 6.612,
+  "predicted_n": 157,
+  "content": "To find the sum of 1234 and 5678, we add the numbers column by column from right to left:\n\n1.  **Ones**: $4 + 8 = 12$ (write down 2, carry over 1)\n2.  **Tens**: $3 + 7 + 1 (\\text{carry}) = 11$ (write down 1, carry over 1)\n3.  **Hundreds**: $2 + 6 + 1 (\\text{carry}) = 9$\n4.  **Thousands**: $1 + 5 = 6$\n\nCombining these results gives us 6912.\n\nAnswer: 6912\n"
+ },
+ {
+  "id": "arith3",
+  "category": "arith",
+  "ok": false,
+  "got": "5593",
+  "want": "5543",
+  "total_s": 14.204,
+  "predicted_n": 356,
+  "content": "To find the result of $9000 - 3457$, we can subtract the numbers step by step:\n\n1.  Subtract the ones: $0 - 7$ requires borrowing from the tens place. Since there are no ones in the tens place, we borrow from the hundreds.\n2.  The hundreds digit becomes $9$, and the ones digit becomes $10$. Now, $10 - 7 = 3$.\n3.  Subtract the tens: $4 - 5$. Since $4$ is less than $5$, we borrow from the hundreds. The hundreds digit becomes $8$, and the tens digit becomes $14$. Now, $14 - 5 = 9$.\n4.  Subtract the hundreds: $8 - 3 = 5$.\n5.  Subtract the thousands: $9 - 0 = 9$.\n\nPutting it all together: $9 - 3 = 5$, $8 - 5 = 9$, $14 - 7 = 7$, and $10 - 0 = 0$.\n\nWait, let's re-calculate carefully:\n   $9000$\n$- 3457$\n-------\n   $5$ (ones: $10 - 7 = 3$)\n   $9$ (tens: $14 - 5 = 9$)\n   $8$ (hundreds: $8 - 3 = 5$)\n   $9$ (thousands: $9 - 0 = 9$)\n\nResult: $5593$\n\nAnswer: 5593\n"
+ },
+ {
+  "id": "arith4",
+  "category": "arith",
+  "ok": true,
+  "got": "12",
+  "want": "12",
+  "total_s": 5.189,
+  "predicted_n": 119,
+  "content": "To find the result of $144 \\div 12$, we can perform the division step-by-step:\n\n1.  Divide 14 by 12: 14 divided by 12 is 1 with a remainder of 2.\n2.  Bring down the 4 to make 24.\n3.  Divide 24 by 12: 24 divided by 12 is 2.\n\nSo, $144 \\div 12 = 12$.\n\nAnswer: 12\n"
+ },
+ {
+  "id": "arith5",
+  "category": "arith",
+  "ok": false,
+  "got": "360",
+  "want": "36",
+  "total_s": 6.039,
+  "predicted_n": 149,
+  "content": "To find 15% of 240, you can follow these steps:\n\n1.  Convert the percentage to a decimal: $15\\% = \\frac{15}{100} = 0.15$.\n2.  Multiply the decimal by the number: $0.15 \\times 240$.\n3.  Alternatively, calculate $15 \\times 240$ and divide by 100:\n    *   $15 \\times 240 = 3600$\n    *   $3600 \\div 100 = 360$\n\nAnswer: 360\n"
+ },
+ {
+  "id": "arith6",
+  "category": "arith",
+  "ok": true,
+  "got": "2048",
+  "want": "2048",
+  "total_s": 2.971,
+  "predicted_n": 67,
+  "content": "To calculate $2^{11}$, we can break it down using the properties of exponents:\n$$2^{11} = 2^{10} \\times 2^1 = 1024 \\times 2 = 2048$$\n\nAnswer: 2048\n"
+ },
+ {
+  "id": "arith7",
+  "category": "arith",
+  "ok": false,
+  "got": "no_answer_line",
+  "want": "1517",
+  "total_s": 19.669,
+  "predicted_n": 512,
+  "content": "To find the product of 37 and 41, we can use the standard multiplication algorithm:\n\n1.  Multiply 37 by 1:\n    $37 \\times 1 = 37$\n\n2.  Multiply 37 by 40 (which is $37 \\times 4$):\n    $37 \\times 4 = 148$\n\n3.  Add the results together:\n    $37 + 148 = 185$\n\nAlternatively, using the difference of squares formula $(a-b)(a+b) = a^2 - b^2$:\nLet $a = 40$ and $b = 3$.\n$(40 - 3)(40 + 3) = 40^2 - 3^2 = 1600 - 9 = 1591$\n\nWait, I made a mistake in the previous step. Let's re-calculate carefully.\n$37 \\times 41 = (40 - 3)(40 + 3)$\n$= 40^2 - 3^2$\n$= 1600 - 9$\n$= 1591$\n\nLet's verify with standard multiplication again:\n  37\nx 41\n----\n  370 (37 * 1)\n15200 (37 * 40)\n-----\n15910\n\nWait, $37 \\times 40 = 1480$, not $15200$.\nLet's re-calculate:\n$37 \\times 41 = 37 \\times (40 + 1) = (37 \\times 40) + (37 \\times 1) = 1480 + 37 = 1517$.\n\nLet's try the difference of squares again.\n$a = 40, b = 3$.\n$(40 - 3)(40 + 3) = 40^2 - 3^2 = 1600 - 9 = 1591$.\nWhy is there a discrepancy?\nAh, $37 = 40 - 3$.\n$37 \\times 41 = ("
+ },
+ {
+  "id": "arith8",
+  "category": "arith",
+  "ok": true,
+  "got": "6",
+  "want": "6",
+  "total_s": 6.143,
+  "predicted_n": 158,
+  "content": "To find the remainder when 1000 is divided by 7, we can perform the division:\n\n$1000 \\div 7 = 142$ with a remainder.\n\nWe can verify this by multiplying:\n$142 \\times 7 = 994$\n\nNow, subtract this product from 1000:\n$1000 - 994 = 6$\n\nAlternatively, using modular arithmetic:\n$1000 = 7 \\times 142 + 6$\nSince $142 \\times 7 = 994$, the remainder is $1000 - 994 = 6$.\n\nAnswer: 6\n"
+ },
+ {
+  "id": "arith9",
+  "category": "arith",
+  "ok": true,
+  "got": "0.375",
+  "want": "0.375",
+  "total_s": 2.207,
+  "predicted_n": 47,
+  "content": "To convert the fraction $\\frac{3}{8}$ to a decimal, divide the numerator by the denominator:\n\n$$3 \\div 8 = 0.375$$\n\nAnswer: 0.375\n"
+ },
+ {
+  "id": "arith10",
+  "category": "arith",
+  "ok": true,
+  "got": "2000",
+  "want": "2000",
+  "total_s": 8.849,
+  "predicted_n": 215,
+  "content": "To find the product of 125 and 16, we can break down the multiplication using the distributive property or direct calculation.\n\nMethod 1: Break down 16 into $10 + 6$\n$$125 \\times 16 = 125 \\times (10 + 6)$$\n$$= (125 \\times 10) + (125 \\times 6)$$\n$$= 1250 + 750$$\n$$= 2000$$\n\nMethod 2: Use the fact that $125 = \\frac{1000}{8}$\n$$125 \\times 16 = \\frac{1000}{8} \\times 16 = 1000 \\times \\left(\\frac{16}{8}\\right) = 1000 \\times 2 = 2000$$\n\nAnswer: 2000\n"
+ },
+ {
+  "id": "reason1",
+  "category": "reason",
+  "ok": true,
+  "got": "12",
+  "want": "12",
+  "total_s": 7.819,
+  "predicted_n": 188,
+  "content": "To find the cost of 18 pens, we first determine the price per pen. The shop sells 3 pens for $2.\n\n1.  Calculate the cost of one pen:\n    $$ \\frac{\\$2}{3} = \\$0.666... $$\n    (This is approximately $0.67 per pen).\n\n2.  Calculate the total cost for 18 pens:\n    $$ 18 \\times \\$0.666... = 18 \\times \\frac{2}{3} = \\frac{36}{3} = \\$12 $$\n\nAlternatively, since 18 is exactly 6 times 3 ($18 \\div 3 = 6$), the cost is 6 times the price of a single pack:\n$$ 6 \\times \\$2 = \\$12 $$\n\nAnswer: 12\n"
+ },
+ {
+  "id": "reason2",
+  "category": "reason",
+  "ok": false,
+  "got": "255",
+  "want": "215",
+  "total_s": 9.429,
+  "predicted_n": 228,
+  "content": "To calculate the time difference between 09:40 and 13:15:\n\n1.  **Calculate the difference in hours:**\n    From 09:40 to 13:00 is 4 hours.\n    $4 \\times 60 = 240$ minutes.\n\n2.  **Calculate the remaining minutes:**\n    From 13:00 to 13:15 is 15 minutes.\n    $15$ minutes.\n\n3.  **Add the totals:**\n    $240 + 15 = 255$ minutes.\n\nAlternatively, you can calculate the total minutes in the day and subtract:\n- Total minutes from 09:40 to 13:00: $4 \\times 60 = 240$ minutes.\n- Total minutes from 09:40 to 13:15: $240 + 15 = 255$ minutes.\n\nAnswer: 255\n"
+ },
+ {
+  "id": "reason3",
+  "category": "reason",
+  "ok": true,
+  "got": "12",
+  "want": "12",
+  "total_s": 8.439,
+  "predicted_n": 210,
+  "content": "Let $A$ be Ann's current age and $T$ be Tom's current age.\nAccording to the problem, Tom is twice as old as Ann, so:\n$$T = 2A$$\n\nIn 6 years, Tom's age will be $T + 6$ and Ann's age will be $A + 6$.\nThe sum of their ages in 6 years is given as 48:\n$$(T + 6) + (A + 6) = 48$$\n\nSubstitute $T = 2A$ into the equation:\n$$(2A + 6) + (A + 6) = 48$$\n$$3A + 12 = 48$$\n\nSubtract 12 from both sides:\n$$3A = 36$$\n\nDivide by 3:\n$$A = 12$$\n\nSo, Ann is currently 12 years old.\n\nAnswer: 12\n"
+ },
+ {
+  "id": "reason4",
+  "category": "reason",
+  "ok": true,
+  "got": "126",
+  "want": "126",
+  "total_s": 11.211,
+  "predicted_n": 286,
+  "content": "Let the width of the rectangle be $w$ cm.\nAccording to the problem, the length is 5 cm more than the width, so the length is $w + 5$ cm.\n\nThe perimeter of a rectangle is given by the formula:\n$$ \\text{Perimeter} = 2 \\times (\\text{width} + \\text{length}) $$\n\nSubstitute the given values into the formula:\n$$ 46 = 2 \\times (w + (w + 5)) $$\n$$ 46 = 2 \\times (2w + 5) $$\n\nDivide both sides by 2:\n$$ 23 = 2w + 5 $$\n\nSubtract 5 from both sides:\n$$ 18 = 2w $$\n\nDivide by 2:\n$$ w = 9 $$\n\nSo, the width is 9 cm.\nNow, calculate the length:\n$$ \\text{Length} = 9 + 5 = 14 \\text{ cm} $$\n\nNow, calculate the area:\n$$ \\text{Area} = \\text{width} \\times \\text{length} $$\n$$ \\text{Area} = 9 \\times 14 $$\n$$ \\text{Area} = 126 $$\n\nAnswer: 126\n"
+ },
+ {
+  "id": "reason5",
+  "category": "reason",
+  "ok": true,
+  "got": "66",
+  "want": "66",
+  "total_s": 7.785,
+  "predicted_n": 190,
+  "content": "To find the total number of marbles, let's break down the problem step by step:\n\n1.  **Identify the number of boxes**: You have 3 boxes.\n2.  **Identify the number of bags per box**: Each box holds 4 bags.\n    *   Calculation: $3 \\times 4 = 12$ bags.\n3.  **Identify the number of marbles per bag**: Each bag holds 6 marbles.\n4.  **Identify exceptions**: There is 1 empty bag.\n    *   This means out of the 12 bags, only 11 contain marbles.\n5.  **Calculate the total marbles**:\n    *   Calculation: $11 \\text{ bags} \\times 6 \\text{ marbles/bag} = 66$ marbles.\n\nAnswer: 66\n"
+ },
+ {
+  "id": "reason6",
+  "category": "reason",
+  "ok": true,
+  "got": "2",
+  "want": "2",
+  "total_s": 12.937,
+  "predicted_n": 322,
+  "content": "To solve this problem, we can use the concept of work rates. Let's assume the capacity of the tank is 1 unit.\n\n1.  **Determine the rate of Pipe A:**\n    Pipe A fills the tank in 6 hours.\n    Rate of Pipe A = $\\frac{1}{6}$ of the tank per hour.\n\n2.  **Determine the rate of Pipe B:**\n    Pipe B fills the tank in 3 hours.\n    Rate of Pipe B = $\\frac{1}{3}$ of the tank per hour.\n\n3.  **Calculate the combined rate:**\n    When working together, their rates are added.\n    Combined Rate = Rate of Pipe A + Rate of Pipe B\n    Combined Rate = $\\frac{1}{6} + \\frac{1}{3}$\n    To add these fractions, find a common denominator (which is 6):\n    $\\frac{1}{3} = \\frac{2}{6}$\n    Combined Rate = $\\frac{1}{6} + \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$\n\n    So, together, the pipes fill $\\frac{1}{2}$ of the tank per hour.\n\n4.  **Calculate the time required together:**\n    Time = $\\frac{\\text{Total Work}}{\\text{Combined Rate}}$\n    Time = $\\frac{1}{\\frac{1}{2}} = 2$ hours.\n\nAnswer: 2\n"
+ },
+ {
+  "id": "reason7",
+  "category": "reason",
+  "ok": false,
+  "got": "no_answer_line",
+  "want": "Ben",
+  "total_s": 20.404,
+  "predicted_n": 512,
+  "content": "To determine who finishes third, let's arrange the runners based on the given clues:\n\n1.  **Ada finishes before Ben.**\n    *   Possible order: A, B\n    *   Possible order: A, B, ...\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, D, C, E\n    *   Possible order: A, B, D, E, C\n    *   Possible order: A, B, E, C, D\n    *   Possible order: A, B, E, D, C\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E, D\n    *   Possible order: A, B, C, D, E\n    *   Possible order: A, B, C, E,"
+ },
+ {
+  "id": "reason8",
+  "category": "reason",
+  "ok": true,
+  "got": "42",
+  "want": "42",
+  "total_s": 14.075,
+  "predicted_n": 335,
+  "content": "To find the next number in the sequence $2, 6, 12, 20, 30, \\dots$, let's analyze the pattern by looking at the differences between consecutive terms:\n\n1.  $6 - 2 = 4$\n2.  $12 - 6 = 6$\n3.  $20 - 12 = 8$\n4.  $30 - 20 = 10$\n\nThe differences form the sequence $4, 6, 8, 10, \\dots$. This is an arithmetic sequence where the difference increases by 2 each time.\n\nFollowing this pattern, the next difference should be:\n$10 + 2 = 12$\n\nNow, add this difference to the last number in the sequence ($30$):\n$30 + 12 = 42$\n\nAlternatively, we can look at the relationship between the terms themselves:\n-   $2 = 1 \\times 2$\n-   $6 = 2 \\times 3$\n-   $12 = 3 \\times 4$\n-   $20 = 4 \\times 5$\n-   $30 = 5 \\times 6$\n\nThe pattern is $n \\times (n+1)$, where $n$ starts at 1.\nFor the next term ($n=6$):\n$6 \\times 7 = 42$\n\nBoth methods yield the same result.\n\nAnswer: 42\n"
+ },
+ {
+  "id": "reason9",
+  "category": "reason",
+  "ok": true,
+  "got": "100",
+  "want": "100",
+  "total_s": 7.157,
+  "predicted_n": 168,
+  "content": "To find the original price, we can work backwards from the discounted price.\n\n1.  The jacket costs $80 after a 20% discount.\n2.  This means the discounted price is 80% of the original price.\n3.  Let $x$ be the original price.\n4.  The equation is: $0.80x = 80$.\n5.  To solve for $x$, divide both sides by 0.80:\n    $$x = \\frac{80}{0.80}$$\n6.  $$x = \\frac{800}{8}$$\n7.  $$x = 100$$\n\nThe original price was $100.\n\nAnswer: 100\n"
+ },
+ {
+  "id": "reason10",
+  "category": "reason",
+  "ok": false,
+  "got": "no_answer_line",
+  "want": "20",
+  "total_s": 20.168,
+  "predicted_n": 512,
+  "content": "To find the number of times the digit 7 appears in the whole numbers from 1 to 100, we can break it down by counting the occurrences in each position (units, tens, and hundreds).\n\n**Method 1: Direct Counting by Range**\nWe can list the numbers and count the 7s:\n- **1 to 70**:\n  - Units: 7, 17, 27, ..., 67 (7 numbers)\n  - Tens: 70 (1 number)\n  - Total in this range: 8\n- **71 to 100**:\n  - Units: 71, 72, ..., 79 (9 numbers)\n  - Tens: 70 (already counted above)\n  - Hundreds: 700 (not in range)\n  - Total in this range: 9\n\nWait, let's do a more systematic count by position to avoid double counting.\n\n**Method 2: Systematic Counting by Position**\n\n1.  **Units Place (1, 2, ..., 100):**\n    - The digit 7 appears once every 10 numbers.\n    - Ranges: 1-10, 11-20, ..., 90-100.\n    - There are 10 full sets of 10.\n    - Count: $10 \\times 1 = 10$.\n    - (Specifically: 7, 17, 27, 37, 47, 57, 67, 77, 87, 97)\n\n2.  **Tens Place (10-99):**\n    - The digit 7 appears in the tens place for numbers 70-79.\n    - Count: 10.\n    - (Specifically: 70, 71, 72, 73, 74, 75, 76, 77, 78, 79)\n\n3.  **Hundreds Place (100):**\n    - The digit 7 appears in the hundreds place only for numbers 700-799.\n    - Since our range is 1 to 100, there are no numbers"
+ },
+ {
+  "id": "reason11",
+  "category": "reason",
+  "ok": true,
+  "got": "Friday",
+  "want": "Friday",
+  "total_s": 4.859,
+  "predicted_n": 114,
+  "content": "To determine the day of the week 100 days from now, we can use the fact that a week consists of 7 days. We divide 100 by 7 to find out how many full weeks pass and what day of the week remains.\n\n$100 \\div 7 = 14$ with a remainder of $2$.\n\nThis means 100 days is exactly 14 weeks and 2 days. Since today is Wednesday, adding 2 days to Wednesday gives us Friday.\n\nAnswer: Friday\n"
+ },
+ {
+  "id": "reason12",
+  "category": "reason",
+  "ok": true,
+  "got": "60",
+  "want": "60",
+  "total_s": 16.337,
+  "predicted_n": 415,
+  "content": "To find the average speed for the whole trip, we need to calculate the total distance and the total time taken.\n\n1.  **Calculate the total distance:**\n    The car travels 150 km at 50 km/h and then 150 km at 75 km/h.\n    $$ \\text{Total Distance} = 150 \\text{ km} + 150 \\text{ km} = 300 \\text{ km} $$\n\n2.  **Calculate the time taken for each segment:**\n    *   Time for the first segment:\n        $$ \\text{Time}_1 = \\frac{\\text{Distance}_1}{\\text{Speed}_1} = \\frac{150}{50} = 3 \\text{ hours} $$\n    *   Time for the second segment:\n        $$ \\text{Time}_2 = \\frac{\\text{Distance}_2}{\\text{Speed}_2} = \\frac{150}{75} = 2 \\text{ hours} $$\n\n3.  **Calculate the total time:**\n    $$ \\text{Total Time} = \\text{Time}_1 + \\text{Time}_2 = 3 + 2 = 5 \\text{ hours} $$\n\n4.  **Calculate the average speed:**\n    Average speed is defined as the total distance divided by the total time.\n    $$ \\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{300 \\text{ km}}{5 \\text{ hours}} = 60 \\text{ km/h} $$\n\n    *Note: A common mistake is to average the speeds: $\\frac{50+75}{2} = 62.5$ km/h. However, this is incorrect because the car spends more time traveling at the slower speed.*\n\nAnswer: 60\n"
+ },
+ {
+  "id": "reason13",
+  "category": "reason",
+  "ok": false,
+  "got": "50",
+  "want": "5",
+  "total_s": 6.318,
+  "predicted_n": 148,
+  "content": "Let $x$ be the cost of the ball in cents.\nThen the cost of the bat is $x + 10$ cents.\n\nThe total cost is given as $1.10$, which is $110$ cents.\nSo, we can write the equation:\n$x + (x + 10) = 110$\n\nSimplify the equation:\n$2x + 10 = 110$\n\nSubtract 10 from both sides:\n$2x = 100$\n\nDivide by 2:\n$x = 50$\n\nSo the ball costs 50 cents.\n\nAnswer: 50\n"
+ },
+ {
+  "id": "reason14",
+  "category": "reason",
+  "ok": true,
+  "got": "3",
+  "want": "3",
+  "total_s": 4.041,
+  "predicted_n": 95,
+  "content": "To count the letter 'r' in the word \"strawberry\":\n1.  s\n2.  t\n3.  **r** (1)\n4.  a\n5.  w\n6.  b\n7.  e\n8.  **r** (2)\n9.  **r** (3)\n10. y\n\nThere are 3 'r's.\n\nAnswer: 3\n"
+ },
+ {
+  "id": "fact1",
+  "category": "fact",
+  "ok": true,
+  "got": "Au",
+  "want": "Au",
+  "total_s": 0.794,
+  "predicted_n": 13,
+  "content": "The chemical symbol for gold is Au.\n\nAnswer: Au\n"
+ },
+ {
+  "id": "fact2",
+  "category": "fact",
+  "ok": true,
+  "got": "Canberra",
+  "want": "Canberra",
+  "total_s": 2.011,
+  "predicted_n": 44,
+  "content": "The capital city of Australia is Canberra. It was chosen as the capital in 1908 to be centrally located between Sydney and Melbourne, serving as a compromise between the two largest cities.\n\nAnswer: Canberra\n"
+ },
+ {
+  "id": "fact3",
+  "category": "fact",
+  "ok": true,
+  "got": "1945",
+  "want": "1945",
+  "total_s": 1.234,
+  "predicted_n": 21,
+  "content": "The Second World War ended in 1945.\n\nAnswer: 1945\n"
+ },
+ {
+  "id": "fact4",
+  "category": "fact",
+  "ok": true,
+  "got": "Jupiter",
+  "want": "Jupiter",
+  "total_s": 2.626,
+  "predicted_n": 57,
+  "content": "The planet in our solar system with the most mass is **Jupiter**.\n\nJupiter is a gas giant with a mass approximately 318 times that of Earth. Its immense gravitational pull and volume make it the most massive planet in our solar system.\n\nAnswer: Jupiter\n"
+ },
+ {
+  "id": "fact5",
+  "category": "fact",
+  "ok": true,
+  "got": "William Shakespeare",
+  "want": "Shakespeare",
+  "total_s": 0.991,
+  "predicted_n": 18,
+  "content": "The play *Hamlet* was written by William Shakespeare.\n\nAnswer: William Shakespeare\n"
+ },
+ {
+  "id": "fact6",
+  "category": "fact",
+  "ok": true,
+  "got": "6",
+  "want": "6",
+  "total_s": 0.89,
+  "predicted_n": 15,
+  "content": "The atomic number of carbon is 6.\n\nAnswer: 6\n"
+ },
+ {
+  "id": "fact7",
+  "category": "fact",
+  "ok": true,
+  "got": "Pacific Ocean",
+  "want": "Pacific",
+  "total_s": 1.915,
+  "predicted_n": 42,
+  "content": "The largest ocean on Earth is the **Pacific Ocean**. It covers approximately 63% of the Earth's surface and is the world's largest ocean by both area and volume.\n\nAnswer: Pacific Ocean\n"
+ },
+ {
+  "id": "fact8",
+  "category": "fact",
+  "ok": true,
+  "got": "6",
+  "want": "6",
+  "total_s": 1.074,
+  "predicted_n": 16,
+  "content": "A hexagon is a polygon with six sides.\n\nAnswer: 6\n"
+ },
+ {
+  "id": "fact9",
+  "category": "fact",
+  "ok": true,
+  "got": "212\u00b0F",
+  "want": "212",
+  "total_s": 1.423,
+  "predicted_n": 25,
+  "content": "The boiling point of water at sea level is 212 degrees Fahrenheit.\n\nAnswer: 212\u00b0F\n"
+ },
+ {
+  "id": "fact10",
+  "category": "fact",
+  "ok": true,
+  "got": "Sodium",
+  "want": "Sodium",
+  "total_s": 0.963,
+  "predicted_n": 15,
+  "content": "The chemical symbol 'Na' stands for Sodium.\n\nAnswer: Sodium\n"
+ },
+ {
+  "id": "read1",
+  "category": "read",
+  "ok": true,
+  "got": "1801",
+  "want": "1801",
+  "total_s": 2.747,
+  "predicted_n": 38,
+  "content": "Based on the text provided, the Tolland Canal was authorised by Parliament in 1794 and opened in **1801**.\n\nAnswer: 1801\n"
+ },
+ {
+  "id": "read2",
+  "category": "read",
+  "ok": true,
+  "got": "17",
+  "want": "17",
+  "total_s": 2.332,
+  "predicted_n": 23,
+  "content": "Based on the text provided, the Tolland Canal had 17 locks.\n\nAnswer: 17\n"
+ },
+ {
+  "id": "read3",
+  "category": "read",
+  "ok": true,
+  "got": "Rudge",
+  "want": "Rudge",
+  "total_s": 4.251,
+  "predicted_n": 68,
+  "content": "Based on the text provided, the canal opened in 1801. The text states that its chief engineer, Margaret Ellison, was succeeded in 1799 by Thomas Rudge. Since the canal opened in 1801, Thomas Rudge was the chief engineer at that time.\n\nAnswer: Rudge\n"
+ },
+ {
+  "id": "read4",
+  "category": "read",
+  "ok": true,
+  "got": "47500",
+  "want": "47500",
+  "total_s": 5.785,
+  "predicted_n": 116,
+  "content": "To determine how many pounds the final cost exceeded the estimate, we look at the figures provided in the text:\n\n1.  **Estimated cost:** \u00a384,000\n2.  **Final cost:** \u00a3131,500\n\nNow, subtract the estimate from the final cost:\n$$131,500 - 84,000 = 47,500$$\n\nThe final cost exceeded the estimate by \u00a347,500.\n\nAnswer: 47500\n"
+ },
+ {
+  "id": "read5",
+  "category": "read",
+  "ok": true,
+  "got": "75",
+  "want": "75",
+  "total_s": 6.092,
+  "predicted_n": 117,
+  "content": "To determine the number of years between the railway opening and the canal closing to commercial traffic, we look at the specific dates provided in the text:\n\n1.  **Railway opening:** The text states the Abbotsley and Wexmouth Railway opened in **1846**.\n2.  **Canal closing to commercial traffic:** The text states the canal closed to commercial traffic in **1921**.\n\nNow, calculate the difference:\n1921 - 1846 = 75 years.\n\nAnswer: 75\n"
+ },
+ {
+  "id": "read6",
+  "category": "read",
+  "ok": true,
+  "got": "limestone",
+  "want": "limestone",
+  "total_s": 2.269,
+  "predicted_n": 22,
+  "content": "Based on the text provided, the main cargo of the Tolland Canal was limestone.\n\nAnswer: limestone\n"
+ },
+ {
+  "id": "read7",
+  "category": "read",
+  "ok": true,
+  "got": "14",
+  "want": "14",
+  "total_s": 4.392,
+  "predicted_n": 77,
+  "content": "Based on the text provided:\n1. The total length of the canal is 23 miles.\n2. The restoration trust reopened the first nine miles in 1989.\n3. To find the remaining unrestored miles, subtract the reopened miles from the total length: $23 - 9 = 14$.\n\nAnswer: 14\n"
+ },
+ {
+  "id": "read8",
+  "category": "read",
+  "ok": true,
+  "got": "Abbotsley",
+  "want": "Abbotsley",
+  "total_s": 3.131,
+  "predicted_n": 44,
+  "content": "Based on the text provided, the canal ran \"from the market town of Abbotsley\" to the port of Wexmouth. Therefore, the starting point was Abbotsley.\n\nAnswer: Abbotsley\n"
+ },
+ {
+  "id": "code1",
+  "category": "code",
+  "ok": true,
+  "got": "19",
+  "want": "19",
+  "total_s": 8.422,
+  "predicted_n": 207,
+  "content": "The program defines a list `x` containing the numbers `[3, 1, 4, 1, 5, 9, 2, 6]`. It then uses a generator expression to iterate through each number `v` in the list and includes it in the sum only if `v` is odd (`v % 2 == 1`).\n\nLet's break down the filtering:\n- 3 is odd (keep)\n- 1 is odd (keep)\n- 4 is even (skip)\n- 1 is odd (keep)\n- 5 is odd (keep)\n- 9 is odd (keep)\n- 2 is even (skip)\n- 6 is even (skip)\n\nThe numbers kept are: 3, 1, 1, 5, 9.\nSumming these: 3 + 1 + 1 + 5 + 9 = 19.\n\nAnswer: 19\n"
+ },
+ {
+  "id": "code2",
+  "category": "code",
+  "ok": false,
+  "got": "me",
+  "want": "amh",
+  "total_s": 3.22,
+  "predicted_n": 74,
+  "content": "The string `s` is `'benchmark'`.  \nThe slice `[::-1]` reverses the string to `'hcnemreb'`.  \nThe slice `[2:5]` takes characters at indices 2, 3, 4 (0-based), which are `'m'`, `'e'`, `'m'`.  \n\nAnswer: me\n"
+ },
+ {
+  "id": "code3",
+  "category": "code",
+  "ok": false,
+  "got": "101",
+  "want": "32",
+  "total_s": 5.483,
+  "predicted_n": 118,
+  "content": "The program initializes an empty dictionary `d` and iterates over each word in the string `'the cat and the hat and the bat'.split()`. For each word, it increments the count in `d` by 1. After processing all words, the dictionary will have counts for 'the', 'cat', 'and', 'hat', and 'bat'. The expression `d['the'] * 10 + d['and']` evaluates to `10 * 10 + 1` = 101.\n\nAnswer: 101\n"
+ },
+ {
+  "id": "code4",
+  "category": "code",
+  "ok": true,
+  "got": "55",
+  "want": "55",
+  "total_s": 14.684,
+  "predicted_n": 362,
+  "content": "The function `f(n)` defined here is the Fibonacci sequence, where `f(n) = f(n-1) + f(n-2)` for `n >= 2`, and `f(0) = 0`, `f(1) = 1`.\n\nLet's trace the values:\n- `f(0) = 0`\n- `f(1) = 1`\n- `f(2) = f(1) + f(0) = 1 + 0 = 1`\n- `f(3) = f(2) + f(1) = 1 + 1 = 2`\n- `f(4) = f(3) + f(2) = 2 + 1 = 3`\n- `f(5) = f(4) + f(3) = 3 + 2 = 5`\n- `f(6) = f(5) + f(4) = 5 + 3 = 8`\n- `f(7) = f(6) + f(5) = 8 + 5 = 13`\n- `f(8) = f(7) + f(6) = 13 + 8 = 21`\n- `f(9) = f(8) + f(7) = 21 + 13 = 34`\n- `f(10) = f(9) + f(8) = 34 + 21 = 55`\n\nThe program calls `f(10)`, which returns 55.\n\nAnswer: 55\n"
+ },
+ {
+  "id": "code5",
+  "category": "code",
+  "ok": true,
+  "got": "12",
+  "want": "12",
+  "total_s": 9.382,
+  "predicted_n": 225,
+  "content": "The list `a` is created by squaring each integer from 0 to 5:\n- `a[0] = 0 * 0 = 0`\n- `a[1] = 1 * 1 = 1`\n- `a[2] = 2 * 2 = 4`\n- `a[3] = 3 * 3 = 9`\n- `a[4] = 4 * 4 = 16`\n- `a[5] = 5 * 5 = 25`\n\nSo `a = [0, 1, 4, 9, 16, 25]`.\n\nThe expression `a[-2]` refers to the second-to-last element, which is `a[4] = 16`.\nThe expression `a[2]` refers to the third element, which is `a[2] = 4`.\n\nTherefore, `16 - 4 = 12`.\n\nAnswer: 12\n"
+ },
+ {
+  "id": "code6",
+  "category": "code",
+  "ok": false,
+  "got": "9",
+  "want": "8",
+  "total_s": 9.916,
+  "predicted_n": 249,
+  "content": "The program initializes `n` to 0 and iterates through integers from 1 to 19 (inclusive). For each number `i`, it increments `n` if `i` is divisible by 3 or divisible by 5.\n\nLet's trace the counts:\n- Multiples of 3: 3, 6, 9, 12, 15, 18 (6 numbers)\n- Multiples of 5: 5, 10, 15, 20 (but 20 is not in the range)\n- Overlap (multiples of 15): 15\n\nUsing the Principle of Inclusion-Exclusion:\n- Count = (multiples of 3) + (multiples of 5) - (multiples of 15)\n- Count = 6 + 4 - 1 = 9\n\nAlternatively, listing them:\n- 3, 5, 6, 9, 10, 12, 14, 15, 18\n- Count = 9\n\nThe program prints 9.\n\nAnswer: 9\n"
+ },
+ {
+  "id": "code7",
+  "category": "code",
+  "ok": true,
+  "got": "302",
+  "want": "302",
+  "total_s": 4.565,
+  "predicted_n": 112,
+  "content": "The program performs the following steps:\n\n1. `x` is initialized to `17`.\n2. `y` is calculated as `17 // 5`, which is `3` (integer division).\n3. `z` is calculated as `17 % 5`, which is `2` (modulo).\n4. The expression `y * 100 + z` evaluates to `3 * 100 + 2`, which equals `302`.\n\nAnswer: 302\n"
+ },
+ {
+  "id": "code8",
+  "category": "code",
+  "ok": true,
+  "got": "BAN",
+  "want": "BAN",
+  "total_s": 10.229,
+  "predicted_n": 236,
+  "content": "To determine what the program prints, let's break down the code step by step:\n\n1.  **List Initialization**: The list `words` is defined as `['pear', 'fig', 'banana', 'kiwi']`.\n2.  **`max` Function**: The `max` function is called with the list and the `key=len` argument. This finds the element in the list with the maximum length.\n    *   'pear': length 4\n    *   'fig': length 3\n    *   'banana': length 6\n    *   'kiwi': length 4\n    *   The maximum length is 6, which corresponds to the string `'banana'`.\n3.  **`upper()` Method**: The result is converted to uppercase.\n    *   `'banana'` becomes `'BANANA'`.\n4.  **Slicing**: The slice `[:3]` takes the first 3 characters of the resulting string.\n    *   `'BANANA'` -> `'BAN'`\n\nTherefore, the program prints the string `BAN`.\n\nAnswer: BAN\n"
+ }
+]

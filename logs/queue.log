@@ -619,3 +619,64 @@ qual-ov-f32: 41/50 correct  {'arith': [9, 10], 'code': [4, 8], 'fact': [10, 10],
   read8     OK  got='Abbotsley'                    want='Abbotsley' 44tok 3.1s
   code1     OK  got='19'                           want='19'       207tok 8.4s
   code2     BAD got='me'                           want='amh'      74tok 3.2s
+  code3     BAD got='101'                          want='32'       118tok 5.5s
+  code4     OK  got='55'                           want='55'       362tok 14.7s
+  code5     OK  got='12'                           want='12'       225tok 9.4s
+  code6     BAD got='9'                            want='8'        249tok 9.9s
+  code7     OK  got='302'                          want='302'      112tok 4.6s
+  code8     OK  got='BAN'                          want='BAN'      236tok 10.2s
+qual-mnn-pnormal: 40/50 correct  {'arith': [7, 10], 'code': [5, 8], 'fact': [10, 10], 'read': [8, 8], 'reason': [10, 14]}  tokens 7956  wall 338s
+== cache 02:31:35
+  cache-2b cache_off ttft  17.55s total  18.63s processed 3503 cached 0
+  cache-2b cache_off ttft  17.55s total  18.81s processed 3507 cached 0
+  cache-2b cache_off ttft  17.63s total  18.82s processed 3503 cached 0
+  cache-2b cache_on  ttft   3.08s total   4.25s processed 516 cached 2987
+  cache-2b cache_on  ttft   3.21s total   4.55s processed 520 cached 2987
+  cache-2b cache_on  ttft   2.92s total   4.03s processed 512 cached 2991
+== pprune 02:33:11
+  pprune-2b full  OK  3509tok 18.5s  '60 centimetres'
+  pprune-2b full  OK  3500tok 18.0s  'Blue'
+  pprune-2b full  OK  3508tok 18.6s  'Up to a year'
+  pprune-2b full  OK  3503tok 18.6s  'The American lobster, H. americanus.'
+  pprune-2b full  OK  3511tok 18.1s  'ecdysis (moulting)'
+  pprune-2b full  OK  3504tok 18.1s  'Howard City'
+  pprune-2b full  OK  3516tok 18.2s  '16,532 vehicles daily'
+  pprune-2b full  OK  3517tok 17.9s  '4,018 vehicles'
+  pprune-2b full  OK  3511tok 18.3s  '1919'
+  pprune-2b full  OK  3512tok 18.3s  'M-37'
+  pprune-2b full  OK  3511tok 17.9s  'Exit 118'
+  pprune-2b full  OK  3506tok 18.7s  'Manistee National Forest'
+  pprune-2b bm25  OK  927tok 5.0s  '60 centimetres'
+  pprune-2b bm25  OK  865tok 4.3s  'Blue'
+  pprune-2b bm25  OK  887tok 4.5s  'Up to a year'
+  pprune-2b bm25  OK  807tok 4.7s  'The American lobster, H. americanus.'
+  pprune-2b bm25  OK  903tok 4.6s  'ecdysis (moulting)'
+  pprune-2b bm25  OK  1048tok 5.0s  'Howard City'
+  pprune-2b bm25  OK  980tok 5.0s  '16,532 vehicles daily'
+  pprune-2b bm25  OK  1004tok 5.0s  '4 @,@ 018 vehicles'
+  pprune-2b bm25  OK  998tok 4.8s  '1919'
+  pprune-2b bm25  OK  1060tok 5.3s  'M-37'
+  pprune-2b bm25  OK  1059tok 4.9s  '118'
+  pprune-2b bm25  OK  970tok 4.6s  'Manistee National Forest'
+  pprune-2b head  OK  893tok 4.4s  '60 centimetres'
+  pprune-2b head  OK  884tok 4.1s  'Blue'
+  pprune-2b head  OK  892tok 4.4s  'Up to a year'
+  pprune-2b head  OK  887tok 4.3s  'Homarus americanus'
+  pprune-2b head  OK  895tok 4.2s  'ecdysis'
+  pprune-2b head  BAD 888tok 5.5s  'The provided text does not contain information about M-82 or'
+  pprune-2b head  BAD 900tok 6.1s  'The provided text does not contain information about M-82 we'
+  pprune-2b head  BAD 901tok 5.8s  'The provided text does not contain information about M-82 tr'
+  pprune-2b head  BAD 895tok 6.1s  'The provided text does not contain information about the M-8'
+  pprune-2b head  BAD 896tok 6.8s  'M-82 does not run concurrently with M-82 over the Muskegon R'
+  pprune-2b head  BAD 895tok 5.6s  'The provided text does not contain information about US 131 '
+  pprune-2b head  BAD 890tok 5.5s  'The provided text does not contain information about M-82 or'
+pprune-2b full : 12/12 correct, median prompt 3510.0 tok, median total 18.2s
+pprune-2b bm25 : 12/12 correct, median prompt 975.0 tok, median total 4.8s
+pprune-2b head : 5/12 correct, median prompt 894.0 tok, median total 5.5s
+== tp-1 02:38:53
+  tp-c1-np1 wave0 c=1 agg 14.90 t/s  latency 13.4s  (warmup)
+  tp-c1-np1 wave1 c=1 agg 14.52 t/s  latency 13.8s
+  tp-c1-np1 wave2 c=1 agg 14.87 t/s  latency 13.4s
+  tp-c1-np1 wave3 c=1 agg 14.66 t/s  latency 13.6s
+tp-c1-np1: c=1 aggregate 14.66 t/s, per-request 14.86 t/s, latency 13.6s, rss 2.62G
+== tp-2 02:39:49
