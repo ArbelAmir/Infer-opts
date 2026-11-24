@@ -1,0 +1,62 @@
+[
+ {
+  "ttft_s": 1.9839696160015592,
+  "total_s": 15.69243955300044,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 1974.217,
+   "prompt_per_token_ms": 45.912023255813956,
+   "prompt_per_second": 21.78078701581437,
+   "predicted_n": 102,
+   "predicted_ms": 13714.968,
+   "predicted_per_token_ms": 135.79176237623764,
+   "predicted_per_second": 7.3642169635393975
+  },
+  "usage": null,
+  "content": "During the day, sunlight passes through less of the atmosphere, causing shorter blue wavelengths to scatter more effectively in all directions due to Rayleigh scattering, which makes the sky appear blue. At sunset, the sun is lower on the horizon, so its light must travel through a much thicker layer of the atmosphere to reach our eyes. This longer path scatters away most of the blue and green light, allowing the longer red and orange wavelengths to pass through directly, resulting in the characteristic red hues of the sunset.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 1.9115014020026138,
+  "total_s": 15.542532634000963,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 1827.666,
+   "prompt_per_token_ms": 42.503860465116276,
+   "prompt_per_second": 23.527274677101833,
+   "predicted_n": 102,
+   "predicted_ms": 13630.922,
+   "predicted_per_token_ms": 134.95962376237625,
+   "predicted_per_second": 7.409623501623734
+  },
+  "usage": null,
+  "content": "During the day, sunlight passes through less of the atmosphere, causing shorter blue wavelengths to scatter more effectively in all directions due to Rayleigh scattering, which makes the sky appear blue. At sunset, the sun is lower on the horizon, so its light must travel through a much thicker layer of the atmosphere to reach our eyes. This longer path scatters away most of the blue and green light, allowing the longer red and orange wavelengths to pass through directly, resulting in the characteristic red hues of the sunset.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.8760849879981834,
+  "total_s": 15.043313544996636,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 43,
+   "prompt_ms": 1873.71,
+   "prompt_per_token_ms": 43.5746511627907,
+   "prompt_per_second": 22.949122329496024,
+   "predicted_n": 102,
+   "predicted_ms": 13167.152,
+   "predicted_per_token_ms": 130.3678415841584,
+   "predicted_per_second": 7.670603331684786
+  },
+  "usage": null,
+  "content": "During the day, sunlight passes through less of the atmosphere, causing shorter blue wavelengths to scatter more effectively in all directions due to Rayleigh scattering, which makes the sky appear blue. At sunset, the sun is lower on the horizon, so its light must travel through a much thicker layer of the atmosphere to reach our eyes. This longer path scatters away most of the blue and green light, allowing the longer red and orange wavelengths to pass through directly, resulting in the characteristic red hues of the sunset.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

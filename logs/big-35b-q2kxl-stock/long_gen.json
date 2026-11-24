@@ -1,0 +1,62 @@
+[
+ {
+  "ttft_s": 3.052642424001533,
+  "total_s": 62.16086085200004,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 2848.722,
+   "prompt_per_token_ms": 55.857294117647065,
+   "prompt_per_second": 17.902764818750303,
+   "predicted_n": 400,
+   "predicted_ms": 59108.015,
+   "predicted_per_token_ms": 148.14038847117794,
+   "predicted_per_second": 6.750353568801118
+  },
+  "usage": null,
+  "content": "**The Ink That Changed the World: The Legacy of the Printing Press**\n\nIn the annals of human history, few inventions have reshaped the trajectory of civilization as profoundly as the printing press. Before its invention, knowledge was a scarce commodity, guarded by the elite and preserved only through the laborious, error-prone process of manual copying. The introduction of movable type printing in the mid-15th century did not merely accelerate the production of books; it ignited a revolution in communication, thought, and society that echoes through to the digital age.\n\nThe story begins in Mainz, Germany, around 1440, when Johannes Gutenberg, a goldsmith by trade, engineered a system that combined existing technologies into a cohesive whole. He adapted the screw press used for wine and olive oil, developed a durable alloy for movable type, and formulated a suitable oil-based ink. The result was the Gutenberg Bible, a masterpiece of typography that demonstrated the press\u2019s potential. For the first time, texts could be reproduced with speed, uniformity, and accuracy. This technological leap broke the monopoly of the scribal class and drastically reduced the cost of books, making literacy and learning accessible to a broader segment of the population.\n\nThe immediate impact of the printing press was most visible in the realm of religion and politics. The rapid dissemination of Martin Luther\u2019s *95 Theses* in 1517 is a prime example. Had Luther\u2019s critiques remained confined to handwritten manuscripts, they might have been suppressed or ignored. Instead, the press allowed his ideas to spread across Europe like wildfire, fueling the Protestant Reformation. This shift challenged the authority of the Catholic Church and paved the way for religious pluralism. Simultaneously, the press empowered secular rulers and merchants, fostering the rise of nation-states and a burgeoning middle class that valued education and civic engagement.\n\nBeyond religion, the printing press laid the groundwork for the Scientific Revolution and the Enlightenment. Scientists such as Galileo and",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 2.2563921330001904,
+  "total_s": 59.18273518099886,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 2190.508,
+   "prompt_per_token_ms": 42.95113725490196,
+   "prompt_per_second": 23.28227059659221,
+   "predicted_n": 400,
+   "predicted_ms": 56929.946,
+   "predicted_per_token_ms": 142.6815689223058,
+   "predicted_per_second": 7.008613709206751
+  },
+  "usage": null,
+  "content": "**The Ink That Changed the World: The Legacy of the Printing Press**\n\nIn the annals of human history, few inventions have reshaped the trajectory of civilization as profoundly as the printing press. Before its invention, knowledge was a scarce commodity, guarded by the elite and preserved only through the laborious, error-prone process of manual copying. The introduction of movable type printing in the mid-15th century did not merely accelerate the production of books; it ignited a revolution in communication, thought, and society that echoes through to the digital age.\n\nThe story begins in Mainz, Germany, around 1440, when Johannes Gutenberg, a goldsmith by trade, engineered a system that combined existing technologies into a cohesive whole. He adapted the screw press used for wine and olive oil, developed a durable alloy for movable type, and formulated a suitable oil-based ink. The result was the Gutenberg Bible, a masterpiece of typography that demonstrated the press\u2019s potential. For the first time, texts could be reproduced with speed, uniformity, and accuracy. This technological leap broke the monopoly of the scribal class and drastically reduced the cost of books, making literacy and learning accessible to a broader segment of the population.\n\nThe immediate impact of the printing press was most visible in the realm of religion and politics. The rapid dissemination of Martin Luther\u2019s *95 Theses* in 1517 is a prime example. Had Luther\u2019s critiques remained confined to handwritten manuscripts, they might have been suppressed or ignored. Instead, the press allowed his ideas to spread across Europe like wildfire, fueling the Protestant Reformation. This shift challenged the authority of the Catholic Church and paved the way for religious pluralism. Simultaneously, the press empowered secular rulers and merchants, fostering the rise of nation-states and a burgeoning middle class that valued education and civic engagement.\n\nBeyond religion, the printing press laid the groundwork for the Scientific Revolution and the Enlightenment. Scientists such as Galileo and",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 2.2934792220003146,
+  "total_s": 61.94461832700108,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 2291.098,
+   "prompt_per_token_ms": 44.92349019607843,
+   "prompt_per_second": 22.260069189532704,
+   "predicted_n": 400,
+   "predicted_ms": 59650.75,
+   "predicted_per_token_ms": 149.50062656641603,
+   "predicted_per_second": 6.688935176841866
+  },
+  "usage": null,
+  "content": "**The Ink That Changed the World: The Legacy of the Printing Press**\n\nIn the annals of human history, few inventions have reshaped the trajectory of civilization as profoundly as the printing press. Before its invention, knowledge was a scarce commodity, guarded by the elite and preserved only through the laborious, error-prone process of manual copying. The introduction of movable type printing in the mid-15th century did not merely accelerate the production of books; it ignited a revolution in communication, thought, and society that echoes through to the digital age.\n\nThe story begins in Mainz, Germany, around 1440, when Johannes Gutenberg, a goldsmith by trade, engineered a system that combined existing technologies into a cohesive whole. He adapted the screw press used for wine and olive oil, developed a durable alloy for movable type, and formulated a suitable oil-based ink. The result was the Gutenberg Bible, a masterpiece of typography that demonstrated the press\u2019s potential. For the first time, texts could be reproduced with speed, uniformity, and accuracy. This technological leap broke the monopoly of the scribal class and drastically reduced the cost of books, making literacy and learning accessible to a broader segment of the population.\n\nThe immediate impact of the printing press was most visible in the realm of religion and politics. The rapid dissemination of Martin Luther\u2019s *95 Theses* in 1517 is a prime example. Had Luther\u2019s critiques remained confined to handwritten manuscripts, they might have been suppressed or ignored. Instead, the press allowed his ideas to spread across Europe like wildfire, fueling the Protestant Reformation. This shift challenged the authority of the Catholic Church and paved the way for religious pluralism. Simultaneously, the press empowered secular rulers and merchants, fostering the rise of nation-states and a burgeoning middle class that valued education and civic engagement.\n\nBeyond religion, the printing press laid the groundwork for the Scientific Revolution and the Enlightenment. Scientists such as Galileo and",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

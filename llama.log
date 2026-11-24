@@ -1,137 +1,74 @@
-[1795502815] llama_init_from_gpt_params: setting dry_penalty_last_n to ctx_size = 8192
-[1795502815] warming up the model with an empty run
-[1795502821] Preserved token: 248068
-[1795502821] Preserved token: 248069
-[1795502821] Preserved token: 248058
-[1795502821] Preserved token: 248059
-[1795502821] Not preserved because more than 1 token: <function=
-[1795502821] Preserved token: 29
-[1795502821] Not preserved because more than 1 token: </function>
-[1795502821] Not preserved because more than 1 token: <parameter=
-[1795502821] Not preserved because more than 1 token: </parameter>
-[1795502836] Preserved token: 248068
-[1795502836] Preserved token: 248069
-[1795502836] Preserved token: 248058
-[1795502836] Preserved token: 248059
-[1795502836] Not preserved because more than 1 token: <function=
-[1795502836] Preserved token: 29
-[1795502836] Not preserved because more than 1 token: </function>
-[1795502836] Not preserved because more than 1 token: <parameter=
-[1795502836] Not preserved because more than 1 token: </parameter>
-[1795502851] Preserved token: 248068
-[1795502851] Preserved token: 248069
-[1795502851] Preserved token: 248058
-[1795502851] Preserved token: 248059
-[1795502851] Not preserved because more than 1 token: <function=
-[1795502851] Preserved token: 29
-[1795502851] Not preserved because more than 1 token: </function>
-[1795502851] Not preserved because more than 1 token: <parameter=
-[1795502851] Not preserved because more than 1 token: </parameter>
-[1795502865] Preserved token: 248068
-[1795502865] Preserved token: 248069
-[1795502865] Preserved token: 248058
-[1795502865] Preserved token: 248059
-[1795502865] Not preserved because more than 1 token: <function=
-[1795502865] Preserved token: 29
-[1795502865] Not preserved because more than 1 token: </function>
-[1795502865] Not preserved because more than 1 token: <parameter=
-[1795502865] Not preserved because more than 1 token: </parameter>
-[1795502910] Preserved token: 248068
-[1795502910] Preserved token: 248069
-[1795502910] Preserved token: 248058
-[1795502910] Preserved token: 248059
-[1795502910] Not preserved because more than 1 token: <function=
-[1795502910] Preserved token: 29
-[1795502910] Not preserved because more than 1 token: </function>
-[1795502910] Not preserved because more than 1 token: <parameter=
-[1795502910] Not preserved because more than 1 token: </parameter>
-[1795502956] Preserved token: 248068
-[1795502956] Preserved token: 248069
-[1795502956] Preserved token: 248058
-[1795502956] Preserved token: 248059
-[1795502956] Not preserved because more than 1 token: <function=
-[1795502956] Preserved token: 29
-[1795502956] Not preserved because more than 1 token: </function>
-[1795502956] Not preserved because more than 1 token: <parameter=
-[1795502956] Not preserved because more than 1 token: </parameter>
-[1795503001] Preserved token: 248068
-[1795503001] Preserved token: 248069
-[1795503001] Preserved token: 248058
-[1795503001] Preserved token: 248059
-[1795503001] Not preserved because more than 1 token: <function=
-[1795503001] Preserved token: 29
-[1795503001] Not preserved because more than 1 token: </function>
-[1795503001] Not preserved because more than 1 token: <parameter=
-[1795503001] Not preserved because more than 1 token: </parameter>
-[1795503059] Preserved token: 248068
-[1795503059] Preserved token: 248069
-[1795503059] Preserved token: 248058
-[1795503059] Preserved token: 248059
-[1795503059] Not preserved because more than 1 token: <function=
-[1795503059] Preserved token: 29
-[1795503059] Not preserved because more than 1 token: </function>
-[1795503059] Not preserved because more than 1 token: <parameter=
-[1795503059] Not preserved because more than 1 token: </parameter>
-[1795503117] Preserved token: 248068
-[1795503117] Preserved token: 248069
-[1795503117] Preserved token: 248058
-[1795503117] Preserved token: 248059
-[1795503117] Not preserved because more than 1 token: <function=
-[1795503117] Preserved token: 29
-[1795503117] Not preserved because more than 1 token: </function>
-[1795503117] Not preserved because more than 1 token: <parameter=
-[1795503117] Not preserved because more than 1 token: </parameter>
-[1795503175] Preserved token: 248068
-[1795503175] Preserved token: 248069
-[1795503175] Preserved token: 248058
-[1795503175] Preserved token: 248059
-[1795503175] Not preserved because more than 1 token: <function=
-[1795503175] Preserved token: 29
-[1795503175] Not preserved because more than 1 token: </function>
-[1795503175] Not preserved because more than 1 token: <parameter=
-[1795503175] Not preserved because more than 1 token: </parameter>
-[1795503259] Preserved token: 248068
-[1795503259] Preserved token: 248069
-[1795503259] Preserved token: 248058
-[1795503259] Preserved token: 248059
-[1795503259] Not preserved because more than 1 token: <function=
-[1795503259] Preserved token: 29
-[1795503259] Not preserved because more than 1 token: </function>
-[1795503259] Not preserved because more than 1 token: <parameter=
-[1795503259] Not preserved because more than 1 token: </parameter>
-[1795503344] Preserved token: 248068
-[1795503344] Preserved token: 248069
-[1795503344] Preserved token: 248058
-[1795503344] Preserved token: 248059
-[1795503344] Not preserved because more than 1 token: <function=
-[1795503344] Preserved token: 29
-[1795503344] Not preserved because more than 1 token: </function>
-[1795503344] Not preserved because more than 1 token: <parameter=
-[1795503344] Not preserved because more than 1 token: </parameter>
-[1795503429] Preserved token: 248068
-[1795503429] Preserved token: 248069
-[1795503429] Preserved token: 248058
-[1795503429] Preserved token: 248059
-[1795503429] Not preserved because more than 1 token: <function=
-[1795503429] Preserved token: 29
-[1795503429] Not preserved because more than 1 token: </function>
-[1795503429] Not preserved because more than 1 token: <parameter=
-[1795503429] Not preserved because more than 1 token: </parameter>
-[1795503496] Preserved token: 248068
-[1795503496] Preserved token: 248069
-[1795503496] Preserved token: 248058
-[1795503496] Preserved token: 248059
-[1795503496] Not preserved because more than 1 token: <function=
-[1795503496] Preserved token: 29
-[1795503496] Not preserved because more than 1 token: </function>
-[1795503496] Not preserved because more than 1 token: <parameter=
-[1795503496] Not preserved because more than 1 token: </parameter>
-[1795503563] Preserved token: 248068
-[1795503563] Preserved token: 248069
-[1795503563] Preserved token: 248058
-[1795503563] Preserved token: 248059
-[1795503563] Not preserved because more than 1 token: <function=
-[1795503563] Preserved token: 29
-[1795503563] Not preserved because more than 1 token: </function>
-[1795503563] Not preserved because more than 1 token: <parameter=
-[1795503563] Not preserved because more than 1 token: </parameter>
+[1795504703] llama_init_from_gpt_params: setting dry_penalty_last_n to ctx_size = 8192
+[1795504703] warming up the model with an empty run
+[1795504703] Preserved token: 248068
+[1795504703] Preserved token: 248069
+[1795504703] Preserved token: 248058
+[1795504703] Preserved token: 248059
+[1795504703] Not preserved because more than 1 token: <function=
+[1795504703] Preserved token: 29
+[1795504703] Not preserved because more than 1 token: </function>
+[1795504703] Not preserved because more than 1 token: <parameter=
+[1795504703] Not preserved because more than 1 token: </parameter>
+[1795504730] Preserved token: 248068
+[1795504730] Preserved token: 248069
+[1795504730] Preserved token: 248058
+[1795504730] Preserved token: 248059
+[1795504730] Not preserved because more than 1 token: <function=
+[1795504730] Preserved token: 29
+[1795504730] Not preserved because more than 1 token: </function>
+[1795504730] Not preserved because more than 1 token: <parameter=
+[1795504730] Not preserved because more than 1 token: </parameter>
+[1795504756] Preserved token: 248068
+[1795504756] Preserved token: 248069
+[1795504756] Preserved token: 248058
+[1795504756] Preserved token: 248059
+[1795504756] Not preserved because more than 1 token: <function=
+[1795504756] Preserved token: 29
+[1795504756] Not preserved because more than 1 token: </function>
+[1795504756] Not preserved because more than 1 token: <parameter=
+[1795504756] Not preserved because more than 1 token: </parameter>
+[1795504782] Preserved token: 248068
+[1795504782] Preserved token: 248069
+[1795504782] Preserved token: 248058
+[1795504782] Preserved token: 248059
+[1795504782] Not preserved because more than 1 token: <function=
+[1795504782] Preserved token: 29
+[1795504782] Not preserved because more than 1 token: </function>
+[1795504782] Not preserved because more than 1 token: <parameter=
+[1795504782] Not preserved because more than 1 token: </parameter>
+[1795504831] Preserved token: 248068
+[1795504831] Preserved token: 248069
+[1795504831] Preserved token: 248058
+[1795504831] Preserved token: 248059
+[1795504831] Not preserved because more than 1 token: <function=
+[1795504831] Preserved token: 29
+[1795504831] Not preserved because more than 1 token: </function>
+[1795504831] Not preserved because more than 1 token: <parameter=
+[1795504831] Not preserved because more than 1 token: </parameter>
+[1795504881] Preserved token: 248068
+[1795504881] Preserved token: 248069
+[1795504881] Preserved token: 248058
+[1795504881] Preserved token: 248059
+[1795504881] Not preserved because more than 1 token: <function=
+[1795504881] Preserved token: 29
+[1795504881] Not preserved because more than 1 token: </function>
+[1795504881] Not preserved because more than 1 token: <parameter=
+[1795504881] Not preserved because more than 1 token: </parameter>
+[1795504928] Preserved token: 248068
+[1795504928] Preserved token: 248069
+[1795504928] Preserved token: 248058
+[1795504928] Preserved token: 248059
+[1795504928] Not preserved because more than 1 token: <function=
+[1795504928] Preserved token: 29
+[1795504928] Not preserved because more than 1 token: </function>
+[1795504928] Not preserved because more than 1 token: <parameter=
+[1795504928] Not preserved because more than 1 token: </parameter>
+[1795505016] Preserved token: 248068
+[1795505016] Preserved token: 248069
+[1795505016] Preserved token: 248058
+[1795505016] Preserved token: 248059
+[1795505016] Not preserved because more than 1 token: <function=
+[1795505016] Preserved token: 29
+[1795505016] Not preserved because more than 1 token: </function>
+[1795505016] Not preserved because more than 1 token: <parameter=
+[1795505016] Not preserved because more than 1 token: </parameter>

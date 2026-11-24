@@ -1,0 +1,62 @@
+[
+ {
+  "ttft_s": 64.38358467099897,
+  "total_s": 67.57855565799764,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 64372.499,
+   "prompt_per_token_ms": 18.251346470087896,
+   "prompt_per_second": 54.7904781512366,
+   "predicted_n": 21,
+   "predicted_ms": 3194.579,
+   "predicted_per_token_ms": 159.72895,
+   "predicted_per_second": 6.260605857610658
+  },
+  "usage": null,
+  "content": "European lobsters are blue in life. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 64.65254813999854,
+  "total_s": 67.87391337599911,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 64640.655,
+   "prompt_per_token_ms": 18.327375956903882,
+   "prompt_per_second": 54.56318473258045,
+   "predicted_n": 21,
+   "predicted_ms": 3220.99,
+   "predicted_per_token_ms": 161.0495,
+   "predicted_per_second": 6.209271062623603
+  },
+  "usage": null,
+  "content": "European lobsters are blue in life. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 65.29072722600176,
+  "total_s": 68.61483464200137,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 3527,
+   "prompt_ms": 65275.097,
+   "prompt_per_token_ms": 18.507257442585768,
+   "prompt_per_second": 54.03285727786816,
+   "predicted_n": 21,
+   "predicted_ms": 3323.684,
+   "predicted_per_token_ms": 166.1842,
+   "predicted_per_second": 6.017419225173031
+  },
+  "usage": null,
+  "content": "European lobsters are blue in life. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]
