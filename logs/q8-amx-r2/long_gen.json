@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.45951287100001537,
+  "total_s": 20.981268019000026,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 413.422,
+   "prompt_per_token_ms": 8.106313725490196,
+   "prompt_per_second": 123.36063392852823,
+   "predicted_n": 400,
+   "predicted_ms": 20522.181,
+   "predicted_per_token_ms": 51.43403759398496,
+   "predicted_per_second": 19.442377981170715
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in various forms long before Johannes Gutenberg, his innovation in the mid-15th century provided the mechanical means to do so with unprecedented efficiency. This shift from manual, artisanal production to industrial-scale dissemination of knowledge ignited an era of unprecedented intellectual growth, religious reform, and scientific advancement.\n\nGutenberg's breakthrough, achieved around 1440, relied on the invention of movable type. Unlike the earlier Chinese block printing or the Roman copperplate engraving, Gutenberg's system utilized a matrix of carved letters made from a soft metal alloy. These types were arranged in a frame, inked, and pressed onto sheets of paper. The key innovation was the use of a press to apply pressure, which allowed for the rapid reproduction of identical texts. This technology drastically reduced the cost of printing, making books accessible to a broader audience rather than being the exclusive domain of the wealthy or the clergy.\n\nThe immediate impact of this technological leap was most profound in the realm of religion. The Catholic Church had long controlled the narrative of history and scripture, relying on the slow, expensive process of scribe copying manuscripts. With the printing press, the Church could produce thousands of copies of the Bible in a single day. This democratization of religious texts fueled the Protestant Reformation. Martin Luther, in his 95 Theses, could now distribute his arguments to millions of people, challenging the authority of the Pope and the Catholic Church. The printing press became the primary engine of religious conflict and reform, reshaping the spiritual landscape of Europe.\n\nBeyond religion, the press accelerated the spread of science and the Enlightenment. During the Renaissance, scholars like Galileo and Copernicus relied on handwritten manuscripts to disseminate their findings. The printing press allowed these ideas to travel across borders quickly. The publication of works by figures like Francis Bacon",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.4242720330000793,
+  "total_s": 20.538738672999898,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 403.631,
+   "prompt_per_token_ms": 7.9143333333333326,
+   "prompt_per_second": 126.35303036684496,
+   "predicted_n": 400,
+   "predicted_ms": 20114.255,
+   "predicted_per_token_ms": 50.41166666666667,
+   "predicted_per_second": 19.83667801765464
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in various forms long before Johannes Gutenberg, his innovation in the mid-15th century provided the mechanical means to do so with unprecedented efficiency. This shift from manual, artisanal production to industrial-scale dissemination of knowledge ignited an era of unprecedented intellectual growth, religious reform, and scientific advancement.\n\nGutenberg's breakthrough, achieved around 1440, relied on the invention of movable type. Unlike the earlier Chinese block printing or the Roman copperplate engraving, Gutenberg's system utilized a matrix of carved letters made from a soft metal alloy. These types were arranged in a frame, inked, and pressed onto sheets of paper. The key innovation was the use of a press to apply pressure, which allowed for the rapid reproduction of identical texts. This technology drastically reduced the cost of printing, making books accessible to a broader audience rather than being the exclusive domain of the wealthy or the clergy.\n\nThe immediate impact of this technological leap was most profound in the realm of religion. The Catholic Church had long controlled the narrative of history and scripture, relying on the slow, expensive process of scribe copying manuscripts. With the printing press, the Church could produce thousands of copies of the Bible in a single day. This democratization of religious texts fueled the Protestant Reformation. Martin Luther, in his 95 Theses, could now distribute his arguments to millions of people, challenging the authority of the Pope and the Catholic Church. The printing press became the primary engine of religious conflict and reform, reshaping the spiritual landscape of Europe.\n\nBeyond religion, the press accelerated the spread of science and the Enlightenment. During the Renaissance, scholars like Galileo and Copernicus relied on handwritten manuscripts to disseminate their findings. The printing press allowed these ideas to travel across borders quickly. The publication of works by figures like Francis Bacon",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.3897112750000815,
+  "total_s": 20.31182737600011,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 387.483,
+   "prompt_per_token_ms": 7.597705882352941,
+   "prompt_per_second": 131.61867746455974,
+   "predicted_n": 400,
+   "predicted_ms": 19922.018,
+   "predicted_per_token_ms": 49.92986967418546,
+   "predicted_per_second": 20.028091531691217
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in various forms long before Johannes Gutenberg, his innovation in the mid-15th century provided the mechanical means to do so with unprecedented efficiency. This shift from manual, artisanal production to industrial-scale dissemination of knowledge ignited an era of unprecedented intellectual growth, religious reform, and scientific advancement.\n\nGutenberg's breakthrough, achieved around 1440, relied on the invention of movable type. Unlike the earlier Chinese block printing or the Roman copperplate engraving, Gutenberg's system utilized a matrix of carved letters made from a soft metal alloy. These types were arranged in a frame, inked, and pressed onto sheets of paper. The key innovation was the use of a press to apply pressure, which allowed for the rapid reproduction of identical texts. This technology drastically reduced the cost of printing, making books accessible to a broader audience rather than being the exclusive domain of the wealthy or the clergy.\n\nThe immediate impact of this technological leap was most profound in the realm of religion. The Catholic Church had long controlled the narrative of history and scripture, relying on the slow, expensive process of scribe copying manuscripts. With the printing press, the Church could produce thousands of copies of the Bible in a single day. This democratization of religious texts fueled the Protestant Reformation. Martin Luther, in his 95 Theses, could now distribute his arguments to millions of people, challenging the authority of the Pope and the Catholic Church. The printing press became the primary engine of religious conflict and reform, reshaping the spiritual landscape of Europe.\n\nBeyond religion, the press accelerated the spread of science and the Enlightenment. During the Renaissance, scholars like Galileo and Copernicus relied on handwritten manuscripts to disseminate their findings. The printing press allowed these ideas to travel across borders quickly. The publication of works by figures like Francis Bacon",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4178248050000093,
+  "total_s": 20.298464232000015,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 413.54,
+   "prompt_per_token_ms": 8.108627450980393,
+   "prompt_per_second": 123.32543405716495,
+   "predicted_n": 400,
+   "predicted_ms": 19882.844,
+   "predicted_per_token_ms": 49.831689223057644,
+   "predicted_per_second": 20.06755170437388
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in various forms long before Johannes Gutenberg, his innovation in the mid-15th century provided the mechanical means to do so with unprecedented efficiency. This shift from manual, artisanal production to industrial-scale dissemination of knowledge ignited an era of unprecedented intellectual growth, religious reform, and scientific advancement.\n\nGutenberg's breakthrough, achieved around 1440, relied on the invention of movable type. Unlike the earlier Chinese block printing or the Roman copperplate engraving, Gutenberg's system utilized a matrix of carved letters made from a soft metal alloy. These types were arranged in a frame, inked, and pressed onto sheets of paper. The key innovation was the use of a press to apply pressure, which allowed for the rapid reproduction of identical texts. This technology drastically reduced the cost of printing, making books accessible to a broader audience rather than being the exclusive domain of the wealthy or the clergy.\n\nThe immediate impact of this technological leap was most profound in the realm of religion. The Catholic Church had long controlled the narrative of history and scripture, relying on the slow, expensive process of scribe copying manuscripts. With the printing press, the Church could produce thousands of copies of the Bible in a single day. This democratization of religious texts fueled the Protestant Reformation. Martin Luther, in his 95 Theses, could now distribute his arguments to millions of people, challenging the authority of the Pope and the Catholic Church. The printing press became the primary engine of religious conflict and reform, reshaping the spiritual landscape of Europe.\n\nBeyond religion, the press accelerated the spread of science and the Enlightenment. During the Renaissance, scholars like Galileo and Copernicus relied on handwritten manuscripts to disseminate their findings. The printing press allowed these ideas to travel across borders quickly. The publication of works by figures like Francis Bacon",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]
