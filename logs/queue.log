@@ -1107,3 +1107,26 @@ think-on: 18/50 correct  {'arith': [5, 10], 'code': [2, 8], 'fact': [6, 10], 're
   read8     OK  got='Abbotsley'                    want='Abbotsley' 281tok 23.6s
   code1     OK  got='19'                           want='19'       372tok 31.1s
   code2     BAD got='a ne'                         want='amh'      442tok 34.7s
+  code3     OK  got='32'                           want='32'       558tok 45.6s
+  code4     OK  got='55'                           want='55'       402tok 31.3s
+  code5     OK  got='12'                           want='12'       426tok 31.7s
+  code6     OK  got='8'                            want='8'        532tok 39.8s
+  code7     OK  got='302'                          want='302'      374tok 28.5s
+  code8     OK  got='BAN'                          want='BAN'      410tok 30.8s
+think-budget256: 47/50 correct  {'arith': [10, 10], 'code': [7, 8], 'fact': [10, 10], 'read': [6, 8], 'reason': [14, 14]}  tokens 19061  wall 1488s  truncated 0
+== baseline-r9 05:52:24
+  baseline-r9                  chat_short   rep0 pp 43tok     99.6 t/s | gen 80tok   13.62 t/s | ttft   0.43s total   6.24s  (warmup)
+  baseline-r9                  chat_short   rep1 pp 43tok    100.8 t/s | gen 80tok   13.72 t/s | ttft   0.44s total   6.20s
+  baseline-r9                  chat_short   rep2 pp 43tok    114.2 t/s | gen 80tok   13.76 t/s | ttft   0.38s total   6.12s
+  baseline-r9                  chat_short   rep3 pp 43tok    110.8 t/s | gen 80tok   12.78 t/s | ttft   0.39s total   6.57s
+  baseline-r9                  long_prompt  rep0 pp 3527tok    181.9 t/s | gen 36tok   12.00 t/s | ttft  19.40s total  22.32s  (warmup)
+  baseline-r9                  long_prompt  rep1 pp 3527tok    174.9 t/s | gen 36tok   11.89 t/s | ttft  20.18s total  23.12s
+  baseline-r9                  long_prompt  rep2 pp 3527tok    171.4 t/s | gen 36tok   11.95 t/s | ttft  20.59s total  23.52s
+  baseline-r9                  long_prompt  rep3 pp 3527tok    184.0 t/s | gen 36tok   11.36 t/s | ttft  19.18s total  22.26s
+  baseline-r9                  long_gen     rep0 pp 51tok     99.3 t/s | gen 400tok   12.72 t/s | ttft   0.56s total  31.93s  (warmup)
+  baseline-r9                  long_gen     rep1 pp 51tok     99.4 t/s | gen 400tok   12.75 t/s | ttft   0.54s total  31.83s
+  baseline-r9                  long_gen     rep2 pp 51tok     94.4 t/s | gen 400tok   12.35 t/s | ttft   0.55s total  32.86s
+  baseline-r9                  long_gen     rep3 pp 51tok     93.7 t/s | gen 400tok   13.15 t/s | ttft   0.55s total  30.89s
+  baseline-r9                  code_edit    rep0 pp 455tok    185.6 t/s | gen 464tok   12.46 t/s | ttft   2.46s total  39.61s  (warmup)
+  baseline-r9                  code_edit    rep1 pp 455tok    185.3 t/s | gen 464tok   12.88 t/s | ttft   2.48s total  38.42s
+  baseline-r9                  code_edit    rep2 pp 455tok    186.0 t/s | gen 464tok   13.47 t/s | ttft   2.45s total  36.81s
