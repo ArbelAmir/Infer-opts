@@ -752,3 +752,36 @@ qual-2b-q4_0: 44/50 correct  {'arith': [9, 10], 'code': [5, 8], 'fact': [10, 10]
 == qual-35b-q2kxl 02:53:44
   arith1    OK  got='1081'                         want='1081'     269tok 21.2s
   arith2    OK  got='6912'                         want='6912'     196tok 16.5s
+  arith3    OK  got='5543'                         want='5543'     282tok 24.0s
+  arith4    OK  got='12'                           want='12'       148tok 12.6s
+  arith5    OK  got='36'                           want='36'       190tok 16.0s
+  arith6    OK  got='2048'                         want='2048'     247tok 20.3s
+  arith7    OK  got='1517'                         want='1517'     244tok 20.1s
+  arith8    OK  got='6'                            want='6'        344tok 28.5s
+  arith9    OK  got='0.375'                        want='0.375'    235tok 19.8s
+  arith10   OK  got='2000'                         want='2000'     249tok 20.7s
+  reason1   OK  got='12'                           want='12'       198tok 17.1s
+  reason2   OK  got='215'                          want='215'      272tok 23.4s
+Traceback (most recent call last):
+  File "/home/user/Infer-opts/harness/quality.py", line 110, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/Infer-opts/harness/quality.py", line 78, in main
+    r = chat_stream(a.port, body)
+  File "/home/user/Infer-opts/harness/bench.py", line 34, in chat_stream
+    r = c.getresponse()
+  File "/usr/local/lib/python3.13/http/client.py", line 1478, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/http/client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+FAILED qual-35b-q2kxl
+== qual-9b-q4km 03:02:15
+  arith1    OK  got='1081'                         want='1081'     202tok 37.2s
+  arith2    OK  got='6912'                         want='6912'     159tok 30.1s
+  arith3    OK  got='5543'                         want='5543'     308tok 54.2s
