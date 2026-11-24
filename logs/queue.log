@@ -1070,3 +1070,18 @@ think-on: 18/50 correct  {'arith': [5, 10], 'code': [2, 8], 'fact': [6, 10], 're
   arith5    OK  got='36'                           want='36'       308tok 23.3s
   arith6    OK  got='2048'                         want='2048'     441tok 33.8s
   arith7    OK  got='1517'                         want='1517'     302tok 23.2s
+  arith8    OK  got='6'                            want='6'        358tok 28.6s
+  arith9    OK  got='0.375'                        want='0.375'    418tok 30.9s
+  arith10   OK  got='2000'                         want='2000'     361tok 28.1s
+  reason1   OK  got='12'                           want='12'       340tok 26.0s
+  reason2   OK  got='215'                          want='215'      1015tok 79.6s
+  reason3   OK  got='12'                           want='12'       434tok 33.0s
+  reason4   OK  got='126'                          want='126'      595tok 46.9s
+  reason5   OK  got='66'                           want='66'       354tok 26.8s
+  reason6   OK  got='2 hours'                      want='2'        559tok 42.2s
+  reason7   OK  got='Ben'                          want='Ben'      584tok 44.3s
+  reason8   OK  got='42'                           want='42'       359tok 26.7s
+  reason9   OK  got='100'                          want='100'      400tok 29.3s
+  reason10  OK  got='20'                           want='20'       553tok 41.8s
+  reason11  OK  got='Friday'                       want='Friday'   371tok 28.3s
+  reason12  OK  got='60 km/h'                      want='60'       613tok 48.0s
