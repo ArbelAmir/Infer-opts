@@ -1,0 +1,65 @@
+[
+ {
+  "ttft_s": 1.5713926989992615,
+  "total_s": 15.125031304000004,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 1546.679,
+   "prompt_per_token_ms": 35.969279069767445,
+   "prompt_per_second": 27.801502444915844,
+   "predicted_n": 94,
+   "predicted_ms": 13554.429,
+   "predicted_per_token_ms": 144.19605319148937,
+   "predicted_per_second": 6.935002573697498,
+   "n_ctx": 8192,
+   "n_past": 136
+  },
+  "usage": null,
+  "content": "During the day, the sky appears blue because the sun is high in the sky, and sunlight passes through less atmosphere, causing shorter blue wavelengths to scatter more effectively in all directions. At sunset, the sun is lower on the horizon, forcing sunlight to travel through a much thicker layer of the atmosphere to reach your eyes. This extended path scatters away most of the blue light, allowing the longer red and orange wavelengths to pass through and dominate the sky's color.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 1.355576910002128,
+  "total_s": 14.860331176001637,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 1187.637,
+   "prompt_per_token_ms": 27.61946511627907,
+   "prompt_per_second": 36.20634924644483,
+   "predicted_n": 94,
+   "predicted_ms": 13504.916,
+   "predicted_per_token_ms": 143.66931914893615,
+   "predicted_per_second": 6.960428335874138,
+   "n_ctx": 8192,
+   "n_past": 136
+  },
+  "usage": null,
+  "content": "During the day, the sky appears blue because the sun is high in the sky, and sunlight passes through less atmosphere, causing shorter blue wavelengths to scatter more effectively in all directions. At sunset, the sun is lower on the horizon, forcing sunlight to travel through a much thicker layer of the atmosphere to reach your eyes. This extended path scatters away most of the blue light, allowing the longer red and orange wavelengths to pass through and dominate the sky's color.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.1668275720003294,
+  "total_s": 14.650964193999243,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 1121.008,
+   "prompt_per_token_ms": 26.069953488372093,
+   "prompt_per_second": 38.35833464167963,
+   "predicted_n": 94,
+   "predicted_ms": 13484.761,
+   "predicted_per_token_ms": 143.45490425531915,
+   "predicted_per_second": 6.970831741103902,
+   "n_ctx": 8192,
+   "n_past": 136
+  },
+  "usage": null,
+  "content": "During the day, the sky appears blue because the sun is high in the sky, and sunlight passes through less atmosphere, causing shorter blue wavelengths to scatter more effectively in all directions. At sunset, the sun is lower on the horizon, forcing sunlight to travel through a much thicker layer of the atmosphere to reach your eyes. This extended path scatters away most of the blue light, allowing the longer red and orange wavelengths to pass through and dominate the sky's color.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

@@ -1230,3 +1230,19 @@ prune-8-11,16-19           Qwen3.5-2B-Q4_K_M.drop8-11_16-19.g t=4 tg n=  128 med
   big-35b-q2kxl-ik             long_gen     rep1 pp 51tok     41.2 t/s | gen 400tok    7.09 t/s | ttft   1.39s total  57.78s
   big-35b-q2kxl-ik             long_gen     rep2 pp 51tok     38.0 t/s | gen 400tok    7.05 t/s | ttft   1.39s total  58.09s
   big-35b-q2kxl-ik             code_edit    rep0 pp 455tok     88.1 t/s | gen 555tok    7.04 t/s | ttft   5.22s total  84.05s  (warmup)
+  big-35b-q2kxl-ik             code_edit    rep1 pp 455tok     86.9 t/s | gen 555tok    6.99 t/s | ttft   5.49s total  84.86s
+  big-35b-q2kxl-ik             code_edit    rep2 pp 455tok     86.2 t/s | gen 555tok    7.01 t/s | ttft   5.33s total  84.52s
+  big-35b-q2kxl-ik             extract      rep0 pp 333tok     81.1 t/s | gen 448tok    7.14 t/s | ttft   4.17s total  66.91s  (warmup)
+  big-35b-q2kxl-ik             extract      rep1 pp 333tok     79.4 t/s | gen 448tok    7.14 t/s | ttft   4.39s total  67.11s
+  big-35b-q2kxl-ik             extract      rep2 pp 333tok     80.2 t/s | gen 448tok    7.19 t/s | ttft   4.20s total  66.48s
+big-35b-q2kxl-ik             chat_short   pp     37.3 t/s  gen    6.97 t/s  ttft   1.26s  total   14.76s  rss 12.96G  load 13.9s
+big-35b-q2kxl-ik             long_prompt  pp     83.0 t/s  gen    7.31 t/s  ttft  42.54s  total   45.41s  rss 12.96G  load 13.9s
+big-35b-q2kxl-ik             long_gen     pp     39.6 t/s  gen    7.07 t/s  ttft   1.39s  total   57.93s  rss 12.96G  load 13.9s
+big-35b-q2kxl-ik             code_edit    pp     86.5 t/s  gen    7.00 t/s  ttft   5.41s  total   84.69s  rss 12.96G  load 13.9s
+big-35b-q2kxl-ik             extract      pp     79.8 t/s  gen    7.17 t/s  ttft   4.30s  total   66.79s  rss 12.96G  load 13.9s
+== big-35b-stock 07:00:30
+  big-35b-q2kxl-stock          chat_short   rep0 pp 43tok     21.8 t/s | gen 102tok    7.36 t/s | ttft   1.98s total  15.69s  (warmup)
+  big-35b-q2kxl-stock          chat_short   rep1 pp 43tok     23.5 t/s | gen 102tok    7.41 t/s | ttft   1.91s total  15.54s
+  big-35b-q2kxl-stock          chat_short   rep2 pp 43tok     22.9 t/s | gen 102tok    7.67 t/s | ttft   1.88s total  15.04s
+  big-35b-q2kxl-stock          long_prompt  rep0 pp 3527tok     54.8 t/s | gen 21tok    6.26 t/s | ttft  64.38s total  67.58s  (warmup)
+  big-35b-q2kxl-stock          long_prompt  rep1 pp 3527tok     54.6 t/s | gen 21tok    6.21 t/s | ttft  64.65s total  67.87s
