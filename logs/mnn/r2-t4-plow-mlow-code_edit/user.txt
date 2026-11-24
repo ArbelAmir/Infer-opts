@@ -1,0 +1,66 @@
+Here is a Python file. Add type hints to every function signature and a one-line docstring to every function. Do not change any other code. Output the complete updated file in a single ```python code block and nothing else.
+
+```python
+import csv
+import json
+
+
+def load_orders(path):
+    rows = []
+    with open(path) as f:
+        for row in csv.DictReader(f):
+            rows.append(row)
+    return rows
+
+
+def total_by_customer(rows):
+    totals = {}
+    for row in rows:
+        name = row["customer"]
+        amount = float(row["amount"])
+        if name not in totals:
+            totals[name] = 0.0
+        totals[name] += amount
+    return totals
+
+
+def top_customers(totals, n):
+    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
+    return items[:n]
+
+
+def filter_by_status(rows, status):
+    out = []
+    for row in rows:
+        if row["status"] == status:
+            out.append(row)
+    return out
+
+
+def average_order_value(rows):
+    if not rows:
+        return 0.0
+    total = 0.0
+    for row in rows:
+        total += float(row["amount"])
+    return total / len(rows)
+
+
+def save_report(path, totals, top):
+    report = {"totals": totals, "top": top}
+    with open(path, "w") as f:
+        json.dump(report, f, indent=2)
+
+
+def main():
+    rows = load_orders("orders.csv")
+    paid = filter_by_status(rows, "paid")
+    totals = total_by_customer(paid)
+    top = top_customers(totals, 5)
+    print("average order value:", average_order_value(paid))
+    save_report("report.json", totals, top)
+
+
+if __name__ == "__main__":
+    main()
+```

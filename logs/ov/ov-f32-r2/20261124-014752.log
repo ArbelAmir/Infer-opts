@@ -108,3 +108,57 @@ if __name__ == "__main__":
 
 rep1 {"wall_s": 30.805945141999928, "ttft_s": 5.985298828125, "tpot_ms": 53.03178787231445, "thr_tps": 18.85661506652832, "prompt_n": 455, "predicted_n": 469, "pp_tps": 76.01959619158009, "gen_tps": 18.85661487422821}
 rep2 {"wall_s": 30.14096812700018, "ttft_s": 5.7161044921875, "tpot_ms": 52.1861457824707, "thr_tps": 19.162174224853516, "prompt_n": 455, "predicted_n": 469, "pp_tps": 79.59966453060338, "gen_tps": 19.162173887459215}
+rep3 {"wall_s": 31.044629206999616, "ttft_s": 5.8253037109375, "tpot_ms": 53.87953567504883, "thr_tps": 18.55992317199707, "prompt_n": 455, "predicted_n": 469, "pp_tps": 78.10751551815214, "gen_tps": 18.559922380012118}
+ROW {"ts": "2026-11-24T01:52:57", "name": "ov-f32-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "code_edit", "cmd": "harness/ov_bench.py --name ov-f32-r2 --props {\"INFERENCE_PRECISION_HINT\":\"f32\"} --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"INFERENCE_PRECISION_HINT": "f32", "mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 455, "predicted_n": 469, "pp_tps": 78.10751551815214, "gen_tps": 18.85661487422821, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 5.8253037109375, "total_s": 30.805945141999928, "pp_tps_range": [76.01959619158009, 79.59966453060338], "gen_tps_range": [18.559922380012118, 19.162173887459215], "load_s": 2.8391885809996893, "peak_rss_kb": 3846368, "raw_log": "/home/user/Infer-opts/logs/ov/ov-f32-r2/20261124-014752.log", "output_head": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file into a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f"}
+== extract prompt tail: 's of cement to Bremen on 8 April for 5,675.00 EUR; S. Köhler signed.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 29.352670605000185, "ttft_s": 4.46923828125, "tpot_ms": 55.66399383544922, "thr_tps": 17.964935302734375, "prompt_n": 333, "predicted_n": 448, "pp_tps": 74.50934119960668, "gen_tps": 17.96493444139391}
+TEXT: [
+  {
+    "date": "2023-04-03",
+    "carrier": "Halvorsen Freight",
+    "depot": "Rotterdam",
+    "quantity": 240,
+    "unit": "crates",
+    "goods": "ceramic tiles",
+    "invoice_eur": 18450.0,
+    "receiver": "M. de Vries"
+  },
+  {
+    "date": "2023-04-05",
+    "carrier": "Brightline Logistics",
+    "depot": "Antwerp",
+    "quantity": 75,
+    "unit": "pallets",
+    "goods": "copper wire",
+    "invoice_eur": 62300.5,
+    "receiver": "A. Peeters"
+  },
+  {
+    "date": "2023-04-06",
+    "carrier": "Kestrel Cargo",
+    "depot": "Hamburg",
+    "quantity": 1200,
+    "unit": "boxes",
+    "goods": "LED fixtures",
+    "invoice_eur": 27980.0,
+    "receiver": "J. Brandt"
+  },
+  {
+    "date": "2023-04-07",
+    "carrier": "Halvorsen Freight",
+    "depot": "Rotterdam",
+    "quantity": 60,
+    "unit": "drums",
+    "goods": "industrial solvent",
+    "invoice_eur": 9120.75,
+    "receiver": "M. de Vries"
+  },
+  {
+    "date": "2023-04-08",
+    "carrier": "Nordsee Transport",
+    "depot": "Bremen",
+    "quantity": 43
+rep1 {"wall_s": 27.31957157600027, "ttft_s": 4.00115087890625, "tpot_ms": 52.16283416748047, "thr_tps": 19.170738220214844, "prompt_n": 333, "predicted_n": 448, "pp_tps": 83.22605422243625, "gen_tps": 19.170737479280284}
+rep2 {"wall_s": 27.573741752999922, "ttft_s": 4.13546484375, "tpot_ms": 52.429283142089844, "thr_tps": 19.07331085205078, "prompt_n": 333, "predicted_n": 448, "pp_tps": 80.5229913883245, "gen_tps": 19.073310563676337}
+rep3 {"wall_s": 28.14762254199968, "ttft_s": 4.24236083984375, "tpot_ms": 53.47571563720703, "thr_tps": 18.700077056884766, "prompt_n": 333, "predicted_n": 448, "pp_tps": 78.49403022781644, "gen_tps": 18.700076999142123}
+ROW {"ts": "2026-11-24T01:54:50", "name": "ov-f32-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "extract", "cmd": "harness/ov_bench.py --name ov-f32-r2 --props {\"INFERENCE_PRECISION_HINT\":\"f32\"} --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"INFERENCE_PRECISION_HINT": "f32", "mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 333, "predicted_n": 448, "pp_tps": 80.5229913883245, "gen_tps": 19.073310563676337, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 4.13546484375, "total_s": 27.573741752999922, "pp_tps_range": [78.49403022781644, 83.22605422243625], "gen_tps_range": [18.700076999142123, 19.170737479280284], "load_s": 2.8391885809996893, "peak_rss_kb": 3850128, "raw_log": "/home/user/Infer-opts/logs/ov/ov-f32-r2/20261124-014752.log", "output_head": "[\n  {\n    \"date\": \"2023-04-03\",\n    \"carrier\": \"Halvorsen Freight\",\n    \"depot\": \"Rotterdam\",\n    \"quantity\": 240,\n    \"unit\": \"crates\",\n    \"goods\": \"ceramic tiles\",\n    \"invoice_eur\": 18450.0,\n    \""}
