@@ -818,3 +818,16 @@ FAILED qual-35b-q2kxl
   fact10    OK  got='Sodium'                       want='Sodium'   29tok 6.6s
   read1     OK  got='1801'                         want='1801'     34tok 8.9s
   read2     OK  got='17'                           want='17'       21tok 6.4s
+  read3     BAD got='Ellison'                      want='Rudge'    64tok 14.6s
+  read4     OK  got='47500'                        want='47500'    105tok 20.6s
+  read5     OK  got='75'                           want='75'       92tok 18.5s
+  read6     OK  got='limestone'                    want='limestone' 28tok 7.8s
+  read7     OK  got='14'                           want='14'       118tok 23.0s
+  read8     OK  got='Abbotsley'                    want='Abbotsley' 42tok 10.2s
+  code1     OK  got='19'                           want='19'       382tok 68.6s
+  code2     BAD got='amc'                          want='amh'      302tok 52.6s
+  code3     OK  got='32'                           want='32'       273tok 48.5s
+  code4     OK  got='55'                           want='55'       392tok 68.7s
+  code5     OK  got='12'                           want='12'       420tok 74.6s
+  code6     BAD got='no_answer_line'               want='8'        512tok 90.1s
+  code7     OK  got='302'                          want='302'      257tok 46.1s
