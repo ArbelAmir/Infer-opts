@@ -1,6 +1,6 @@
-INFO [                    main] build info | tid="140168544725632" timestamp=1795478493 build=1 commit="a28f79a"
-INFO [                    main] system info | tid="140168544725632" timestamp=1795478493 n_threads=4 n_threads_batch=-1 total_threads=4 system_info="AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | FMA = 1 | NEON = 0 | SVE = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | MATMUL_INT8 = 0 | "
-CPU: using device CPU - 11881 MiB free
+INFO [                    main] build info | tid="140666214660736" timestamp=1795478519 build=1 commit="a28f79a"
+INFO [                    main] system info | tid="140666214660736" timestamp=1795478519 n_threads=4 n_threads_batch=-1 total_threads=4 system_info="AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | FMA = 1 | NEON = 0 | SVE = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | MATMUL_INT8 = 0 | "
+CPU: using device CPU - 11957 MiB free
 llama_model_loader: loaded meta data with 46 key-value pairs and 320 tensors from /home/user/Infer-opts/models/Qwen3.5-2B-Q4_K_M.unsloth.gguf (version GGUF V3 (latest))
 llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
 llama_model_loader: - kv   0:                       general.architecture str              = qwen35
@@ -155,7 +155,7 @@ Layer 24:    397.85,    449.00,    846.85 MiB (output layer)
 --------------------------------------------------------------------------
 Total   :    813.19,    564.27,   1377.45 MiB
 Memory required for model tensors + cache: 1775 MiB
-Memory available on all devices - compute: 10806 MiB
+Memory available on all devices - compute: 10822 MiB
 llm_load_tensors: ggml ctx size =    0.16 MiB
 llm_load_tensors:        CPU buffer size =  1211.05 MiB (total of 1 resident buffers)
 ....................................................................
@@ -187,8 +187,8 @@ llama_init_from_model:        CPU compute buffer size =   489.00 MiB
 llama_init_from_model: graph nodes  = 1167
 llama_init_from_model: graph splits = 1
 llama_init_from_model: enabling only_active_experts scheduling
-INFO [                    init] initializing slots | tid="140168544725632" timestamp=1795478495 n_slots=1
-INFO [                    init] new slot | tid="140168544725632" timestamp=1795478495 id_slot=0 n_ctx_slot=8192
+INFO [                    init] initializing slots | tid="140666214660736" timestamp=1795478520 n_slots=1
+INFO [                    init] new slot | tid="140666214660736" timestamp=1795478521 id_slot=0 n_ctx_slot=8192
 srv          init: Exclude reasoning tokens when selecting slot based on similarity: start: <think>, end: </think>
 use `--reasoning-tokens none` to disable.
 prompt cache is enabled, size limit: 8192 MiB
@@ -204,35 +204,35 @@ How are you?<|im_end|>
 <|im_start|>assistant
 <think>
 '
-INFO [                    main] model loaded | tid="140168544725632" timestamp=1795478495
-INFO [                    main] HTTP server listening | tid="140168544725632" timestamp=1795478495 n_threads_http="3" port="18080" hostname="127.0.0.1"
-INFO [              slots_idle] all slots are idle | tid="140168544725632" timestamp=1795478495
-INFO [     process_single_task] slot data | tid="140168544725632" timestamp=1795478495 id_task=0 n_idle_slots=1 n_processing_slots=0
-INFO [              slots_idle] all slots are idle | tid="140168544725632" timestamp=1795478495
-INFO [      log_server_request] request | tid="140166651963072" timestamp=1795478495 remote_addr="127.0.0.1" remote_port=60322 status=200 method="GET" path="/health" params={}
+INFO [                    main] model loaded | tid="140666214660736" timestamp=1795478521
+INFO [                    main] HTTP server listening | tid="140666214660736" timestamp=1795478521 n_threads_http="3" port="18080" hostname="127.0.0.1"
+INFO [              slots_idle] all slots are idle | tid="140666214660736" timestamp=1795478521
+INFO [     process_single_task] slot data | tid="140666214660736" timestamp=1795478521 id_task=0 n_idle_slots=1 n_processing_slots=0
+INFO [              slots_idle] all slots are idle | tid="140666214660736" timestamp=1795478521
+INFO [      log_server_request] request | tid="140664725558976" timestamp=1795478521 remote_addr="127.0.0.1" remote_port=50010 status=200 method="GET" path="/health" params={}
 ======== Prompt cache: cache size: 0, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.00, cache_ram_similarity: 0.50
 WARN [   launch_slot_with_task] %s
  | ="ctx_shift is not supported by recurrent model, it will be disabled"
-INFO [   launch_slot_with_task] slot is processing task | tid="140168544725632" timestamp=1795478495 id_slot=0 id_task=1
+INFO [   launch_slot_with_task] slot is processing task | tid="140666214660736" timestamp=1795478521 id_slot=0 id_task=1
 ======== Cache: cache_size = 0, n_past =  0, n_past_prompt = 0
-INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140168544725632" timestamp=1795478495 id_slot=0 id_task=1 p0=0
-INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140168544725632" timestamp=1795478495 id_slot=0 id_task=1 p0=10
-INFO [      log_server_request] request | tid="140167181883072" timestamp=1795478495 remote_addr="127.0.0.1" remote_port=60336 status=200 method="POST" path="/v1/chat/completions" params={}
-INFO [           release_slots] slot released | tid="140168544725632" timestamp=1795478495 id_slot=0 id_task=1 n_ctx=8192 n_past=22 n_system_tokens=0 n_cache_tokens=22 truncated=false
-INFO [              slots_idle] all slots are idle | tid="140168544725632" timestamp=1795478495
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140666214660736" timestamp=1795478521 id_slot=0 id_task=1 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140666214660736" timestamp=1795478521 id_slot=0 id_task=1 p0=10
+INFO [      log_server_request] request | tid="140664846538432" timestamp=1795478521 remote_addr="127.0.0.1" remote_port=50016 status=200 method="POST" path="/v1/chat/completions" params={}
+INFO [           release_slots] slot released | tid="140666214660736" timestamp=1795478521 id_slot=0 id_task=1 n_ctx=8192 n_past=22 n_system_tokens=0 n_cache_tokens=22 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140666214660736" timestamp=1795478521
 slot print_timing: id  0 | task 1 | 
-prompt eval time =     165.75 ms /    15 tokens (   11.05 ms per token,    90.50 tokens per second)
-       eval time =     463.07 ms /     8 tokens (   57.88 ms per token,    17.28 tokens per second)
-      total time =     628.82 ms /    23 tokens
+prompt eval time =     166.46 ms /    15 tokens (   11.10 ms per token,    90.11 tokens per second)
+       eval time =     506.69 ms /     8 tokens (   63.34 ms per token,    15.79 tokens per second)
+      total time =     673.15 ms /    23 tokens
 ======== Prompt cache: cache size: 22, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.05, cache_ram_similarity: 0.50
 updating prompt cache
  - saving prompt with length 22, total state size = 19.525 MiB
-prompt cache save took 15.07 ms
+prompt cache save took 12.99 ms
  - looking for better prompt, base f_keep = 0.053, sim = 0.030, n_keep = 0, n_discarded_prompt = 0
  - cache state: 1 prompts, 19.525 MiB (limits: 8192.000 MiB, 0 tokens, 9230 est)
-   - prompt 0x563b0aaccfa0:      22 tokens,       0 discarded, checkpoints:  0,    19.525 MiB
+   - prompt 0x55b15ff95fa0:      22 tokens,       0 discarded, checkpoints:  0,    19.525 MiB
 prompt cache load took 0.04 ms
-INFO [   launch_slot_with_task] slot is processing task | tid="140168544725632" timestamp=1795478496 id_slot=0 id_task=11
-INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140168544725632" timestamp=1795478496 id_slot=0 id_task=11 p0=0
-INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140168544725632" timestamp=1795478496 id_slot=0 id_task=11 p0=46
-INFO [      log_server_request] request | tid="140166660355776" timestamp=1795478496 remote_addr="127.0.0.1" remote_port=60348 status=200 method="POST" path="/v1/chat/completions" params={}
+INFO [   launch_slot_with_task] slot is processing task | tid="140666214660736" timestamp=1795478521 id_slot=0 id_task=11
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140666214660736" timestamp=1795478521 id_slot=0 id_task=11 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140666214660736" timestamp=1795478522 id_slot=0 id_task=11 p0=46
+INFO [      log_server_request] request | tid="140664733951680" timestamp=1795478522 remote_addr="127.0.0.1" remote_port=50018 status=200 method="POST" path="/v1/chat/completions" params={}

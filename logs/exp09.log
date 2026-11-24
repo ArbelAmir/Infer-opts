@@ -163,3 +163,4 @@ FAILED q8-amx-clang
   ikj-rtr-iso                  chat_short   rep1 pp 43tok    138.4 t/s | gen 75tok   18.85 t/s | ttft   0.35s total   4.32s
   ikj-rtr-iso                  long_prompt  rep0 pp 3527tok    399.0 t/s | gen 36tok   14.51 t/s | ttft   8.90s total  11.38s
   ikj-rtr-iso                  long_prompt  rep1 pp 3527tok    415.7 t/s | gen 36tok   17.33 t/s | ttft   8.54s total  10.62s
+  ikj-rtr-iso                  long_gen     rep0 pp 51tok    169.3 t/s | gen 400tok   17.24 t/s | ttft   0.34s total  23.54s
