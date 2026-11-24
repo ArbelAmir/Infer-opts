@@ -1,0 +1,72 @@
+[
+ {
+  "ttft_s": 0.4995907510001416,
+  "total_s": 6.519259986000179,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 463.236,
+   "prompt_per_token_ms": 10.772930232558139,
+   "prompt_per_second": 92.82525537738863,
+   "predicted_n": 111,
+   "predicted_ms": 5999.878,
+   "predicted_per_token_ms": 54.052954954954956,
+   "predicted_per_second": 18.500376174315548,
+   "n_ctx": 8192,
+   "n_past": 153,
+   "draft_n": 66,
+   "draft_n_accepted": 50,
+   "draft_by_depth": [
+    {
+     "depth": 1,
+     "draft_n": 62,
+     "draft_n_accepted": 46
+    },
+    {
+     "depth": 2,
+     "draft_n": 4,
+     "draft_n_accepted": 4
+    }
+   ]
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a relatively thin layer of the atmosphere, causing most of its shorter blue wavelengths to scatter in all directions. This scattering process, known as Rayleigh scattering, is so intense that it overwhelms the red light, making the sky appear blue. However, at sunset, the sun is lower on the horizon, forcing sunlight to pass through a much thicker layer of atmosphere. As the light travels further, the shorter blue wavelengths are scattered away even more effectively, leaving only the longer red and orange wavelengths to reach our eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5896544460001678,
+  "total_s": 6.525733554999988,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 551.19,
+   "prompt_per_token_ms": 12.818372093023257,
+   "prompt_per_second": 78.01302636114588,
+   "predicted_n": 111,
+   "predicted_ms": 5912.99,
+   "predicted_per_token_ms": 53.270180180180176,
+   "predicted_per_second": 18.772228601773385,
+   "n_ctx": 8192,
+   "n_past": 153,
+   "draft_n": 66,
+   "draft_n_accepted": 50,
+   "draft_by_depth": [
+    {
+     "depth": 1,
+     "draft_n": 62,
+     "draft_n_accepted": 46
+    },
+    {
+     "depth": 2,
+     "draft_n": 4,
+     "draft_n_accepted": 4
+    }
+   ]
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a relatively thin layer of the atmosphere, causing most of its shorter blue wavelengths to scatter in all directions. This scattering process, known as Rayleigh scattering, is so intense that it overwhelms the red light, making the sky appear blue. However, at sunset, the sun is lower on the horizon, forcing sunlight to pass through a much thicker layer of atmosphere. As the light travels further, the shorter blue wavelengths are scattered away even more effectively, leaving only the longer red and orange wavelengths to reach our eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

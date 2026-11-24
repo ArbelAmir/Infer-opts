@@ -1,0 +1,72 @@
+[
+ {
+  "ttft_s": 1.5335438949996387,
+  "total_s": 19.50578025599998,
+  "timings": {
+   "prompt_n": 333,
+   "prompt_ms": 1488.866,
+   "prompt_per_token_ms": 4.471069069069069,
+   "prompt_per_second": 223.66015477551372,
+   "predicted_n": 448,
+   "predicted_ms": 17949.409,
+   "predicted_per_token_ms": 40.06564508928572,
+   "predicted_per_second": 24.95903904134114,
+   "n_ctx": 8192,
+   "n_past": 780,
+   "draft_n": 298,
+   "draft_n_accepted": 298,
+   "draft_by_depth": [
+    {
+     "depth": 1,
+     "draft_n": 149,
+     "draft_n_accepted": 149
+    },
+    {
+     "depth": 2,
+     "draft_n": 149,
+     "draft_n_accepted": 149
+    }
+   ]
+  },
+  "usage": null,
+  "content": "[\n  {\n    \"date\": \"2023-04-03\",\n    \"carrier\": \"Halvorsen Freight\",\n    \"depot\": \"Rotterdam\",\n    \"quantity\": 240,\n    \"unit\": \"crates\",\n    \"goods\": \"ceramic tiles\",\n    \"invoice_eur\": 18450.00,\n    \"receiver\": \"M. de Vries\"\n  },\n  {\n    \"date\": \"2023-04-05\",\n    \"carrier\": \"Brightline Logistics\",\n    \"depot\": \"Antwerp\",\n    \"quantity\": 75,\n    \"unit\": \"pallets\",\n    \"goods\": \"copper wire\",\n    \"invoice_eur\": 62300.50,\n    \"receiver\": \"A. Peeters\"\n  },\n  {\n    \"date\": \"2023-04-06\",\n    \"carrier\": \"Kestrel Cargo\",\n    \"depot\": \"Hamburg\",\n    \"quantity\": 1200,\n    \"unit\": \"boxes\",\n    \"goods\": \"LED fixtures\",\n    \"invoice_eur\": 27980.00,\n    \"receiver\": \"J. Brandt\"\n  },\n  {\n    \"date\": \"2023-04-07\",\n    \"carrier\": \"Halvorsen Freight\",\n    \"depot\": \"Rotterdam\",\n    \"quantity\": 60,\n    \"unit\": \"drums\",\n    \"goods\": \"industrial solvent\",\n    \"invoice_eur\": 9120.75,\n    \"receiver\": \"M. de Vries\"\n  },\n  {\n    \"date\": \"2023-04-08\",\n    \"carrier\": \"Nordsee Transport\",\n    \"depot\": \"Bremen\",\n    \"quantity\":",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.7627263720000883,
+  "total_s": 20.18992919600032,
+  "timings": {
+   "prompt_n": 333,
+   "prompt_ms": 1715.328,
+   "prompt_per_token_ms": 5.151135135135135,
+   "prompt_per_second": 194.13196776359976,
+   "predicted_n": 448,
+   "predicted_ms": 18405.465,
+   "predicted_per_token_ms": 41.08362723214286,
+   "predicted_per_second": 24.340596665175262,
+   "n_ctx": 8192,
+   "n_past": 780,
+   "draft_n": 298,
+   "draft_n_accepted": 298,
+   "draft_by_depth": [
+    {
+     "depth": 1,
+     "draft_n": 149,
+     "draft_n_accepted": 149
+    },
+    {
+     "depth": 2,
+     "draft_n": 149,
+     "draft_n_accepted": 149
+    }
+   ]
+  },
+  "usage": null,
+  "content": "[\n  {\n    \"date\": \"2023-04-03\",\n    \"carrier\": \"Halvorsen Freight\",\n    \"depot\": \"Rotterdam\",\n    \"quantity\": 240,\n    \"unit\": \"crates\",\n    \"goods\": \"ceramic tiles\",\n    \"invoice_eur\": 18450.00,\n    \"receiver\": \"M. de Vries\"\n  },\n  {\n    \"date\": \"2023-04-05\",\n    \"carrier\": \"Brightline Logistics\",\n    \"depot\": \"Antwerp\",\n    \"quantity\": 75,\n    \"unit\": \"pallets\",\n    \"goods\": \"copper wire\",\n    \"invoice_eur\": 62300.50,\n    \"receiver\": \"A. Peeters\"\n  },\n  {\n    \"date\": \"2023-04-06\",\n    \"carrier\": \"Kestrel Cargo\",\n    \"depot\": \"Hamburg\",\n    \"quantity\": 1200,\n    \"unit\": \"boxes\",\n    \"goods\": \"LED fixtures\",\n    \"invoice_eur\": 27980.00,\n    \"receiver\": \"J. Brandt\"\n  },\n  {\n    \"date\": \"2023-04-07\",\n    \"carrier\": \"Halvorsen Freight\",\n    \"depot\": \"Rotterdam\",\n    \"quantity\": 60,\n    \"unit\": \"drums\",\n    \"goods\": \"industrial solvent\",\n    \"invoice_eur\": 9120.75,\n    \"receiver\": \"M. de Vries\"\n  },\n  {\n    \"date\": \"2023-04-08\",\n    \"carrier\": \"Nordsee Transport\",\n    \"depot\": \"Bremen\",\n    \"quantity\":",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

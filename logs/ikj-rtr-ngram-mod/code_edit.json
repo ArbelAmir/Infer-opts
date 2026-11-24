@@ -1,0 +1,212 @@
+[
+ {
+  "ttft_s": 1.1380509180003173,
+  "total_s": 15.096993172000111,
+  "timings": {
+   "prompt_n": 455,
+   "prompt_ms": 1091.078,
+   "prompt_per_token_ms": 2.397973626373626,
+   "prompt_per_second": 417.018764927897,
+   "predicted_n": 458,
+   "predicted_ms": 13958.415,
+   "predicted_per_token_ms": 30.476888646288213,
+   "predicted_per_second": 32.81174832529338,
+   "n_ctx": 8192,
+   "n_past": 912,
+   "draft_n": 336,
+   "draft_n_accepted": 300,
+   "draft_by_depth": [
+    {
+     "depth": 1,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 2,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 3,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 4,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 5,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 6,
+     "draft_n": 21,
+     "draft_n_accepted": 20
+    },
+    {
+     "depth": 7,
+     "draft_n": 21,
+     "draft_n_accepted": 20
+    },
+    {
+     "depth": 8,
+     "draft_n": 21,
+     "draft_n_accepted": 20
+    },
+    {
+     "depth": 9,
+     "draft_n": 21,
+     "draft_n_accepted": 19
+    },
+    {
+     "depth": 10,
+     "draft_n": 21,
+     "draft_n_accepted": 19
+    },
+    {
+     "depth": 11,
+     "draft_n": 21,
+     "draft_n_accepted": 18
+    },
+    {
+     "depth": 12,
+     "draft_n": 21,
+     "draft_n_accepted": 17
+    },
+    {
+     "depth": 13,
+     "draft_n": 21,
+     "draft_n_accepted": 16
+    },
+    {
+     "depth": 14,
+     "draft_n": 21,
+     "draft_n_accepted": 16
+    },
+    {
+     "depth": 15,
+     "draft_n": 21,
+     "draft_n_accepted": 15
+    },
+    {
+     "depth": 16,
+     "draft_n": 21,
+     "draft_n_accepted": 15
+    }
+   ]
+  },
+  "usage": null,
+  "content": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file and return a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f):\n            rows.append(row)\n    return rows\n\n\ndef total_by_customer(rows):\n    \"\"\"Calculate the total amount for each customer.\"\"\"\n    totals = {}\n    for row in rows:\n        name = row[\"customer\"]\n        amount = float(row[\"amount\"])\n        if name not in totals:\n            totals[name] = 0.0\n        totals[name] += amount\n    return totals\n\n\ndef top_customers(totals, n):\n    \"\"\"Return the top n customers by total amount.\"\"\"\n    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)\n    return items[:n]\n\n\ndef filter_by_status(rows, status):\n    \"\"\"Filter rows by a specific status.\"\"\"\n    out = []\n    for row in rows:\n        if row[\"status\"] == status:\n            out.append(row)\n    return out\n\n\ndef average_order_value(rows):\n    \"\"\"Calculate the average order value.\"\"\"\n    if not rows:\n        return 0.0\n    total = 0.0\n    for row in rows:\n        total += float(row[\"amount\"])\n    return total / len(rows)\n\n\ndef save_report(path, totals, top):\n    \"\"\"Save the totals and top customers to a JSON file.\"\"\"\n    report = {\"totals\": totals, \"top\": top}\n    with open(path, \"w\") as f:\n        json.dump(report, f, indent=2)\n\n\ndef main():\n    rows = load_orders(\"orders.csv\")\n    paid = filter_by_status(rows, \"paid\")\n    totals = total_by_customer(paid)\n    top = top_customers(totals, 5)\n    print(\"average order value:\", average_order_value(paid))\n    save_report(\"report.json\", totals, top)\n\n\nif __name__ == \"__main__\":\n    main()\n```",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.2562905449999562,
+  "total_s": 14.078551486999913,
+  "timings": {
+   "prompt_n": 455,
+   "prompt_ms": 1204.993,
+   "prompt_per_token_ms": 2.6483362637362635,
+   "prompt_per_second": 377.5955544969971,
+   "predicted_n": 458,
+   "predicted_ms": 12821.829,
+   "predicted_per_token_ms": 27.995259825327512,
+   "predicted_per_second": 35.72033287918596,
+   "n_ctx": 8192,
+   "n_past": 912,
+   "draft_n": 336,
+   "draft_n_accepted": 300,
+   "draft_by_depth": [
+    {
+     "depth": 1,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 2,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 3,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 4,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 5,
+     "draft_n": 21,
+     "draft_n_accepted": 21
+    },
+    {
+     "depth": 6,
+     "draft_n": 21,
+     "draft_n_accepted": 20
+    },
+    {
+     "depth": 7,
+     "draft_n": 21,
+     "draft_n_accepted": 20
+    },
+    {
+     "depth": 8,
+     "draft_n": 21,
+     "draft_n_accepted": 20
+    },
+    {
+     "depth": 9,
+     "draft_n": 21,
+     "draft_n_accepted": 19
+    },
+    {
+     "depth": 10,
+     "draft_n": 21,
+     "draft_n_accepted": 19
+    },
+    {
+     "depth": 11,
+     "draft_n": 21,
+     "draft_n_accepted": 18
+    },
+    {
+     "depth": 12,
+     "draft_n": 21,
+     "draft_n_accepted": 17
+    },
+    {
+     "depth": 13,
+     "draft_n": 21,
+     "draft_n_accepted": 16
+    },
+    {
+     "depth": 14,
+     "draft_n": 21,
+     "draft_n_accepted": 16
+    },
+    {
+     "depth": 15,
+     "draft_n": 21,
+     "draft_n_accepted": 15
+    },
+    {
+     "depth": 16,
+     "draft_n": 21,
+     "draft_n_accepted": 15
+    }
+   ]
+  },
+  "usage": null,
+  "content": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file and return a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f):\n            rows.append(row)\n    return rows\n\n\ndef total_by_customer(rows):\n    \"\"\"Calculate the total amount for each customer.\"\"\"\n    totals = {}\n    for row in rows:\n        name = row[\"customer\"]\n        amount = float(row[\"amount\"])\n        if name not in totals:\n            totals[name] = 0.0\n        totals[name] += amount\n    return totals\n\n\ndef top_customers(totals, n):\n    \"\"\"Return the top n customers by total amount.\"\"\"\n    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)\n    return items[:n]\n\n\ndef filter_by_status(rows, status):\n    \"\"\"Filter rows by a specific status.\"\"\"\n    out = []\n    for row in rows:\n        if row[\"status\"] == status:\n            out.append(row)\n    return out\n\n\ndef average_order_value(rows):\n    \"\"\"Calculate the average order value.\"\"\"\n    if not rows:\n        return 0.0\n    total = 0.0\n    for row in rows:\n        total += float(row[\"amount\"])\n    return total / len(rows)\n\n\ndef save_report(path, totals, top):\n    \"\"\"Save the totals and top customers to a JSON file.\"\"\"\n    report = {\"totals\": totals, \"top\": top}\n    with open(path, \"w\") as f:\n        json.dump(report, f, indent=2)\n\n\ndef main():\n    rows = load_orders(\"orders.csv\")\n    paid = filter_by_status(rows, \"paid\")\n    totals = total_by_customer(paid)\n    top = top_customers(totals, 5)\n    print(\"average order value:\", average_order_value(paid))\n    save_report(\"report.json\", totals, top)\n\n\nif __name__ == \"__main__\":\n    main()\n```",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

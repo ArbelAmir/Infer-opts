@@ -164,3 +164,83 @@ FAILED q8-amx-clang
   ikj-rtr-iso                  long_prompt  rep0 pp 3527tok    399.0 t/s | gen 36tok   14.51 t/s | ttft   8.90s total  11.38s
   ikj-rtr-iso                  long_prompt  rep1 pp 3527tok    415.7 t/s | gen 36tok   17.33 t/s | ttft   8.54s total  10.62s
   ikj-rtr-iso                  long_gen     rep0 pp 51tok    169.3 t/s | gen 400tok   17.24 t/s | ttft   0.34s total  23.54s
+  ikj-rtr-iso                  long_gen     rep1 pp 51tok    143.6 t/s | gen 400tok   17.20 t/s | ttft   0.39s total  23.65s
+  ikj-rtr-iso                  code_edit    rep0 pp 455tok    457.5 t/s | gen 469tok   17.66 t/s | ttft   1.04s total  27.59s
+  ikj-rtr-iso                  code_edit    rep1 pp 455tok    401.2 t/s | gen 469tok   17.56 t/s | ttft   1.18s total  27.89s
+  ikj-rtr-iso                  extract      rep0 pp 333tok    346.3 t/s | gen 448tok   16.78 t/s | ttft   1.01s total  27.71s
+  ikj-rtr-iso                  extract      rep1 pp 333tok    360.9 t/s | gen 448tok   17.14 t/s | ttft   0.98s total  27.12s
+ikj-rtr-iso                  chat_short   pp    132.8 t/s  gen   18.63 t/s  ttft   0.36s  total    4.39s  rss  1.51G  load 1.4s
+ikj-rtr-iso                  long_prompt  pp    407.3 t/s  gen   15.92 t/s  ttft   8.72s  total   11.00s  rss  1.51G  load 1.4s
+ikj-rtr-iso                  long_gen     pp    156.5 t/s  gen   17.22 t/s  ttft   0.37s  total   23.60s  rss  1.51G  load 1.4s
+ikj-rtr-iso                  code_edit    pp    429.4 t/s  gen   17.61 t/s  ttft   1.11s  total   27.74s  rss  1.51G  load 1.4s
+ikj-rtr-iso                  extract      pp    353.6 t/s  gen   16.96 t/s  ttft   1.00s  total   27.42s  rss  1.51G  load 1.4s
+  ikj-rtr-ngram                chat_short   rep0 pp 43tok    106.6 t/s | gen 75tok   15.44 t/s | ttft   0.45s total   5.30s
+  ikj-rtr-ngram                chat_short   rep1 pp 43tok    127.7 t/s | gen 75tok   16.88 t/s | ttft   0.38s total   4.82s
+  ikj-rtr-ngram                long_prompt  rep0 pp 3527tok    365.6 t/s | gen 36tok   16.95 t/s | ttft   9.70s total  11.82s
+  ikj-rtr-ngram                long_prompt  rep1 pp 3527tok    398.8 t/s | gen 36tok   15.60 t/s | ttft   8.92s total  11.22s
+  ikj-rtr-ngram                long_gen     rep0 pp 51tok    141.5 t/s | gen 400tok   16.65 t/s | ttft   0.41s total  24.43s
+  ikj-rtr-ngram                long_gen     rep1 pp 51tok    139.6 t/s | gen 400tok   16.88 t/s | ttft   0.40s total  24.10s
+  ikj-rtr-ngram                code_edit    rep0 pp 455tok    282.2 t/s | gen 458tok   33.59 t/s | ttft   1.67s total  15.30s
+  ikj-rtr-ngram                code_edit    rep1 pp 455tok    329.1 t/s | gen 458tok   33.76 t/s | ttft   1.42s total  14.99s
+  ikj-rtr-ngram                extract      rep0 pp 333tok    402.1 t/s | gen 448tok   18.52 t/s | ttft   0.87s total  25.06s
+  ikj-rtr-ngram                extract      rep1 pp 333tok    397.1 t/s | gen 448tok   18.35 t/s | ttft   0.88s total  25.30s
+ikj-rtr-ngram                chat_short   pp    117.1 t/s  gen   16.16 t/s  ttft   0.42s  total    5.06s  rss  1.82G  load 1.8s
+ikj-rtr-ngram                long_prompt  pp    382.2 t/s  gen   16.28 t/s  ttft   9.31s  total   11.52s  rss  1.82G  load 1.8s
+ikj-rtr-ngram                long_gen     pp    140.6 t/s  gen   16.77 t/s  ttft   0.41s  total   24.26s  rss  1.82G  load 1.8s
+ikj-rtr-ngram                code_edit    pp    305.6 t/s  gen   33.68 t/s  ttft   1.54s  total   15.14s  rss  1.82G  load 1.8s
+ikj-rtr-ngram                extract      pp    399.6 t/s  gen   18.43 t/s  ttft   0.87s  total   25.18s  rss  1.82G  load 1.8s
+  ikj-rtr-ngram-mod            chat_short   rep0 pp 43tok    107.9 t/s | gen 75tok   16.69 t/s | ttft   0.45s total   4.94s
+  ikj-rtr-ngram-mod            chat_short   rep1 pp 43tok    116.3 t/s | gen 75tok   17.90 t/s | ttft   0.42s total   4.61s
+  ikj-rtr-ngram-mod            long_prompt  rep0 pp 3527tok    366.7 t/s | gen 36tok   16.84 t/s | ttft   9.68s total  11.82s
+  ikj-rtr-ngram-mod            long_prompt  rep1 pp 3527tok    393.0 t/s | gen 36tok   16.45 t/s | ttft   9.03s total  11.22s
+  ikj-rtr-ngram-mod            long_gen     rep0 pp 51tok    122.9 t/s | gen 400tok   16.62 t/s | ttft   0.46s total  24.53s
+  ikj-rtr-ngram-mod            long_gen     rep1 pp 51tok    161.4 t/s | gen 400tok   16.75 t/s | ttft   0.36s total  24.23s
+  ikj-rtr-ngram-mod            code_edit    rep0 pp 455tok    417.0 t/s | gen 458tok   32.81 t/s | ttft   1.14s total  15.10s
+  ikj-rtr-ngram-mod            code_edit    rep1 pp 455tok    377.6 t/s | gen 458tok   35.72 t/s | ttft   1.26s total  14.08s
+  ikj-rtr-ngram-mod            extract      rep0 pp 333tok    455.6 t/s | gen 448tok   19.64 t/s | ttft   0.77s total  23.58s
+  ikj-rtr-ngram-mod            extract      rep1 pp 333tok    442.2 t/s | gen 448tok   20.22 t/s | ttft   0.79s total  22.95s
+ikj-rtr-ngram-mod            chat_short   pp    112.1 t/s  gen   17.29 t/s  ttft   0.44s  total    4.77s  rss  1.84G  load 1.7s
+ikj-rtr-ngram-mod            long_prompt  pp    379.8 t/s  gen   16.65 t/s  ttft   9.36s  total   11.52s  rss  1.84G  load 1.7s
+ikj-rtr-ngram-mod            long_gen     pp    142.1 t/s  gen   16.69 t/s  ttft   0.41s  total   24.38s  rss  1.84G  load 1.7s
+ikj-rtr-ngram-mod            code_edit    pp    397.3 t/s  gen   34.27 t/s  ttft   1.20s  total   14.59s  rss  1.84G  load 1.7s
+ikj-rtr-ngram-mod            extract      pp    448.9 t/s  gen   19.93 t/s  ttft   0.78s  total   23.26s  rss  1.84G  load 1.7s
+  ikj-rtr-mtp                  chat_short   rep0 pp 43tok     92.8 t/s | gen 111tok   18.50 t/s | ttft   0.50s total   6.52s
+  ikj-rtr-mtp                  chat_short   rep1 pp 43tok     78.0 t/s | gen 111tok   18.77 t/s | ttft   0.59s total   6.53s
+  ikj-rtr-mtp                  long_prompt  rep0 pp 3527tok    209.7 t/s | gen 36tok   20.04 t/s | ttft  16.87s total  18.69s
+  ikj-rtr-mtp                  long_prompt  rep1 pp 3527tok    215.8 t/s | gen 36tok   20.44 t/s | ttft  16.39s total  18.18s
+  ikj-rtr-mtp                  long_gen     rep0 pp 51tok     81.3 t/s | gen 400tok   17.04 t/s | ttft   0.67s total  24.17s
+  ikj-rtr-mtp                  long_gen     rep1 pp 51tok     90.3 t/s | gen 400tok   17.09 t/s | ttft   0.61s total  24.03s
+  ikj-rtr-mtp                  code_edit    rep0 pp 455tok    241.2 t/s | gen 458tok   23.57 t/s | ttft   1.92s total  21.38s
+  ikj-rtr-mtp                  code_edit    rep1 pp 455tok    224.3 t/s | gen 458tok   22.55 t/s | ttft   2.07s total  22.39s
+  ikj-rtr-mtp                  extract      rep0 pp 333tok    223.7 t/s | gen 448tok   24.96 t/s | ttft   1.53s total  19.51s
+  ikj-rtr-mtp                  extract      rep1 pp 333tok    194.1 t/s | gen 448tok   24.34 t/s | ttft   1.76s total  20.19s
+ikj-rtr-mtp                  chat_short   pp     85.4 t/s  gen   18.64 t/s  ttft   0.54s  total    6.52s  rss  4.05G  load 1.6s
+ikj-rtr-mtp                  long_prompt  pp    212.8 t/s  gen   20.24 t/s  ttft  16.63s  total   18.43s  rss  4.05G  load 1.6s
+ikj-rtr-mtp                  long_gen     pp     85.8 t/s  gen   17.06 t/s  ttft   0.64s  total   24.10s  rss  4.05G  load 1.6s
+ikj-rtr-mtp                  code_edit    pp    232.8 t/s  gen   23.06 t/s  ttft   2.00s  total   21.89s  rss  4.05G  load 1.6s
+ikj-rtr-mtp                  extract      pp    208.9 t/s  gen   24.65 t/s  ttft   1.65s  total   19.85s  rss  4.05G  load 1.6s
+  baseline-r5                  chat_short   rep0 pp 43tok     99.3 t/s | gen 80tok   14.52 t/s | ttft   0.44s total   5.88s  (warmup)
+  baseline-r5                  chat_short   rep1 pp 43tok    128.3 t/s | gen 80tok   15.66 t/s | ttft   0.36s total   5.40s
+  baseline-r5                  chat_short   rep2 pp 43tok    137.9 t/s | gen 80tok   15.22 t/s | ttft   0.31s total   5.50s
+  baseline-r5                  chat_short   rep3 pp 43tok    133.9 t/s | gen 80tok   14.68 t/s | ttft   0.32s total   5.71s
+  baseline-r5                  long_prompt  rep0 pp 3527tok    210.4 t/s | gen 36tok   13.72 t/s | ttft  16.77s total  19.32s  (warmup)
+  baseline-r5                  long_prompt  rep1 pp 3527tok    212.5 t/s | gen 36tok   14.49 t/s | ttft  16.61s total  19.02s
+  baseline-r5                  long_prompt  rep2 pp 3527tok    217.7 t/s | gen 36tok   14.10 t/s | ttft  16.21s total  18.69s
+  baseline-r5                  long_prompt  rep3 pp 3527tok    210.8 t/s | gen 36tok   12.59 t/s | ttft  16.74s total  19.52s
+  baseline-r5                  long_gen     rep0 pp 51tok    113.6 t/s | gen 400tok   15.06 t/s | ttft   0.50s total  26.98s  (warmup)
+  baseline-r5                  long_gen     rep1 pp 51tok    123.7 t/s | gen 400tok   15.45 t/s | ttft   0.43s total  26.26s
+  baseline-r5                  long_gen     rep2 pp 51tok    127.2 t/s | gen 400tok   15.05 t/s | ttft   0.40s total  26.92s
+  baseline-r5                  long_gen     rep3 pp 51tok    129.3 t/s | gen 400tok   15.04 t/s | ttft   0.40s total  26.93s
+  baseline-r5                  code_edit    rep0 pp 455tok    226.8 t/s | gen 464tok   15.05 t/s | ttft   2.01s total  32.78s  (warmup)
+  baseline-r5                  code_edit    rep1 pp 455tok    225.7 t/s | gen 464tok   14.61 t/s | ttft   2.04s total  33.73s
+  baseline-r5                  code_edit    rep2 pp 455tok    227.6 t/s | gen 464tok   15.13 t/s | ttft   2.00s total  32.60s
+  baseline-r5                  code_edit    rep3 pp 455tok    242.5 t/s | gen 464tok   14.96 t/s | ttft   1.88s total  32.83s
+  baseline-r5                  extract      rep0 pp 333tok    237.2 t/s | gen 448tok   15.74 t/s | ttft   1.41s total  29.81s  (warmup)
+  baseline-r5                  extract      rep1 pp 333tok    233.0 t/s | gen 448tok   15.88 t/s | ttft   1.45s total  29.59s
+  baseline-r5                  extract      rep2 pp 333tok    253.3 t/s | gen 448tok   15.93 t/s | ttft   1.32s total  29.38s
+  baseline-r5                  extract      rep3 pp 333tok    250.7 t/s | gen 448tok   16.59 t/s | ttft   1.33s total  28.27s
+baseline-r5                  chat_short   pp    133.9 t/s  gen   15.22 t/s  ttft   0.32s  total    5.50s  rss  6.06G  load 4.2s
+baseline-r5                  long_prompt  pp    212.5 t/s  gen   14.10 t/s  ttft  16.61s  total   19.02s  rss  6.06G  load 4.2s
+baseline-r5                  long_gen     pp    127.2 t/s  gen   15.05 t/s  ttft   0.40s  total   26.92s  rss  6.06G  load 4.2s
+baseline-r5                  code_edit    pp    227.6 t/s  gen   14.96 t/s  ttft   2.00s  total   32.83s  rss  6.06G  load 4.2s
+baseline-r5                  extract      pp    250.7 t/s  gen   15.93 t/s  ttft   1.33s  total   29.38s  rss  6.06G  load 4.2s
