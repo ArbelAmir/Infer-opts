@@ -1269,3 +1269,9 @@ big-35b-q2kxl-stock          extract      pp     49.3 t/s  gen    6.96 t/s  ttft
   big-9b-q4km-ik-rtr           long_prompt  rep1 pp 3527tok     79.9 t/s | gen 27tok    4.76 t/s | ttft  44.21s total  49.89s
   big-9b-q4km-ik-rtr           long_prompt  rep2 pp 3527tok     85.4 t/s | gen 27tok    4.89 t/s | ttft  41.33s total  46.85s
   big-9b-q4km-ik-rtr           long_gen     rep0 pp 51tok     30.5 t/s | gen 400tok    4.67 t/s | ttft   1.96s total  87.65s  (warmup)
+  big-9b-q4km-ik-rtr           long_gen     rep1 pp 51tok     30.6 t/s | gen 400tok    4.58 t/s | ttft   1.83s total  89.15s
+  big-9b-q4km-ik-rtr           long_gen     rep2 pp 51tok     30.1 t/s | gen 400tok    4.60 t/s | ttft   1.73s total  88.64s
+  big-9b-q4km-ik-rtr           code_edit    rep0 pp 455tok     83.4 t/s | gen 538tok    4.79 t/s | ttft   5.50s total 117.76s  (warmup)
+  big-9b-q4km-ik-rtr           code_edit    rep1 pp 455tok     84.4 t/s | gen 538tok    4.75 t/s | ttft   5.61s total 118.84s
+  big-9b-q4km-ik-rtr           code_edit    rep2 pp 455tok     83.5 t/s | gen 538tok    4.80 t/s | ttft   5.49s total 117.64s
+  big-9b-q4km-ik-rtr           extract      rep0 pp 333tok     67.8 t/s | gen 448tok    4.73 t/s | ttft   4.95s total  99.68s  (warmup)
