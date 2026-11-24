@@ -1297,3 +1297,15 @@ big-9b-q4km-ik-rtr           extract      pp     78.0 t/s  gen    4.71 t/s  ttft
   baseline-r10                 long_gen     rep3 pp 51tok    103.6 t/s | gen 400tok   12.55 t/s | ttft   0.49s total  32.28s
   baseline-r10                 code_edit    rep0 pp 455tok    183.3 t/s | gen 464tok   12.48 t/s | ttft   2.49s total  39.58s  (warmup)
   baseline-r10                 code_edit    rep1 pp 455tok    191.5 t/s | gen 464tok   12.23 t/s | ttft   2.39s total  40.27s
+  baseline-r10                 code_edit    rep2 pp 455tok    193.5 t/s | gen 464tok   11.89 t/s | ttft   2.35s total  41.30s
+  baseline-r10                 code_edit    rep3 pp 455tok    192.9 t/s | gen 464tok   12.69 t/s | ttft   2.36s total  38.84s
+  baseline-r10                 extract      rep0 pp 333tok    194.7 t/s | gen 448tok   12.79 t/s | ttft   1.72s total  36.66s  (warmup)
+  baseline-r10                 extract      rep1 pp 333tok    191.6 t/s | gen 448tok   12.56 t/s | ttft   1.76s total  37.33s
+  baseline-r10                 extract      rep2 pp 333tok    187.0 t/s | gen 448tok   12.84 t/s | ttft   1.78s total  36.61s
+  baseline-r10                 extract      rep3 pp 333tok    194.4 t/s | gen 448tok   12.54 t/s | ttft   1.72s total  37.37s
+baseline-r10                 chat_short   pp    118.1 t/s  gen   13.31 t/s  ttft   0.37s  total    6.30s  rss  6.06G  load 34.9s
+baseline-r10                 long_prompt  pp    188.4 t/s  gen   11.81 t/s  ttft  18.73s  total   21.59s  rss  6.06G  load 34.9s
+baseline-r10                 long_gen     pp    101.9 t/s  gen   12.85 t/s  ttft   0.51s  total   31.56s  rss  6.06G  load 34.9s
+baseline-r10                 code_edit    pp    192.9 t/s  gen   12.23 t/s  ttft   2.36s  total   40.27s  rss  6.06G  load 34.9s
+baseline-r10                 extract      pp    191.6 t/s  gen   12.56 t/s  ttft   1.76s  total   37.33s  rss  6.06G  load 34.9s
+== QUEUE2 DONE
