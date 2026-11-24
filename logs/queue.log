@@ -1159,3 +1159,28 @@ baseline-r9                  extract      pp    194.3 t/s  gen   13.16 t/s  ttft
   reason5   OK  got='66'                           want='66'       280tok 39.1s
   reason6   OK  got='2'                            want='2'        445tok 61.5s
   reason7   OK  got='Ben'                          want='Ben'      230tok 32.3s
+  reason8   OK  got='42'                           want='42'       381tok 52.7s
+  reason9   OK  got='100'                          want='100'      173tok 26.0s
+  reason10  OK  got='20'                           want='20'       505tok 70.5s
+  reason11  BAD got='Tuesday'                      want='Friday'   250tok 38.6s
+  reason12  OK  got='60'                           want='60'       359tok 55.6s
+  reason13  OK  got='5'                            want='5'        252tok 37.8s
+  reason14  OK  got='3'                            want='3'        117tok 18.5s
+  fact1     OK  got='Au'                           want='Au'       26tok 5.0s
+  fact2     OK  got='Canberra'                     want='Canberra' 72tok 11.2s
+  fact3     OK  got='1945'                         want='1945'     57tok 9.7s
+  fact4     OK  got='Jupiter'                      want='Jupiter'  72tok 12.3s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 18tok 5.2s
+  fact6     OK  got='6'                            want='6'        67tok 11.9s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  82tok 13.5s
+  fact8     OK  got='6'                            want='6'        51tok 8.9s
+  fact9     OK  got='212'                          want='212'      125tok 24.3s
+  fact10    OK  got='Sodium'                       want='Sodium'   31tok 8.4s
+  read1     OK  got='1801'                         want='1801'     39tok 19.3s
+  read2     OK  got='17'                           want='17'       23tok 14.2s
+  read3     OK  got='Rudge'                        want='Rudge'    80tok 21.0s
+  read4     OK  got='47,500'                       want='47500'    111tok 22.0s
+  read5     OK  got='75'                           want='75'       99tok 22.2s
+  read6     OK  got='limestone'                    want='limestone' 17tok 9.6s
+  read7     OK  got='14'                           want='14'       167tok 33.8s
+  read8     OK  got='Abbotsley'                    want='Abbotsley' 51tok 15.3s
