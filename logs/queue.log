@@ -264,3 +264,170 @@ if __name__ == "__main__":
     main()
 ```
 
+rep1 {"wall_s": 42.138898615000016, "ttft_s": 5.23839990234375, "tpot_ms": 78.84345245361328, "thr_tps": 12.683361053466797, "prompt_n": 455, "predicted_n": 469, "pp_tps": 86.85858439261676, "gen_tps": 12.683361381065087}
+rep2 {"wall_s": 42.7515602819999, "ttft_s": 5.4033671875, "tpot_ms": 79.80054473876953, "thr_tps": 12.531242370605469, "prompt_n": 455, "predicted_n": 469, "pp_tps": 84.20675186624082, "gen_tps": 12.531242778774788}
+rep3 {"wall_s": 42.07993564900016, "ttft_s": 5.2791455078125, "tpot_ms": 78.63052368164062, "thr_tps": 12.717707633972168, "prompt_n": 455, "predicted_n": 469, "pp_tps": 86.18819074538763, "gen_tps": 12.71770749039904}
+ROW {"ts": "2026-11-24T01:45:13", "name": "ov-default-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "code_edit", "cmd": "harness/ov_bench.py --name ov-default-r2 --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 455, "predicted_n": 469, "pp_tps": 86.18819074538763, "gen_tps": 12.683361381065087, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 5.2791455078125, "total_s": 42.138898615000016, "pp_tps_range": [84.20675186624082, 86.85858439261676], "gen_tps_range": [12.531242778774788, 12.71770749039904], "load_s": 42.36733779799988, "peak_rss_kb": 3486084, "raw_log": "/home/user/Infer-opts/logs/ov/ov-default-r2/20261124-013706.log", "output_head": "```python\nimport csv\nimport json\n\n\ndef load_orders(path):\n    \"\"\"Load orders from a CSV file into a list of dictionaries.\"\"\"\n    rows = []\n    with open(path) as f:\n        for row in csv.DictReader(f"}
+== extract prompt tail: 's of cement to Bremen on 8 April for 5,675.00 EUR; S. Köhler signed.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 40.03210897300005, "ttft_s": 4.46253271484375, "tpot_ms": 79.57061004638672, "thr_tps": 12.56745433807373, "prompt_n": 333, "predicted_n": 448, "pp_tps": 74.62130168644816, "gen_tps": 12.567454232373448}
+TEXT: [
+  {
+    "date": "2023-04-03",
+    "carrier": "Halvorsen Freight",
+    "depot": "Rotterdam",
+    "quantity": 240,
+    "unit": "crates",
+    "goods": "ceramic tiles",
+    "invoice_eur": 18450.0,
+    "receiver": "M. de Vries"
+  },
+  {
+    "date": "2023-04-05",
+    "carrier": "Brightline Logistics",
+    "depot": "Antwerp",
+    "quantity": 75,
+    "unit": "pallets",
+    "goods": "copper wire",
+    "invoice_eur": 62300.5,
+    "receiver": "A. Peeters"
+  },
+  {
+    "date": "2023-04-06",
+    "carrier": "Kestrel Cargo",
+    "depot": "Hamburg",
+    "quantity": 1200,
+    "unit": "boxes",
+    "goods": "LED fixtures",
+    "invoice_eur": 27980.0,
+    "receiver": "J. Brandt"
+  },
+  {
+    "date": "2023-04-07",
+    "carrier": "Halvorsen Freight",
+    "depot": "Rotterdam",
+    "quantity": 60,
+    "unit": "drums",
+    "goods": "industrial solvent",
+    "invoice_eur": 9120.75,
+    "receiver": "M. de Vries"
+  },
+  {
+    "date": "2023-04-08",
+    "carrier": "Nordsee Transport",
+    "depot": "Bremen",
+    "quantity": 43
+rep1 {"wall_s": 39.30008816600002, "ttft_s": 3.98758642578125, "tpot_ms": 78.99554443359375, "thr_tps": 12.658942222595215, "prompt_n": 333, "predicted_n": 448, "pp_tps": 83.50916179447032, "gen_tps": 12.658941807036127}
+rep2 {"wall_s": 38.96504718699998, "ttft_s": 3.9896396484375, "tpot_ms": 78.24141693115234, "thr_tps": 12.780954360961914, "prompt_n": 333, "predicted_n": 448, "pp_tps": 83.46618475440906, "gen_tps": 12.780954630204853}
+rep3 {"wall_s": 40.337204332000056, "ttft_s": 3.77235791015625, "tpot_ms": 81.7969741821289, "thr_tps": 12.225391387939453, "prompt_n": 333, "predicted_n": 448, "pp_tps": 88.27370253057649, "gen_tps": 12.225391097883437}
+ROW {"ts": "2026-11-24T01:47:51", "name": "ov-default-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "extract", "cmd": "harness/ov_bench.py --name ov-default-r2 --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 333, "predicted_n": 448, "pp_tps": 83.50916179447032, "gen_tps": 12.658941807036127, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 3.98758642578125, "total_s": 39.30008816600002, "pp_tps_range": [83.46618475440906, 88.27370253057649], "gen_tps_range": [12.225391097883437, 12.780954630204853], "load_s": 42.36733779799988, "peak_rss_kb": 3489912, "raw_log": "/home/user/Infer-opts/logs/ov/ov-default-r2/20261124-013706.log", "output_head": "[\n  {\n    \"date\": \"2023-04-03\",\n    \"carrier\": \"Halvorsen Freight\",\n    \"depot\": \"Rotterdam\",\n    \"quantity\": 240,\n    \"unit\": \"crates\",\n    \"goods\": \"ceramic tiles\",\n    \"invoice_eur\": 18450.0,\n    \""}
+== ov-f32-r2 01:47:52
+lock waited s: 5.340576171875e-05 openvino 2026.4.1-22982-e213a147257-releases/2026/4 genai 2026.4.1.0-3408-ab01d1771e4
+idle busy fraction: 0.0025062656641604564
+load_s 2.8391885809996893
+== chat_short prompt tail: 'four sentences why the sky is blue during the day but red at sunset.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 7.6124277339999935, "ttft_s": 2.442771728515625, "tpot_ms": 51.6829719543457, "thr_tps": 19.348731994628906, "prompt_n": 43, "predicted_n": 101, "pp_tps": 17.60295466745449, "gen_tps": 19.348732516453442}
+TEXT: During the day, sunlight travels through the atmosphere for a long distance, scattering shorter blue wavelengths more effectively than longer red wavelengths. As the sun approaches the horizon, it travels through a much thicker layer of air, causing the blue light to scatter away from the line of sight. This leaves the remaining red light to reach your eyes, creating the red sky effect. Additionally, the sun's lower position means its light has to pass through more atmosphere, which further enhances the scattering of blue light.
+
+rep1 {"wall_s": 5.64842825300002, "ttft_s": 0.5192256469726563, "tpot_ms": 51.28199768066406, "thr_tps": 19.50002098083496, "prompt_n": 43, "predicted_n": 101, "pp_tps": 82.815631798451, "gen_tps": 19.500020381948794}
+rep2 {"wall_s": 5.371785584000008, "ttft_s": 0.48855255126953123, "tpot_ms": 48.824737548828125, "thr_tps": 20.481420516967773, "prompt_n": 43, "predicted_n": 101, "pp_tps": 88.015096611945, "gen_tps": 20.48142089857484}
+rep3 {"wall_s": 5.582485496999652, "ttft_s": 0.45943283081054687, "tpot_ms": 51.222450256347656, "thr_tps": 19.522689819335938, "prompt_n": 43, "predicted_n": 101, "pp_tps": 93.5936596523543, "gen_tps": 19.522689660400943}
+ROW {"ts": "2026-11-24T01:48:20", "name": "ov-f32-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "chat_short", "cmd": "harness/ov_bench.py --name ov-f32-r2 --props {\"INFERENCE_PRECISION_HINT\":\"f32\"} --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"INFERENCE_PRECISION_HINT": "f32", "mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 43, "predicted_n": 101, "pp_tps": 88.015096611945, "gen_tps": 19.522689660400943, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 0.48855255126953123, "total_s": 5.582485496999652, "pp_tps_range": [82.815631798451, 93.5936596523543], "gen_tps_range": [19.500020381948794, 20.48142089857484], "load_s": 2.8391885809996893, "peak_rss_kb": 2806748, "raw_log": "/home/user/Infer-opts/logs/ov/ov-f32-r2/20261124-014752.log", "output_head": "During the day, sunlight travels through the atmosphere for a long distance, scattering shorter blue wavelengths more effectively than longer red wavelengths. As the sun approaches the horizon, it tra"}
+== long_prompt prompt tail: 'hich two places does M-82 travel? Answer in one short sentence each.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 44.66355668799997, "ttft_s": 43.3958359375, "tpot_ms": 54.888084411621094, "thr_tps": 18.218891143798828, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 81.27507913615703, "gen_tps": 18.218890506375125}
+TEXT: European lobsters are blue in life, and M-82 travels between Fremont and Howard City.
+
+rep1 {"wall_s": 8.340529455999786, "ttft_s": 7.0688544921875, "tpot_ms": 55.12746047973633, "thr_tps": 18.139780044555664, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 498.94929990397196, "gen_tps": 18.13977990819255}
+rep2 {"wall_s": 8.369317407999915, "ttft_s": 7.034904296875, "tpot_ms": 57.86293029785156, "thr_tps": 17.282222747802734, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 501.35721129379704, "gen_tps": 17.28222187940471}
+rep3 {"wall_s": 8.63400079799976, "ttft_s": 7.2138916015625, "tpot_ms": 61.59840774536133, "thr_tps": 16.23418617248535, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 488.9177984371246, "gen_tps": 16.234185859703576}
+ROW {"ts": "2026-11-24T01:49:30", "name": "ov-f32-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "long_prompt", "cmd": "harness/ov_bench.py --name ov-f32-r2 --props {\"INFERENCE_PRECISION_HINT\":\"f32\"} --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"INFERENCE_PRECISION_HINT": "f32", "mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 498.94929990397196, "gen_tps": 17.28222187940471, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 7.0688544921875, "total_s": 8.369317407999915, "pp_tps_range": [488.9177984371246, 501.35721129379704], "gen_tps_range": [16.234185859703576, 18.13977990819255], "load_s": 2.8391885809996893, "peak_rss_kb": 3838372, "raw_log": "/home/user/Infer-opts/logs/ov/ov-f32-r2/20261124-014752.log", "output_head": "European lobsters are blue in life, and M-82 travels between Fremont and Howard City.\n"}
+== long_gen prompt tail: ' and impact of the printing press, from Gutenberg to the modern era.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 21.387992832000236, "ttft_s": 0.6759683837890625, "tpot_ms": 51.90641784667969, "thr_tps": 19.265439987182617, "prompt_n": 51, "predicted_n": 400, "pp_tps": 75.44731561870601, "gen_tps": 19.265440411507175}
+TEXT: **The Great Reformation: A History of the Printing Press**
+
+The invention of the printing press is often cited as the single most significant event in human history. While the impact of the printing press is often overstated, it was the catalyst that fundamentally altered the trajectory of Western civilization. From the medieval manuscript culture to the digital age, the printing press did not merely change how books were produced; it changed how knowledge was distributed, how truth was verified, and how society itself was organized.
+
+The origins of the press lie in the limitations of the Middle Ages. Prior to the invention of movable type, books were hand-copied by scribes. This process was labor-intensive, expensive, and prone to error. Furthermore, the lack of standardized orthography meant that a book could be written in one language but read in another, as the spelling of words varied by region. This fragmentation of knowledge created a barrier to literacy and education, as only the wealthy could afford to hire a scribe.
+
+Gutenberg's innovation, published in 1440, was not merely a mechanical one but a philosophical revolution. Johannes Gutenberg developed a system of movable type using wood and metal, allowing for the mass production of identical copies. This technology drastically reduced the cost of printing, making books accessible to the common person. More importantly, it allowed for the creation of standardized orthographies. A book printed in one city could be read in another, as the spelling remained consistent. This standardization was the first step toward a unified national language and a shared cultural identity.
+
+The immediate impact of the printing press was the Great Reformation in Europe. Martin Luther's 95 Theses, published in 1517, were the first mass-produced book to challenge the Catholic Church. Because Luther's work was available in many languages and could be distributed rapidly, the Reformation spread across Germany, Scandinavia, and England. The press democratized religious thought, allowing individuals to question authority rather
+rep1 {"wall_s": 21.508568792000005, "ttft_s": 0.6264459228515625, "tpot_ms": 52.33299255371094, "thr_tps": 19.1084041595459, "prompt_n": 51, "predicted_n": 400, "pp_tps": 81.4116560418329, "gen_tps": 19.108404683215273}
+rep2 {"wall_s": 21.44701556500013, "ttft_s": 0.5828092651367187, "tpot_ms": 52.287506103515625, "thr_tps": 19.12502670288086, "prompt_n": 51, "predicted_n": 400, "pp_tps": 87.50718811588578, "gen_tps": 19.12502765039627}
+rep3 {"wall_s": 20.85133803000008, "ttft_s": 0.6172307739257813, "tpot_ms": 50.70878219604492, "thr_tps": 19.720449447631836, "prompt_n": 51, "predicted_n": 400, "pp_tps": 82.62711801555844, "gen_tps": 19.720449923918622}
+ROW {"ts": "2026-11-24T01:50:55", "name": "ov-f32-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "long_gen", "cmd": "harness/ov_bench.py --name ov-f32-r2 --props {\"INFERENCE_PRECISION_HINT\":\"f32\"} --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"INFERENCE_PRECISION_HINT": "f32", "mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 51, "predicted_n": 400, "pp_tps": 82.62711801555844, "gen_tps": 19.12502765039627, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 0.6172307739257813, "total_s": 21.44701556500013, "pp_tps_range": [81.4116560418329, 87.50718811588578], "gen_tps_range": [19.108404683215273, 19.720449923918622], "load_s": 2.8391885809996893, "peak_rss_kb": 3843524, "raw_log": "/home/user/Infer-opts/logs/ov/ov-f32-r2/20261124-014752.log", "output_head": "**The Great Reformation: A History of the Printing Press**\n\nThe invention of the printing press is often cited as the single most significant event in human history. While the impact of the printing p"}
+== code_edit prompt tail: 'port.json", totals, top)\n\n\nif __name__ == "__main__":\n    main()\n```<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 30.315444714000023, "ttft_s": 5.6733828125, "tpot_ms": 52.65052032470703, "thr_tps": 18.9931640625, "prompt_n": 455, "predicted_n": 469, "pp_tps": 80.19906553767387, "gen_tps": 18.9931646227385}
+TEXT: ```python
+import csv
+import json
+
+
+def load_orders(path):
+    """Load orders from a CSV file into a list of dictionaries."""
+    rows = []
+    with open(path) as f:
+        for row in csv.DictReader(f):
+            rows.append(row)
+    return rows
+
+
+def total_by_customer(rows):
+    """Calculate total amount for each customer."""
+    totals = {}
+    for row in rows:
+        name = row["customer"]
+        amount = float(row["amount"])
+        if name not in totals:
+            totals[name] = 0.0
+        totals[name] += amount
+    return totals
+
+
+def top_customers(totals, n):
+    """Return the top n customers by total amount."""
+    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
+    return items[:n]
+
+
+def filter_by_status(rows, status):
+    """Filter rows by a specific status."""
+    out = []
+    for row in rows:
+        if row["status"] == status:
+            out.append(row)
+    return out
+
+
+def average_order_value(rows):
+    """Calculate the average order value."""
+    if not rows:
+        return 0.0
+    total = 0.0
+    for row in rows:
+        total += float(row["amount"])
+    return total / len(rows)
+
+
+def save_report(path, totals, top):
+    """Save the report as a JSON file."""
+    report = {"totals": totals, "top": top}
+    with open(path, "w") as f:
+        json.dump(report, f, indent=2)
+
+
+def main():
+    """Main function to load, process, and save report."""
+    rows = load_orders("orders.csv")
+    paid = filter_by_status(rows, "paid")
+    totals = total_by_customer(paid)
+    top = top_customers(totals, 5)
+    print("average order value:", average_order_value(paid))
+    save_report("report.json", totals, top)
+
+
+if __name__ == "__main__":
+    main()
+```
+
+rep1 {"wall_s": 30.805945141999928, "ttft_s": 5.985298828125, "tpot_ms": 53.03178787231445, "thr_tps": 18.85661506652832, "prompt_n": 455, "predicted_n": 469, "pp_tps": 76.01959619158009, "gen_tps": 18.85661487422821}
+rep2 {"wall_s": 30.14096812700018, "ttft_s": 5.7161044921875, "tpot_ms": 52.1861457824707, "thr_tps": 19.162174224853516, "prompt_n": 455, "predicted_n": 469, "pp_tps": 79.59966453060338, "gen_tps": 19.162173887459215}
