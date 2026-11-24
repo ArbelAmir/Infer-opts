@@ -1,0 +1,596 @@
+INFO [                    main] build info | tid="140684506102400" timestamp=1795500104 build=1 commit="a28f79a"
+INFO [                    main] system info | tid="140684506102400" timestamp=1795500104 n_threads=4 n_threads_batch=-1 total_threads=4 system_info="AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | FMA = 1 | NEON = 0 | SVE = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | MATMUL_INT8 = 0 | "
+CPU: using device CPU - 7484 MiB free
+llama_model_loader: loaded meta data with 54 key-value pairs and 733 tensors from /home/user/Infer-opts/models/Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen35moe
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                     general.sampling.top_k i32              = 20
+llama_model_loader: - kv   3:                     general.sampling.top_p f32              = 0.950000
+llama_model_loader: - kv   4:                      general.sampling.temp f32              = 1.000000
+llama_model_loader: - kv   5:                               general.name str              = Qwen3.6-35B-A3B
+llama_model_loader: - kv   6:                           general.basename str              = Qwen3.6-35B-A3B
+llama_model_loader: - kv   7:                       general.quantized_by str              = Unsloth
+llama_model_loader: - kv   8:                         general.size_label str              = 35B-A3B
+llama_model_loader: - kv   9:                            general.license str              = apache-2.0
+llama_model_loader: - kv  10:                       general.license.link str              = https://huggingface.co/Qwen/Qwen3.6-3...
+llama_model_loader: - kv  11:                           general.repo_url str              = https://huggingface.co/unsloth
+llama_model_loader: - kv  12:                   general.base_model.count u32              = 1
+llama_model_loader: - kv  13:                  general.base_model.0.name str              = Qwen3.6 35B A3B
+llama_model_loader: - kv  14:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  15:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen3.6-3...
+llama_model_loader: - kv  16:                               general.tags arr[str,3]       = ["qwen3_5_moe", "qwen", "image-text-t...
+llama_model_loader: - kv  17:                      qwen35moe.block_count u32              = 40
+llama_model_loader: - kv  18:                   qwen35moe.context_length u32              = 262144
+llama_model_loader: - kv  19:                 qwen35moe.embedding_length u32              = 2048
+llama_model_loader: - kv  20:             qwen35moe.attention.head_count u32              = 16
+llama_model_loader: - kv  21:          qwen35moe.attention.head_count_kv u32              = 2
+llama_model_loader: - kv  22:          qwen35moe.rope.dimension_sections arr[i32,4]       = [11, 11, 10, 0]
+llama_model_loader: - kv  23:                   qwen35moe.rope.freq_base f32              = 10000000.000000
+llama_model_loader: - kv  24: qwen35moe.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  25:                     qwen35moe.expert_count u32              = 256
+llama_model_loader: - kv  26:                qwen35moe.expert_used_count u32              = 8
+llama_model_loader: - kv  27:             qwen35moe.attention.key_length u32              = 256
+llama_model_loader: - kv  28:           qwen35moe.attention.value_length u32              = 256
+llama_model_loader: - kv  29:       qwen35moe.expert_feed_forward_length u32              = 512
+llama_model_loader: - kv  30: qwen35moe.expert_shared_feed_forward_length u32              = 512
+llama_model_loader: - kv  31:                  qwen35moe.ssm.conv_kernel u32              = 4
+llama_model_loader: - kv  32:                   qwen35moe.ssm.state_size u32              = 128
+llama_model_loader: - kv  33:                  qwen35moe.ssm.group_count u32              = 16
+llama_model_loader: - kv  34:               qwen35moe.ssm.time_step_rank u32              = 32
+llama_model_loader: - kv  35:                   qwen35moe.ssm.inner_size u32              = 4096
+llama_model_loader: - kv  36:          qwen35moe.full_attention_interval u32              = 4
+llama_model_loader: - kv  37:             qwen35moe.rope.dimension_count u32              = 64
+llama_model_loader: - kv  38:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  39:                         tokenizer.ggml.pre str              = qwen35
+llama_model_loader: - kv  40:                      tokenizer.ggml.tokens arr[str,248320]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  41:                  tokenizer.ggml.token_type arr[i32,248320]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  42:                      tokenizer.ggml.merges arr[str,247587]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  43:                tokenizer.ggml.eos_token_id u32              = 248046
+llama_model_loader: - kv  44:            tokenizer.ggml.padding_token_id u32              = 248055
+llama_model_loader: - kv  45:                tokenizer.ggml.bos_token_id u32              = 248044
+llama_model_loader: - kv  46:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  47:                    tokenizer.chat_template str              = {%- set image_count = namespace(value...
+llama_model_loader: - kv  48:               general.quantization_version u32              = 2
+llama_model_loader: - kv  49:                          general.file_type u32              = 10
+llama_model_loader: - kv  50:                      quantize.imatrix.file str              = Qwen3.6-35B-A3B-GGUF/imatrix_unsloth....
+llama_model_loader: - kv  51:                   quantize.imatrix.dataset str              = unsloth_calibration_Qwen3.6-35B-A3B.txt
+llama_model_loader: - kv  52:             quantize.imatrix.entries_count u32              = 510
+llama_model_loader: - kv  53:              quantize.imatrix.chunks_count u32              = 76
+llama_model_loader: - type  f32:  361 tensors
+llama_model_loader: - type q8_0:    1 tensors
+llama_model_loader: - type q4_K:    1 tensors
+llama_model_loader: - type q5_K:  157 tensors
+llama_model_loader: - type q6_K:   93 tensors
+llama_model_loader: - type iq2_xs:   78 tensors
+llama_model_loader: - type iq3_xxs:   38 tensors
+llama_model_loader: - type iq4_xs:    4 tensors
+load: 0 unused tokens
+load: printing all EOG tokens:
+load:   - 248044 ('<|endoftext|>')
+load:   - 248046 ('<|im_end|>')
+load:   - 248063 ('<|fim_pad|>')
+load:   - 248064 ('<|repo_name|>')
+load:   - 248065 ('<|file_sep|>')
+load: special tokens cache size = 33
+load: token to piece cache size = 1.7581 MB
+llm_load_print_meta: format           = GGUF V3 (latest)
+llm_load_print_meta: arch             = qwen35moe
+llm_load_print_meta: n_ctx_train      = 262144
+llm_load_print_meta: n_embd           = 2048
+llm_load_print_meta: n_layer          = 40
+llm_load_print_meta: n_head           = 16
+llm_load_print_meta: n_head_kv        = 2
+llm_load_print_meta: n_rot            = 64
+llm_load_print_meta: n_swa            = 0
+llm_load_print_meta: n_swa_pattern    = 1
+llm_load_print_meta: n_embd_head_k    = 256
+llm_load_print_meta: n_embd_head_v    = 256
+llm_load_print_meta: n_gqa            = 8
+llm_load_print_meta: n_embd_k_gqa     = 512
+llm_load_print_meta: n_embd_v_gqa     = 512
+llm_load_print_meta: f_norm_eps       = 0.0e+00
+llm_load_print_meta: f_norm_rms_eps   = 1.0e-06
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: f_logit_scale    = 0.0e+00
+llm_load_print_meta: n_ff             = 0
+llm_load_print_meta: n_expert         = 256
+llm_load_print_meta: n_expert_used    = 8
+llm_load_print_meta: causal attn      = 1
+llm_load_print_meta: pooling type     = 0
+llm_load_print_meta: rope type        = 40
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_ctx_orig_yarn  = 262144
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: mrope sections   = [11, 11, 10, 0]
+llm_load_print_meta: ssm_d_conv       = 4
+llm_load_print_meta: ssm_d_inner      = 4096
+llm_load_print_meta: ssm_d_state      = 128
+llm_load_print_meta: ssm_dt_rank      = 32
+llm_load_print_meta: ssm_n_group      = 16
+llm_load_print_meta: model type       = 35B.A3B
+llm_load_print_meta: model ftype      = Q2_K - Medium
+llm_load_print_meta: model params     = 34.661 B
+llm_load_print_meta: model size       = 11.436 GiB (2.834 BPW) 
+llm_load_print_meta: repeating layers = 10.844 GiB (2.769 BPW, 33.643 B parameters)
+llm_load_print_meta: general.name     = Qwen3.6-35B-A3B
+print_info: vocab type            = BPE
+print_info: n_vocab               = 248320
+print_info: n_merges              = 247587
+print_info: BOS token             = 248044 '<|endoftext|>'
+print_info: EOS token             = 248046 '<|im_end|>'
+print_info: EOT token             = 248046 '<|im_end|>'
+print_info: PAD token             = 248055 '<|vision_pad|>'
+print_info: LF token              = 198 'Ċ'
+print_info: FIM PRE token         = 248060 '<|fim_prefix|>'
+print_info: FIM SUF token         = 248062 '<|fim_suffix|>'
+print_info: FIM MID token         = 248061 '<|fim_middle|>'
+print_info: FIM PAD token         = 248063 '<|fim_pad|>'
+print_info: FIM REP token         = 248064 '<|repo_name|>'
+print_info: FIM SEP token         = 248065 '<|file_sep|>'
+print_info: EOG token             = 248044 '<|endoftext|>'
+print_info: EOG token             = 248046 '<|im_end|>'
+print_info: EOG token             = 248063 '<|fim_pad|>'
+print_info: EOG token             = 248064 '<|repo_name|>'
+print_info: EOG token             = 248065 '<|file_sep|>'
+print_info: max token length      = 256
+======================================= HAVE_FANCY_SIMD is defined
+------------------- Layer sizes:
+Layer  0:    273.91,      2.09,    276.00       56.00  MiB
+Layer  1:    363.60,      2.09,    365.70       56.00  MiB
+Layer  2:    273.91,      2.09,    276.00       56.00  MiB
+Layer  3:    268.36,     16.00,    284.36       56.00  MiB
+Layer  4:    273.91,      2.09,    276.00       56.00  MiB
+Layer  5:    273.91,      2.09,    276.00       56.00  MiB
+Layer  6:    273.91,      2.09,    276.00       56.00  MiB
+Layer  7:    268.36,     16.00,    284.36       56.00  MiB
+Layer  8:    273.91,      2.09,    276.00       56.00  MiB
+Layer  9:    273.91,      2.09,    276.00       56.00  MiB
+Layer 10:    273.91,      2.09,    276.00       56.00  MiB
+Layer 11:    268.36,     16.00,    284.36       56.00  MiB
+Layer 12:    273.91,      2.09,    276.00       56.00  MiB
+Layer 13:    273.91,      2.09,    276.00       56.00  MiB
+Layer 14:    273.91,      2.09,    276.00       56.00  MiB
+Layer 15:    268.36,     16.00,    284.36       56.00  MiB
+Layer 16:    273.91,      2.09,    276.00       56.00  MiB
+Layer 17:    273.91,      2.09,    276.00       56.00  MiB
+Layer 18:    273.91,      2.09,    276.00       56.00  MiB
+Layer 19:    268.36,     16.00,    284.36       56.00  MiB
+Layer 20:    273.91,      2.09,    276.00       56.00  MiB
+Layer 21:    273.91,      2.09,    276.00       56.00  MiB
+Layer 22:    273.91,      2.09,    276.00       56.00  MiB
+Layer 23:    268.36,     16.00,    284.36       56.00  MiB
+Layer 24:    273.91,      2.09,    276.00       56.00  MiB
+Layer 25:    273.91,      2.09,    276.00       56.00  MiB
+Layer 26:    273.91,      2.09,    276.00       56.00  MiB
+Layer 27:    268.36,     16.00,    284.36       56.00  MiB
+Layer 28:    273.91,      2.09,    276.00       56.00  MiB
+Layer 29:    273.91,      2.09,    276.00       56.00  MiB
+Layer 30:    273.91,      2.09,    276.00       56.00  MiB
+Layer 31:    268.36,     16.00,    284.36       56.00  MiB
+Layer 32:    273.91,      2.09,    276.00       56.00  MiB
+Layer 33:    273.91,      2.09,    276.00       56.00  MiB
+Layer 34:    311.91,      2.09,    314.00       56.00  MiB
+Layer 35:    268.36,     16.00,    284.36       56.00  MiB
+Layer 36:    273.91,      2.09,    276.00       56.00  MiB
+Layer 37:    273.91,      2.09,    276.00       56.00  MiB
+Layer 38:    311.91,      2.09,    314.00       56.00  MiB
+Layer 39:    306.36,     16.00,    322.36       56.00  MiB
+Layer 40:    272.81,    429.00,    701.81 MiB (output layer)
+--------------------------------------------------------------------------
+Total   :  11104.52,    651.81,  11756.33 MiB
+Memory required for model tensors + cache: 12029 MiB
+Memory available on all devices - compute: 6302 MiB
+llm_load_tensors: ggml ctx size =    0.34 MiB
+llm_load_tensors:        CPU buffer size = 11710.78 MiB (total of 1 resident buffers)
+..............................................................................................
+llama_init_from_model: n_ctx         = 8192
+llama_init_from_model: n_batch       = 2048
+llama_init_from_model: n_ubatch      = 512
+llama_init_from_model: flash_attn    = 1
+llama_init_from_model: attn_max_b    = 256
+llama_init_from_model: fused_moe     = 1
+llama_init_from_model: grouped er    = 0
+llama_init_from_model: fused_up_gate = 1
+llama_init_from_model: fused_mmad    = 1
+llama_init_from_model: rope_cache    = 0
+llama_init_from_model: graph_reuse   = 1
+llama_init_from_model: feod          = 0
+llama_init_from_model: k_cache_hadam = 0
+llama_init_from_model: v_cache_hadam = 0
+llama_init_from_model: split_mode_graph_scheduling = 0
+llama_init_from_model: reduce_type   = f16
+llama_init_from_model: sched_async   = 0
+llama_init_from_model: ser           = -1, 0
+llama_init_from_model: freq_base     = 10000000.0
+llama_init_from_model: freq_scale    = 1
+llama_kv_cache_init:        CPU KV buffer size =   222.81 MiB
+llama_init_from_model: KV self size  =  160.00 MiB, K (f16):   80.00 MiB, V (f16):   80.00 MiB
+llama_init_from_model:        CPU  output buffer size =     0.95 MiB
+llama_init_from_model:        CPU compute buffer size =   489.00 MiB
+llama_init_from_model: graph nodes  = 2663
+llama_init_from_model: graph splits = 1
+llama_init_from_model: enabling only_active_experts scheduling
+INFO [                    init] initializing slots | tid="140684506102400" timestamp=1795500373 n_slots=1
+INFO [                    init] new slot | tid="140684506102400" timestamp=1795500373 id_slot=0 n_ctx_slot=8192
+srv          init: Exclude reasoning tokens when selecting slot based on similarity: start: <think>, end: </think>
+use `--reasoning-tokens none` to disable.
+prompt cache is enabled, size limit: 8192 MiB
+use `--cache-ram 0` to disable the prompt cache
+init: chat template, example_format: '<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+<think>
+'
+INFO [                    main] model loaded | tid="140684506102400" timestamp=1795500373
+INFO [                    main] HTTP server listening | tid="140684506102400" timestamp=1795500373 n_threads_http="3" port="18080" hostname="127.0.0.1"
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500373
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=0 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=1 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40158 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=2 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=3 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40150 status=200 method="GET" path="/health" params={}
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500373
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=34346 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40170 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=4 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=5 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40174 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=43226 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=6 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=7 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=43228 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=43242 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=8 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=43250 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=9 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=10 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=43260 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46540 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=11 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46556 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=12 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=13 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46562 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46564 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=14 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=15 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46578 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=16 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=54052 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=54068 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=17 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=54076 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=18 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=19 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=54090 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=54106 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=20 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47250 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=21 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=22 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47264 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47266 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=23 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47274 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=24 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=25 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47280 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=56236 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=26 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=56238 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=27 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=28 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=56250 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=29 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=56254 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=56256 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=30 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=31 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="" remote_port=0 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32914 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=32 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32928 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=33 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=34 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32930 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32932 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=35 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=55830 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=36 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=37 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=55840 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=55854 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=38 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=55858 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=39 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=40 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=55860 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=57852 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=41 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=57860 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=42 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=43 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=57876 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=44 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=51284 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=45 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=46 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=51292 status=200 method="GET" path="/health" params={}
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500373
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=51298 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=47 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=57892 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=48 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=51312 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=51328 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=49 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=50 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58298 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=51 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58304 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58310 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=52 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58322 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=53 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=54 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58328 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40486 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=55 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=56 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40490 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40496 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=57 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40512 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=58 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=59 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40528 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=60 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52420 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52426 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=61 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=62 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52440 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=63 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52444 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52454 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=64 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=65 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35840 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=66 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35844 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35858 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=67 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=68 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35860 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=69 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35872 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=42272 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=70 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=71 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=42284 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=72 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=42290 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=42296 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=73 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=42304 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=74 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=75 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58342 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58350 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=76 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=77 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58358 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=78 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58364 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=79 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=58366 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=80 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35154 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=81 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35166 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35170 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=82 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=83 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=35172 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=84 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=49052 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=49066 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=85 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=86 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=49078 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=87 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=49088 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=49092 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=88 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=89 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40316 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40326 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=90 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40328 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=91 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=92 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40332 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=93 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=40334 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47440 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=94 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47446 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=95 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=96 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47460 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47468 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=97 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=98 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=47470 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52282 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=99 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=100 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52276 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52300 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=101 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=102 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52298 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52308 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=103 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=104 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46950 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=105 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46958 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46972 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=106 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=107 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46982 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=108 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=46998 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=39072 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=109 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=110 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=39088 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=111 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=39094 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=39100 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=112 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=113 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=39108 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=114 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32874 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32880 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=115 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=116 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32892 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=117 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32898 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=32906 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=118 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=119 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=41100 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=120 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=41114 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=41118 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=121 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=122 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=41130 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52828 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=123 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=124 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52834 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=125 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52848 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=126 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52854 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=52864 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=127 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=128 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=33444 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=129 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=33460 status=200 method="GET" path="/health" params={}
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=33464 status=200 method="GET" path="/health" params={}
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=130 n_idle_slots=1 n_processing_slots=0
+INFO [     process_single_task] slot data | tid="140684506102400" timestamp=1795500373 id_task=131 n_idle_slots=1 n_processing_slots=0
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=33466 status=200 method="GET" path="/health" params={}
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500373
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500373 remote_addr="127.0.0.1" remote_port=33468 status=200 method="GET" path="/health" params={}
+======== Prompt cache: cache size: 0, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.00, cache_ram_similarity: 0.50
+WARN [   launch_slot_with_task] %s
+ | ="ctx_shift is not supported by recurrent model, it will be disabled"
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795500373 id_slot=0 id_task=132
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500373 id_slot=0 id_task=132 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500375 id_slot=0 id_task=132 p0=35
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500375 remote_addr="127.0.0.1" remote_port=33472 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 132 | 
+prompt eval time =    1314.77 ms /    40 tokens (   32.87 ms per token,    30.42 tokens per second)
+       eval time =   35539.99 ms /   272 tokens (  130.66 ms per token,     7.65 tokens per second)
+      total time =   36854.76 ms /   312 tokens
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795500410 id_slot=0 id_task=132 n_ctx=8192 n_past=311 n_system_tokens=0 n_cache_tokens=311 truncated=false
+slot create_check: id  0 | task 132 | created context checkpoint 1 of 32 (pos_min = 310, pos_max = 310, n_tokens = 311, size = 62.817 MiB, took 62.39 ms)
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500410
+======== Prompt cache: cache size: 311, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.02, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 311, total state size = 68.891 MiB
+prompt cache save took 116.47 ms
+ - looking for better prompt, base f_keep = 0.019, sim = 0.034, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 1 prompts, 131.708 MiB (limits: 8192.000 MiB, 0 tokens, 19343 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+prompt cache load took 0.10 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795500410 id_slot=0 id_task=406
+slot apply_checkp: id  0 | task 406 | dropping invalidated context checkpoint (pos_min = 310, pos_max = 310)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500410 id_slot=0 id_task=406 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500411 id_slot=0 id_task=406 p0=39
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500412 remote_addr="127.0.0.1" remote_port=47546 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 406 | 
+prompt eval time =    1216.24 ms /    44 tokens (   27.64 ms per token,    36.18 tokens per second)
+       eval time =   25150.69 ms /   196 tokens (  128.32 ms per token,     7.79 tokens per second)
+      total time =   26366.93 ms /   240 tokens
+slot create_check: id  0 | task 406 | created context checkpoint 1 of 32 (pos_min = 238, pos_max = 238, n_tokens = 239, size = 62.816 MiB, took 44.40 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795500437 id_slot=0 id_task=406 n_ctx=8192 n_past=239 n_system_tokens=0 n_cache_tokens=239 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500437
+======== Prompt cache: cache size: 239, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.03, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 239, total state size = 67.484 MiB
+prompt cache save took 103.99 ms
+ - looking for better prompt, base f_keep = 0.025, sim = 0.043, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 2 prompts, 262.009 MiB (limits: 8192.000 MiB, 0 tokens, 17196 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+prompt cache load took 0.12 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795500437 id_slot=0 id_task=604
+slot apply_checkp: id  0 | task 604 | dropping invalidated context checkpoint (pos_min = 238, pos_max = 238)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500437 id_slot=0 id_task=604 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500438 id_slot=0 id_task=604 p0=39
+INFO [      log_server_request] request | tid="140672109950656" timestamp=1795500438 remote_addr="127.0.0.1" remote_port=34282 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 604 | 
+prompt eval time =    1126.30 ms /    44 tokens (   25.60 ms per token,    39.07 tokens per second)
+       eval time =   37832.75 ms /   290 tokens (  130.46 ms per token,     7.67 tokens per second)
+      total time =   38959.06 ms /   334 tokens
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795500476 id_slot=0 id_task=604 n_ctx=8192 n_past=333 n_system_tokens=0 n_cache_tokens=333 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500476
+slot create_check: id  0 | task 604 | created context checkpoint 1 of 32 (pos_min = 332, pos_max = 332, n_tokens = 333, size = 62.817 MiB, took 38.18 ms)
+======== Prompt cache: cache size: 333, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.02, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 333, total state size = 69.321 MiB
+prompt cache save took 104.28 ms
+ - looking for better prompt, base f_keep = 0.018, sim = 0.033, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 3 prompts, 394.147 MiB (limits: 8192.000 MiB, 0 tokens, 18352 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+prompt cache load took 0.15 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795500476 id_slot=0 id_task=896
+slot apply_checkp: id  0 | task 896 | dropping invalidated context checkpoint (pos_min = 332, pos_max = 332)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500476 id_slot=0 id_task=896 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500477 id_slot=0 id_task=896 p0=36
+INFO [      log_server_request] request | tid="140672126736064" timestamp=1795500477 remote_addr="127.0.0.1" remote_port=37554 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 896 | 
+prompt eval time =    1167.75 ms /    41 tokens (   28.48 ms per token,    35.11 tokens per second)
+       eval time =   19422.50 ms /   148 tokens (  131.23 ms per token,     7.62 tokens per second)
+      total time =   20590.25 ms /   189 tokens
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795500497 id_slot=0 id_task=896 n_ctx=8192 n_past=188 n_system_tokens=0 n_cache_tokens=188 truncated=false
+slot create_check: id  0 | task 896 | created context checkpoint 1 of 32 (pos_min = 187, pos_max = 187, n_tokens = 188, size = 62.816 MiB, took 43.67 ms)
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795500497
+======== Prompt cache: cache size: 188, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.04, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 188, total state size = 66.488 MiB
+prompt cache save took 100.73 ms
+ - looking for better prompt, base f_keep = 0.038, sim = 0.062, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 4 prompts, 523.452 MiB (limits: 8192.000 MiB, 0 tokens, 16761 est)
+   - prompt 0x558b8ea51140:     311 tokens,       0 discarded, checkpoints:  1,   131.708 MiB
+   - prompt 0x558b8eb8c450:     239 tokens,       0 discarded, checkpoints:  1,   130.301 MiB
+   - prompt 0x558b8ea50c90:     333 tokens,       0 discarded, checkpoints:  1,   132.138 MiB
+   - prompt 0x558b8e9022e0:     188 tokens,       0 discarded, checkpoints:  1,   129.304 MiB
+prompt cache load took 0.15 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140684506102400" timestamp=1795500497 id_slot=0 id_task=1046
+slot apply_checkp: id  0 | task 1046 | dropping invalidated context checkpoint (pos_min = 187, pos_max = 187)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500497 id_slot=0 id_task=1046 p0=0
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795500498 id_slot=0 id_task=1046 p0=37
+INFO [      log_server_request] request | tid="140672118343360" timestamp=1795500498 remote_addr="127.0.0.1" remote_port=36088 status=200 method="POST" path="/v1/chat/completions" params={}

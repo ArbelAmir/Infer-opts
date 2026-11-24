@@ -1130,3 +1130,19 @@ think-budget256: 47/50 correct  {'arith': [10, 10], 'code': [7, 8], 'fact': [10,
   baseline-r9                  code_edit    rep0 pp 455tok    185.6 t/s | gen 464tok   12.46 t/s | ttft   2.46s total  39.61s  (warmup)
   baseline-r9                  code_edit    rep1 pp 455tok    185.3 t/s | gen 464tok   12.88 t/s | ttft   2.48s total  38.42s
   baseline-r9                  code_edit    rep2 pp 455tok    186.0 t/s | gen 464tok   13.47 t/s | ttft   2.45s total  36.81s
+  baseline-r9                  code_edit    rep3 pp 455tok    193.7 t/s | gen 464tok   12.72 t/s | ttft   2.36s total  38.74s
+  baseline-r9                  extract      rep0 pp 333tok    184.6 t/s | gen 448tok   13.00 t/s | ttft   1.81s total  36.19s  (warmup)
+  baseline-r9                  extract      rep1 pp 333tok    186.0 t/s | gen 448tok   12.75 t/s | ttft   1.82s total  36.86s
+  baseline-r9                  extract      rep2 pp 333tok    213.5 t/s | gen 448tok   13.16 t/s | ttft   1.56s total  35.53s
+  baseline-r9                  extract      rep3 pp 333tok    194.3 t/s | gen 448tok   13.60 t/s | ttft   1.72s total  34.58s
+baseline-r9                  chat_short   pp    110.8 t/s  gen   13.72 t/s  ttft   0.39s  total    6.20s  rss  6.06G  load 4.7s
+baseline-r9                  long_prompt  pp    174.9 t/s  gen   11.89 t/s  ttft  20.18s  total   23.12s  rss  6.06G  load 4.7s
+baseline-r9                  long_gen     pp     94.4 t/s  gen   12.75 t/s  ttft   0.55s  total   31.83s  rss  6.06G  load 4.7s
+baseline-r9                  code_edit    pp    186.0 t/s  gen   12.88 t/s  ttft   2.45s  total   38.42s  rss  6.06G  load 4.7s
+baseline-r9                  extract      pp    194.3 t/s  gen   13.16 t/s  ttft   1.72s  total   35.53s  rss  6.06G  load 4.7s
+== QUEUE DONE
+== qual-35b-q2kxl-mmap 06:01:43
+  arith1    OK  got='1081'                         want='1081'     272tok 36.9s
+  arith2    OK  got='6912'                         want='6912'     196tok 26.5s
+  arith3    OK  got='5543'                         want='5543'     290tok 39.1s
+  arith4    OK  got='12'                           want='12'       148tok 20.7s
