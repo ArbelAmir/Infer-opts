@@ -25,3 +25,38 @@ baseline-r7                  long_gen     pp    108.0 t/s  gen   15.85 t/s  ttft
 baseline-r7                  code_edit    pp    213.7 t/s  gen   16.02 t/s  ttft   2.16s  total   31.06s  rss  6.06G  load 38.6s
 baseline-r7                  extract      pp    203.0 t/s  gen   15.82 t/s  ttft   1.65s  total   29.92s  rss  6.06G  load 38.6s
 == q4_0-amx-clang 01:05:19
+  q4_0-amx-clang               chat_short   rep0 pp 43tok    136.5 t/s | gen 92tok   21.71 t/s | ttft   0.32s total   4.51s  (warmup)
+  q4_0-amx-clang               chat_short   rep1 pp 43tok    142.6 t/s | gen 92tok   21.25 t/s | ttft   0.33s total   4.61s
+  q4_0-amx-clang               chat_short   rep2 pp 43tok    127.8 t/s | gen 92tok   22.60 t/s | ttft   0.34s total   4.36s
+  q4_0-amx-clang               chat_short   rep3 pp 43tok    128.9 t/s | gen 92tok   22.47 t/s | ttft   0.34s total   4.39s
+  q4_0-amx-clang               long_prompt  rep0 pp 3527tok    206.7 t/s | gen 27tok   18.00 t/s | ttft  17.08s total  18.52s  (warmup)
+  q4_0-amx-clang               long_prompt  rep1 pp 3527tok    200.9 t/s | gen 27tok   18.21 t/s | ttft  17.56s total  18.99s
+  q4_0-amx-clang               long_prompt  rep2 pp 3527tok    201.1 t/s | gen 27tok   18.28 t/s | ttft  17.55s total  18.97s
+  q4_0-amx-clang               long_prompt  rep3 pp 3527tok    201.6 t/s | gen 27tok   18.06 t/s | ttft  17.50s total  18.94s
+  q4_0-amx-clang               long_gen     rep0 pp 51tok    119.4 t/s | gen 400tok   20.63 t/s | ttft   0.48s total  19.82s  (warmup)
+  q4_0-amx-clang               long_gen     rep1 pp 51tok    116.9 t/s | gen 400tok   21.90 t/s | ttft   0.46s total  18.68s
+  q4_0-amx-clang               long_gen     rep2 pp 51tok    116.7 t/s | gen 400tok   21.11 t/s | ttft   0.44s total  19.34s
+  q4_0-amx-clang               long_gen     rep3 pp 51tok    108.8 t/s | gen 400tok   21.76 t/s | ttft   0.47s total  18.81s
+  q4_0-amx-clang               code_edit    rep0 pp 455tok    214.2 t/s | gen 555tok   19.84 t/s | ttft   2.13s total  30.06s  (warmup)
+  q4_0-amx-clang               code_edit    rep1 pp 455tok    204.3 t/s | gen 555tok   20.41 t/s | ttft   2.25s total  29.40s
+  q4_0-amx-clang               code_edit    rep2 pp 455tok    208.4 t/s | gen 555tok   20.82 t/s | ttft   2.19s total  28.79s
+  q4_0-amx-clang               code_edit    rep3 pp 455tok    204.9 t/s | gen 555tok   21.26 t/s | ttft   2.22s total  28.29s
+  q4_0-amx-clang               extract      rep0 pp 333tok    207.9 t/s | gen 448tok   20.44 t/s | ttft   1.60s total  23.48s  (warmup)
+  q4_0-amx-clang               extract      rep1 pp 333tok    191.3 t/s | gen 448tok   21.30 t/s | ttft   1.77s total  22.75s
+  q4_0-amx-clang               extract      rep2 pp 333tok    207.5 t/s | gen 448tok   20.90 t/s | ttft   1.61s total  23.00s
+  q4_0-amx-clang               extract      rep3 pp 333tok    215.2 t/s | gen 448tok   22.27 t/s | ttft   1.55s total  21.63s
+q4_0-amx-clang               chat_short   pp    128.9 t/s  gen   22.47 t/s  ttft   0.34s  total    4.39s  rss  2.90G  load 36.5s
+q4_0-amx-clang               long_prompt  pp    201.1 t/s  gen   18.21 t/s  ttft  17.55s  total   18.97s  rss  2.90G  load 36.5s
+q4_0-amx-clang               long_gen     pp    116.7 t/s  gen   21.76 t/s  ttft   0.46s  total   18.81s  rss  2.90G  load 36.5s
+q4_0-amx-clang               code_edit    pp    204.9 t/s  gen   20.82 t/s  ttft   2.22s  total   28.79s  rss  2.90G  load 36.5s
+q4_0-amx-clang               extract      pp    207.5 t/s  gen   21.30 t/s  ttft   1.61s  total   22.75s  rss  2.90G  load 36.5s
+== q8-amx-clang 01:12:14
+  q8-amx-clang                 chat_short   rep0 pp 43tok    139.8 t/s | gen 85tok   19.82 t/s | ttft   0.31s total   4.55s  (warmup)
+  q8-amx-clang                 chat_short   rep1 pp 43tok    130.3 t/s | gen 85tok   19.57 t/s | ttft   0.35s total   4.64s
+  q8-amx-clang                 chat_short   rep2 pp 43tok    142.0 t/s | gen 85tok   19.91 t/s | ttft   0.30s total   4.52s
+  q8-amx-clang                 chat_short   rep3 pp 43tok    119.8 t/s | gen 85tok   19.75 t/s | ttft   0.36s total   4.62s
+  q8-amx-clang                 long_prompt  rep0 pp 3527tok    217.2 t/s | gen 34tok   16.08 t/s | ttft  16.25s total  18.31s  (warmup)
+  q8-amx-clang                 long_prompt  rep1 pp 3527tok    214.1 t/s | gen 34tok   16.25 t/s | ttft  16.50s total  18.53s
+  q8-amx-clang                 long_prompt  rep2 pp 3527tok    216.1 t/s | gen 34tok   17.61 t/s | ttft  16.33s total  18.21s
+  q8-amx-clang                 long_prompt  rep3 pp 3527tok    217.1 t/s | gen 34tok   18.76 t/s | ttft  16.26s total  18.02s
+  q8-amx-clang                 long_gen     rep0 pp 51tok    124.7 t/s | gen 400tok   19.81 t/s | ttft   0.46s total  20.59s  (warmup)

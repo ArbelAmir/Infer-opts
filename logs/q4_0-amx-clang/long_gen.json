@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.477227876000029,
+  "total_s": 19.81747267600008,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 427.027,
+   "prompt_per_token_ms": 8.373078431372548,
+   "prompt_per_second": 119.43038730572071,
+   "predicted_n": 400,
+   "predicted_ms": 19340.027,
+   "predicted_per_token_ms": 48.471245614035084,
+   "predicted_per_second": 20.630788157638044
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping political structures, and accelerating the pace of scientific and cultural progress. Its legacy is not merely found in the books we hold today, but in the very fabric of how we think and organize our societies.\n\nThe origins of the printing press trace back to the late 14th century, with the German monk Johannes Gutenberg developing a movable type printing system around 1440. Prior to this innovation, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. Gutenberg's breakthrough involved the use of movable metal type, a system where characters were cast into small blocks of metal. By arranging these blocks in a specific order and binding them together, he created a system that could be mass-produced with remarkable speed and consistency. This technology allowed for the rapid reproduction of texts, a capability that was previously reserved for the elite.\n\nThe immediate impact of Gutenberg's invention was the democratization of literacy. Before the press, only the wealthy could afford to read, as books were rare and costly. With the advent of the printing press, books became affordable and accessible to a wider segment of the population. This shift was particularly significant for the rise of the middle class. As literacy rates increased, so did the demand for information. This surge in literacy fueled the growth of the merchant class, who began to demand better laws, more stable governments, and improved infrastructure. The printing press was the primary engine behind this social mobility, providing the information necessary for citizens to demand their rights and participate in the political process.\n\nPolitically, the printing press played a crucial",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.4586156969999138,
+  "total_s": 18.67972113799999,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 436.132,
+   "prompt_per_token_ms": 8.551607843137255,
+   "prompt_per_second": 116.93707409683306,
+   "predicted_n": 400,
+   "predicted_ms": 18220.804,
+   "predicted_per_token_ms": 45.66617543859649,
+   "predicted_per_second": 21.898045772294132
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping political structures, and accelerating the pace of scientific and cultural progress. Its legacy is not merely found in the books we hold today, but in the very fabric of how we think and organize our societies.\n\nThe origins of the printing press trace back to the late 14th century, with the German monk Johannes Gutenberg developing a movable type printing system around 1440. Prior to this innovation, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. Gutenberg's breakthrough involved the use of movable metal type, a system where characters were cast into small blocks of metal. By arranging these blocks in a specific order and binding them together, he created a system that could be mass-produced with remarkable speed and consistency. This technology allowed for the rapid reproduction of texts, a capability that was previously reserved for the elite.\n\nThe immediate impact of Gutenberg's invention was the democratization of literacy. Before the press, only the wealthy could afford to read, as books were rare and costly. With the advent of the printing press, books became affordable and accessible to a wider segment of the population. This shift was particularly significant for the rise of the middle class. As literacy rates increased, so did the demand for information. This surge in literacy fueled the growth of the merchant class, who began to demand better laws, more stable governments, and improved infrastructure. The printing press was the primary engine behind this social mobility, providing the information necessary for citizens to demand their rights and participate in the political process.\n\nPolitically, the printing press played a crucial",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4392272069999308,
+  "total_s": 19.341178420000006,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 436.845,
+   "prompt_per_token_ms": 8.565588235294118,
+   "prompt_per_second": 116.74621433231466,
+   "predicted_n": 400,
+   "predicted_ms": 18901.667,
+   "predicted_per_token_ms": 47.37259899749374,
+   "predicted_per_second": 21.109249252989166
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping political structures, and accelerating the pace of scientific and cultural progress. Its legacy is not merely found in the books we hold today, but in the very fabric of how we think and organize our societies.\n\nThe origins of the printing press trace back to the late 14th century, with the German monk Johannes Gutenberg developing a movable type printing system around 1440. Prior to this innovation, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. Gutenberg's breakthrough involved the use of movable metal type, a system where characters were cast into small blocks of metal. By arranging these blocks in a specific order and binding them together, he created a system that could be mass-produced with remarkable speed and consistency. This technology allowed for the rapid reproduction of texts, a capability that was previously reserved for the elite.\n\nThe immediate impact of Gutenberg's invention was the democratization of literacy. Before the press, only the wealthy could afford to read, as books were rare and costly. With the advent of the printing press, books became affordable and accessible to a wider segment of the population. This shift was particularly significant for the rise of the middle class. As literacy rates increased, so did the demand for information. This surge in literacy fueled the growth of the merchant class, who began to demand better laws, more stable governments, and improved infrastructure. The printing press was the primary engine behind this social mobility, providing the information necessary for citizens to demand their rights and participate in the political process.\n\nPolitically, the printing press played a crucial",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4707166469999038,
+  "total_s": 18.806782431999977,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 468.666,
+   "prompt_per_token_ms": 9.189529411764706,
+   "prompt_per_second": 108.81950045448144,
+   "predicted_n": 400,
+   "predicted_ms": 18335.903,
+   "predicted_per_token_ms": 45.95464411027569,
+   "predicted_per_second": 21.760586320728248
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization by democratizing access to information, reshaping political structures, and accelerating the pace of scientific and cultural progress. Its legacy is not merely found in the books we hold today, but in the very fabric of how we think and organize our societies.\n\nThe origins of the printing press trace back to the late 14th century, with the German monk Johannes Gutenberg developing a movable type printing system around 1440. Prior to this innovation, books were hand-copied by scribes, a process that was incredibly slow, expensive, and prone to error. Gutenberg's breakthrough involved the use of movable metal type, a system where characters were cast into small blocks of metal. By arranging these blocks in a specific order and binding them together, he created a system that could be mass-produced with remarkable speed and consistency. This technology allowed for the rapid reproduction of texts, a capability that was previously reserved for the elite.\n\nThe immediate impact of Gutenberg's invention was the democratization of literacy. Before the press, only the wealthy could afford to read, as books were rare and costly. With the advent of the printing press, books became affordable and accessible to a wider segment of the population. This shift was particularly significant for the rise of the middle class. As literacy rates increased, so did the demand for information. This surge in literacy fueled the growth of the merchant class, who began to demand better laws, more stable governments, and improved infrastructure. The printing press was the primary engine behind this social mobility, providing the information necessary for citizens to demand their rights and participate in the political process.\n\nPolitically, the printing press played a crucial",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]
