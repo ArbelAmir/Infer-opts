@@ -1,0 +1,5 @@
+The string `s` is `'benchmark'`.  
+The slice `[::-1]` reverses the string to `'hcnemreb'`.  
+The slice `[2:5]` takes characters at indices 2, 3, 4 (0-based), which are `'m'`, `'e'`, `'m'`.  
+
+Answer: me

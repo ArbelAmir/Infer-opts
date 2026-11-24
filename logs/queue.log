@@ -547,3 +547,75 @@ baseline-r8                  extract      pp    198.7 t/s  gen   14.50 t/s  ttft
   reason12  OK  got='60'                           want='60'       489tok 26.2s
   reason13  OK  got='5'                            want='5'        232tok 12.5s
   reason14  OK  got='3'                            want='3'        202tok 11.2s
+  fact1     OK  got='Au'                           want='Au'       43tok 2.8s
+  fact2     OK  got='Canberra'                     want='Canberra' 55tok 3.6s
+  fact3     OK  got='1945'                         want='1945'     58tok 3.6s
+  fact4     OK  got='Jupiter'                      want='Jupiter'  62tok 3.7s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 24tok 1.6s
+  fact6     OK  got='6'                            want='6'        33tok 2.0s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  41tok 2.5s
+  fact8     OK  got='6'                            want='6'        43tok 2.6s
+  fact9     OK  got='212'                          want='212'      26tok 1.8s
+  fact10    OK  got='Sodium'                       want='Sodium'   51tok 2.9s
+  read1     OK  got='1801'                         want='1801'     29tok 4.0s
+  read2     OK  got='17'                           want='17'       24tok 3.7s
+  read3     OK  got='Rudge'                        want='Rudge'    46tok 5.0s
+  read4     OK  got='47500'                        want='47500'    117tok 8.2s
+  read5     OK  got='75'                           want='75'       130tok 9.4s
+  read6     OK  got='limestone'                    want='limestone' 24tok 3.8s
+  read7     OK  got='14'                           want='14'       168tok 11.4s
+  read8     OK  got='Abbotsley'                    want='Abbotsley' 49tok 5.1s
+  code1     OK  got='19'                           want='19'       108tok 6.7s
+  code2     BAD got='arn'                          want='amh'      155tok 9.1s
+  code3     OK  got='32'                           want='32'       165tok 9.6s
+  code4     BAD got='89'                           want='55'       238tok 13.3s
+  code5     BAD got='21'                           want='12'       255tok 14.3s
+  code6     BAD got='no_answer_line'               want='8'        512tok 28.5s
+  code7     OK  got='302'                          want='302'      136tok 8.2s
+  code8     OK  got='BANAN'                        want='BAN'      116tok 7.7s
+qual-ov-f32: 41/50 correct  {'arith': [9, 10], 'code': [4, 8], 'fact': [10, 10], 'read': [8, 8], 'reason': [10, 14]}  tokens 9590  wall 548s
+== qual-mnn 02:23:53
+  arith1    OK  got='1081'                         want='1081'     99tok 4.3s
+  arith2    OK  got='6912'                         want='6912'     157tok 6.6s
+  arith3    BAD got='5593'                         want='5543'     356tok 14.2s
+  arith4    OK  got='12'                           want='12'       119tok 5.2s
+  arith5    BAD got='360'                          want='36'       149tok 6.0s
+  arith6    OK  got='2048'                         want='2048'     67tok 3.0s
+  arith7    BAD got='no_answer_line'               want='1517'     512tok 19.7s
+  arith8    OK  got='6'                            want='6'        158tok 6.1s
+  arith9    OK  got='0.375'                        want='0.375'    47tok 2.2s
+  arith10   OK  got='2000'                         want='2000'     215tok 8.8s
+  reason1   OK  got='12'                           want='12'       188tok 7.8s
+  reason2   BAD got='255'                          want='215'      228tok 9.4s
+  reason3   OK  got='12'                           want='12'       210tok 8.4s
+  reason4   OK  got='126'                          want='126'      286tok 11.2s
+  reason5   OK  got='66'                           want='66'       190tok 7.8s
+  reason6   OK  got='2'                            want='2'        322tok 12.9s
+  reason7   BAD got='no_answer_line'               want='Ben'      512tok 20.4s
+  reason8   OK  got='42'                           want='42'       335tok 14.1s
+  reason9   OK  got='100'                          want='100'      168tok 7.2s
+  reason10  BAD got='no_answer_line'               want='20'       512tok 20.2s
+  reason11  OK  got='Friday'                       want='Friday'   114tok 4.9s
+  reason12  OK  got='60'                           want='60'       415tok 16.3s
+  reason13  BAD got='50'                           want='5'        148tok 6.3s
+  reason14  OK  got='3'                            want='3'        95tok 4.0s
+  fact1     OK  got='Au'                           want='Au'       13tok 0.8s
+  fact2     OK  got='Canberra'                     want='Canberra' 44tok 2.0s
+  fact3     OK  got='1945'                         want='1945'     21tok 1.2s
+  fact4     OK  got='Jupiter'                      want='Jupiter'  57tok 2.6s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 18tok 1.0s
+  fact6     OK  got='6'                            want='6'        15tok 0.9s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  42tok 1.9s
+  fact8     OK  got='6'                            want='6'        16tok 1.1s
+  fact9     OK  got='212°F'                        want='212'      25tok 1.4s
+  fact10    OK  got='Sodium'                       want='Sodium'   15tok 1.0s
+  read1     OK  got='1801'                         want='1801'     38tok 2.7s
+  read2     OK  got='17'                           want='17'       23tok 2.3s
+  read3     OK  got='Rudge'                        want='Rudge'    68tok 4.3s
+  read4     OK  got='47500'                        want='47500'    116tok 5.8s
+  read5     OK  got='75'                           want='75'       117tok 6.1s
+  read6     OK  got='limestone'                    want='limestone' 22tok 2.3s
+  read7     OK  got='14'                           want='14'       77tok 4.4s
+  read8     OK  got='Abbotsley'                    want='Abbotsley' 44tok 3.1s
+  code1     OK  got='19'                           want='19'       207tok 8.4s
+  code2     BAD got='me'                           want='amh'      74tok 3.2s
