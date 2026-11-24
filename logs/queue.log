@@ -785,3 +785,15 @@ FAILED qual-35b-q2kxl
   arith1    OK  got='1081'                         want='1081'     202tok 37.2s
   arith2    OK  got='6912'                         want='6912'     159tok 30.1s
   arith3    OK  got='5543'                         want='5543'     308tok 54.2s
+  arith4    OK  got='12'                           want='12'       168tok 32.0s
+  arith5    OK  got='36'                           want='36'       191tok 36.6s
+  arith6    OK  got='2048'                         want='2048'     180tok 33.5s
+  arith7    OK  got='1517'                         want='1517'     182tok 34.8s
+  arith8    OK  got='6'                            want='6'        382tok 66.6s
+  arith9    OK  got='0.375'                        want='0.375'    474tok 87.3s
+  arith10   OK  got='2000'                         want='2000'     241tok 43.7s
+  reason1   OK  got='12'                           want='12'       191tok 34.0s
+  reason2   OK  got='215'                          want='215'      265tok 46.9s
+  reason3   OK  got='12'                           want='12'       272tok 50.1s
+  reason4   OK  got='126'                          want='126'      402tok 74.0s
+  reason5   OK  got='66'                           want='66'       252tok 46.5s
