@@ -1013,3 +1013,8 @@ prune-ref-2b               Qwen3.5-2B-Q4_K_M.gguf             t=4 tg n=  128 med
 == think-on 03:54:08
   arith1    OK  got='1081'                         want='1081'     535tok 36.8s
   arith2    OK  got='6912'                         want='6912'     549tok 38.9s
+  arith3    BAD got='no_answer_line'               want='5543'     2048tok 150.2s
+  arith4    OK  got='12'                           want='12'       441tok 32.3s
+  arith5    OK  got='36'                           want='36'       593tok 42.6s
+  arith6    BAD got='no_answer_line'               want='2048'     2048tok 150.7s
+  arith7    BAD got='no_answer_line'               want='1517'     2048tok 142.1s
