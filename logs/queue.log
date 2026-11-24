@@ -1146,3 +1146,16 @@ baseline-r9                  extract      pp    194.3 t/s  gen   13.16 t/s  ttft
   arith2    OK  got='6912'                         want='6912'     196tok 26.5s
   arith3    OK  got='5543'                         want='5543'     290tok 39.1s
   arith4    OK  got='12'                           want='12'       148tok 20.7s
+  arith5    OK  got='36'                           want='36'       190tok 26.6s
+  arith6    OK  got='2048'                         want='2048'     241tok 32.8s
+  arith7    OK  got='1517'                         want='1517'     261tok 36.9s
+  arith8    OK  got='6'                            want='6'        345tok 47.1s
+  arith9    OK  got='0.375'                        want='0.375'    274tok 37.5s
+  arith10   OK  got='2000'                         want='2000'     252tok 35.3s
+  reason1   OK  got='12'                           want='12'       226tok 32.3s
+  reason2   OK  got='215'                          want='215'      306tok 42.0s
+  reason3   OK  got='12'                           want='12'       362tok 49.8s
+  reason4   OK  got='126'                          want='126'      369tok 60.0s
+  reason5   OK  got='66'                           want='66'       280tok 39.1s
+  reason6   OK  got='2'                            want='2'        445tok 61.5s
+  reason7   OK  got='Ben'                          want='Ben'      230tok 32.3s
