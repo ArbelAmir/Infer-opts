@@ -1275,3 +1275,25 @@ big-35b-q2kxl-stock          extract      pp     49.3 t/s  gen    6.96 t/s  ttft
   big-9b-q4km-ik-rtr           code_edit    rep1 pp 455tok     84.4 t/s | gen 538tok    4.75 t/s | ttft   5.61s total 118.84s
   big-9b-q4km-ik-rtr           code_edit    rep2 pp 455tok     83.5 t/s | gen 538tok    4.80 t/s | ttft   5.49s total 117.64s
   big-9b-q4km-ik-rtr           extract      rep0 pp 333tok     67.8 t/s | gen 448tok    4.73 t/s | ttft   4.95s total  99.68s  (warmup)
+  big-9b-q4km-ik-rtr           extract      rep1 pp 333tok     81.9 t/s | gen 448tok    4.78 t/s | ttft   4.22s total  98.00s
+  big-9b-q4km-ik-rtr           extract      rep2 pp 333tok     74.1 t/s | gen 448tok    4.65 t/s | ttft   4.53s total 100.95s
+big-9b-q4km-ik-rtr           chat_short   pp     26.9 t/s  gen    4.67 t/s  ttft   1.69s  total   25.91s  rss  6.78G  load 69.4s
+big-9b-q4km-ik-rtr           long_prompt  pp     82.7 t/s  gen    4.82 t/s  ttft  42.77s  total   48.37s  rss  6.78G  load 69.4s
+big-9b-q4km-ik-rtr           long_gen     pp     30.4 t/s  gen    4.59 t/s  ttft   1.78s  total   88.90s  rss  6.78G  load 69.4s
+big-9b-q4km-ik-rtr           code_edit    pp     83.9 t/s  gen    4.77 t/s  ttft   5.55s  total  118.24s  rss  6.78G  load 69.4s
+big-9b-q4km-ik-rtr           extract      pp     78.0 t/s  gen    4.71 t/s  ttft   4.38s  total   99.48s  rss  6.78G  load 69.4s
+== baseline-r10 07:37:27
+  baseline-r10                 chat_short   rep0 pp 43tok     97.0 t/s | gen 80tok   13.50 t/s | ttft   0.45s total   6.30s  (warmup)
+  baseline-r10                 chat_short   rep1 pp 43tok     99.4 t/s | gen 80tok   12.91 t/s | ttft   0.46s total   6.58s
+  baseline-r10                 chat_short   rep2 pp 43tok    118.8 t/s | gen 80tok   13.31 t/s | ttft   0.36s total   6.30s
+  baseline-r10                 chat_short   rep3 pp 43tok    118.1 t/s | gen 80tok   13.95 t/s | ttft   0.37s total   6.03s
+  baseline-r10                 long_prompt  rep0 pp 3527tok    191.7 t/s | gen 36tok   11.53 t/s | ttft  18.41s total  21.45s  (warmup)
+  baseline-r10                 long_prompt  rep1 pp 3527tok    188.4 t/s | gen 36tok   12.24 t/s | ttft  18.73s total  21.59s
+  baseline-r10                 long_prompt  rep2 pp 3527tok    192.4 t/s | gen 36tok   11.27 t/s | ttft  18.35s total  21.45s
+  baseline-r10                 long_prompt  rep3 pp 3527tok    184.4 t/s | gen 36tok   11.81 t/s | ttft  19.13s total  22.10s
+  baseline-r10                 long_gen     rep0 pp 51tok     97.5 t/s | gen 400tok   13.02 t/s | ttft   0.58s total  31.24s  (warmup)
+  baseline-r10                 long_gen     rep1 pp 51tok     96.3 t/s | gen 400tok   13.26 t/s | ttft   0.56s total  30.65s
+  baseline-r10                 long_gen     rep2 pp 51tok    101.9 t/s | gen 400tok   12.85 t/s | ttft   0.51s total  31.56s
+  baseline-r10                 long_gen     rep3 pp 51tok    103.6 t/s | gen 400tok   12.55 t/s | ttft   0.49s total  32.28s
+  baseline-r10                 code_edit    rep0 pp 455tok    183.3 t/s | gen 464tok   12.48 t/s | ttft   2.49s total  39.58s  (warmup)
+  baseline-r10                 code_edit    rep1 pp 455tok    191.5 t/s | gen 464tok   12.23 t/s | ttft   2.39s total  40.27s

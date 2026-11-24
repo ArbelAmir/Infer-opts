@@ -1,0 +1,65 @@
+[
+ {
+  "ttft_s": 1.9620769829998608,
+  "total_s": 87.64693126999919,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 1671.261,
+   "prompt_per_token_ms": 32.76982352941177,
+   "prompt_per_second": 30.515879925397652,
+   "predicted_n": 400,
+   "predicted_ms": 85687.023,
+   "predicted_per_token_ms": 214.2175575,
+   "predicted_per_second": 4.668151442255147,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Engine of Enlightenment: The Printing Press from Gutenberg to the Digital Age**\n\nThe invention of the movable type printing press by Johannes Gutenberg around 1440 stands as one of the most pivotal moments in human history. While printing techniques existed in China and the Islamic world centuries prior, Gutenberg's synthesis of screw pressure, oil-based ink, and movable metal type in Europe created a technological revolution that fundamentally altered the trajectory of civilization. From the initial dissemination of religious texts to the modern era of digital information, the printing press has served as the primary engine for literacy, scientific progress, and political transformation.\n\nBefore Gutenberg, knowledge was the exclusive domain of the elite, painstakingly copied by hand in monasteries. This scarcity ensured that books were expensive, rare, and prone to error. Gutenberg's innovation democratized information. By the mid-15th century, his workshop in Mainz was producing hundreds of copies of the Bible annually, a feat previously impossible. The cost of books plummeted, and their availability surged. This shift laid the groundwork for the Renaissance, allowing humanist ideas to spread rapidly across Europe, challenging the rigid intellectual structures of the Middle Ages.\n\nThe impact of the press was perhaps most profound in the realm of religion. The Protestant Reformation, sparked by Martin Luther in 1517, would have been inconceivable without the printing press. Luther's 95 Theses were printed and distributed across Germany and beyond within weeks, bypassing the slow, controlled channels of the Catholic Church. The ability to mass-produce vernacular Bibles and pamphlets empowered individuals to interpret scripture for themselves, fracturing religious unity and giving rise to a multitude of denominations. This era demonstrated the press's power not just to inform, but to mobilize populations and reshape societal norms.\n\nAs the centuries progressed, the printing press became the bedrock of the Scientific Revolution. Prior to this, scientific data was often lost or corrupted during manual transcription. The",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 1.8270569689993863,
+  "total_s": 89.15289702000155,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 1667.533,
+   "prompt_per_token_ms": 32.69672549019608,
+   "prompt_per_second": 30.584102383581016,
+   "predicted_n": 400,
+   "predicted_ms": 87329.253,
+   "predicted_per_token_ms": 218.32313249999999,
+   "predicted_per_second": 4.580366672780311,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Engine of Enlightenment: The Printing Press from Gutenberg to the Digital Age**\n\nThe invention of the movable type printing press by Johannes Gutenberg around 1440 stands as one of the most pivotal moments in human history. While printing techniques existed in China and the Islamic world centuries prior, Gutenberg's synthesis of screw pressure, oil-based ink, and movable metal type in Europe created a technological revolution that fundamentally altered the trajectory of civilization. From the initial dissemination of religious texts to the modern era of digital information, the printing press has served as the primary engine for literacy, scientific progress, and political transformation.\n\nBefore Gutenberg, knowledge was the exclusive domain of the elite, painstakingly copied by hand in monasteries. This scarcity ensured that books were expensive, rare, and prone to error. Gutenberg's innovation democratized information. By the mid-15th century, his workshop in Mainz was producing hundreds of copies of the Bible annually, a feat previously impossible. The cost of books plummeted, and their availability surged. This shift laid the groundwork for the Renaissance, allowing humanist ideas to spread rapidly across Europe, challenging the rigid intellectual structures of the Middle Ages.\n\nThe impact of the press was perhaps most profound in the realm of religion. The Protestant Reformation, sparked by Martin Luther in 1517, would have been inconceivable without the printing press. Luther's 95 Theses were printed and distributed across Germany and beyond within weeks, bypassing the slow, controlled channels of the Catholic Church. The ability to mass-produce vernacular Bibles and pamphlets empowered individuals to interpret scripture for themselves, fracturing religious unity and giving rise to a multitude of denominations. This era demonstrated the press's power not just to inform, but to mobilize populations and reshape societal norms.\n\nAs the centuries progressed, the printing press became the bedrock of the Scientific Revolution. Prior to this, scientific data was often lost or corrupted during manual transcription. The",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.7313988380010414,
+  "total_s": 88.63773645000038,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 1692.822,
+   "prompt_per_token_ms": 33.19258823529412,
+   "prompt_per_second": 30.12720770405867,
+   "predicted_n": 400,
+   "predicted_ms": 86906.52,
+   "predicted_per_token_ms": 217.2663,
+   "predicted_per_second": 4.6026466138558995,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Engine of Enlightenment: The Printing Press from Gutenberg to the Digital Age**\n\nThe invention of the movable type printing press by Johannes Gutenberg around 1440 stands as one of the most pivotal moments in human history. While printing techniques existed in China and the Islamic world centuries prior, Gutenberg's synthesis of screw pressure, oil-based ink, and movable metal type in Europe created a technological revolution that fundamentally altered the trajectory of civilization. From the initial dissemination of religious texts to the modern era of digital information, the printing press has served as the primary engine for literacy, scientific progress, and political transformation.\n\nBefore Gutenberg, knowledge was the exclusive domain of the elite, painstakingly copied by hand in monasteries. This scarcity ensured that books were expensive, rare, and prone to error. Gutenberg's innovation democratized information. By the mid-15th century, his workshop in Mainz was producing hundreds of copies of the Bible annually, a feat previously impossible. The cost of books plummeted, and their availability surged. This shift laid the groundwork for the Renaissance, allowing humanist ideas to spread rapidly across Europe, challenging the rigid intellectual structures of the Middle Ages.\n\nThe impact of the press was perhaps most profound in the realm of religion. The Protestant Reformation, sparked by Martin Luther in 1517, would have been inconceivable without the printing press. Luther's 95 Theses were printed and distributed across Germany and beyond within weeks, bypassing the slow, controlled channels of the Catholic Church. The ability to mass-produce vernacular Bibles and pamphlets empowered individuals to interpret scripture for themselves, fracturing religious unity and giving rise to a multitude of denominations. This era demonstrated the press's power not just to inform, but to mobilize populations and reshape societal norms.\n\nAs the centuries progressed, the printing press became the bedrock of the Scientific Revolution. Prior to this, scientific data was often lost or corrupted during manual transcription. The",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

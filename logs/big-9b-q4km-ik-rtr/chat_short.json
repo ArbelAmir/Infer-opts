@@ -1,0 +1,65 @@
+[
+ {
+  "ttft_s": 1.6729458959998738,
+  "total_s": 26.546247124999354,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 1652.836,
+   "prompt_per_token_ms": 38.43804651162791,
+   "prompt_per_second": 26.015890263764824,
+   "predicted_n": 113,
+   "predicted_ms": 24872.695,
+   "predicted_per_token_ms": 220.11234513274337,
+   "predicted_per_second": 4.543134549754258,
+   "n_ctx": 8192,
+   "n_past": 155
+  },
+  "usage": null,
+  "content": "The sky appears blue during the day because sunlight is scattered by the Earth's atmosphere, and shorter blue wavelengths are scattered more efficiently than longer red wavelengths by air molecules. At sunset, sunlight must travel through a much thicker layer of the atmosphere to reach your eyes, causing most of the blue light to be scattered away before it arrives. Consequently, the light that reaches your eyes is dominated by the longer red and orange wavelengths that have not been scattered as easily. This difference in the path length of sunlight through the atmosphere explains the dramatic color shift from blue to red.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 1.8570337839992135,
+  "total_s": 25.819079181001143,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 1730.227,
+   "prompt_per_token_ms": 40.23783720930233,
+   "prompt_per_second": 24.852230372084126,
+   "predicted_n": 113,
+   "predicted_ms": 23965.015,
+   "predicted_per_token_ms": 212.07977876106193,
+   "predicted_per_second": 4.7152067294762805,
+   "n_ctx": 8192,
+   "n_past": 155
+  },
+  "usage": null,
+  "content": "The sky appears blue during the day because sunlight is scattered by the Earth's atmosphere, and shorter blue wavelengths are scattered more efficiently than longer red wavelengths by air molecules. At sunset, sunlight must travel through a much thicker layer of the atmosphere to reach your eyes, causing most of the blue light to be scattered away before it arrives. Consequently, the light that reaches your eyes is dominated by the longer red and orange wavelengths that have not been scattered as easily. This difference in the path length of sunlight through the atmosphere explains the dramatic color shift from blue to red.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 1.5216756589979923,
+  "total_s": 26.00208443199881,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 1484.362,
+   "prompt_per_token_ms": 34.52004651162791,
+   "prompt_per_second": 28.968674757235767,
+   "predicted_n": 113,
+   "predicted_ms": 24483.321,
+   "predicted_per_token_ms": 216.6665575221239,
+   "predicted_per_second": 4.615386940358295,
+   "n_ctx": 8192,
+   "n_past": 155
+  },
+  "usage": null,
+  "content": "The sky appears blue during the day because sunlight is scattered by the Earth's atmosphere, and shorter blue wavelengths are scattered more efficiently than longer red wavelengths by air molecules. At sunset, sunlight must travel through a much thicker layer of the atmosphere to reach your eyes, causing most of the blue light to be scattered away before it arrives. Consequently, the light that reaches your eyes is dominated by the longer red and orange wavelengths that have not been scattered as easily. This difference in the path length of sunlight through the atmosphere explains the dramatic color shift from blue to red.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]
