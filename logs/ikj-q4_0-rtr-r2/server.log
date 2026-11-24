@@ -455,3 +455,226 @@ INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" ti
 slot apply_checkp: id  0 | task 1735 | dropping invalidated context checkpoint (pos_min = 449, pos_max = 449)
 INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484022 id_slot=0 id_task=1735 p0=46
 INFO [      log_server_request] request | tid="140167952291520" timestamp=1795484022 remote_addr="127.0.0.1" remote_port=33564 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 1735 | 
+prompt eval time =     255.07 ms /    51 tokens (    5.00 ms per token,   199.94 tokens per second)
+       eval time =   16564.62 ms /   400 tokens (   41.41 ms per token,    24.15 tokens per second)
+      total time =   16819.69 ms /   451 tokens
+slot create_check: id  0 | task 1735 | created context checkpoint 1 of 32 (pos_min = 449, pos_max = 449, n_tokens = 450, size = 19.270 MiB, took 8.45 ms)
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484039 id_slot=0 id_task=1735 n_ctx=8192 n_past=450 n_system_tokens=0 n_cache_tokens=450 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484039
+======== Prompt cache: cache size: 450, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.03, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 450, total state size = 24.544 MiB
+ - prompt is already in the cache, skipping
+prompt cache save took 0.27 ms
+ - looking for better prompt, base f_keep = 0.031, sim = 0.031, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 3 prompts, 202.815 MiB (limits: 8192.000 MiB, 0 tokens, 167422 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+prompt cache load took 0.44 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484039 id_slot=0 id_task=2137
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484039 id_slot=0 id_task=2137 p0=0
+slot apply_checkp: id  0 | task 2137 | dropping invalidated context checkpoint (pos_min = 449, pos_max = 449)
+slot create_check: id  0 | task 2137 | created context checkpoint 1 of 32 (pos_min = 449, pos_max = 449, n_tokens = 450, size = 19.270 MiB, took 5.77 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484040 id_slot=0 id_task=2137 p0=450
+INFO [      log_server_request] request | tid="140167919711936" timestamp=1795484040 remote_addr="127.0.0.1" remote_port=54942 status=200 method="POST" path="/v1/chat/completions" params={}
+slot create_check: id  0 | task 2137 | created context checkpoint 2 of 32 (pos_min = 961, pos_max = 961, n_tokens = 962, size = 19.274 MiB, took 15.30 ms)
+slot print_timing: id  0 | task 2137 | 
+prompt eval time =    1418.53 ms /   455 tokens (    3.12 ms per token,   320.75 tokens per second)
+       eval time =   23434.02 ms /   555 tokens (   42.22 ms per token,    23.68 tokens per second)
+      total time =   24852.55 ms /  1010 tokens
+slot create_check: id  0 | task 2137 | created context checkpoint 3 of 32 (pos_min = 1008, pos_max = 1008, n_tokens = 1009, size = 19.275 MiB, took 14.21 ms)
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484063 id_slot=0 id_task=2137 n_ctx=8192 n_past=1009 n_system_tokens=0 n_cache_tokens=1009 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484063
+======== Prompt cache: cache size: 1009, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.45, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 1009, total state size = 31.099 MiB
+prompt cache save took 70.80 ms
+ - looking for better prompt, base f_keep = 0.449, sim = 0.620, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 4 prompts, 291.733 MiB (limits: 8192.000 MiB, 0 tokens, 144726 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+prompt cache load took 0.65 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484064 id_slot=0 id_task=2694
+slot apply_checkp: id  0 | task 2694 | dropping invalidated context checkpoint (pos_min = 449, pos_max = 449)
+slot apply_checkp: id  0 | task 2694 | dropping invalidated context checkpoint (pos_min = 961, pos_max = 961)
+slot apply_checkp: id  0 | task 2694 | dropping invalidated context checkpoint (pos_min = 1008, pos_max = 1008)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484064 id_slot=0 id_task=2694 p0=0
+slot create_check: id  0 | task 2694 | created context checkpoint 1 of 32 (pos_min = 449, pos_max = 449, n_tokens = 450, size = 19.270 MiB, took 6.31 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484065 id_slot=0 id_task=2694 p0=450
+INFO [      log_server_request] request | tid="140167911319232" timestamp=1795484065 remote_addr="127.0.0.1" remote_port=54966 status=200 method="POST" path="/v1/chat/completions" params={}
+slot create_check: id  0 | task 2694 | created context checkpoint 2 of 32 (pos_min = 961, pos_max = 961, n_tokens = 962, size = 19.274 MiB, took 5.53 ms)
+slot print_timing: id  0 | task 2694 | 
+prompt eval time =    1387.03 ms /   455 tokens (    3.05 ms per token,   328.04 tokens per second)
+       eval time =   23717.56 ms /   555 tokens (   42.73 ms per token,    23.40 tokens per second)
+      total time =   25104.59 ms /  1010 tokens
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484089 id_slot=0 id_task=2694 n_ctx=8192 n_past=1009 n_system_tokens=0 n_cache_tokens=1009 truncated=false
+slot create_check: id  0 | task 2694 | created context checkpoint 3 of 32 (pos_min = 1008, pos_max = 1008, n_tokens = 1009, size = 19.275 MiB, took 17.70 ms)
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484089
+======== Prompt cache: cache size: 1009, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.45, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 1009, total state size = 31.099 MiB
+ - prompt is already in the cache, skipping
+prompt cache save took 0.36 ms
+ - looking for better prompt, base f_keep = 0.449, sim = 0.620, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 4 prompts, 291.733 MiB (limits: 8192.000 MiB, 0 tokens, 144726 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+prompt cache load took 0.49 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484089 id_slot=0 id_task=3251
+slot apply_checkp: id  0 | task 3251 | dropping invalidated context checkpoint (pos_min = 449, pos_max = 449)
+slot apply_checkp: id  0 | task 3251 | dropping invalidated context checkpoint (pos_min = 961, pos_max = 961)
+slot apply_checkp: id  0 | task 3251 | dropping invalidated context checkpoint (pos_min = 1008, pos_max = 1008)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484089 id_slot=0 id_task=3251 p0=0
+slot create_check: id  0 | task 3251 | created context checkpoint 1 of 32 (pos_min = 449, pos_max = 449, n_tokens = 450, size = 19.270 MiB, took 5.61 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484090 id_slot=0 id_task=3251 p0=450
+INFO [      log_server_request] request | tid="140167952291520" timestamp=1795484090 remote_addr="127.0.0.1" remote_port=35642 status=200 method="POST" path="/v1/chat/completions" params={}
+slot create_check: id  0 | task 3251 | created context checkpoint 2 of 32 (pos_min = 961, pos_max = 961, n_tokens = 962, size = 19.274 MiB, took 4.92 ms)
+slot print_timing: id  0 | task 3251 | 
+prompt eval time =    1455.53 ms /   455 tokens (    3.20 ms per token,   312.60 tokens per second)
+       eval time =   24040.30 ms /   555 tokens (   43.32 ms per token,    23.09 tokens per second)
+      total time =   25495.83 ms /  1010 tokens
+slot create_check: id  0 | task 3251 | created context checkpoint 3 of 32 (pos_min = 1008, pos_max = 1008, n_tokens = 1009, size = 19.275 MiB, took 5.56 ms)
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484114 id_slot=0 id_task=3251 n_ctx=8192 n_past=1009 n_system_tokens=0 n_cache_tokens=1009 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484114
+======== Prompt cache: cache size: 1009, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.45, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 1009, total state size = 31.099 MiB
+ - prompt is already in the cache, skipping
+prompt cache save took 0.36 ms
+ - looking for better prompt, base f_keep = 0.449, sim = 0.620, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 4 prompts, 291.733 MiB (limits: 8192.000 MiB, 0 tokens, 144726 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+prompt cache load took 0.48 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484114 id_slot=0 id_task=3808
+slot apply_checkp: id  0 | task 3808 | dropping invalidated context checkpoint (pos_min = 449, pos_max = 449)
+slot apply_checkp: id  0 | task 3808 | dropping invalidated context checkpoint (pos_min = 961, pos_max = 961)
+slot apply_checkp: id  0 | task 3808 | dropping invalidated context checkpoint (pos_min = 1008, pos_max = 1008)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484114 id_slot=0 id_task=3808 p0=0
+slot create_check: id  0 | task 3808 | created context checkpoint 1 of 32 (pos_min = 449, pos_max = 449, n_tokens = 450, size = 19.270 MiB, took 6.09 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484115 id_slot=0 id_task=3808 p0=450
+INFO [      log_server_request] request | tid="140167919711936" timestamp=1795484116 remote_addr="127.0.0.1" remote_port=52870 status=200 method="POST" path="/v1/chat/completions" params={}
+slot create_check: id  0 | task 3808 | created context checkpoint 2 of 32 (pos_min = 961, pos_max = 961, n_tokens = 962, size = 19.274 MiB, took 5.23 ms)
+slot print_timing: id  0 | task 3808 | 
+prompt eval time =    1367.79 ms /   455 tokens (    3.01 ms per token,   332.65 tokens per second)
+       eval time =   23261.01 ms /   555 tokens (   41.91 ms per token,    23.86 tokens per second)
+      total time =   24628.80 ms /  1010 tokens
+slot create_check: id  0 | task 3808 | created context checkpoint 3 of 32 (pos_min = 1008, pos_max = 1008, n_tokens = 1009, size = 19.275 MiB, took 5.89 ms)
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484139 id_slot=0 id_task=3808 n_ctx=8192 n_past=1009 n_system_tokens=0 n_cache_tokens=1009 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484139
+======== Prompt cache: cache size: 1009, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.01, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 1009, total state size = 31.099 MiB
+ - prompt is already in the cache, skipping
+prompt cache save took 0.55 ms
+ - looking for better prompt, base f_keep = 0.014, sim = 0.021, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 4 prompts, 291.733 MiB (limits: 8192.000 MiB, 0 tokens, 144726 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+prompt cache load took 0.85 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484139 id_slot=0 id_task=4365
+slot apply_checkp: id  0 | task 4365 | dropping invalidated context checkpoint (pos_min = 449, pos_max = 449)
+slot apply_checkp: id  0 | task 4365 | dropping invalidated context checkpoint (pos_min = 961, pos_max = 961)
+slot apply_checkp: id  0 | task 4365 | dropping invalidated context checkpoint (pos_min = 1008, pos_max = 1008)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484139 id_slot=0 id_task=4365 p0=0
+slot create_check: id  0 | task 4365 | created context checkpoint 1 of 32 (pos_min = 327, pos_max = 327, n_tokens = 328, size = 19.269 MiB, took 9.97 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484140 id_slot=0 id_task=4365 p0=328
+INFO [      log_server_request] request | tid="140167911319232" timestamp=1795484140 remote_addr="127.0.0.1" remote_port=49872 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 4365 | 
+prompt eval time =    1164.11 ms /   333 tokens (    3.50 ms per token,   286.06 tokens per second)
+       eval time =   18353.27 ms /   448 tokens (   40.97 ms per token,    24.41 tokens per second)
+      total time =   19517.38 ms /   781 tokens
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484158 id_slot=0 id_task=4365 n_ctx=8192 n_past=780 n_system_tokens=0 n_cache_tokens=780 truncated=false
+slot create_check: id  0 | task 4365 | created context checkpoint 2 of 32 (pos_min = 779, pos_max = 779, n_tokens = 780, size = 19.273 MiB, took 8.96 ms)
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484158
+======== Prompt cache: cache size: 780, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.42, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 780, total state size = 28.414 MiB
+prompt cache save took 54.69 ms
+ - looking for better prompt, base f_keep = 0.425, sim = 0.596, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 5 prompts, 358.689 MiB (limits: 8192.000 MiB, 0 tokens, 135524 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+   - prompt 0x564871f0ca50:     780 tokens,       0 discarded, checkpoints:  2,    66.956 MiB
+prompt cache load took 1.04 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484158 id_slot=0 id_task=4815
+slot apply_checkp: id  0 | task 4815 | dropping invalidated context checkpoint (pos_min = 327, pos_max = 327)
+slot apply_checkp: id  0 | task 4815 | dropping invalidated context checkpoint (pos_min = 779, pos_max = 779)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484158 id_slot=0 id_task=4815 p0=0
+slot create_check: id  0 | task 4815 | created context checkpoint 1 of 32 (pos_min = 327, pos_max = 327, n_tokens = 328, size = 19.269 MiB, took 5.51 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484159 id_slot=0 id_task=4815 p0=328
+INFO [      log_server_request] request | tid="140167952291520" timestamp=1795484159 remote_addr="127.0.0.1" remote_port=56462 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 4815 | 
+prompt eval time =     912.94 ms /   333 tokens (    2.74 ms per token,   364.76 tokens per second)
+       eval time =   18224.95 ms /   448 tokens (   40.68 ms per token,    24.58 tokens per second)
+      total time =   19137.89 ms /   781 tokens
+slot create_check: id  0 | task 4815 | created context checkpoint 2 of 32 (pos_min = 779, pos_max = 779, n_tokens = 780, size = 19.273 MiB, took 5.64 ms)
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484178 id_slot=0 id_task=4815 n_ctx=8192 n_past=780 n_system_tokens=0 n_cache_tokens=780 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484178
+======== Prompt cache: cache size: 780, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.42, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 780, total state size = 28.414 MiB
+ - prompt is already in the cache, skipping
+prompt cache save took 0.34 ms
+ - looking for better prompt, base f_keep = 0.425, sim = 0.596, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 5 prompts, 358.689 MiB (limits: 8192.000 MiB, 0 tokens, 135524 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+   - prompt 0x564871f0ca50:     780 tokens,       0 discarded, checkpoints:  2,    66.956 MiB
+prompt cache load took 0.39 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484178 id_slot=0 id_task=5265
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484178 id_slot=0 id_task=5265 p0=0
+slot apply_checkp: id  0 | task 5265 | dropping invalidated context checkpoint (pos_min = 327, pos_max = 327)
+slot apply_checkp: id  0 | task 5265 | dropping invalidated context checkpoint (pos_min = 779, pos_max = 779)
+slot create_check: id  0 | task 5265 | created context checkpoint 1 of 32 (pos_min = 327, pos_max = 327, n_tokens = 328, size = 19.269 MiB, took 5.29 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484178 id_slot=0 id_task=5265 p0=328
+INFO [      log_server_request] request | tid="140167919711936" timestamp=1795484179 remote_addr="127.0.0.1" remote_port=54350 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 5265 | 
+prompt eval time =     922.77 ms /   333 tokens (    2.77 ms per token,   360.87 tokens per second)
+       eval time =   18694.12 ms /   448 tokens (   41.73 ms per token,    23.96 tokens per second)
+      total time =   19616.89 ms /   781 tokens
+slot create_check: id  0 | task 5265 | created context checkpoint 2 of 32 (pos_min = 779, pos_max = 779, n_tokens = 780, size = 19.273 MiB, took 5.08 ms)
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484197 id_slot=0 id_task=5265 n_ctx=8192 n_past=780 n_system_tokens=0 n_cache_tokens=780 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484197
+======== Prompt cache: cache size: 780, n_keep: 0, n_discarded_prompt: 0, cache_ram_n_min: 0, f_keep: 0.42, cache_ram_similarity: 0.50
+updating prompt cache
+ - saving prompt with length 780, total state size = 28.414 MiB
+ - prompt is already in the cache, skipping
+prompt cache save took 0.38 ms
+ - looking for better prompt, base f_keep = 0.425, sim = 0.596, n_keep = 0, n_discarded_prompt = 0
+ - cache state: 5 prompts, 358.689 MiB (limits: 8192.000 MiB, 0 tokens, 135524 est)
+   - prompt 0x564871f107f0:     142 tokens,       0 discarded, checkpoints:  1,    40.200 MiB
+   - prompt 0x564871f0fca0:    3553 tokens,       0 discarded, checkpoints:  3,   118.801 MiB
+   - prompt 0x564871fbbe30:     450 tokens,       0 discarded, checkpoints:  1,    43.814 MiB
+   - prompt 0x564871e11b10:    1009 tokens,       0 discarded, checkpoints:  3,    88.918 MiB
+   - prompt 0x564871f0ca50:     780 tokens,       0 discarded, checkpoints:  2,    66.956 MiB
+prompt cache load took 0.48 ms
+INFO [   launch_slot_with_task] slot is processing task | tid="140169237199488" timestamp=1795484197 id_slot=0 id_task=5715
+slot apply_checkp: id  0 | task 5715 | dropping invalidated context checkpoint (pos_min = 327, pos_max = 327)
+slot apply_checkp: id  0 | task 5715 | dropping invalidated context checkpoint (pos_min = 779, pos_max = 779)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484197 id_slot=0 id_task=5715 p0=0
+slot create_check: id  0 | task 5715 | created context checkpoint 1 of 32 (pos_min = 327, pos_max = 327, n_tokens = 328, size = 19.269 MiB, took 5.28 ms)
+INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140169237199488" timestamp=1795484198 id_slot=0 id_task=5715 p0=328
+INFO [      log_server_request] request | tid="140167911319232" timestamp=1795484198 remote_addr="127.0.0.1" remote_port=59106 status=200 method="POST" path="/v1/chat/completions" params={}
+INFO [           release_slots] slot released | tid="140169237199488" timestamp=1795484216 id_slot=0 id_task=5715 n_ctx=8192 n_past=780 n_system_tokens=0 n_cache_tokens=780 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484216
+slot print_timing: id  0 | task 5715 | 
+prompt eval time =     845.66 ms /   333 tokens (    2.54 ms per token,   393.78 tokens per second)
+       eval time =   17914.57 ms /   448 tokens (   39.99 ms per token,    25.01 tokens per second)
+      total time =   18760.23 ms /   781 tokens
+slot create_check: id  0 | task 5715 | created context checkpoint 2 of 32 (pos_min = 779, pos_max = 779, n_tokens = 780, size = 19.273 MiB, took 5.02 ms)
+INFO [              slots_idle] all slots are idle | tid="140169237199488" timestamp=1795484216

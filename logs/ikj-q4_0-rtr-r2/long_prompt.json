@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 11.460920414000157,
+  "total_s": 12.60815067800013,
+  "timings": {
+   "prompt_n": 3527,
+   "prompt_ms": 11412.392,
+   "prompt_per_token_ms": 3.235722143464701,
+   "prompt_per_second": 309.05002211631006,
+   "predicted_n": 27,
+   "predicted_ms": 1143.607,
+   "predicted_per_token_ms": 42.35581481481481,
+   "predicted_per_second": 23.609509210769083,
+   "n_ctx": 8192,
+   "n_past": 3553
+  },
+  "usage": null,
+  "content": "1. In life, European lobsters are blue.\n2. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 10.823894646999634,
+  "total_s": 11.991562966999936,
+  "timings": {
+   "prompt_n": 3527,
+   "prompt_ms": 10788.706,
+   "prompt_per_token_ms": 3.0588902750212648,
+   "prompt_per_second": 326.9159433948798,
+   "predicted_n": 27,
+   "predicted_ms": 1171.68,
+   "predicted_per_token_ms": 43.39555555555556,
+   "predicted_per_second": 23.043834494059812,
+   "n_ctx": 8192,
+   "n_past": 3553
+  },
+  "usage": null,
+  "content": "1. In life, European lobsters are blue.\n2. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 13.454035020999981,
+  "total_s": 14.993418604999988,
+  "timings": {
+   "prompt_n": 3527,
+   "prompt_ms": 13421.13,
+   "prompt_per_token_ms": 3.8052537567337676,
+   "prompt_per_second": 262.79456349800654,
+   "predicted_n": 27,
+   "predicted_ms": 1539.625,
+   "predicted_per_token_ms": 57.023148148148145,
+   "predicted_per_second": 17.536737842006982,
+   "n_ctx": 8192,
+   "n_past": 3553
+  },
+  "usage": null,
+  "content": "1. In life, European lobsters are blue.\n2. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 13.064054814999963,
+  "total_s": 14.165693102000205,
+  "timings": {
+   "prompt_n": 3527,
+   "prompt_ms": 12988.32,
+   "prompt_per_token_ms": 3.682540402608449,
+   "prompt_per_second": 271.5516710398266,
+   "predicted_n": 27,
+   "predicted_ms": 1101.755,
+   "predicted_per_token_ms": 40.805740740740745,
+   "predicted_per_second": 24.506355768750762,
+   "n_ctx": 8192,
+   "n_past": 3553
+  },
+  "usage": null,
+  "content": "1. In life, European lobsters are blue.\n2. M-82 travels between Fremont and Howard City.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

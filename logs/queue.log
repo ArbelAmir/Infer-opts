@@ -140,3 +140,127 @@ ikj-q4km-rtr-r2              extract      pp    315.5 t/s  gen   21.21 t/s  ttft
   ikj-q4_0-rtr-r2              long_gen     rep0 pp 51tok    187.2 t/s | gen 400tok   24.36 t/s | ttft   0.39s total  16.81s  (warmup)
   ikj-q4_0-rtr-r2              long_gen     rep1 pp 51tok    209.0 t/s | gen 400tok   25.00 t/s | ttft   0.29s total  16.29s
   ikj-q4_0-rtr-r2              long_gen     rep2 pp 51tok    179.3 t/s | gen 400tok   24.06 t/s | ttft   0.31s total  16.93s
+  ikj-q4_0-rtr-r2              long_gen     rep3 pp 51tok    199.9 t/s | gen 400tok   24.15 t/s | ttft   0.27s total  16.84s
+  ikj-q4_0-rtr-r2              code_edit    rep0 pp 455tok    320.8 t/s | gen 555tok   23.68 t/s | ttft   1.44s total  24.88s  (warmup)
+  ikj-q4_0-rtr-r2              code_edit    rep1 pp 455tok    328.0 t/s | gen 555tok   23.40 t/s | ttft   1.48s total  25.20s
+  ikj-q4_0-rtr-r2              code_edit    rep2 pp 455tok    312.6 t/s | gen 555tok   23.09 t/s | ttft   1.49s total  25.53s
+  ikj-q4_0-rtr-r2              code_edit    rep3 pp 455tok    332.7 t/s | gen 555tok   23.86 t/s | ttft   1.40s total  24.66s
+  ikj-q4_0-rtr-r2              extract      rep0 pp 333tok    286.1 t/s | gen 448tok   24.41 t/s | ttft   1.19s total  19.55s  (warmup)
+  ikj-q4_0-rtr-r2              extract      rep1 pp 333tok    364.8 t/s | gen 448tok   24.58 t/s | ttft   0.99s total  19.22s
+  ikj-q4_0-rtr-r2              extract      rep2 pp 333tok    360.9 t/s | gen 448tok   23.96 t/s | ttft   0.95s total  19.64s
+  ikj-q4_0-rtr-r2              extract      rep3 pp 333tok    393.8 t/s | gen 448tok   25.01 t/s | ttft   0.87s total  18.79s
+ikj-q4_0-rtr-r2              chat_short   pp    209.1 t/s  gen   23.98 t/s  ttft   0.23s  total    4.42s  rss  1.79G  load 1.3s
+ikj-q4_0-rtr-r2              long_prompt  pp    271.6 t/s  gen   23.04 t/s  ttft  13.06s  total   14.17s  rss  1.79G  load 1.3s
+ikj-q4_0-rtr-r2              long_gen     pp    199.9 t/s  gen   24.15 t/s  ttft   0.29s  total   16.84s  rss  1.79G  load 1.3s
+ikj-q4_0-rtr-r2              code_edit    pp    328.0 t/s  gen   23.40 t/s  ttft   1.48s  total   25.20s  rss  1.79G  load 1.3s
+ikj-q4_0-rtr-r2              extract      pp    364.8 t/s  gen   24.58 t/s  ttft   0.95s  total   19.22s  rss  1.79G  load 1.3s
+== mnn-compile 01:36:56
+== ov-default-r2 01:37:02
+lock waited s: 1.1444091796875e-05 openvino 2026.4.1-22982-e213a147257-releases/2026/4 genai 2026.4.1.0-3408-ab01d1771e4
+idle busy fraction: 0.012499999999999956
+load_s 42.36733779799988
+== chat_short prompt tail: 'four sentences why the sky is blue during the day but red at sunset.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 44.97856001599985, "ttft_s": 36.091125, "tpot_ms": 109.69827270507812, "thr_tps": 9.115913391113281, "prompt_n": 43, "predicted_n": 82, "pp_tps": 1.1914286406976784, "gen_tps": 9.11591381833771}
+TEXT: During the day, sunlight travels through the atmosphere, where shorter blue wavelengths scatter more easily than longer red wavelengths, making the sky appear blue. As the sun approaches the horizon, it travels through a much thicker layer of air, causing the blue light to scatter away from the observer. Consequently, the remaining direct sunlight carrying the red wavelengths becomes red, while the scattered blue light is hidden from view.
+
+rep1 {"wall_s": 7.323966380000002, "ttft_s": 0.5405437622070313, "tpot_ms": 83.73556518554688, "thr_tps": 11.942357063293457, "prompt_n": 43, "predicted_n": 82, "pp_tps": 79.54952587822252, "gen_tps": 11.942356844240951}
+rep2 {"wall_s": 7.29633033600021, "ttft_s": 0.5895322265625, "tpot_ms": 82.79139709472656, "thr_tps": 12.0785493850708, "prompt_n": 43, "predicted_n": 82, "pp_tps": 72.93918476811429, "gen_tps": 12.078549645150215}
+rep3 {"wall_s": 8.466213741000047, "ttft_s": 0.6406666259765625, "tpot_ms": 96.60272216796875, "thr_tps": 10.351675033569336, "prompt_n": 43, "predicted_n": 82, "pp_tps": 67.11759011085597, "gen_tps": 10.35167516564639}
+ROW {"ts": "2026-11-24T01:38:58", "name": "ov-default-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "chat_short", "cmd": "harness/ov_bench.py --name ov-default-r2 --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 43, "predicted_n": 82, "pp_tps": 72.93918476811429, "gen_tps": 11.942356844240951, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 0.5895322265625, "total_s": 7.323966380000002, "pp_tps_range": [67.11759011085597, 79.54952587822252], "gen_tps_range": [10.35167516564639, 12.078549645150215], "load_s": 42.36733779799988, "peak_rss_kb": 2808892, "raw_log": "/home/user/Infer-opts/logs/ov/ov-default-r2/20261124-013706.log", "output_head": "During the day, sunlight travels through the atmosphere, where shorter blue wavelengths scatter more easily than longer red wavelengths, making the sky appear blue. As the sun approaches the horizon, "}
+== long_prompt prompt tail: 'hich two places does M-82 travel? Answer in one short sentence each.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 51.89361298699987, "ttft_s": 49.92024609375, "tpot_ms": 85.56180572509766, "thr_tps": 11.687458038330078, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 70.65269657077229, "gen_tps": 11.68745787358567}
+TEXT: European lobsters are blue in life, and M-82 travels between Fremont and Howard City.
+
+rep1 {"wall_s": 8.177010351999797, "ttft_s": 6.232798828125, "tpot_ms": 84.42986297607422, "thr_tps": 11.84415054321289, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 565.8774007087632, "gen_tps": 11.844150455193567}
+rep2 {"wall_s": 7.9955181979999, "ttft_s": 6.1766142578125, "tpot_ms": 78.8790512084961, "thr_tps": 12.677637100219727, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 571.0248127505888, "gen_tps": 12.677637277314126}
+rep3 {"wall_s": 8.008640639000077, "ttft_s": 6.03208154296875, "tpot_ms": 85.79643249511719, "thr_tps": 11.655496597290039, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 584.706949810919, "gen_tps": 11.65549628251631}
+ROW {"ts": "2026-11-24T01:40:14", "name": "ov-default-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "long_prompt", "cmd": "harness/ov_bench.py --name ov-default-r2 --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 3527, "predicted_n": 24, "pp_tps": 571.0248127505888, "gen_tps": 11.844150455193567, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 6.1766142578125, "total_s": 8.008640639000077, "pp_tps_range": [565.8774007087632, 584.706949810919], "gen_tps_range": [11.65549628251631, 12.677637277314126], "load_s": 42.36733779799988, "peak_rss_kb": 3477456, "raw_log": "/home/user/Infer-opts/logs/ov/ov-default-r2/20261124-013706.log", "output_head": "European lobsters are blue in life, and M-82 travels between Fremont and Howard City.\n"}
+== long_gen prompt tail: ' and impact of the printing press, from Gutenberg to the modern era.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 32.355445186, "ttft_s": 0.5953233642578125, "tpot_ms": 79.59624481201172, "thr_tps": 12.563406944274902, "prompt_n": 51, "predicted_n": 400, "pp_tps": 85.66772793065415, "gen_tps": 12.563406758217969}
+TEXT: **The Great Reformation: A History of the Printing Press**
+
+The invention of the printing press is often cited as the single most significant event in human history. While the impact of the printing press is often discussed in terms of its role in the Industrial Revolution or the spread of the internet, its true legacy lies in its ability to democratize knowledge and fundamentally reshape the nature of information itself. From the medieval monasteries to the digital age, the printing press has been the engine of cultural evolution.
+
+The origins of the press are rooted in the 15th century, specifically in the workshop of Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed—using movable type and a screw press—was a radical departure from the traditional methods of copying manuscripts. Prior to Gutenberg, books were produced by hand, a labor-intensive process that resulted in thousands of variations in every single copy. Gutenberg's innovation allowed for the mass production of identical texts, a concept that would later be termed "standardization." This shift was not merely about efficiency; it was about consistency. A book printed by Gutenberg could be sold to a thousand people, whereas a manuscript copied by hand could only be sold to a handful of buyers.
+
+The immediate impact of this technology was profound, particularly in the realm of religion. The invention of movable type allowed for the rapid dissemination of religious texts, such as the Bible, across Europe. This democratization of scripture led to the Reformation, a period of intense religious and political conflict between the Catholic Church and Protestant groups. The ability to mass-produce and distribute religious literature allowed reformers to spread their ideas rapidly, challenging the authority of the Church and fostering a sense of national identity among various European nations. The printing press thus became a tool for social and political change, accelerating the Reformation and the rise of nation-states.
+
+Beyond religion, the printing press played a pivotal role in the scientific revolution. The invention of the printing press allowed
+rep1 {"wall_s": 31.97347599900013, "ttft_s": 0.600726318359375, "tpot_ms": 78.62525177001953, "thr_tps": 12.718560218811035, "prompt_n": 51, "predicted_n": 400, "pp_tps": 84.89722930615812, "gen_tps": 12.718560226999596}
+rep2 {"wall_s": 32.71156112000017, "ttft_s": 0.6033402709960938, "tpot_ms": 80.46878051757812, "thr_tps": 12.427179336547852, "prompt_n": 51, "predicted_n": 400, "pp_tps": 84.52941474601185, "gen_tps": 12.42717975304166}
+rep3 {"wall_s": 31.97605387900012, "ttft_s": 0.60950048828125, "tpot_ms": 78.60934448242188, "thr_tps": 12.721134185791016, "prompt_n": 51, "predicted_n": 400, "pp_tps": 83.67507652670884, "gen_tps": 12.721133938772555}
+ROW {"ts": "2026-11-24T01:42:23", "name": "ov-default-r2", "engine": "openvino-genai", "engine_version": "openvino 2026.4.1-22982-e213a147257-releases/2026/4; genai 2026.4.1.0-3408-ab01d1771e4", "model": "OpenVINO/Qwen3.5-2B-int4-ov (INT4_ASYM g128)", "workload": "long_gen", "cmd": "harness/ov_bench.py --name ov-default-r2 --workloads chat_short,long_prompt,long_gen,code_edit,extract", "config": {"mtp": false, "num_assistant_tokens": null, "thinking": false, "greedy": true}, "prompt_n": 51, "predicted_n": 400, "pp_tps": 84.52941474601185, "gen_tps": 12.718560226999596, "gen_tps_source": "1000/perf_metrics.get_tpot().mean (decode after first token)", "ttft_s": 0.6033402709960938, "total_s": 31.97605387900012, "pp_tps_range": [83.67507652670884, 84.89722930615812], "gen_tps_range": [12.42717975304166, 12.721133938772555], "load_s": 42.36733779799988, "peak_rss_kb": 3482896, "raw_log": "/home/user/Infer-opts/logs/ov/ov-default-r2/20261124-013706.log", "output_head": "**The Great Reformation: A History of the Printing Press**\n\nThe invention of the printing press is often cited as the single most significant event in human history. While the impact of the printing p"}
+== code_edit prompt tail: 'port.json", totals, top)\n\n\nif __name__ == "__main__":\n    main()\n```<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+warmup {"wall_s": 42.75229382700036, "ttft_s": 5.3927431640625, "tpot_ms": 79.82379913330078, "thr_tps": 12.527591705322266, "prompt_n": 455, "predicted_n": 469, "pp_tps": 84.37264415486017, "gen_tps": 12.527592157447458}
+TEXT: ```python
+import csv
+import json
+
+
+def load_orders(path):
+    """Load orders from a CSV file into a list of dictionaries."""
+    rows = []
+    with open(path) as f:
+        for row in csv.DictReader(f):
+            rows.append(row)
+    return rows
+
+
+def total_by_customer(rows):
+    """Calculate total amount for each customer."""
+    totals = {}
+    for row in rows:
+        name = row["customer"]
+        amount = float(row["amount"])
+        if name not in totals:
+            totals[name] = 0.0
+        totals[name] += amount
+    return totals
+
+
+def top_customers(totals, n):
+    """Return the top n customers by total amount."""
+    items = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
+    return items[:n]
+
+
+def filter_by_status(rows, status):
+    """Filter rows by a specific status."""
+    out = []
+    for row in rows:
+        if row["status"] == status:
+            out.append(row)
+    return out
+
+
+def average_order_value(rows):
+    """Calculate the average order value."""
+    if not rows:
+        return 0.0
+    total = 0.0
+    for row in rows:
+        total += float(row["amount"])
+    return total / len(rows)
+
+
+def save_report(path, totals, top):
+    """Save the report as a JSON file."""
+    report = {"totals": totals, "top": top}
+    with open(path, "w") as f:
+        json.dump(report, f, indent=2)
+
+
+def main():
+    """Main function to load, process, and save report."""
+    rows = load_orders("orders.csv")
+    paid = filter_by_status(rows, "paid")
+    totals = total_by_customer(paid)
+    top = top_customers(totals, 5)
+    print("average order value:", average_order_value(paid))
+    save_report("report.json", totals, top)
+
+
+if __name__ == "__main__":
+    main()
+```
+
