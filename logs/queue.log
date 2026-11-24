@@ -511,3 +511,39 @@ ROW {"ts": "2026-11-24T01:54:50", "name": "ov-f32-r2", "engine": "openvino-genai
   baseline-r8                  long_gen     rep3 pp 51tok     95.1 t/s | gen 400tok   14.88 t/s | ttft   0.54s total  27.35s
   baseline-r8                  code_edit    rep0 pp 455tok    204.3 t/s | gen 464tok   13.96 t/s | ttft   2.23s total  35.40s  (warmup)
   baseline-r8                  code_edit    rep1 pp 455tok    195.3 t/s | gen 464tok   13.54 t/s | ttft   2.36s total  36.56s
+  baseline-r8                  code_edit    rep2 pp 455tok    200.9 t/s | gen 464tok   13.64 t/s | ttft   2.27s total  36.22s
+  baseline-r8                  code_edit    rep3 pp 455tok    196.1 t/s | gen 464tok   14.55 t/s | ttft   2.32s total  34.16s
+  baseline-r8                  extract      rep0 pp 333tok    183.2 t/s | gen 448tok   14.63 t/s | ttft   1.82s total  32.38s  (warmup)
+  baseline-r8                  extract      rep1 pp 333tok    198.7 t/s | gen 448tok   14.92 t/s | ttft   1.71s total  31.67s
+  baseline-r8                  extract      rep2 pp 333tok    194.9 t/s | gen 448tok   14.50 t/s | ttft   1.71s total  32.55s
+  baseline-r8                  extract      rep3 pp 333tok    205.6 t/s | gen 448tok   13.87 t/s | ttft   1.62s total  33.85s
+baseline-r8                  chat_short   pp    109.1 t/s  gen   14.05 t/s  ttft   0.40s  total    6.02s  rss  6.06G  load 7.2s
+baseline-r8                  long_prompt  pp    177.9 t/s  gen   12.11 t/s  ttft  19.83s  total   22.82s  rss  6.06G  load 7.2s
+baseline-r8                  long_gen     pp     96.5 t/s  gen   14.69 t/s  ttft   0.53s  total   27.70s  rss  6.06G  load 7.2s
+baseline-r8                  code_edit    pp    196.1 t/s  gen   13.64 t/s  ttft   2.32s  total   36.22s  rss  6.06G  load 7.2s
+baseline-r8                  extract      pp    198.7 t/s  gen   14.50 t/s  ttft   1.71s  total   32.55s  rss  6.06G  load 7.2s
+== qual-ov-f32 02:14:40
+  arith1    OK  got='1081'                         want='1081'     299tok 18.1s
+  arith2    OK  got='6912'                         want='6912'     198tok 10.9s
+  arith3    OK  got='5543'                         want='5543'     250tok 13.6s
+  arith4    OK  got='12'                           want='12'       194tok 10.6s
+  arith5    OK  got='36'                           want='36'       219tok 12.0s
+  arith6    BAD got='no_answer_line'               want='2048'     512tok 28.2s
+  arith7    OK  got='1517'                         want='1517'     268tok 14.1s
+  arith8    OK  got='6'                            want='6'        288tok 15.8s
+  arith9    OK  got='0.375'                        want='0.375'    91tok 5.1s
+  arith10   OK  got='2000'                         want='2000'     258tok 13.5s
+  reason1   OK  got='12'                           want='12'       238tok 13.0s
+  reason2   BAD got='3 hours 35 minutes'           want='215'      444tok 23.6s
+  reason3   OK  got='12'                           want='12'       289tok 15.1s
+  reason4   OK  got='126'                          want='126'      261tok 14.0s
+  reason5   BAD got='71'                           want='66'       175tok 9.4s
+  reason6   OK  got='2'                            want='2'        383tok 20.2s
+  reason7   OK  got='Ben'                          want='Ben'      280tok 14.9s
+  reason8   BAD got='no_answer_line'               want='42'       512tok 27.9s
+  reason9   OK  got='100'                          want='100'      131tok 8.3s
+  reason10  BAD got='no_answer_line'               want='20'       512tok 26.7s
+  reason11  OK  got='Friday'                       want='Friday'   157tok 8.2s
+  reason12  OK  got='60'                           want='60'       489tok 26.2s
+  reason13  OK  got='5'                            want='5'        232tok 12.5s
+  reason14  OK  got='3'                            want='3'        202tok 11.2s
