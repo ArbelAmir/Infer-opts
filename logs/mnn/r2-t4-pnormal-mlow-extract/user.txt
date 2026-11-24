@@ -1,0 +1,8 @@
+Extract every shipment from the notes below as a JSON array. Each element must have exactly these keys: "date" (YYYY-MM-DD, year 2023), "carrier", "depot", "quantity" (integer), "unit", "goods", "invoice_eur" (number), "receiver". Output only the JSON.
+
+Shipment notes, week 14.
+On Monday 3 April, Halvorsen Freight delivered 240 crates of ceramic tiles to the Rotterdam depot; the invoice came to 18,450.00 EUR and was signed for by M. de Vries.
+Two days later, on 5 April, Brightline Logistics brought 75 pallets of copper wire to Antwerp. Invoice total: 62,300.50 EUR. Receiver: A. Peeters.
+Kestrel Cargo arrived at the Hamburg depot on 6 April with 1,200 boxes of LED fixtures, invoiced at 27,980.00 EUR and received by J. Brandt.
+On Friday 7 April, Halvorsen Freight returned to Rotterdam with 60 drums of industrial solvent (invoice 9,120.75 EUR), again signed by M. de Vries.
+Finally, Nordsee Transport delivered 430 sacks of cement to Bremen on 8 April for 5,675.00 EUR; S. Köhler signed.
