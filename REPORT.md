@@ -158,7 +158,7 @@ aggregate, per-request latency 13.6/23.0/27.9/36.7 s. Good for batch jobs, bad f
 | Model | Generation | Prompt speed | Peak memory | Task score |
 |---|---|---|---|---|
 | Qwen3.5-2B Q4_K_M (recommended config) | 21 tok/s | 336 | 1.8 GB | 44–45/50 |
-| Qwen3.5-9B Q4_K_M (5.7 GB), ik `-rtr` | 5.4 tok/s (llama-bench) | 99 | not recorded | 46/50 |
+| Qwen3.5-9B Q4_K_M (5.7 GB), ik `-rtr` | 4.7 tok/s | 83 | 6.8 GB | 46/50 |
 | Qwen3.6-35B-A3B UD-Q2_K_XL (12.3 GB), ik, mmap | 7.1 tok/s | 83 | 13.0 GB | 48/50 |
 | same, stock llama.cpp | 6.8 tok/s | 50 | 13.0 GB | not run |
 
@@ -189,6 +189,7 @@ a dense 27B at a size that fits would be slower than the 35B MoE; Qwen3.8-Flash-
 - **ik first workload run** had thinking enabled (ik needs `--jinja` to honour the flag); those `ik-*` rows are kept but superseded by `ikj-*`.
 - **Depth-pruning first attempt** failed in the GGUF writer; fixed and rerun (`12b`).
 - **Two container restarts** interrupted the queue; affected runs were repeated. Q4_1 and IQ4_XS task scores were dropped for time.
+- **Three stock rows of experiment 09** failed to start (port still bound); the harness now waits for the port and they were rerun.
 - **Host drift**: the baseline moved between 11.8 and 15.9 tok/s across sessions (`baseline` … `baseline-r10`). Ratios are only quoted within a session.
 - The 50-item task set resolves differences of about ±3 items; KLD covers GGUF files only.
 
