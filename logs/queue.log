@@ -1037,3 +1037,10 @@ prune-ref-2b               Qwen3.5-2B-Q4_K_M.gguf             t=4 tg n=  128 med
   reason14  OK  got='3'                            want='3'        736tok 52.9s
   fact1     BAD got='no_answer_line'               want='Au'       2048tok 152.3s
   fact2     OK  got='Canberra'                     want='Canberra' 258tok 18.8s
+  fact3     OK  got='1945'                         want='1945'     426tok 31.4s
+  fact4     BAD got='no_answer_line'               want='Jupiter'  2048tok 151.0s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 281tok 21.6s
+  fact6     OK  got='6'                            want='6'        400tok 28.7s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  771tok 54.6s
+  fact8     OK  got='6'                            want='6'        276tok 19.7s
+  fact9     BAD got='no_answer_line'               want='212'      2048tok 156.5s
