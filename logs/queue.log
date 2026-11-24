@@ -60,3 +60,36 @@ q4_0-amx-clang               extract      pp    207.5 t/s  gen   21.30 t/s  ttft
   q8-amx-clang                 long_prompt  rep2 pp 3527tok    216.1 t/s | gen 34tok   17.61 t/s | ttft  16.33s total  18.21s
   q8-amx-clang                 long_prompt  rep3 pp 3527tok    217.1 t/s | gen 34tok   18.76 t/s | ttft  16.26s total  18.02s
   q8-amx-clang                 long_gen     rep0 pp 51tok    124.7 t/s | gen 400tok   19.81 t/s | ttft   0.46s total  20.59s  (warmup)
+  q8-amx-clang                 long_gen     rep1 pp 51tok    127.0 t/s | gen 400tok   19.29 t/s | ttft   0.42s total  21.10s
+  q8-amx-clang                 long_gen     rep2 pp 51tok    126.6 t/s | gen 400tok   18.97 t/s | ttft   0.40s total  21.44s
+  q8-amx-clang                 long_gen     rep3 pp 51tok    103.7 t/s | gen 400tok   19.17 t/s | ttft   0.49s total  21.31s
+  q8-amx-clang                 code_edit    rep0 pp 455tok    209.4 t/s | gen 457tok   18.77 t/s | ttft   2.18s total  26.48s  (warmup)
+  q8-amx-clang                 code_edit    rep1 pp 455tok    229.3 t/s | gen 457tok   18.37 t/s | ttft   2.02s total  26.84s
+  q8-amx-clang                 code_edit    rep2 pp 455tok    224.6 t/s | gen 457tok   18.27 t/s | ttft   2.03s total  26.99s
+  q8-amx-clang                 code_edit    rep3 pp 455tok    196.0 t/s | gen 457tok   18.24 t/s | ttft   2.32s total  27.33s
+  q8-amx-clang                 extract      rep0 pp 333tok    214.1 t/s | gen 448tok   19.00 t/s | ttft   1.56s total  25.09s  (warmup)
+  q8-amx-clang                 extract      rep1 pp 333tok    214.4 t/s | gen 448tok   18.76 t/s | ttft   1.58s total  25.40s
+  q8-amx-clang                 extract      rep2 pp 333tok    224.6 t/s | gen 448tok   18.96 t/s | ttft   1.49s total  25.06s
+  q8-amx-clang                 extract      rep3 pp 333tok    218.8 t/s | gen 448tok   18.72 t/s | ttft   1.52s total  25.40s
+q8-amx-clang                 chat_short   pp    130.3 t/s  gen   19.75 t/s  ttft   0.35s  total    4.62s  rss  4.63G  load 58.7s
+q8-amx-clang                 long_prompt  pp    216.1 t/s  gen   17.61 t/s  ttft  16.33s  total   18.21s  rss  4.63G  load 58.7s
+q8-amx-clang                 long_gen     pp    126.6 t/s  gen   19.17 t/s  ttft   0.42s  total   21.31s  rss  4.63G  load 58.7s
+q8-amx-clang                 code_edit    pp    224.6 t/s  gen   18.27 t/s  ttft   2.03s  total   26.99s  rss  4.63G  load 58.7s
+q8-amx-clang                 extract      pp    218.8 t/s  gen   18.76 t/s  ttft   1.52s  total   25.40s  rss  4.63G  load 58.7s
+== q8-amx-r2 01:19:39
+  q8-amx-r2                    chat_short   rep0 pp 43tok    137.4 t/s | gen 86tok   19.46 t/s | ttft   0.32s total   4.68s  (warmup)
+  q8-amx-r2                    chat_short   rep1 pp 43tok    126.9 t/s | gen 86tok   19.35 t/s | ttft   0.36s total   4.75s
+  q8-amx-r2                    chat_short   rep2 pp 43tok    131.5 t/s | gen 86tok   20.33 t/s | ttft   0.33s total   4.51s
+  q8-amx-r2                    chat_short   rep3 pp 43tok    130.3 t/s | gen 86tok   19.81 t/s | ttft   0.33s total   4.62s
+  q8-amx-r2                    long_prompt  rep0 pp 3527tok    207.2 t/s | gen 34tok   16.11 t/s | ttft  17.04s total  19.10s  (warmup)
+  q8-amx-r2                    long_prompt  rep1 pp 3527tok    207.6 t/s | gen 34tok   17.55 t/s | ttft  17.00s total  18.88s
+  q8-amx-r2                    long_prompt  rep2 pp 3527tok    207.7 t/s | gen 34tok   17.44 t/s | ttft  17.00s total  18.89s
+  q8-amx-r2                    long_prompt  rep3 pp 3527tok    207.4 t/s | gen 34tok   18.48 t/s | ttft  17.01s total  18.80s
+  q8-amx-r2                    long_gen     rep0 pp 51tok    123.4 t/s | gen 400tok   19.44 t/s | ttft   0.46s total  20.98s  (warmup)
+  q8-amx-r2                    long_gen     rep1 pp 51tok    126.4 t/s | gen 400tok   19.84 t/s | ttft   0.42s total  20.54s
+  q8-amx-r2                    long_gen     rep2 pp 51tok    131.6 t/s | gen 400tok   20.03 t/s | ttft   0.39s total  20.31s
+  q8-amx-r2                    long_gen     rep3 pp 51tok    123.3 t/s | gen 400tok   20.07 t/s | ttft   0.42s total  20.30s
+  q8-amx-r2                    code_edit    rep0 pp 455tok    231.3 t/s | gen 457tok   19.08 t/s | ttft   1.97s total  25.87s  (warmup)
+  q8-amx-r2                    code_edit    rep1 pp 455tok    211.8 t/s | gen 457tok   18.15 t/s | ttft   2.17s total  27.29s
+  q8-amx-r2                    code_edit    rep2 pp 455tok    217.2 t/s | gen 457tok   18.52 t/s | ttft   2.10s total  26.72s
+  q8-amx-r2                    code_edit    rep3 pp 455tok    208.8 t/s | gen 457tok   18.86 t/s | ttft   2.18s total  26.36s

@@ -1,0 +1,82 @@
+[
+ {
+  "ttft_s": 0.45560022100016795,
+  "total_s": 20.592583045000083,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 409.011,
+   "prompt_per_token_ms": 8.019823529411765,
+   "prompt_per_second": 124.69102297982205,
+   "predicted_n": 400,
+   "predicted_ms": 20136.778,
+   "predicted_per_token_ms": 50.468115288220545,
+   "predicted_per_second": 19.814490679690667
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in ancient China and India, the German monk Johannes Gutenberg's innovation in the mid-15th century provided the first practical mechanism for the rapid, cheap reproduction of text. This technological leap did not merely increase the volume of books; it democratized knowledge, accelerated scientific progress, and reshaped the social and political landscape of the world.\n\nGutenberg's masterpiece, the movable type printing press, utilized a combination of woodblock printing, the introduction of metal type, and the application of a printing ink and a drying press. By making the type movable, Gutenberg could rearrange letters to spell different words, a crucial innovation that allowed for the creation of complex languages and the accurate reproduction of religious texts. His 1440 Bible, printed in Mainz, was the first book to be printed in a vernacular language rather than Latin, making scripture accessible to the common people rather than just the clergy. This event is often cited as the \"catalyst\" for the Renaissance, as it fueled a surge in literacy and the renaissance of humanist thought.\n\nThe immediate impact of the press was the dissemination of information. Before printing, books were hand-copied, a laborious process that took months or years and resulted in significant errors. The press allowed for the swift correction of mistakes and the creation of standardized editions of texts. This efficiency was particularly vital during the Reformation. Martin Luther's 95 Theses, printed in 1517, spread across Europe within weeks, challenging the Catholic Church's authority and sparking a religious revolution that would eventually lead to the Protestant Reformation. The press turned the church into a competitor for attention, forcing it to adapt to the changing minds of the populace.\n\nFurthermore, the printing press played a pivotal role in the Scientific Revolution. The ability to publish",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.42206051800008026,
+  "total_s": 21.10207036099996,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 401.591,
+   "prompt_per_token_ms": 7.874333333333333,
+   "prompt_per_second": 126.9948778732591,
+   "predicted_n": 400,
+   "predicted_ms": 20679.836,
+   "predicted_per_token_ms": 51.82916290726817,
+   "predicted_per_second": 19.294156878226694
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in ancient China and India, the German monk Johannes Gutenberg's innovation in the mid-15th century provided the first practical mechanism for the rapid, cheap reproduction of text. This technological leap did not merely increase the volume of books; it democratized knowledge, accelerated scientific progress, and reshaped the social and political landscape of the world.\n\nGutenberg's masterpiece, the movable type printing press, utilized a combination of woodblock printing, the introduction of metal type, and the application of a printing ink and a drying press. By making the type movable, Gutenberg could rearrange letters to spell different words, a crucial innovation that allowed for the creation of complex languages and the accurate reproduction of religious texts. His 1440 Bible, printed in Mainz, was the first book to be printed in a vernacular language rather than Latin, making scripture accessible to the common people rather than just the clergy. This event is often cited as the \"catalyst\" for the Renaissance, as it fueled a surge in literacy and the renaissance of humanist thought.\n\nThe immediate impact of the press was the dissemination of information. Before printing, books were hand-copied, a laborious process that took months or years and resulted in significant errors. The press allowed for the swift correction of mistakes and the creation of standardized editions of texts. This efficiency was particularly vital during the Reformation. Martin Luther's 95 Theses, printed in 1517, spread across Europe within weeks, challenging the Catholic Church's authority and sparking a religious revolution that would eventually lead to the Protestant Reformation. The press turned the church into a competitor for attention, forcing it to adapt to the changing minds of the populace.\n\nFurthermore, the printing press played a pivotal role in the Scientific Revolution. The ability to publish",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4048350630000641,
+  "total_s": 21.44317333999993,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 402.747,
+   "prompt_per_token_ms": 7.897,
+   "prompt_per_second": 126.63036596175762,
+   "predicted_n": 400,
+   "predicted_ms": 21038.188,
+   "predicted_per_token_ms": 52.72728822055137,
+   "predicted_per_second": 18.965511668590473
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in ancient China and India, the German monk Johannes Gutenberg's innovation in the mid-15th century provided the first practical mechanism for the rapid, cheap reproduction of text. This technological leap did not merely increase the volume of books; it democratized knowledge, accelerated scientific progress, and reshaped the social and political landscape of the world.\n\nGutenberg's masterpiece, the movable type printing press, utilized a combination of woodblock printing, the introduction of metal type, and the application of a printing ink and a drying press. By making the type movable, Gutenberg could rearrange letters to spell different words, a crucial innovation that allowed for the creation of complex languages and the accurate reproduction of religious texts. His 1440 Bible, printed in Mainz, was the first book to be printed in a vernacular language rather than Latin, making scripture accessible to the common people rather than just the clergy. This event is often cited as the \"catalyst\" for the Renaissance, as it fueled a surge in literacy and the renaissance of humanist thought.\n\nThe immediate impact of the press was the dissemination of information. Before printing, books were hand-copied, a laborious process that took months or years and resulted in significant errors. The press allowed for the swift correction of mistakes and the creation of standardized editions of texts. This efficiency was particularly vital during the Reformation. Martin Luther's 95 Theses, printed in 1517, spread across Europe within weeks, challenging the Catholic Church's authority and sparking a religious revolution that would eventually lead to the Protestant Reformation. The press turned the church into a competitor for attention, forcing it to adapt to the changing minds of the populace.\n\nFurthermore, the printing press played a pivotal role in the Scientific Revolution. The ability to publish",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.4938201250001839,
+  "total_s": 21.306216207000034,
+  "timings": {
+   "cache_n": 0,
+   "prompt_n": 51,
+   "prompt_ms": 491.658,
+   "prompt_per_token_ms": 9.64035294117647,
+   "prompt_per_second": 103.73064203165615,
+   "predicted_n": 400,
+   "predicted_ms": 20811.787,
+   "predicted_per_token_ms": 52.1598671679198,
+   "predicted_per_second": 19.171827964604866
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production of ideas existed in ancient China and India, the German monk Johannes Gutenberg's innovation in the mid-15th century provided the first practical mechanism for the rapid, cheap reproduction of text. This technological leap did not merely increase the volume of books; it democratized knowledge, accelerated scientific progress, and reshaped the social and political landscape of the world.\n\nGutenberg's masterpiece, the movable type printing press, utilized a combination of woodblock printing, the introduction of metal type, and the application of a printing ink and a drying press. By making the type movable, Gutenberg could rearrange letters to spell different words, a crucial innovation that allowed for the creation of complex languages and the accurate reproduction of religious texts. His 1440 Bible, printed in Mainz, was the first book to be printed in a vernacular language rather than Latin, making scripture accessible to the common people rather than just the clergy. This event is often cited as the \"catalyst\" for the Renaissance, as it fueled a surge in literacy and the renaissance of humanist thought.\n\nThe immediate impact of the press was the dissemination of information. Before printing, books were hand-copied, a laborious process that took months or years and resulted in significant errors. The press allowed for the swift correction of mistakes and the creation of standardized editions of texts. This efficiency was particularly vital during the Reformation. Martin Luther's 95 Theses, printed in 1517, spread across Europe within weeks, challenging the Catholic Church's authority and sparking a religious revolution that would eventually lead to the Protestant Reformation. The press turned the church into a competitor for attention, forcing it to adapt to the changing minds of the populace.\n\nFurthermore, the printing press played a pivotal role in the Scientific Revolution. The ability to publish",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]
