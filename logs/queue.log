@@ -797,3 +797,24 @@ FAILED qual-35b-q2kxl
   reason3   OK  got='12'                           want='12'       272tok 50.1s
   reason4   OK  got='126'                          want='126'      402tok 74.0s
   reason5   OK  got='66'                           want='66'       252tok 46.5s
+  reason6   OK  got='2'                            want='2'        310tok 54.9s
+  reason7   OK  got='Ben'                          want='Ben'      229tok 42.6s
+  reason8   OK  got='42'                           want='42'       363tok 65.5s
+  reason9   OK  got='100'                          want='100'      151tok 28.3s
+  reason10  BAD got='no_answer_line'               want='20'       512tok 90.4s
+  reason11  OK  got='Friday'                       want='Friday'   233tok 43.2s
+  reason12  OK  got='60 km/h'                      want='60'       343tok 62.0s
+  reason13  OK  got='5'                            want='5'        262tok 48.0s
+  reason14  OK  got='3'                            want='3'        110tok 20.5s
+  fact1     OK  got='Au'                           want='Au'       26tok 5.7s
+  fact2     OK  got='Canberra'                     want='Canberra' 37tok 7.6s
+  fact3     OK  got='1945'                         want='1945'     77tok 14.8s
+  fact4     OK  got='Jupiter'                      want='Jupiter'  41tok 9.0s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 56tok 11.1s
+  fact6     OK  got='6'                            want='6'        30tok 6.7s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  80tok 15.5s
+  fact8     OK  got='6'                            want='6'        34tok 7.3s
+  fact9     OK  got='212'                          want='212'      57tok 11.5s
+  fact10    OK  got='Sodium'                       want='Sodium'   29tok 6.6s
+  read1     OK  got='1801'                         want='1801'     34tok 8.9s
+  read2     OK  got='17'                           want='17'       21tok 6.4s
