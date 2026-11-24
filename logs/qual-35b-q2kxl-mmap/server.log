@@ -2602,3 +2602,10 @@ INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" ti
 slot create_check: id  0 | task 11145 | created context checkpoint 1 of 32 (pos_min = 65, pos_max = 65, n_tokens = 66, size = 62.815 MiB, took 63.70 ms)
 INFO [    batch_pending_prompt] kv cache rm [p0, end) | tid="140684506102400" timestamp=1795502153 id_slot=0 id_task=11145 p0=66
 INFO [      log_server_request] request | tid="140672109950656" timestamp=1795502154 remote_addr="127.0.0.1" remote_port=43330 status=200 method="POST" path="/v1/chat/completions" params={}
+slot print_timing: id  0 | task 11145 | 
+prompt eval time =    5062.68 ms /    71 tokens (   71.31 ms per token,    14.02 tokens per second)
+       eval time =   66676.58 ms /   314 tokens (  212.35 ms per token,     4.71 tokens per second)
+      total time =   71739.26 ms /   385 tokens
+slot create_check: id  0 | task 11145 | created context checkpoint 2 of 32 (pos_min = 383, pos_max = 383, n_tokens = 384, size = 62.818 MiB, took 88.23 ms)
+INFO [           release_slots] slot released | tid="140684506102400" timestamp=1795502221 id_slot=0 id_task=11145 n_ctx=8192 n_past=384 n_system_tokens=0 n_cache_tokens=384 truncated=false
+INFO [              slots_idle] all slots are idle | tid="140684506102400" timestamp=1795502221
