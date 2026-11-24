@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.3119022099999711,
+  "total_s": 20.15057881300004,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 201.782,
+   "prompt_per_token_ms": 3.956509803921569,
+   "prompt_per_second": 252.74801518470426,
+   "predicted_n": 400,
+   "predicted_ms": 19841.214,
+   "predicted_per_token_ms": 49.603035,
+   "predicted_per_second": 20.160056738463688,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a durable metal typeface. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Prior to Gutenberg, books were rare, expensive, and difficult to reproduce. A single copy of a text could take months to create, limiting the reach of knowledge to the elite. Gutenberg's press democratized literacy, making books accessible to the common person rather than just the clergy or nobility.\n\nThe immediate impact was most profound in the realm of religion. Before the printing press, the Catholic Church controlled the narrative of the world. The Inquisition was a powerful tool used to suppress heresy, but it was often ineffective due to the lack of standardized texts. With the printing press, the Catholic Church could produce thousands of identical copies of the Bible and other religious texts. This allowed for the standardization of doctrine, the spread of the Reformation, and the eventual establishment of the Roman Catholic Church as the dominant global religion. The ability to mass-produce religious literature also helped to spread the Protestant Reformation, which challenged the authority of the Church and emphasized individual interpretation of scripture.\n\nBeyond religion, the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.3131427060000078,
+  "total_s": 19.925066873000105,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 266.031,
+   "prompt_per_token_ms": 5.216294117647059,
+   "prompt_per_second": 191.7069815171916,
+   "predicted_n": 400,
+   "predicted_ms": 19613.654,
+   "predicted_per_token_ms": 49.034135,
+   "predicted_per_second": 20.39395616951334,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a durable metal typeface. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Prior to Gutenberg, books were rare, expensive, and difficult to reproduce. A single copy of a text could take months to create, limiting the reach of knowledge to the elite. Gutenberg's press democratized literacy, making books accessible to the common person rather than just the clergy or nobility.\n\nThe immediate impact was most profound in the realm of religion. Before the printing press, the Catholic Church controlled the narrative of the world. The Inquisition was a powerful tool used to suppress heresy, but it was often ineffective due to the lack of standardized texts. With the printing press, the Catholic Church could produce thousands of identical copies of the Bible and other religious texts. This allowed for the standardization of doctrine, the spread of the Reformation, and the eventual establishment of the Roman Catholic Church as the dominant global religion. The ability to mass-produce religious literature also helped to spread the Protestant Reformation, which challenged the authority of the Church and emphasized individual interpretation of scripture.\n\nBeyond religion, the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.2519488769999043,
+  "total_s": 20.320966190000036,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 223.385,
+   "prompt_per_token_ms": 4.380098039215686,
+   "prompt_per_second": 228.30539203617076,
+   "predicted_n": 400,
+   "predicted_ms": 20071.666,
+   "predicted_per_token_ms": 50.179165000000005,
+   "predicted_per_second": 19.92858988386913,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a durable metal typeface. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Prior to Gutenberg, books were rare, expensive, and difficult to reproduce. A single copy of a text could take months to create, limiting the reach of knowledge to the elite. Gutenberg's press democratized literacy, making books accessible to the common person rather than just the clergy or nobility.\n\nThe immediate impact was most profound in the realm of religion. Before the printing press, the Catholic Church controlled the narrative of the world. The Inquisition was a powerful tool used to suppress heresy, but it was often ineffective due to the lack of standardized texts. With the printing press, the Catholic Church could produce thousands of identical copies of the Bible and other religious texts. This allowed for the standardization of doctrine, the spread of the Reformation, and the eventual establishment of the Roman Catholic Church as the dominant global religion. The ability to mass-produce religious literature also helped to spread the Protestant Reformation, which challenged the authority of the Church and emphasized individual interpretation of scripture.\n\nBeyond religion, the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.36679728600006456,
+  "total_s": 21.03916646300013,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 328.078,
+   "prompt_per_token_ms": 6.432901960784314,
+   "prompt_per_second": 155.4508379104969,
+   "predicted_n": 400,
+   "predicted_ms": 20675.598,
+   "predicted_per_token_ms": 51.688995000000006,
+   "predicted_per_second": 19.34647791082028,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Revolution of Words: The History and Impact of the Printing Press**\n\nThe invention of the printing press, most famously attributed to Johannes Gutenberg in the mid-15th century, stands as one of the most transformative milestones in human history. Often hailed as the \"Great Equalizer,\" the printing press fundamentally altered the trajectory of civilization, reshaping language, religion, science, and the very structure of society. Its impact extends far beyond the mere reproduction of text; it represents a shift from an oral or manuscript-based culture to a mass-media era.\n\nThe story begins in the 14th century with the work of the German monk and scholar Johannes Gutenberg. While the exact date of his invention is debated, the technology he developed in the mid-1450s utilized a combination of movable type, a screw press, and a durable metal typeface. This innovation allowed for the mass production of books at a fraction of the cost of hand-copied manuscripts. Prior to Gutenberg, books were rare, expensive, and difficult to reproduce. A single copy of a text could take months to create, limiting the reach of knowledge to the elite. Gutenberg's press democratized literacy, making books accessible to the common person rather than just the clergy or nobility.\n\nThe immediate impact was most profound in the realm of religion. Before the printing press, the Catholic Church controlled the narrative of the world. The Inquisition was a powerful tool used to suppress heresy, but it was often ineffective due to the lack of standardized texts. With the printing press, the Catholic Church could produce thousands of identical copies of the Bible and other religious texts. This allowed for the standardization of doctrine, the spread of the Reformation, and the eventual establishment of the Roman Catholic Church as the dominant global religion. The ability to mass-produce religious literature also helped to spread the Protestant Reformation, which challenged the authority of the Church and emphasized individual interpretation of scripture.\n\nBeyond religion, the",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

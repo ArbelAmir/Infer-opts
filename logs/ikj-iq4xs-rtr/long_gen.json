@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.37894035199997234,
+  "total_s": 23.48301836099995,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 263.462,
+   "prompt_per_token_ms": 5.165921568627451,
+   "prompt_per_second": 193.57630322399436,
+   "predicted_n": 400,
+   "predicted_ms": 23106.589,
+   "predicted_per_token_ms": 57.7664725,
+   "predicted_per_second": 17.31107953666376,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Great Leap: Gutenberg to the Digital Age**\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass communication existed long before Gutenberg, it was Johannes Gutenberg's innovation in the mid-15th century that unlocked the potential for rapid, accurate, and widespread dissemination of knowledge. The printing press did not merely copy texts; it democratized information, reshaped political landscapes, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe story begins in 1440 in Mainz, Germany, with the invention of the movable type printing press. Unlike the earlier typesetting methods, which required a scribe to manually arrange individual letters on a block of wood or metal, Gutenberg's system utilized a combination of movable metal type, a flexible press, and a durable typeface. This mechanical innovation allowed for the rapid repetition of the same text, drastically reducing the cost of printing and enabling the production of thousands of copies in a single day. This technical breakthrough was the catalyst for the \"Great Leap,\" a period of unprecedented cultural and intellectual expansion.\n\nThe immediate impact of the printing press was the democratization of literacy. Prior to this era, books were rare, expensive, and often restricted to the clergy or the wealthy. The press made books affordable and accessible to the common person. This shift was particularly profound in the Catholic Church, where the press allowed for the rapid production of vernacular Bibles and theological tracts in Latin and German. It also fueled the Renaissance, as humanist scholars could easily share their findings with one another, accelerating the renaissance of classical learning and the rebirth of Greek and Roman culture.\n\nPolitically, the press became a tool for both power and resistance. In the 16th century, the printing press played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, which sparked the Reformation",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.3072676469998896,
+  "total_s": 23.606836232999967,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 264.735,
+   "prompt_per_token_ms": 5.190882352941177,
+   "prompt_per_second": 192.64547566434356,
+   "predicted_n": 400,
+   "predicted_ms": 23299.666,
+   "predicted_per_token_ms": 58.249165000000005,
+   "predicted_per_second": 17.16762806814484,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Great Leap: Gutenberg to the Digital Age**\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass communication existed long before Gutenberg, it was Johannes Gutenberg's innovation in the mid-15th century that unlocked the potential for rapid, accurate, and widespread dissemination of knowledge. The printing press did not merely copy texts; it democratized information, reshaped political landscapes, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe story begins in 1440 in Mainz, Germany, with the invention of the movable type printing press. Unlike the earlier typesetting methods, which required a scribe to manually arrange individual letters on a block of wood or metal, Gutenberg's system utilized a combination of movable metal type, a flexible press, and a durable typeface. This mechanical innovation allowed for the rapid repetition of the same text, drastically reducing the cost of printing and enabling the production of thousands of copies in a single day. This technical breakthrough was the catalyst for the \"Great Leap,\" a period of unprecedented cultural and intellectual expansion.\n\nThe immediate impact of the printing press was the democratization of literacy. Prior to this era, books were rare, expensive, and often restricted to the clergy or the wealthy. The press made books affordable and accessible to the common person. This shift was particularly profound in the Catholic Church, where the press allowed for the rapid production of vernacular Bibles and theological tracts in Latin and German. It also fueled the Renaissance, as humanist scholars could easily share their findings with one another, accelerating the renaissance of classical learning and the rebirth of Greek and Roman culture.\n\nPolitically, the press became a tool for both power and resistance. In the 16th century, the printing press played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, which sparked the Reformation",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.26450140600013583,
+  "total_s": 23.556084603000045,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 239.426,
+   "prompt_per_token_ms": 4.694627450980392,
+   "prompt_per_second": 213.00944759549924,
+   "predicted_n": 400,
+   "predicted_ms": 23293.865,
+   "predicted_per_token_ms": 58.234662500000006,
+   "predicted_per_second": 17.171903417487822,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Great Leap: Gutenberg to the Digital Age**\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass communication existed long before Gutenberg, it was Johannes Gutenberg's innovation in the mid-15th century that unlocked the potential for rapid, accurate, and widespread dissemination of knowledge. The printing press did not merely copy texts; it democratized information, reshaped political landscapes, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe story begins in 1440 in Mainz, Germany, with the invention of the movable type printing press. Unlike the earlier typesetting methods, which required a scribe to manually arrange individual letters on a block of wood or metal, Gutenberg's system utilized a combination of movable metal type, a flexible press, and a durable typeface. This mechanical innovation allowed for the rapid repetition of the same text, drastically reducing the cost of printing and enabling the production of thousands of copies in a single day. This technical breakthrough was the catalyst for the \"Great Leap,\" a period of unprecedented cultural and intellectual expansion.\n\nThe immediate impact of the printing press was the democratization of literacy. Prior to this era, books were rare, expensive, and often restricted to the clergy or the wealthy. The press made books affordable and accessible to the common person. This shift was particularly profound in the Catholic Church, where the press allowed for the rapid production of vernacular Bibles and theological tracts in Latin and German. It also fueled the Renaissance, as humanist scholars could easily share their findings with one another, accelerating the renaissance of classical learning and the rebirth of Greek and Roman culture.\n\nPolitically, the press became a tool for both power and resistance. In the 16th century, the printing press played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, which sparked the Reformation",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.2840264369999659,
+  "total_s": 23.179137932999993,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 252.069,
+   "prompt_per_token_ms": 4.942529411764705,
+   "prompt_per_second": 202.32555371743453,
+   "predicted_n": 400,
+   "predicted_ms": 22899.781,
+   "predicted_per_token_ms": 57.2494525,
+   "predicted_per_second": 17.467415954763936,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "**The Great Leap: Gutenberg to the Digital Age**\n\nThe invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass communication existed long before Gutenberg, it was Johannes Gutenberg's innovation in the mid-15th century that unlocked the potential for rapid, accurate, and widespread dissemination of knowledge. The printing press did not merely copy texts; it democratized information, reshaped political landscapes, fueled the Renaissance, and laid the groundwork for the modern information age.\n\nThe story begins in 1440 in Mainz, Germany, with the invention of the movable type printing press. Unlike the earlier typesetting methods, which required a scribe to manually arrange individual letters on a block of wood or metal, Gutenberg's system utilized a combination of movable metal type, a flexible press, and a durable typeface. This mechanical innovation allowed for the rapid repetition of the same text, drastically reducing the cost of printing and enabling the production of thousands of copies in a single day. This technical breakthrough was the catalyst for the \"Great Leap,\" a period of unprecedented cultural and intellectual expansion.\n\nThe immediate impact of the printing press was the democratization of literacy. Prior to this era, books were rare, expensive, and often restricted to the clergy or the wealthy. The press made books affordable and accessible to the common person. This shift was particularly profound in the Catholic Church, where the press allowed for the rapid production of vernacular Bibles and theological tracts in Latin and German. It also fueled the Renaissance, as humanist scholars could easily share their findings with one another, accelerating the renaissance of classical learning and the rebirth of Greek and Roman culture.\n\nPolitically, the press became a tool for both power and resistance. In the 16th century, the printing press played a crucial role in the Protestant Reformation. Martin Luther's 95 Theses, which sparked the Reformation",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

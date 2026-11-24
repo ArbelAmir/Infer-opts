@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.40790543200000684,
+  "total_s": 6.415334143000109,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 383.738,
+   "prompt_per_token_ms": 8.924139534883722,
+   "prompt_per_second": 112.05562128327139,
+   "predicted_n": 100,
+   "predicted_ms": 6008.155,
+   "predicted_per_token_ms": 60.08155,
+   "predicted_per_second": 16.644044635998906,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through the atmosphere in a straight line, scattering shorter blue wavelengths of light more effectively than longer red wavelengths. As the sun sets, it begins to dip below the horizon, causing sunlight to travel through a much thicker layer of the atmosphere. This increased path length causes the blue light to scatter away from the observer, leaving the longer red wavelengths to reach the sky. Consequently, the sky appears blue during the day and turns red at sunset due to this enhanced scattering effect.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.3529234990000987,
+  "total_s": 6.076576090000117,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 296.958,
+   "prompt_per_token_ms": 6.906000000000001,
+   "prompt_per_second": 144.8016217781639,
+   "predicted_n": 100,
+   "predicted_ms": 5726.871,
+   "predicted_per_token_ms": 57.26871,
+   "predicted_per_second": 17.461542262781894,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through the atmosphere in a straight line, scattering shorter blue wavelengths of light more effectively than longer red wavelengths. As the sun sets, it begins to dip below the horizon, causing sunlight to travel through a much thicker layer of the atmosphere. This increased path length causes the blue light to scatter away from the observer, leaving the longer red wavelengths to reach the sky. Consequently, the sky appears blue during the day and turns red at sunset due to this enhanced scattering effect.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.25216426900010447,
+  "total_s": 6.1247481790001075,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 224.023,
+   "prompt_per_token_ms": 5.209837209302325,
+   "prompt_per_second": 191.94457711931364,
+   "predicted_n": 100,
+   "predicted_ms": 5875.168,
+   "predicted_per_token_ms": 58.75167999999999,
+   "predicted_per_second": 17.02078987358319,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through the atmosphere in a straight line, scattering shorter blue wavelengths of light more effectively than longer red wavelengths. As the sun sets, it begins to dip below the horizon, causing sunlight to travel through a much thicker layer of the atmosphere. This increased path length causes the blue light to scatter away from the observer, leaving the longer red wavelengths to reach the sky. Consequently, the sky appears blue during the day and turns red at sunset due to this enhanced scattering effect.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.35527457000011964,
+  "total_s": 6.284500724000054,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 328.403,
+   "prompt_per_token_ms": 7.637279069767442,
+   "prompt_per_second": 130.9366845004461,
+   "predicted_n": 100,
+   "predicted_ms": 5932.931,
+   "predicted_per_token_ms": 59.32930999999999,
+   "predicted_per_second": 16.85507550989553,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through the atmosphere in a straight line, scattering shorter blue wavelengths of light more effectively than longer red wavelengths. As the sun sets, it begins to dip below the horizon, causing sunlight to travel through a much thicker layer of the atmosphere. This increased path length causes the blue light to scatter away from the observer, leaving the longer red wavelengths to reach the sky. Consequently, the sky appears blue during the day and turns red at sunset due to this enhanced scattering effect.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

@@ -1,0 +1,20 @@
+[1795478495] llama_init_from_gpt_params: setting dry_penalty_last_n to ctx_size = 8192
+[1795478495] warming up the model with an empty run
+[1795478495] Preserved token: 248068
+[1795478495] Preserved token: 248069
+[1795478495] Preserved token: 248058
+[1795478495] Preserved token: 248059
+[1795478495] Not preserved because more than 1 token: <function=
+[1795478495] Preserved token: 29
+[1795478495] Not preserved because more than 1 token: </function>
+[1795478495] Not preserved because more than 1 token: <parameter=
+[1795478495] Not preserved because more than 1 token: </parameter>
+[1795478496] Preserved token: 248068
+[1795478496] Preserved token: 248069
+[1795478496] Preserved token: 248058
+[1795478496] Preserved token: 248059
+[1795478496] Not preserved because more than 1 token: <function=
+[1795478496] Preserved token: 29
+[1795478496] Not preserved because more than 1 token: </function>
+[1795478496] Not preserved because more than 1 token: <parameter=
+[1795478496] Not preserved because more than 1 token: </parameter>

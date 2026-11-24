@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.2041158860001815,
+  "total_s": 5.0951427940001395,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 181.193,
+   "prompt_per_token_ms": 4.213790697674419,
+   "prompt_per_second": 237.3160111041817,
+   "predicted_n": 100,
+   "predicted_ms": 4891.201,
+   "predicted_per_token_ms": 48.91201,
+   "predicted_per_second": 20.44487642196671,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter in a process called Rayleigh scattering. This leaves the longer red and orange wavelengths to reach your eyes. However, at sunset, the sun is lower in the sky, so its light must travel through a much longer path through the atmosphere. By this time, almost all the blue light has been scattered away, leaving only the red and orange wavelengths to pass through to your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.2415740179999375,
+  "total_s": 4.9759733109999615,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 181.567,
+   "prompt_per_token_ms": 4.222488372093023,
+   "prompt_per_second": 236.82717674467276,
+   "predicted_n": 100,
+   "predicted_ms": 4737.805,
+   "predicted_per_token_ms": 47.37805,
+   "predicted_per_second": 21.106820563531002,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter in a process called Rayleigh scattering. This leaves the longer red and orange wavelengths to reach your eyes. However, at sunset, the sun is lower in the sky, so its light must travel through a much longer path through the atmosphere. By this time, almost all the blue light has been scattered away, leaving only the red and orange wavelengths to pass through to your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.22526654800003598,
+  "total_s": 4.920362135999994,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 194.922,
+   "prompt_per_token_ms": 4.5330697674418605,
+   "prompt_per_second": 220.6010609371954,
+   "predicted_n": 100,
+   "predicted_ms": 4700.965,
+   "predicted_per_token_ms": 47.00965,
+   "predicted_per_second": 21.27222814890134,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter in a process called Rayleigh scattering. This leaves the longer red and orange wavelengths to reach your eyes. However, at sunset, the sun is lower in the sky, so its light must travel through a much longer path through the atmosphere. By this time, almost all the blue light has been scattered away, leaving only the red and orange wavelengths to pass through to your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.2089481949999481,
+  "total_s": 4.9266180029999305,
+  "timings": {
+   "prompt_n": 43,
+   "prompt_ms": 184.127,
+   "prompt_per_token_ms": 4.282023255813954,
+   "prompt_per_second": 233.53446262633943,
+   "predicted_n": 100,
+   "predicted_ms": 4720.877,
+   "predicted_per_token_ms": 47.20877,
+   "predicted_per_second": 21.1825048608553,
+   "n_ctx": 8192,
+   "n_past": 142
+  },
+  "usage": null,
+  "content": "During the day, sunlight travels through a long path of the atmosphere, causing most of the shorter blue wavelengths to scatter in a process called Rayleigh scattering. This leaves the longer red and orange wavelengths to reach your eyes. However, at sunset, the sun is lower in the sky, so its light must travel through a much longer path through the atmosphere. By this time, almost all the blue light has been scattered away, leaving only the red and orange wavelengths to pass through to your eyes.",
+  "reasoning": "",
+  "finish": "stop",
+  "warmup": false
+ }
+]

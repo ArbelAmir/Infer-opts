@@ -1,0 +1,86 @@
+[
+ {
+  "ttft_s": 0.6231067250000137,
+  "total_s": 28.550478208000015,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 496.798,
+   "prompt_per_token_ms": 9.741137254901961,
+   "prompt_per_second": 102.65741810554793,
+   "predicted_n": 400,
+   "predicted_ms": 27927.956,
+   "predicted_per_token_ms": 69.81989,
+   "predicted_per_second": 14.32256624867212,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monasteries, ushering in an era of unprecedented knowledge dissemination. This shift did not merely increase the volume of texts; it democratized information, accelerated scientific progress, and reshaped the political landscape of Europe and beyond.\n\nGutenberg's innovation was a synthesis of several technologies: the movable type of metal, the press itself, and the use of a chemical process to bind paper to the type. By replacing the labor-intensive process of hand-copying manuscripts with a machine capable of reproducing text thousands of times faster, Gutenberg effectively ended the era of the \"copyist.\" Before his invention, the production of books was a slow, expensive, and highly regulated activity, often limited to the clergy and the aristocracy. The press allowed for the rapid production of vernacular languages, such as German, French, and English, rather than the Latin of the Church. This accessibility fueled the Renaissance, as scholars could now study the works of classical antiquity and contemporary thinkers without needing to travel to Rome or Paris.\n\nThe immediate impact of this technological leap was the explosion of literacy and the spread of literacy. With the ability to produce books cheaply, literacy rates began to climb in Europe. The printing press became the engine of the Enlightenment, providing the raw material for the scientific revolution. Isaac Newton's *Principia Mathematica* was printed in 1687, a work that would eventually lead to the laws of gravity and the foundations of modern physics. Similarly, the publication of the *Encyclop\u00e9die* by Diderot and d'Alembert in the 18th century utilized printing to compile the first comprehensive encyclopedia, challenging the authority of the Church and the monarchy",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": true
+ },
+ {
+  "ttft_s": 0.3881707609999978,
+  "total_s": 28.128172997000007,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 339.829,
+   "prompt_per_token_ms": 6.663313725490196,
+   "prompt_per_second": 150.07547913803705,
+   "predicted_n": 400,
+   "predicted_ms": 27740.086,
+   "predicted_per_token_ms": 69.35021499999999,
+   "predicted_per_second": 14.419565966738531,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monasteries, ushering in an era of unprecedented knowledge dissemination. This shift did not merely increase the volume of texts; it democratized information, accelerated scientific progress, and reshaped the political landscape of Europe and beyond.\n\nGutenberg's innovation was a synthesis of several technologies: the movable type of metal, the press itself, and the use of a chemical process to bind paper to the type. By replacing the labor-intensive process of hand-copying manuscripts with a machine capable of reproducing text thousands of times faster, Gutenberg effectively ended the era of the \"copyist.\" Before his invention, the production of books was a slow, expensive, and highly regulated activity, often limited to the clergy and the aristocracy. The press allowed for the rapid production of vernacular languages, such as German, French, and English, rather than the Latin of the Church. This accessibility fueled the Renaissance, as scholars could now study the works of classical antiquity and contemporary thinkers without needing to travel to Rome or Paris.\n\nThe immediate impact of this technological leap was the explosion of literacy and the spread of literacy. With the ability to produce books cheaply, literacy rates began to climb in Europe. The printing press became the engine of the Enlightenment, providing the raw material for the scientific revolution. Isaac Newton's *Principia Mathematica* was printed in 1687, a work that would eventually lead to the laws of gravity and the foundations of modern physics. Similarly, the publication of the *Encyclop\u00e9die* by Diderot and d'Alembert in the 18th century utilized printing to compile the first comprehensive encyclopedia, challenging the authority of the Church and the monarchy",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.48842833899999505,
+  "total_s": 29.144063614999993,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 454.41,
+   "prompt_per_token_ms": 8.91,
+   "prompt_per_second": 112.23344556677888,
+   "predicted_n": 400,
+   "predicted_ms": 28659.516,
+   "predicted_per_token_ms": 71.64879,
+   "predicted_per_second": 13.95696982461253,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monasteries, ushering in an era of unprecedented knowledge dissemination. This shift did not merely increase the volume of texts; it democratized information, accelerated scientific progress, and reshaped the political landscape of Europe and beyond.\n\nGutenberg's innovation was a synthesis of several technologies: the movable type of metal, the press itself, and the use of a chemical process to bind paper to the type. By replacing the labor-intensive process of hand-copying manuscripts with a machine capable of reproducing text thousands of times faster, Gutenberg effectively ended the era of the \"copyist.\" Before his invention, the production of books was a slow, expensive, and highly regulated activity, often limited to the clergy and the aristocracy. The press allowed for the rapid production of vernacular languages, such as German, French, and English, rather than the Latin of the Church. This accessibility fueled the Renaissance, as scholars could now study the works of classical antiquity and contemporary thinkers without needing to travel to Rome or Paris.\n\nThe immediate impact of this technological leap was the explosion of literacy and the spread of literacy. With the ability to produce books cheaply, literacy rates began to climb in Europe. The printing press became the engine of the Enlightenment, providing the raw material for the scientific revolution. Isaac Newton's *Principia Mathematica* was printed in 1687, a work that would eventually lead to the laws of gravity and the foundations of modern physics. Similarly, the publication of the *Encyclop\u00e9die* by Diderot and d'Alembert in the 18th century utilized printing to compile the first comprehensive encyclopedia, challenging the authority of the Church and the monarchy",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ },
+ {
+  "ttft_s": 0.5799204429999918,
+  "total_s": 27.646224449999977,
+  "timings": {
+   "prompt_n": 51,
+   "prompt_ms": 541.702,
+   "prompt_per_token_ms": 10.621607843137255,
+   "prompt_per_second": 94.147704826639,
+   "predicted_n": 400,
+   "predicted_ms": 27066.277,
+   "predicted_per_token_ms": 67.66569249999999,
+   "predicted_per_second": 14.778537883137751,
+   "n_ctx": 8192,
+   "n_past": 450
+  },
+  "usage": null,
+  "content": "The invention of the printing press stands as one of the most transformative milestones in human history, fundamentally altering the trajectory of civilization. While the concept of mass production existed for millennia, the mechanical innovation of Johannes Gutenberg in the mid-15th century shattered the monopoly of the scribes and the monasteries, ushering in an era of unprecedented knowledge dissemination. This shift did not merely increase the volume of texts; it democratized information, accelerated scientific progress, and reshaped the political landscape of Europe and beyond.\n\nGutenberg's innovation was a synthesis of several technologies: the movable type of metal, the press itself, and the use of a chemical process to bind paper to the type. By replacing the labor-intensive process of hand-copying manuscripts with a machine capable of reproducing text thousands of times faster, Gutenberg effectively ended the era of the \"copyist.\" Before his invention, the production of books was a slow, expensive, and highly regulated activity, often limited to the clergy and the aristocracy. The press allowed for the rapid production of vernacular languages, such as German, French, and English, rather than the Latin of the Church. This accessibility fueled the Renaissance, as scholars could now study the works of classical antiquity and contemporary thinkers without needing to travel to Rome or Paris.\n\nThe immediate impact of this technological leap was the explosion of literacy and the spread of literacy. With the ability to produce books cheaply, literacy rates began to climb in Europe. The printing press became the engine of the Enlightenment, providing the raw material for the scientific revolution. Isaac Newton's *Principia Mathematica* was printed in 1687, a work that would eventually lead to the laws of gravity and the foundations of modern physics. Similarly, the publication of the *Encyclop\u00e9die* by Diderot and d'Alembert in the 18th century utilized printing to compile the first comprehensive encyclopedia, challenging the authority of the Church and the monarchy",
+  "reasoning": "",
+  "finish": "length",
+  "warmup": false
+ }
+]

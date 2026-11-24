@@ -98,6 +98,14 @@ class Server:
         self.env = dict(os.environ, **(env or {}))
 
     def start(self, timeout=1800):
+        import socket
+        for _ in range(120):  # a previous server's port can linger briefly; wait until it can be bound
+            with socket.socket() as sk:
+                try:
+                    sk.bind(("127.0.0.1", self.port))
+                    break
+                except OSError:
+                    time.sleep(1)
         self.log = open(self.log_path, "w")
         self.t0 = time.perf_counter()
         self.proc = subprocess.Popen(self.cmd, stdout=self.log, stderr=subprocess.STDOUT, env=self.env)
