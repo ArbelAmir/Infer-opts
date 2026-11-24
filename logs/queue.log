@@ -680,3 +680,35 @@ pprune-2b head : 5/12 correct, median prompt 894.0 tok, median total 5.5s
   tp-c1-np1 wave3 c=1 agg 14.66 t/s  latency 13.6s
 tp-c1-np1: c=1 aggregate 14.66 t/s, per-request 14.86 t/s, latency 13.6s, rss 2.62G
 == tp-2 02:39:49
+  tp-c2-np2 wave0 c=2 agg 16.98 t/s  latency 23.5s  (warmup)
+  tp-c2-np2 wave1 c=2 agg 17.12 t/s  latency 23.4s
+  tp-c2-np2 wave2 c=2 agg 17.35 t/s  latency 23.0s
+  tp-c2-np2 wave3 c=2 agg 17.52 t/s  latency 22.8s
+tp-c2-np2: c=2 aggregate 17.35 t/s, per-request 8.81 t/s, latency 23.0s, rss 2.75G
+== tp-4 02:41:31
+  tp-c4-np4 wave0 c=4 agg 29.85 t/s  latency 26.8s  (warmup)
+  tp-c4-np4 wave1 c=4 agg 30.18 t/s  latency 26.5s
+  tp-c4-np4 wave2 c=4 agg 28.60 t/s  latency 28.0s
+  tp-c4-np4 wave3 c=4 agg 28.54 t/s  latency 28.0s
+tp-c4-np4: c=4 aggregate 28.60 t/s, per-request 7.45 t/s, latency 27.9s, rss 3.03G
+== tp-8 02:43:23
+  tp-c8-np8 wave0 c=8 agg 42.15 t/s  latency 38.0s  (warmup)
+  tp-c8-np8 wave1 c=8 agg 43.07 t/s  latency 37.1s
+  tp-c8-np8 wave2 c=8 agg 44.15 t/s  latency 36.2s
+  tp-c8-np8 wave3 c=8 agg 43.58 t/s  latency 36.7s
+tp-c8-np8: c=8 aggregate 43.58 t/s, per-request 5.73 t/s, latency 36.7s, rss 3.56G
+== qual-2b-q4_0 02:45:54
+  arith1    OK  got='1081'                         want='1081'     125tok 6.1s
+  arith2    OK  got='6912'                         want='6912'     175tok 8.2s
+  arith3    OK  got='5543'                         want='5543'     236tok 11.2s
+  arith4    OK  got='12'                           want='12'       130tok 6.3s
+  arith5    OK  got='36'                           want='36'       252tok 12.0s
+  arith6    BAD got='no_answer_line'               want='2048'     512tok 24.1s
+  arith7    OK  got='1517'                         want='1517'     470tok 22.5s
+  arith8    OK  got='6'                            want='6'        480tok 22.7s
+  arith9    OK  got='0.375'                        want='0.375'    256tok 12.4s
+  arith10   OK  got='2000'                         want='2000'     193tok 9.6s
+  reason1   OK  got='12'                           want='12'       232tok 11.1s
+  reason2   BAD got='no_answer_line'               want='215'      512tok 24.7s
+  reason3   OK  got='12'                           want='12'       285tok 14.0s
+  reason4   OK  got='126'                          want='126'      293tok 14.0s
