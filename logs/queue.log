@@ -1085,3 +1085,25 @@ think-on: 18/50 correct  {'arith': [5, 10], 'code': [2, 8], 'fact': [6, 10], 're
   reason10  OK  got='20'                           want='20'       553tok 41.8s
   reason11  OK  got='Friday'                       want='Friday'   371tok 28.3s
   reason12  OK  got='60 km/h'                      want='60'       613tok 48.0s
+  reason13  OK  got='5'                            want='5'        434tok 33.8s
+  reason14  OK  got='3'                            want='3'        277tok 22.6s
+  fact1     OK  got='Au'                           want='Au'       271tok 21.1s
+  fact2     OK  got='Canberra'                     want='Canberra' 258tok 20.9s
+  fact3     OK  got='1945'                         want='1945'     279tok 23.0s
+  fact4     OK  got='Jupiter'                      want='Jupiter'  277tok 20.8s
+  fact5     OK  got='William Shakespeare'          want='Shakespeare' 276tok 21.3s
+  fact6     OK  got='6'                            want='6'        273tok 22.5s
+  fact7     OK  got='Pacific Ocean'                want='Pacific'  274tok 21.2s
+  fact8     OK  got='6'                            want='6'        274tok 23.1s
+  fact9     OK  got='212'                          want='212'      282tok 23.4s
+  fact10    OK  got='Sodium'                       want='Sodium'   275tok 23.3s
+  read1     OK  got='1801'                         want='1801'     290tok 24.0s
+  read2     OK  got='17'                           want='17'       277tok 23.0s
+  read3     BAD got='Ellison'                      want='Rudge'    274tok 23.0s
+  read4     OK  got='47,500'                       want='47500'    322tok 26.7s
+  read5     BAD got='2067'                         want='75'       318tok 25.1s
+  read6     OK  got='limestone'                    want='limestone' 269tok 21.9s
+  read7     OK  got='14'                           want='14'       329tok 26.8s
+  read8     OK  got='Abbotsley'                    want='Abbotsley' 281tok 23.6s
+  code1     OK  got='19'                           want='19'       372tok 31.1s
+  code2     BAD got='a ne'                         want='amh'      442tok 34.7s
