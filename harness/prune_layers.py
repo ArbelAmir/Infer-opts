@@ -57,7 +57,7 @@ def main():
                 n_drop += 1
                 continue
             name = f"blk.{remap[i]}.{m.group(2)}"
-        w.add_tensor_info(name, [int(d) for d in reversed(t.shape)], np.dtype(t.data.dtype), int(t.n_bytes), t.tensor_type)
+        w.add_tensor_info(name, t.data.shape, t.data.dtype, t.data.nbytes, t.tensor_type)  # byte shape, as gguf_new_metadata.py does
     w.write_header_to_file()
     w.write_kv_data_to_file()
     w.write_ti_data_to_file()
